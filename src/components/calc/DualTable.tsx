@@ -44,7 +44,7 @@ export default function DualTable({ idPrefix = 't', primary = false }: Props) {
               <tr key={r.code} className="align-top">
                 <td className="px-3 py-2 font-medium text-navy-900">{r.page ? <a href={r.page} className="text-accent-700 hover:underline">{r.name}</a> : r.name}</td>
                 <td className="px-3 py-2"><span className={`font-semibold ${TONE[r.status]}`}>{LABEL[r.status]}</span><span className="block text-navy-700">{r.note} {SRC[r.src] && <a href={SRC[r.src].url} target="_blank" rel="nofollow noopener noreferrer" className="text-accent-700 underline">source</a>}</span></td>
-                <td className="px-3 py-2 text-navy-700">{r.descent}</td>
+                <td className="px-3 py-2 text-navy-700">{r.descent || "Not covered by the source quoted"}</td>
               </tr>
             ))}
           </tbody>

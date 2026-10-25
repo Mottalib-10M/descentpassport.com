@@ -1,26 +1,92 @@
 {
- "fbar": { "threshold": 10000, "due": "April 15", "extension": "October 15", "form": "FinCEN Form 114", "src": "irs-fbar" },
+ "fbar": {
+  "threshold": 10000,
+  "due": "April 15",
+  "extension": "October 15",
+  "form": "FinCEN Form 114",
+  "src": "irs-fbar"
+ },
  "fatca8938": {
   "src": "irs-fatca",
   "thresholds": [
-   { "abroad": false, "filing": "single", "endOfYear": 50000, "anyTime": 75000 },
-   { "abroad": false, "filing": "joint", "endOfYear": 100000, "anyTime": 150000 },
-   { "abroad": true, "filing": "single", "endOfYear": 200000, "anyTime": 300000 },
-   { "abroad": true, "filing": "joint", "endOfYear": 400000, "anyTime": 600000 }
+   {
+    "abroad": false,
+    "filing": "single",
+    "endOfYear": 50000,
+    "anyTime": 75000
+   },
+   {
+    "abroad": false,
+    "filing": "joint",
+    "endOfYear": 100000,
+    "anyTime": 150000
+   },
+   {
+    "abroad": true,
+    "filing": "single",
+    "endOfYear": 200000,
+    "anyTime": 300000
+   },
+   {
+    "abroad": true,
+    "filing": "joint",
+    "endOfYear": 400000,
+    "anyTime": 600000
+   }
   ]
  },
- "feie": { "year": 2026, "amount": 132900, "previous": 130000, "src": "irs-rp-2025-32" },
+ "feie": {
+  "year": 2026,
+  "amount": 132900,
+  "previous": 130000,
+  "src": "irs-rp-2025-32",
+  "presenceDays": 330,
+  "presenceSrc": "irs-physical-presence"
+ },
  "apostille": {
-  "federal": { "fee": 20, "mailWeeks": 5, "walkInDays": 7, "src": "us-ecfr-22-cfr-22-1", "timeSrc": "us-dos-authentications" },
-  "californiaSos": { "fee": 20, "src": "us-ca-sos-apostille" }
+  "federal": {
+   "fee": 20,
+   "mailWeeks": 5,
+   "walkInDays": 7,
+   "src": "us-ecfr-22-cfr-22-1",
+   "timeSrc": "us-dos-authentications"
+  },
+  "californiaSos": {
+   "fee": 20,
+   "src": "us-ca-sos-apostille"
+  }
  },
  "records": {
-  "californiaBirth": { "fee": 31, "src": "ca-cdph-fees" },
-  "californiaMarriage": { "fee": 19, "src": "ca-cdph-fees" },
-  "californiaDeath": { "fee": 26, "src": "ca-cdph-fees" },
-  "naraNaturalization": { "fee": 25, "src": "us-nara-dual-citizenship-faq" },
-  "uscisIndexOnline": { "fee": 30, "paper": 80, "src": "us-uscis-g1055" },
-  "uscisRecordOnline": { "fee": 30, "paper": 80, "src": "us-uscis-g1055" },
-  "uscisNonExistenceOnline": { "fee": 280, "paper": 330, "src": "us-uscis-g1055" }
+  "californiaBirth": {
+   "fee": 31,
+   "src": "ca-cdph-fees"
+  },
+  "californiaMarriage": {
+   "fee": 19,
+   "src": "ca-cdph-fees"
+  },
+  "californiaDeath": {
+   "fee": 26,
+   "src": "ca-cdph-fees"
+  },
+  "naraNaturalization": {
+   "fee": 25,
+   "src": "us-nara-dual-citizenship-faq"
+  },
+  "uscisIndexOnline": {
+   "fee": 30,
+   "paper": 80,
+   "src": "us-uscis-g1055"
+  },
+  "uscisRecordOnline": {
+   "fee": 30,
+   "paper": 80,
+   "src": "us-uscis-g1055"
+  },
+  "uscisNonExistenceOnline": {
+   "fee": 280,
+   "paper": 330,
+   "src": "us-uscis-g1055"
+  }
  }
 }

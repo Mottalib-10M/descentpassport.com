@@ -1,0 +1,75 @@
+{
+  "country": "Israel",
+  "code": "il",
+  "retrieved_at": "2026-10-25",
+  "laws": [
+    {
+      "name": "Law of Return 5710-1950, as amended (Amendment 5714-1954; Amendment No. 2 5730-1970 adding sections 4A and 4B) - official English translation published by the Knesset (translation by the Ministry of Foreign Affairs)",
+      "articles": "ss. 1, 2, 3, 4A, 4B",
+      "url": "https://www.knesset.gov.il/laws/special/eng/return.htm",
+      "quote": "1. Every Jew has the right to come to this country as an oleh. ... 2. (b) An oleh's visa shall be granted to every Jew who has expressed his desire to settle in Israel, unless the Minister ... is satisfied that the applicant (1) is engaged in an activity directed against the Jewish people; or (2) is likely to endanger public health or the security of the State. [(3) is a person with a criminal past, likely to endanger public welfare - added 1954] ... 4A. (a) The rights of a Jew under this Law and the rights of an oleh under the Nationality Law, 5712-1952, as well as the rights of an oleh under any other enactment, are also vested in a child and a grandchild of a Jew, the spouse of a Jew, the spouse of a child of a Jew and the spouse of a grandchild of a Jew, except for a person who has been a Jew and has voluntarily changed his religion. (b) It shall be immaterial whether or not a Jew by whose right a right under subsection (a) is claimed is still alive and whether or not he has immigrated to Israel. ... 4B. For the purposes of this Law, \"Jew\" means a person who was born of a Jewish mother or has become converted to Judaism and who is not a member of another religion."
+    }
+  ],
+  "rules": [
+    {
+      "id": "who-qualifies-jew",
+      "rule": "A Jew (born of a Jewish mother, or converted to Judaism, and not a member of another religion) has the right to immigrate to Israel as an oleh.",
+      "source_url": "https://www.knesset.gov.il/laws/special/eng/return.htm",
+      "quote": "1. Every Jew has the right to come to this country as an oleh. ... 4B. For the purposes of this Law, \"Jew\" means a person who was born of a Jewish mother or has become converted to Judaism and who is not a member of another religion."
+    },
+    {
+      "id": "child-grandchild-spouse",
+      "rule": "The same rights extend to the child and grandchild of a Jew (through mother OR father), and to the spouse of a Jew, of a child of a Jew and of a grandchild of a Jew. Great-grandchildren are NOT covered by the law. The Jewish ancestor may be deceased and need never have lived in Israel. Excluded: a person who was a Jew and voluntarily changed religion.",
+      "source_url": "https://www.knesset.gov.il/laws/special/eng/return.htm",
+      "quote": "4A. (a) The rights of a Jew under this Law and the rights of an oleh under the Nationality Law, 5712-1952, as well as the rights of an oleh under any other enactment, are also vested in a child and a grandchild of a Jew, the spouse of a Jew, the spouse of a child of a Jew and the spouse of a grandchild of a Jew, except for a person who has been a Jew and has voluntarily changed his religion. (b) It shall be immaterial whether or not a Jew by whose right a right under subsection (a) is claimed is still alive and whether or not he has immigrated to Israel."
+    },
+    {
+      "id": "must-settle-in-israel",
+      "rule": "This is NOT citizenship by descent from abroad: the oleh's visa is granted to a person who expresses the desire to settle in Israel (aliyah = immigration). Citizenship follows under the Nationality Law 5712-1952 upon immigration. A checker should present Israel as 'right to immigrate (aliyah)', requiring a move to Israel.",
+      "source_url": "https://www.knesset.gov.il/laws/special/eng/return.htm",
+      "quote": "2. (a) Aliyah shall be by oleh's visa. (b) An oleh's visa shall be granted to every Jew who has expressed his desire to settle in Israel ... 3. (a) A Jew who has come to Israel and subsequent to his arrival has expressed his desire to settle in Israel may, while still in Israel, receive an oleh's certificate."
+    },
+    {
+      "id": "grounds-for-refusal",
+      "rule": "Refusal grounds: activity directed against the Jewish people; danger to public health or state security; criminal past likely to endanger public welfare.",
+      "source_url": "https://www.knesset.gov.il/laws/special/eng/return.htm",
+      "quote": "(1) is engaged in an activity directed against the Jewish people; or (2) is likely to endanger public health or the security of the State ... \"(3) is a person with a criminal past, likely to endanger public welfare.\""
+    }
+  ],
+  "procedure": {
+    "authority": "Ministry of the Interior / Population and Immigration Authority (grants oleh status; the law names the Minister of the Interior since 1954); Ministry of Aliyah and Integration for absorption",
+    "how": "Express the desire to settle in Israel and obtain an oleh's visa abroad (or an oleh's certificate while in Israel). Abroad, files are commonly opened through the Jewish Agency for Israel (a national institution, not a ministry) - procedure details could not be read on gov.il (blocked).",
+    "source_url": "https://www.knesset.gov.il/laws/special/eng/return.htm"
+  },
+  "documents": [],
+  "fees": [],
+  "processing_time": [],
+  "dual_citizenship": {
+    "allowed": "yes",
+    "note": "NOT VERIFIED on an official page in this session (gov.il and knesset.gov.il blocked). The Nationality Law 5712-1952 (s. 14) is generally reported to allow olim to keep a prior nationality; see open_questions. Keep the value but flag it until a gov.il / Knesset quote is captured.",
+    "source_url": "",
+    "quote": ""
+  },
+  "other_requirements": [
+    {
+      "item": "Implementation by the Minister of the Interior (since the 1954 amendment)",
+      "source_url": "https://www.knesset.gov.il/laws/special/eng/return.htm",
+      "quote": "In sections 2 and 5 of the Law, the words \"the Minister of Immigration\" shall be replaced by the words \"the Minister of the Interior\"."
+    }
+  ],
+  "recent_changes": [],
+  "open_questions": [
+    "knesset.gov.il redirects to a geo-maintenance page from this machine and gov.il returns HTTP 403 (Cloudflare) to curl and WebFetch. The Law of Return text was read from a Wayback copy of the Knesset page dated 2013-01-16 (https://web.archive.org/web/20130116083320/http://www.knesset.gov.il/laws/special/eng/return.htm). No later amendment to ss. 1-4B was found, but the current consolidated text was not checked.",
+    "Dual citizenship: the Nationality Law 5712-1952 s. 14 ('Save for naturalization, acquisition of Israel nationality is not conditional upon renunciation of a prior nationality' - wording from secondary sources) could not be read on an official site. Mark 'yes' as unverified.",
+    "Nationality Law s. 2: olim become citizens on arrival with the option to decline within a period (reported as 3 months) - not read on an official page.",
+    "Fees: aliyah via the Jewish Agency is reported free of charge; no official gov.il page could be read. No fee recorded.",
+    "Processing time: not published on an accessible official page.",
+    "Documents (proof of Jewish lineage, apostilled birth/marriage certificates, FBI background check): reported by the Jewish Agency and law firms (lawoffice.org.il), not verified on gov.il.",
+    "Great-grandchildren: law firms (lawoffice.org.il) report an administrative policy granting temporary A/5 status to minor great-grandchildren accompanying an eligible parent; not verified officially.",
+    "Proposals to repeal the 'grandchild clause' (reported Feb 2023, unpacked.media) - no official confirmation of any change found."
+  ],
+  "sources": [
+    {"key": "il-law-of-return", "title": "The Law of Return 5710 (1950) with amendments (English, translation by the Ministry of Foreign Affairs)", "publisher": "The Knesset", "url": "https://www.knesset.gov.il/laws/special/eng/return.htm", "read_on": "2026-10-25", "http": "wayback copy of 2013-01-16 (live site geo-blocked)"},
+    {"key": "il-govil", "title": "gov.il (Population and Immigration Authority / Ministry of Aliyah and Integration)", "publisher": "Government of Israel", "url": "https://www.gov.il/en/departments/ministry_of_aliyah_and_integration", "read_on": "2026-10-25", "http": "blocked (403), not read"}
+  ]
+}

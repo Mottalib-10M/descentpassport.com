@@ -46,6 +46,12 @@
    "apostille": true,
    "translation": true,
    "src": "it-cons-ny-iure"
+  },
+  "feeReacq": {
+   "amount": 250,
+   "cur": "EUR",
+   "label": "Reacquisition by declaration under art. 17, at a consulate",
+   "src": "it-cons-ny"
   }
  },
  "ie": {
@@ -118,7 +124,7 @@
   "feePriority": {
    "amount": 500,
    "cur": "GBP",
-   "label": "Optional priority service (about 30 working days)",
+   "label": "Optional priority service (about 30 working days), applicants inside the UK only",
    "src": "gb-priority"
   },
   "time": {
@@ -180,7 +186,8 @@
   "cutoffs": {
    "act1920": 1920,
    "act1951": 1951,
-   "act1962": 1962
+   "act1962": 1962,
+   "restoreBefore": 1999
   },
   "gens": "No limit, if every link was still Polish when the next child was born",
   "slug": "polish-citizenship-by-descent",
@@ -188,6 +195,10 @@
    "apostille": true,
    "translation": true,
    "src": "pl-consulate-usa"
+  },
+  "restore": {
+   "label": "Restoration of Polish citizenship lost before January 1, 1999 (2009 Act, art. 38), decided by the Minister of the Interior",
+   "src": "pl-act-2009"
   }
  },
  "ca": {
@@ -218,7 +229,9 @@
   },
   "cutoffs": {
    "c3": "2025-12-15",
-   "presenceDays": 1095
+   "presenceDays": 1095,
+   "assent": "2025-11-20",
+   "citizenship1947": 1947
   },
   "gens": "No limit for people born before December 15, 2025; after that, 1,095 days of the parent's presence in Canada",
   "slug": "canadian-citizenship-by-descent",
@@ -226,6 +239,23 @@
    "apostille": false,
    "translation": false,
    "src": "ca-proof-apply"
+  },
+  "feeSearch": {
+   "amount": 75,
+   "cur": "CAD",
+   "label": "Search for your record of citizenship",
+   "src": "ca-fees"
+  },
+  "feeResume": {
+   "amount": 530,
+   "cur": "CAD",
+   "label": "Resume your citizenship (18 and over)",
+   "src": "ca-fees"
+  },
+  "timeSearch": {
+   "text": "19 months",
+   "updated": "2026-10-21",
+   "src": "ca-ptime-json"
   }
  },
  "no": {
@@ -266,6 +296,23 @@
    "apostille": null,
    "translation": null,
    "src": "norway-us-reclaim"
+  },
+  "feeKeep": {
+   "amount": 0,
+   "cur": "NOK",
+   "label": "Application to keep Norwegian citizenship before 22",
+   "src": "udi-fees"
+  },
+  "feeStandard": {
+   "amount": 6500,
+   "cur": "NOK",
+   "label": "Standard application for Norwegian citizenship, adult",
+   "src": "udi-fees"
+  },
+  "timeKeep": {
+   "months": 3,
+   "label": "Application to keep Norwegian citizenship (updated September 24, 2026)",
+   "src": "udi-wait"
   }
  },
  "de": {
@@ -444,7 +491,8 @@
    "act2001": 2001,
    "act2015": 2015,
    "lossAge": 22,
-   "reform": "2026-06-06"
+   "reform": "2026-06-06",
+   "formerResidenceYears": 2
   },
   "gens": "Parent only, Swedish when you were born",
   "slug": "swedish-citizenship-by-descent",
@@ -452,6 +500,17 @@
    "apostille": null,
    "translation": null,
    "src": "mv-declaration"
+  },
+  "feeApply": {
+   "amount": 2900,
+   "cur": "SEK",
+   "label": "Application for citizenship, adult (former citizens need 2 years in Sweden)",
+   "src": "mv-adults"
+  },
+  "timeApply": {
+   "months": 52,
+   "label": "Application for citizenship, adult: 75% of cases decided within",
+   "src": "mv-adults"
   }
  },
  "es": {
@@ -564,6 +623,12 @@
   "docs": {
    "apostille": false,
    "translation": false,
+   "src": "mx-consulmex-atlanta"
+  },
+  "feeCopy": {
+   "amount": 20,
+   "cur": "USD",
+   "label": "Each extra certified copy of the Mexican birth record (Atlanta consulate)",
    "src": "mx-consulmex-atlanta"
   }
  },
@@ -684,7 +749,18 @@
    "src": "cz-gk-chicago-31"
   },
   "gens": "Children and grandchildren of a former citizen (declaration)",
-  "slug": "czech-citizenship-by-descent"
+  "slug": "czech-citizenship-by-descent",
+  "feeCert": {
+   "amount": 600,
+   "cur": "CZK",
+   "label": "Czech citizenship certificate issued at a consulate (item 159a)",
+   "src": "cz-fees-2026-10"
+  },
+  "usdFeeCert": {
+   "amount": 28,
+   "label": "Same certificate fee in dollars, October 2026 consular schedule",
+   "src": "cz-fees-2026-10"
+  }
  },
  "sk": {
   "name": "Slovakia",
@@ -718,6 +794,103 @@
    "src": "sk-act-40-1993"
   },
   "gens": "Parent, grandparent or great-grandparent born in Slovakia (discretionary grant)",
-  "slug": "slovak-citizenship-by-descent"
+  "slug": "slovak-citizenship-by-descent",
+  "feeAbroad": {
+   "amount": 560,
+   "cur": "EUR",
+   "label": "Grant to a holder of the Slovak living abroad certificate (item 20 f)",
+   "src": "sk-act-145-1995"
+  }
+ },
+ "lt": {
+  "name": "Lithuania",
+  "adj": "Lithuanian",
+  "page": "lithuania",
+  "law": {
+   "label": "Law on Citizenship (No. XI-1196), arts. 7 and 9: reinstatement",
+   "src": "lt-law-citizenship-en"
+  },
+  "authority": "the Migration Department, online in MIGRIS, with originals at a Lithuanian consulate",
+  "fee": {
+   "amount": 120,
+   "cur": "EUR",
+   "label": "State fee for examining a reinstatement application",
+   "src": "lt-migration-fees"
+  },
+  "time": {
+   "text": "no decision time published",
+   "minMonths": null,
+   "maxMonths": null,
+   "src": "lt-embassy-usa-reinstatement"
+  },
+  "dual": {
+   "status": "conditional",
+   "text": "US citizenship can be kept only if the ancestor was exiled or left Lithuania before March 11, 1990; otherwise it must be renounced.",
+   "src": "lt-embassy-usa-reinstatement"
+  },
+  "cutoffs": {
+   "citizenBefore": "1940-06-15",
+   "leftBefore": "1990-03-11",
+   "independence": 1918
+  },
+  "docs": {
+   "apostille": true,
+   "translation": true,
+   "src": "lt-embassy-usa-reinstatement"
+  },
+  "gens": "Children, grandchildren and great-grandchildren of a citizen before June 15, 1940",
+  "slug": "lithuanian-citizenship-by-descent",
+  "feeCertificate": {
+   "amount": 50,
+   "cur": "EUR",
+   "label": "Certificate confirming the right to reinstate (optional)",
+   "src": "lt-migration-fees"
+  }
+ },
+ "lv": {
+  "name": "Latvia",
+  "adj": "Latvian",
+  "page": "latvia",
+  "law": {
+   "label": "Citizenship Law, Section 2 (exiles and descendants of citizens on June 17, 1940)",
+   "src": "lv-citizenship-law"
+  },
+  "authority": "the Office of Citizenship and Migration Affairs in Riga, by post or through the embassy",
+  "fee": {
+   "amount": 0,
+   "cur": "EUR",
+   "label": "No state fee listed for registration; EUR 12.15 plus postage to return originals by post",
+   "src": "lv-pmlp-exiles"
+  },
+  "time": {
+   "text": "4 months for the exile route, 1 month for descendants of citizens on June 17, 1940, from complete documents",
+   "minMonths": 1,
+   "maxMonths": 4,
+   "src": "lv-pmlp-exiles"
+  },
+  "dual": {
+   "status": "yes",
+   "text": "Exiles and their descendants keep any citizenship; others may keep the US one, as a NATO country.",
+   "src": "lv-pmlp-dual"
+  },
+  "cutoffs": {
+   "citizenOn": "1940-06-17",
+   "exileEnd": "1990-05-04",
+   "bornBefore": "2014-10-01",
+   "independence": 1918
+  },
+  "docs": {
+   "apostille": true,
+   "translation": true,
+   "src": "lv-embassy-usa"
+  },
+  "gens": "Any generation, from a citizen on June 17, 1940",
+  "slug": "latvian-citizenship-by-descent",
+  "feeReturn": {
+   "amount": 12.15,
+   "cur": "EUR",
+   "label": "Return of original documents by post, plus postage",
+   "src": "lv-pmlp-exiles"
+  }
  }
 }

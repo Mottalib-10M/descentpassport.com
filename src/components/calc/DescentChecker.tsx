@@ -1,6 +1,6 @@
 /**
  * Family tree checker (home and country pages): up to three foreign-born ancestors, each with the
- * people between them and you, evaluated against the dated rules of 20 countries (lib/engine/descent.ts).
+ * people between them and you, evaluated against the dated rules of 19 countries (lib/engine/descent.ts).
  * First render = build defaults (RECETTE §17.5); a shared link is applied after mount. Nothing typed
  * leaves the browser: the state is written to the address bar only after an interaction.
  */

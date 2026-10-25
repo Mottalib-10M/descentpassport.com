@@ -1,10 +1,69 @@
 ---
+/**
+ * Home: the family tree checker (first screen), key facts, the folded citable answer, the table of the
+ * 19 countries read from params, the page families, long texts in accordions, the FAQ.
+ * Text: src/content/home.ts; figures: src/data/params-2026.json.
+ */
 import PageLayout from '../layouts/PageLayout.astro';
+import Clamp from './Clamp.astro';
 import Tool from './Tool.astro';
-interface Props { lang: 'en' }
+import { HOME } from '../content/home';
+import { route, hasRoute, type Locale } from '../i18n/routes';
+import { GROUPS_ORDER, groupLabel } from '../i18n/nav';
+import { helpers } from '../lib/helpers';
+import { PAGES, countryPageId } from '../lib/guides';
+import { COUNTRY_ORDER } from '../lib/engine/descent';
+import { faqSchema, organizationSchema, websiteSchema, webPageSchema, webApplicationSchema } from '../lib/seo';
+interface Props { lang: Locale }
 const { lang } = Astro.props;
+const x = HOME;
+const path = route('home', lang);
+const h = helpers(lang, true);
+const faqs = x.faqs(h);
+const jsonLd = [websiteSchema(lang), organizationSchema(lang), webPageSchema({ name: x.h1, description: x.description, path, lang }), webApplicationSchema({ name: x.h1, description: x.description, path, lang }), faqSchema(faqs, lang)];
+type SK = keyof typeof h.P.sources;
+const sources = x.sources.map((k) => { const s = h.P.sources[k as SK] as { url: string; label: Record<string, string> }; return { name: s.label.en, url: s.url }; });
+const STATUS: Record<string, string> = { yes: 'Yes', conditional: 'With conditions', no: 'No' };
+const feeText = (f: { amount: number | null; cur: string }) => f.amount === null ? 'Not published' : f.amount === 0 ? 'Free' : h.cur(f.amount, f.cur);
+const timeText = (t: { minMonths: number | null; maxMonths: number | null }) => t.maxMonths == null ? 'Not published' : t.minMonths && t.minMonths !== t.maxMonths ? `${t.minMonths} to ${t.maxMonths} months` : t.minMonths ? `About ${t.maxMonths} months` : `Up to ${t.maxMonths} months`;
+const rows = COUNTRY_ORDER.map((c) => {
+  const k = h.C(c as any) as any;
+  const id = countryPageId(c);
+  const name = id && hasRoute(id, lang) ? `<a href="${route(id, lang)}">${k.name}</a>` : k.name;
+  return [name, k.gens, feeText(k.fee), timeText(k.time), STATUS[k.dual.status] ?? k.dual.status];
+});
 ---
-<PageLayout title="Citizenship by descent checker for Americans, 20 countries" description="Check which second citizenship your parents, grandparents or great-grandparents can pass to you: Italy, Ireland, Poland, Germany, UK, Canada and more, from official rules." lang={lang}>
-  <h1>Citizenship by descent checker</h1>
-  <div data-outil><Tool tool={{ kind: 'checker', props: { country: 'it' } }} lang={lang} primary={true} /></div>
+<PageLayout title={x.title} description={x.description} lang={lang} jsonLd={jsonLd} faqs={faqs} sources={sources}>
+  <header class="mb-4">
+    <h1 class="text-[1.7rem] font-bold text-navy-900 max-sm:leading-tight sm:text-3xl md:text-4xl">{x.h1}</h1>
+    <p class="mt-2 text-base text-navy-700 sm:text-lg">{x.intro}</p>
+    <p class="mt-1 text-sm text-navy-600">{x.independent} <a href={route('method', lang)} class="underline">Method and limits</a> · <a href={route('about', lang)} class="underline">Who publishes this site</a></p>
+  </header>
+  <div data-outil><Tool tool={{ kind: 'checker', props: { country: 'it' } }} lang={lang} primary={true} idPrefix="home" /></div>
+  <dl data-chrome class="limits my-6 grid gap-3 text-sm sm:grid-cols-2 lg:grid-cols-4">
+    {x.facts(h).map((f) => <div class="rounded-lg border border-navy-200 bg-white px-4 py-3"><dt class="text-navy-500">{f.k}</dt><dd class="font-semibold text-navy-900">{f.v}</dd></div>)}
+  </dl>
+  <Clamp text={x.resume(h)} lang={lang} id="clamp-home" class="my-8" />
+  <section class="mt-10">
+    <h2 class="text-2xl font-bold text-navy-900">The 19 countries side by side</h2>
+    <p class="mt-2 text-navy-700">How far back each law reaches, the official fee for the descent route, the waiting time the authority publishes and whether it lets a US citizen keep both. A fee in dollars is shown on the country page when the consulate publishes one.</p>
+    <div><Fragment set:html={h.table(['Country', 'Who can claim', 'Official fee', 'Published time', 'Dual citizenship'], rows, `Read on consulate, ministry and law pages on ${h.date(h.P.retrieved_at)}; each figure links its source on the country page.`, ['l', 'l', 'r', 'r', 'l'])} /></div>
+  </section>
+  <section class="mt-10" data-chrome>
+    {GROUPS_ORDER.map((g) => {
+      const list = PAGES.filter((p) => p.group === g && hasRoute(p.id, lang)).sort((a, b) => a.order - b.order);
+      return list.length > 0 && (
+        <div class="mb-6">
+          <h2 class="text-xl font-bold text-navy-900">{groupLabel(g, lang)}</h2>
+          <ul class="mt-3 grid gap-x-6 gap-y-2 text-sm sm:grid-cols-2 lg:grid-cols-3">
+            {list.map((p) => <li><a href={route(p.id, lang)} class="font-medium text-accent-700 underline-offset-2 hover:underline">{p.en.nav}</a><span class="block text-navy-600">{p.en.card}</span></li>)}
+          </ul>
+        </div>
+      );
+    })}
+  </section>
+  <section class="mt-10">
+    <h2 class="text-2xl font-bold text-navy-900">Citizenship by descent, explained</h2>
+    {x.sections(h).map((s) => <details class="fold border-b border-navy-200"><summary class="cursor-pointer py-3"><h3 class="inline text-lg font-semibold text-navy-900">{s.title}</h3></summary><div class="prose prose-slate max-w-none pb-4"><Fragment set:html={s.html} /></div></details>)}
+  </section>
 </PageLayout>

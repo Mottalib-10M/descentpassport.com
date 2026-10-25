@@ -1,0 +1,30 @@
+# The searched term itself opens with the country adjective: « italian citizenship by descent »,
+# « irish citizenship by descent », « canadian citizenship by descent »… (Keyword Planner, 2026-10-25,
+# reports/niches-2026-10-25/idees/us-citizenship-descent.txt). The key term stays first (RECETTE §11).
+italian citizenship
+irish citizenship
+irish dual
+german citizenship
+british citizenship
+greek citizenship
+hungarian citizenship
+spanish citizenship
+portuguese citizenship
+french citizenship
+austrian citizenship
+canadian citizenship
+polish citizenship
+mexican citizenship
+norwegian citizenship
+swedish citizenship
+czech citizenship
+slovak citizenship
+lithuanian citizenship
+latvian citizenship
+israeli citizenship
+
+# « italy dual citizenship » and « american and canadian dual citizenship » are measured queries
+# (1 k – 10 k each, same file).
+italy dual citizenship
+american and canadian dual
+american canadian dual

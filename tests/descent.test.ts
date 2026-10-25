@@ -100,3 +100,10 @@ describe('Greece, Hungary, Czech Republic, Slovakia', () => {
   it('Czech great-grandchild: no', () => expect(lv(L('cz', 'MMF', 1890, 1925, [1920, 1950], 1980))).toBe('no'));
   it('Slovakia great-grandparent: grant', () => expect(lv(L('sk', 'MMF', 1900, 1930, [1925, 1955], 1985))).toBe('yes'));
 });
+
+describe('Lithuania, Latvia', () => {
+  it('Lithuania ancestor left in 1944: keeps US citizenship', () => expect(lv(L('lt', 'MM', 1910, 1955, [1946], 1975, { left1940: true }))).toBe('yes'));
+  it('Lithuania ancestor left in the 1920s: dual to confirm', () => expect(lv(L('lt', 'MM', 1900, 1930, [1928], 1960))).toBe('maybe'));
+  it('Latvia exile descendant born 1990: yes', () => expect(lv(L('lv', 'MFM', 1915, 1956, [1945, 1965], 1990, { left1940: true }))).toBe('yes'));
+  it('Latvia left before 1918: no', () => expect(lv(L('lv', 'MM', 1885, 1915, [1912], 1945, { pre1918: true }))).toBe('no'));
+});

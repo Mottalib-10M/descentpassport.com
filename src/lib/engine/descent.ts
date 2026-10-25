@@ -14,7 +14,7 @@ export type Level = 'yes' | 'maybe' | 'no' | 'closed';
 export interface Flags {
   married: boolean; persecuted: boolean; fbrParent: boolean; itResidence: boolean; itFiled: boolean;
   plPre1920: boolean; plMilitary: boolean; deprived: boolean; deEarly: boolean; ties: boolean; frPapers: boolean;
-  caPresence: boolean; jewish: boolean; huLanguage: boolean; esFiled: boolean;
+  caPresence: boolean; huLanguage: boolean; esFiled: boolean; pre1918: boolean; left1940: boolean;
 }
 export interface LineIn { country: string; rel: string; ancBorn: number; ancNat: number; mid: number[]; you: number; flags: Flags }
 export interface Reason { ok: boolean | null; text: string; src?: string }
@@ -22,13 +22,13 @@ export interface Result { level: Level; route: string; reasons: Reason[]; facts:
 
 type Country = (typeof P.countries)[keyof typeof P.countries] & Record<string, any>;
 const CTRY = P.countries as unknown as Record<string, Country>;
-export const COUNTRY_ORDER = ['it', 'ie', 'pl', 'de', 'gb', 'gr', 'hu', 'ca', 'pt', 'es', 'lt', 'cz', 'sk', 'at', 'fr', 'lv', 'il', 'mx', 'no', 'se'].filter((c) => c in CTRY);
+export const COUNTRY_ORDER = ['it', 'ie', 'pl', 'de', 'gb', 'gr', 'hu', 'ca', 'pt', 'es', 'lt', 'cz', 'sk', 'at', 'fr', 'lv', 'mx', 'no', 'se'].filter((c) => c in CTRY);
 export const countryName = (c: string) => CTRY[c]?.name ?? c;
 export const NOW = 2026;
 
 export const DEFAULT_FLAGS: Flags = {
   married: true, persecuted: false, fbrParent: false, itResidence: false, itFiled: false, plPre1920: false, plMilitary: false,
-  deprived: false, deEarly: false, ties: false, frPapers: false, caPresence: false, jewish: false, huLanguage: false, esFiled: false,
+  deprived: false, deEarly: false, ties: false, frPapers: false, caPresence: false, huLanguage: false, esFiled: false, pre1918: false, left1940: false,
 };
 export const FLAG_DEFS: Record<keyof Flags, { label: string; countries: string[]; minGen?: number }> = {
   married: { label: 'The parents were married when each child in the line was born', countries: ['gb', 'de', 'at', 'no', 'se', 'pl', 'gr', 'lt', 'cz', 'sk', 'lv', 'hu'] },
@@ -43,8 +43,9 @@ export const FLAG_DEFS: Record<keyof Flags, { label: string; countries: string[]
   ties: { label: 'You lived in that country, or stayed there for long periods, before turning 22', countries: ['no', 'se'] },
   frPapers: { label: 'You or your French parent held a French passport, ID card or consular registration', countries: ['fr'] },
   caPresence: { label: 'Your Canadian parent spent 1,095 days in Canada before your birth', countries: ['ca'] },
-  jewish: { label: 'The ancestor was Jewish (or you are Jewish)', countries: ['il'] },
   huLanguage: { label: 'You speak Hungarian', countries: ['hu'] },
+  pre1918: { label: 'The ancestor left before 1918, before the country was independent', countries: ['lt', 'lv'] },
+  left1940: { label: 'The ancestor fled, was deported or left between June 1940 and 1990', countries: ['lt', 'lv'] },
   esFiled: { label: 'You applied under the Democratic Memory Law by October 22, 2025', countries: ['es'] },
 };
 
@@ -59,7 +60,8 @@ const GEN = ['', '', 'grand', 'great-grand'];
 export const relLabel = (rel: string) => rel.length === 1 ? relPath(rel) : `${relPath(rel)} (${GEN[rel.length]}${rel[0] === 'M' ? 'father' : 'mother'})`;
 
 const url = (k: string) => (P.sources as Record<string, { url: string }>)[k]?.url;
-const R = (ok: boolean | null, text: string, src?: string): Reason => ({ ok, text, src: src ? url(src) : undefined });
+const youFix = (t: string) => t.replace(/\bYou was\b/g, 'You were').replace(/\bYou is\b/g, 'You are').replace(/\byou was\b/g, 'you were');
+const R = (ok: boolean | null, text: string, src?: string): Reason => ({ ok, text: youFix(text), src: src ? url(src) : undefined });
 
 interface Chain { sex: string[]; born: number[]; gen: number }
 /** People from the ancestor (0) to you (gen): sex of each transmitter, birth year of each person. */
@@ -406,10 +408,33 @@ function slovakia(l: LineIn): Result {
   return done('sk', 'yes', 'Grant of citizenship (discretionary)', rs);
 }
 
+// ───────────────────────────── Lithuania, Latvia ─────────────────────────────
+function lithuania(l: LineIn): Result {
+  const rs: Reason[] = [];
+  if (l.flags.pre1918) { rs.push(R(false, 'The Republic of Lithuania dates from 1918: an ancestor who left before never held its citizenship, which the right of reinstatement requires (before June 15, 1940).', 'lt-embassy-usa-reinstatement')); return done('lt', 'no', 'No citizen ancestor', rs); }
+  if (l.rel.length > 3) { rs.push(R(false, 'The right of reinstatement stops at great-grandchildren of a citizen before June 15, 1940.', 'lt-embassy-usa-reinstatement')); return done('lt', 'no', 'Too many generations', rs); }
+  rs.push(R(true, 'Children, grandchildren and great-grandchildren of a person who was a Lithuanian citizen before June 15, 1940 can reinstate citizenship, with no deadline.', 'lt-embassy-usa-reinstatement'));
+  if (l.flags.left1940) { rs.push(R(true, 'The ancestor left or was exiled before March 11, 1990: you keep US citizenship.', 'lt-embassy-usa-reinstatement')); return done('lt', 'yes', 'Reinstatement, keeping US citizenship', rs); }
+  rs.push(R(null, 'For an ancestor who emigrated between 1918 and 1940 as a Lithuanian citizen, the embassy names everyone who left before March 11, 1990 among those who keep another citizenship; ask the embassy to confirm it for your file, otherwise US citizenship would have to be given up.', 'lt-embassy-usa-reinstatement'));
+  return done('lt', 'maybe', 'Reinstatement; keeping US citizenship to confirm', rs);
+}
+function latvia(l: LineIn): Result {
+  const rs: Reason[] = [];
+  if (l.flags.pre1918) { rs.push(R(false, 'Latvia became independent in 1918: an ancestor who left before was not a Latvian citizen on June 17, 1940.', 'lv-pmlp-1940')); return done('lv', 'no', 'No citizen ancestor', rs); }
+  if (l.flags.left1940) {
+    if (l.you >= 2015) { rs.push(R(false, 'The exile route covers descendants born before October 1, 2014.', 'lv-pmlp-exiles')); return done('lv', 'no', 'Born after the exile cut-off', rs); }
+    rs.push(R(true, 'Descendants of a citizen who fled or was deported between 1940 and 1990 register as Latvian, in any generation, and keep US citizenship.', 'lv-pmlp-exiles'));
+    return done('lv', l.you === 2014 ? 'maybe' : 'yes', 'Registration as an exile\'s descendant', rs);
+  }
+  if (l.ancNat && l.ancNat < 1940) { rs.push(R(null, `The ancestor took another citizenship in ${l.ancNat}: the office checks whether they were still Latvian on June 17, 1940.`, 'lv-pmlp-1940')); return done('lv', 'maybe', 'Descendant of a citizen on June 17, 1940', rs); }
+  rs.push(R(true, 'A descendant of a person who was a Latvian citizen on June 17, 1940 can acquire citizenship and, as a US citizen, keep it.', 'lv-pmlp-1940'));
+  return done('lv', 'yes', 'Descendant of a citizen on June 17, 1940', rs);
+}
+
 // ───────────────────────────── dispatch ─────────────────────────────
 const RULES: Record<string, (l: LineIn) => Result> = {
   it: italy, ie: ireland, gb: uk, pl: poland, ca: canada, de: germany, at: austria, fr: france,
-  es: spain, pt: portugal, mx: mexico, gr: greece, hu: hungary, cz: czech, sk: slovakia,
+  es: spain, pt: portugal, mx: mexico, gr: greece, hu: hungary, cz: czech, sk: slovakia, lt: lithuania, lv: latvia,
   no: (l) => nordic(l, 'no'), se: (l) => nordic(l, 'se'),
 };
 export function evaluate(l: LineIn): Result {

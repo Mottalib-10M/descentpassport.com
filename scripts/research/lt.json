@@ -1,0 +1,86 @@
+{
+  "country": "Lithuania",
+  "code": "lt",
+  "retrieved_at": "2026-10-25",
+  "laws": [
+    {
+      "name": "Lietuvos Respublikos pilietybės įstatymas Nr. XI-1196 (Law on Citizenship of the Republic of Lithuania, 2 December 2010, as amended)",
+      "articles": "Art. 2(2)-(3) definitions of exiled / fled before 11 March 1990; Art. 7 (dual citizenship cases); Art. 9 (reinstatement); Art. 38 (reinstatement applications)",
+      "url": "https://e-seimas.lrs.lt/rs/legalact/TAD/TAIS.395555",
+      "quote": "Article 2 [...] 3. \"Person who fled Lithuania before 11 March 1990\" means a person who held citizenship of the Republic of Lithuania before 15 June 1940 or his descendant, who left the current territory of the Republic of Lithuania before 11 March 1990 to reside permanently in another state, if their permanent residence on 11 March 1990 was outside Lithuania. (Official English translation; only Articles 1-2 could be read.)"
+    }
+  ],
+  "rules": [
+    {
+      "id": "lt-reinstatement-who",
+      "rule": "A person who held Lithuanian citizenship before 15 June 1940, and his or her children, grandchildren or great-grandchildren, have an indefinite (no deadline) right to reinstate Lithuanian citizenship, wherever they live. Generation limit: up to great-grandchildren of the pre-1940 citizen (the checker should stop at the 3rd generation). Note: the interwar Republic of Lithuania existed from 1918; ancestors who emigrated earlier (Russian Empire era) and never held Lithuanian citizenship do not qualify.",
+      "source_url": "https://usa.mfa.lt/en/consular-issues/citizenship-of-lithuania/reinstatement-of-the-citizenship-of-the-republic-of-lithuania/124",
+      "quote": "Persons who held citizenship of the Republic of Lithuania before June 15, 1940 and their descendants (children, grandchildren or great-grandchildren) have an indefinite right to reinstate citizenship of the Republic of Lithuania, irrespective of whether they are permanently resident in the Republic of Lithuania or in any other state."
+    },
+    {
+      "id": "lt-dual-exception-left-before-1990",
+      "rule": "The applicant can keep US citizenship ONLY if the pre-1940 citizen ancestor (or the applicant) was exiled from occupied Lithuania before 11 March 1990, or left Lithuania before 11 March 1990 (and was living abroad on 11 March 1990). Typical US case: ancestor left during/after WWII (1940-1990) - dual allowed. If the ancestor held citizenship before 15 June 1940 and emigrated earlier (e.g. 1920s-1930s), the official definition still covers 'left before 11 March 1990'; otherwise the applicant must renounce US citizenship.",
+      "source_url": "https://usa.mfa.lt/en/consular-issues/citizenship-of-lithuania/reinstatement-of-the-citizenship-of-the-republic-of-lithuania/124",
+      "quote": "The requirement to renounce citizenship of another state (e.g. U.S.) does not apply to persons who may be citizens of both the Republic of Lithuania and another state at the same time, i.e.: persons who were exiled from the occupied Republic of Lithuania before March 11, 1990 and their descendants (children, grandchildren or great-grandchildren); OR persons who left Lithuania before March 11, 1990 and their descendants (children, grandchildren or great-grandchildren)."
+    },
+    {
+      "id": "lt-fled-definition",
+      "rule": "'Fled before 11 March 1990' = a pre-15 June 1940 citizen or descendant who left the current territory of Lithuania before 11 March 1990 to reside permanently in another state, with permanent residence outside Lithuania on 11 March 1990.",
+      "source_url": "https://e-seimas.lrs.lt/rs/legalact/TAD/TAIS.395555",
+      "quote": "3 . \" Person who fled Lithuania before 11 March 1990 \" means a person who held citizenship of the Republic of Lithuania before 15 June 1940 or his descendant, who left the current territory of the Republic of Lithuania before 11 March 1990 to reside permanently in another state, if their permanent residence on 11 March 1990 was outside Lithuania."
+    },
+    {
+      "id": "lt-exiled-definition",
+      "rule": "'Exiled before 11 March 1990' = a pre-15 June 1940 citizen or descendant forcibly expelled by occupation regimes between 15 June 1940 and 11 March 1990 for resistance, political, social reasons or origin.",
+      "source_url": "https://e-seimas.lrs.lt/rs/legalact/TAD/TAIS.395555",
+      "quote": "2 . \" Person exiled from the occupied Republic of Lithuania before 11 March 1990 \" means a person who held citizenship of the Republic of Lithuania before 15 June 1940 or his descendant, who were forcibly expelled from Lithuania by decisions of institutions or courts of occupation regimes in the period from 15 June 1940 to 11 March 1990 for reasons of resistance to occupation regimes, political or social reasons or reasons of origin."
+    },
+    {
+      "id": "lt-application-electronic",
+      "rule": "Applications must be filed electronically and personally in MIGRIS; if originals are to be handed in at a consulate, the Migration Department pre-checks and then invites the applicant to visit the consular post within 4 months.",
+      "source_url": "https://usa.mfa.lt/en/consular-issues/citizenship-of-lithuania/reinstatement-of-the-citizenship-of-the-republic-of-lithuania/124",
+      "quote": "All applications for the reinstatement of the citizenship of the Republic of Lithuania shall be submitted electronically through the Lithuanian Migration Information System MIGRIS personally by the applicant. [...] the Migration Department will send a message to the person via MIGRIS stating that the person must personally visit the consular post within 4 months and submit the originals of the uploaded documents."
+    }
+  ],
+  "procedure": {
+    "authority": "Migration Department under the Ministry of the Interior (decision; oath organised by the Ministry of the Interior); consular posts receive originals",
+    "how": "Create a MIGRIS account and file the reinstatement application online with scanned documents; when MIGRIS notifies that documents were pre-assessed, book a consular appointment and submit originals within 4 months (or submit via the Migration Department).",
+    "source_url": "https://usa.mfa.lt/en/consular-issues/citizenship-of-lithuania/reinstatement-of-the-citizenship-of-the-republic-of-lithuania/124"
+  },
+  "documents": [
+    {"item": "Valid passport(s) of the applicant", "note": "Passports need no translation", "source_url": "https://usa.mfa.lt/en/consular-issues/citizenship-of-lithuania/reinstatement-of-the-citizenship-of-the-republic-of-lithuania/124"},
+    {"item": "Documents showing directly that the applicant or a parent/grandparent/great-grandparent held Lithuanian citizenship before 15 June 1940", "note": "", "source_url": "https://usa.mfa.lt/en/consular-issues/citizenship-of-lithuania/reinstatement-of-the-citizenship-of-the-republic-of-lithuania/124"},
+    {"item": "Documents proving the ancestor was exiled or left Lithuania before 11 March 1990 (for dual citizenship)", "note": "", "source_url": "https://usa.mfa.lt/en/consular-issues/citizenship-of-lithuania/reinstatement-of-the-citizenship-of-the-republic-of-lithuania/124"},
+    {"item": "Birth certificates linking each generation; name-change documents (marriage certificates, court decisions, US naturalization certificates, SSA documents)", "note": "All foreign documents except passports: official translation into Lithuanian AND apostille (state Secretary of State; US Department of State for federal documents such as naturalization certificates). Originals or notarised copies; notarised copies also need an apostille.", "source_url": "https://usa.mfa.lt/en/consular-issues/citizenship-of-lithuania/reinstatement-of-the-citizenship-of-the-republic-of-lithuania/124"}
+  ],
+  "fees": [
+    {"label": "State fee: examination of an application concerning reinstatement of Lithuanian citizenship", "amount": 120, "currency": "EUR", "source_url": "https://migracija.lrv.lt/en/services/state-fees-for-services/citizenship-of-the-republic-of-lithuania/", "quote": "Examination of applications concerning citizenship of the Republic of Lithuania concerning reinstatement of LT citizenship 120 Eur"},
+    {"label": "Certificate confirming the right to reinstate Lithuanian citizenship (optional)", "amount": 50, "currency": "EUR", "source_url": "https://migracija.lrv.lt/en/services/state-fees-for-services/citizenship-of-the-republic-of-lithuania/", "quote": "Certificate confirming the right to reinstate the citizenship of the Republic of Lithuania approving and examination of application to issue the certificate, taking a decision, issuance (non - issuance) of the certificate 50 Eur"}
+  ],
+  "processing_time": [],
+  "dual_citizenship": {
+    "allowed": "conditional",
+    "note": "Dual citizenship only in cases listed in Art. 7 of the Law on Citizenship; for descent claimants the relevant exception is ancestors exiled or who left before 11 March 1990. Otherwise US citizenship must be renounced. The constitutional referendum of 12 May 2024 to allow broader dual citizenship did not pass (see open_questions).",
+    "source_url": "https://usa.mfa.lt/en/consular-issues/citizenship-of-lithuania/reinstatement-of-the-citizenship-of-the-republic-of-lithuania/124",
+    "quote": "The requirement to renounce citizenship of another state (e.g. U.S.) does not apply to persons who may be citizens of both the Republic of Lithuania and another state at the same time, i.e.: persons who were exiled from the occupied Republic of Lithuania before March 11, 1990 and their descendants (children, grandchildren or great-grandchildren); OR persons who left Lithuania before March 11, 1990 and their descendants (children, grandchildren or great-grandchildren)."
+  },
+  "other_requirements": [
+    {"item": "Application must be submitted only together with all supporting documents.", "source_url": "https://usa.mfa.lt/en/consular-issues/citizenship-of-lithuania/reinstatement-of-the-citizenship-of-the-republic-of-lithuania/124", "quote": "IMPORTANT: Application must be submitted only together with all supporting documents."}
+  ],
+  "recent_changes": [
+    {"date": "2024-05-12", "what": "Mandatory referendum on amending Art. 12 of the Constitution (to permit dual citizenship for citizens acquiring citizenship of EU/NATO-aligned states) failed to reach the required threshold; the existing restrictive rule remains. (Not confirmed on vrk.lt: blocked.)", "source_url": "https://e-seimas.lrs.lt/rs/lasupplement/TAP/3b2a1c4010e711ef8e4be9fad87afa59/a0ae4e5718e511ef8e4be9fad87afa59/"},
+    {"date": "2024-11-09", "what": "US Embassy page updated: all reinstatement applications only via MIGRIS, personal visit within 4 months after pre-assessment.", "source_url": "https://usa.mfa.lt/en/consular-issues/citizenship-of-lithuania/reinstatement-of-the-citizenship-of-the-republic-of-lithuania/124"}
+  ],
+  "open_questions": [
+    "All Lithuanian government sites (e-tar.lt, e-seimas.lrs.lt, migracija.lt / migracija.lrv.lt, mfa.lt, vrk.lt) return HTTP 403 to this environment; pages were read via Wayback snapshots (US Embassy page 2025-06-29, fee page 2025-04-30, e-seimas English translation 2025-12-05 - first 2 articles only). Re-verify live in a browser, especially the EUR 120 fee (page 'last updated 09-10-2023').",
+    "Text of Article 7 and Article 9 of the Law on Citizenship (current consolidated version) not read directly.",
+    "Processing time for reinstatement: no official figure found (Law Art. 38 / Government rules not read).",
+    "2024 referendum result figures not read on vrk.lt; a Seimas explanatory note (e-seimas, 403) reportedly states the referendum failed. Any 2025-2026 follow-up initiative on dual citizenship not checked.",
+    "Whether an ancestor who left Lithuania before 15 June 1940 counts as 'left before 11 March 1990' for the dual exception: the definition (Art. 2(3)) covers a pre-1940 citizen who left before 11 March 1990 with residence abroad on that date; practice for 1920s-30s emigrants not confirmed on an official page."
+  ],
+  "sources": [
+    {"key": "lt-embassy-usa-reinstatement", "title": "Reinstatement of the Citizenship of the Republic of Lithuania (updated 2024-11-09)", "publisher": "Embassy of the Republic of Lithuania to the USA (mfa.lt)", "url": "https://usa.mfa.lt/en/consular-issues/citizenship-of-lithuania/reinstatement-of-the-citizenship-of-the-republic-of-lithuania/124", "read_on": "2026-10-25", "http": "blocked (403); wayback copy of 2025-06-29"},
+    {"key": "lt-migration-fees", "title": "State fees for services - Citizenship of the Republic of Lithuania (last updated 09-10-2023)", "publisher": "Migration Department under the Ministry of the Interior", "url": "https://migracija.lrv.lt/en/services/state-fees-for-services/citizenship-of-the-republic-of-lithuania/", "read_on": "2026-10-25", "http": "blocked (403); wayback copy of 2025-04-30"},
+    {"key": "lt-law-citizenship-en", "title": "Republic of Lithuania Law on Citizenship No XI-1196 (English translation)", "publisher": "Seimas (e-seimas.lrs.lt)", "url": "https://e-seimas.lrs.lt/rs/legalact/TAD/TAIS.395555", "read_on": "2026-10-25", "http": "blocked (403); wayback copy of 2025-12-05 (partial)"}
+  ]
+}
