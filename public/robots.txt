@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: /*?*
 
-Sitemap: https://us-citizenship-by-descent.example/sitemap-index.xml
+Sitemap: https://descentpassport.com/sitemap-index.xml

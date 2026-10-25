@@ -1,5 +1,5 @@
 /** Configuration centrale du site (générée par new-site.py). */
-export const SITE_URL = "https://us-citizenship-by-descent.example";
+export const SITE_URL = "https://descentpassport.com";
 export const SITE_NAMES: Record<string, string> = {"en": "Descent Passport Check"};
 export const LANG_TAGS: Record<string, string> = {"en": "en-US"};
 export const OG_LOCALES: Record<string, string> = {"en": "en_US"};
@@ -16,7 +16,7 @@ export const AUTHOR_DESC: Record<string, string> = {"en": "Radif Partners reads 
  *  themes reellement traites par le site, pas une liste de mots-cles : un sujet
  *  declare ici sans page qui le couvre est une declaration fausse. */
 export const KNOWS_ABOUT: Record<string, string[]> = {"en": ["Italian citizenship by descent (jure sanguinis) after Law 74/2025", "Irish Foreign Births Register", "Canadian citizenship by descent under Bill C-3", "German citizenship by declaration and restoration (StAG sections 5 and 15)", "Polish citizenship confirmation", "Dual citizenship for US citizens", "FBAR and FATCA reporting for dual citizens"]};
-export const CONTACT_EMAIL = "contact@us-citizenship-by-descent.example";
+export const CONTACT_EMAIL = "contact@descentpassport.com";
 export const THEME_COLOR = '#3C3B6E';
 export const LOGO_SYMBOL = '2nd';
 export const BING_VERIFY_CODE = '';
