@@ -1,0 +1,10 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import Tool from './Tool.astro';
+interface Props { lang: 'en' }
+const { lang } = Astro.props;
+---
+<PageLayout title="Citizenship by descent checker for Americans, 20 countries" description="Check which second citizenship your parents, grandparents or great-grandparents can pass to you: Italy, Ireland, Poland, Germany, UK, Canada and more, from official rules." lang={lang}>
+  <h1>Citizenship by descent checker</h1>
+  <div data-outil><Tool tool={{ kind: 'checker', props: { country: 'it' } }} lang={lang} primary={true} /></div>
+</PageLayout>

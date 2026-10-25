@@ -1,0 +1,195 @@
+{
+  "country": "Spain",
+  "code": "es",
+  "retrieved_at": "2026-10-25",
+  "laws": [
+    {
+      "name": "Real Decreto de 24 de julio de 1889 por el que se publica el Código Civil",
+      "articles": "arts. 17, 20, 23, 24, 26 (nationality); consolidated text on BOE, art. 20 last updated by Ley 8/2021 (in force 03/09/2021)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+      "quote": "Artículo 17. 1. Son españoles de origen: a) Los nacidos de padre o madre españoles. [Gloss: Spanish by origin are those born to a Spanish father or mother.] / Artículo 20. 1. Tienen derecho a optar por la nacionalidad española: a) Las personas que estén o hayan estado sujetas a la patria potestad de un español. b) Aquellas cuyo padre o madre hubiera sido originariamente español y nacido en España. [...] 3. No obstante lo dispuesto en el apartado anterior, el ejercicio del derecho de opción previsto en el apartado 1.b) de este artículo no estará sujeto a límite alguno de edad."
+    },
+    {
+      "name": "Ley 20/2022, de 19 de octubre, de Memoria Democrática",
+      "articles": "Disposición adicional octava (Adquisición de la nacionalidad española)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-17099",
+      "quote": "1. Los nacidos fuera de España de padre o madre, abuelo o abuela, que originariamente hubieran sido españoles, y que, como consecuencia de haber sufrido exilio por razones políticas, ideológicas o de creencia o de orientación e identidad sexual, hubieran perdido o renunciado a la nacionalidad española, podrán optar a la nacionalidad española [...] 2. En todos los supuestos, esta declaración deberá formalizarse en el plazo de dos años desde la entrada en vigor de la presente ley. Al terminar este plazo, el Consejo de Ministros podrá acordar su prórroga por un año. [Gloss: 2-year window from entry into force, extendable once by one year by the Council of Ministers.]"
+    },
+    {
+      "name": "Instrucción de 25 de octubre de 2022, de la Dirección General de Seguridad Jurídica y Fe Pública, sobre el derecho de opción a la nacionalidad española establecido en la disposición adicional octava de la Ley 20/2022",
+      "articles": "Criteria I (nature of the option), Quinta",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-17470",
+      "quote": "d) El derecho de opción regulado en la Ley 20/2022 no requerirá la renuncia a la nacionalidad anterior en los términos establecidos en el artículo 23 del Código Civil. [Gloss: the Democratic Memory option does not require renouncing the previous nationality.]"
+    }
+  ],
+  "rules": [
+    {
+      "id": "es-parent-spanish-at-birth",
+      "rule": "A person born to a father or mother who was Spanish at the time of the birth is Spanish by origin (no generation limit in the text; place of birth irrelevant). The birth must be registered in the Spanish Civil Registry (consulate) to document it.",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+      "quote": "Artículo 17. 1. Son españoles de origen: a) Los nacidos de padre o madre españoles."
+    },
+    {
+      "id": "es-loss-born-abroad-second-generation",
+      "rule": "If you were born and live abroad, are Spanish only because your Spanish parent was ALSO born abroad, and the country where you live (e.g. the US by birth) gives you its nationality, you lose Spanish nationality unless you declare to the Civil Registry that you wish to keep it within 3 years of reaching majority (18) or emancipation. Checker: born abroad + Spanish parent born abroad + now over 21 without a conservation declaration = Spanish nationality probably lost (then see recovery, art. 26).",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+      "quote": "3. Los que habiendo nacido y residiendo en el extranjero ostenten la nacionalidad española por ser hijos de padre o madre españoles, también nacidos en el extranjero, cuando las leyes del país donde residan les atribuyan la nacionalidad del mismo, perderán, en todo caso, la nacionalidad española si no declaran su voluntad de conservarla ante el encargado del Registro Civil en el plazo de tres años, a contar desde su mayoría de edad o emancipación."
+    },
+    {
+      "id": "es-option-parent-born-in-spain",
+      "rule": "Option route still open (no age limit, no deadline): if your father or mother was ORIGINALLY Spanish AND born in Spain, you may opt for Spanish nationality at any age (art. 20.1.b). Nationality acquired this way is NOT 'de origen' (derivative). A grandparent alone does NOT qualify under this article.",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+      "quote": "b) Aquellas cuyo padre o madre hubiera sido originariamente español y nacido en España. [...] 3. No obstante lo dispuesto en el apartado anterior, el ejercicio del derecho de opción previsto en el apartado 1.b) de este artículo no estará sujeto a límite alguno de edad."
+    },
+    {
+      "id": "es-option-patria-potestad",
+      "rule": "Option for people who are or were under the parental authority of a Spaniard (e.g. the parent became Spanish while the child was a minor, art. 20.1.a): must be exercised before age 20 (or within 2 years of emancipation if majority under personal law comes later than 18).",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+      "quote": "c) Por el interesado, por sí solo, si está emancipado o es mayor de dieciocho años. La opción caducará a los veinte años de edad, pero si el optante no estuviera emancipado según su ley personal al llegar a los dieciocho años, el plazo para optar se prolongará hasta que transcurran dos años desde la emancipación."
+    },
+    {
+      "id": "es-lmd-closed",
+      "rule": "The Democratic Memory Law route (grandchildren of originally Spanish grandparents, children of Spanish women who lost nationality by marrying a foreigner before 29 Dec 1978, adult children of those who opted under the 2007/2022 laws) is CLOSED: the window ended on 22 October 2025 at 23:59 local time. Only people who requested an appointment before that deadline and hold proof of a timely request can still file. Checker: new users cannot use this route.",
+      "source_url": "https://www.exteriores.gob.es/Consulados/nuevayork/es/ServiciosConsulares/Paginas/index.aspx?scco=Estados+Unidos&scd=215&scca=Nacionalidad&scs=Nacionalidad+espa%c3%b1ola+por+la+Ley+de+Memoria+Democr%c3%a1tica",
+      "quote": "El 22 de octubre de 2025 se cerró el plazo para recibir solicitudes de cita para optar a la nacionalidad española en virtud de la disposición adicional 8.ª de la Ley 20/2022 de Memoria Democrática. Desde el 23 de octubre ya no se admiten más solicitudes de citas. Si usted solicitó cita antes del 23 de octubre 2025 y recibió un justificante de que su solicitud entró en plazo, recibirá unas credenciales que le permitirán escoger fecha y hora en esta oficina consular para presentar la documentación requerida por su solicitud."
+    },
+    {
+      "id": "es-lmd-pending-same-office",
+      "rule": "Pending Democratic Memory files must be lodged at the consular office where the appointment was obtained, regardless of current residence; a missed appointment is not rescheduled.",
+      "source_url": "https://exteriores.gob.es/Consulados/buenosaires/es/Comunicacion/Noticias/Paginas/Articulos/presentacion-solicitudes-nacionalidad-lmd.aspx",
+      "quote": "No obstante, las solicitudes de opción a la nacionalidad española presentadas al amparo de la disposición adicional octava de la Ley 20/2022 deberán tramitarse en la misma oficina consular donde se obtuvo la cita previa , independientemente del domicilio actual del solicitante."
+    },
+    {
+      "id": "es-grandchild-residence-1-year",
+      "rule": "A grandchild (or child) of an originally Spanish grandparent who has no open option route can only naturalize by residence in Spain, with a reduced period of 1 year of legal, continuous residence immediately before applying (plus civic conduct and integration). Not available from the US without moving to Spain.",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+      "quote": "2. Bastará el tiempo de residencia de un año para: [...] f) El nacido fuera de España de padre o madre, abuelo o abuela, que originariamente hubieran sido españoles. 3. En todos los casos, la residencia habrá de ser legal, continuada e inmediatamente anterior a la petición."
+    },
+    {
+      "id": "es-recovery-emigrants",
+      "rule": "A person who lost Spanish nationality may recover it by declaration before the Civil Registry (consulate) and registration; the legal-residence-in-Spain requirement does not apply to emigrants or children of emigrants.",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+      "quote": "1. Quien haya perdido la nacionalidad española podrá recuperarla cumpliendo los siguientes requisitos: a) Ser residente legal en España. Este requisito no será de aplicación a los emigrantes ni a los hijos de emigrantes. [...] b) Declarar ante el encargado del Registro Civil su voluntad de recuperar la nacionalidad española. c) Inscribir la recuperación en el Registro Civil."
+    }
+  ],
+  "procedure": {
+    "authority": "Spanish Civil Registry; for residents abroad, the consular Civil Registry of the Spanish consulate for the place of residence (e.g. Consulado General de España en Nueva York for NY, NJ, DE, PA, CT).",
+    "how": "Option (art. 20.1.b): send a scanned set of documents to the consulate's civil registry e-mail for checking, then appear in person (mandatory for anyone over 14) to sign the option declaration, swear/promise allegiance and, where required, declare renunciation; the acquisition is then entered in the Civil Registry and the consulate issues the Spanish birth certificate.",
+    "source_url": "https://www.exteriores.gob.es/Consulados/nuevayork/es/ServiciosConsulares/Paginas/index.aspx?scco=Estados+Unidos&scd=215&scca=Nacionalidad&scs=Nacionalidad+espa%c3%b1ola+-+Opci%c3%b3n"
+  },
+  "documents": [
+    {
+      "item": "Applicant's birth certificate (US: official long-form / live birth certificate issued by the Department of Health, not the hospital one)",
+      "note": "Translation to Spanish required except for documents in Spanish or English (NY consulate, option route).",
+      "source_url": "https://www.exteriores.gob.es/Consulados/nuevayork/es/ServiciosConsulares/Paginas/index.aspx?scco=Estados+Unidos&scd=215&scca=Nacionalidad&scs=Nacionalidad+espa%c3%b1ola+-+Opci%c3%b3n"
+    },
+    {
+      "item": "Literal Spanish birth certificate (certificado literal de nacimiento) of the originally Spanish parent born in Spain",
+      "note": "Must be issued less than one year before filing; obtainable from the Civil Registry of the place of birth or the Ministry of Justice website.",
+      "source_url": "https://www.exteriores.gob.es/Consulados/nuevayork/es/ServiciosConsulares/Paginas/index.aspx?scco=Estados+Unidos&scd=215&scca=Nacionalidad&scs=Nacionalidad+espa%c3%b1ola+-+Opci%c3%b3n"
+    },
+    {
+      "item": "US naturalization certificate(s) of the Spanish-born parent(s); birth certificate of the non-Spanish parent; parents' marriage certificate; valid foreign passport; proof of residence in the consular district",
+      "note": "Certificates from countries other than Spain or the US must be apostilled; documents not in Spanish or English need a translation.",
+      "source_url": "https://www.exteriores.gob.es/Consulados/nuevayork/es/ServiciosConsulares/Paginas/index.aspx?scco=Estados+Unidos&scd=215&scca=Nacionalidad&scs=Nacionalidad+espa%c3%b1ola+-+Opci%c3%b3n"
+    },
+    {
+      "item": "For recovery: apostilled US naturalization certificate (or USCIS certified true copy) with sworn translation into Spanish",
+      "note": "Federal document: only the US Department of State can apostille it, not a notary or state Secretary of State.",
+      "source_url": "https://www.exteriores.gob.es/Consulados/nuevayork/es/ServiciosConsulares/Paginas/index.aspx?scco=Estados+Unidos&scd=215&scca=Nacionalidad&scs=Recuperaci%c3%b3n+de+la+nacionalidad+espa%c3%b1ola"
+    }
+  ],
+  "fees": [
+    {
+      "label": "Civil Registry procedures (option, recovery, registration)",
+      "amount": 0,
+      "currency": "EUR",
+      "source_url": "https://www.exteriores.gob.es/Consulados/nuevayork/es/ServiciosConsulares/Paginas/index.aspx?scco=Estados+Unidos&scd=215&scca=Nacionalidad&scs=Nacionalidad+espa%c3%b1ola+-+Opci%c3%b3n",
+      "quote": "Todos los trámites en el Registro Civil son gratuitos."
+    }
+  ],
+  "processing_time": [
+    {
+      "label": "Option (art. 20.1.b) – registration and issue of certificates, NY consulate",
+      "value": "around 6 to 8 weeks",
+      "source_url": "https://www.exteriores.gob.es/Consulados/nuevayork/es/ServiciosConsulares/Paginas/index.aspx?scco=Estados+Unidos&scd=215&scca=Nacionalidad&scs=Nacionalidad+espa%c3%b1ola+-+Opci%c3%b3n",
+      "quote": "Los trámites de inscripción y expedición de los certificados dependen del volumen de solicitudes, siendo estos de alrededor de seis/ocho semanas.",
+      "published_or_updated": "no date shown on page"
+    },
+    {
+      "label": "Democratic Memory Law pending files – NY consulate appointment credentials",
+      "value": "several months",
+      "source_url": "https://www.exteriores.gob.es/Consulados/nuevayork/es/ServiciosConsulares/Paginas/index.aspx?scco=Estados+Unidos&scd=215&scca=Nacionalidad&scs=Nacionalidad+espa%c3%b1ola+por+la+Ley+de+Memoria+Democr%c3%a1tica",
+      "quote": "Debido al elevado número de solicitudes, la validación de su solicitud de cita y el envío de sus credenciales de acceso para elegir la fecha de su cita puede tardar varios meses.",
+      "published_or_updated": "no date shown on page"
+    },
+    {
+      "label": "Backlog example (Buenos Aires consulate, not US)",
+      "value": "Civil Code files filed January 2025 and Democratic Memory files filed September 2023 being processed in June 2026",
+      "source_url": "https://exteriores.gob.es/Consulados/buenosaires/es/Comunicacion/PublishingImages/Paginas/Boletin-informativo/Bolet%c3%adn_junio_2026.pdf",
+      "quote": "Respecto a los expedientes de nacionalidad por Código Civil, en este momento se están tramitando las solicitudes presentadas en enero de 2025. En cuanto a la Ley de Memoria Democrática, se continúa avanzando con los expedientes de septiembre de 2023.",
+      "published_or_updated": "Boletín junio 2026"
+    }
+  ],
+  "dual_citizenship": {
+    "allowed": "conditional",
+    "note": "For the Civil Code option (art. 20) the applicant over 14 must declare renunciation of the previous nationality; US nationals are NOT in the exempt list (Ibero-American countries, Andorra, Philippines, Equatorial Guinea, Portugal, France, Sephardic Jews). The Democratic Memory route did not require renunciation. A renunciation declaration made before Spanish authorities is a Spanish-law formality; whether it has any effect on US citizenship is a US-law question not answered by Spanish sources (see open_questions). Nationality held by origin from birth (art. 17) requires no renunciation.",
+    "source_url": "https://www.exteriores.gob.es/Consulados/nuevayork/es/ServiciosConsulares/Paginas/index.aspx?scco=Estados+Unidos&scd=215&scca=Nacionalidad&scs=Nacionalidad+espa%c3%b1ola+-+Opci%c3%b3n",
+    "quote": "Que la misma persona declare que renuncia a su anterior nacionalidad. No tendrán que cumplir este requisito los menores de 14 años ni los naturales de países iberoamericanos, Andorra, Filipinas, Guinea Ecuatorial, Portugal, Francia y los sefardíes originarios de España."
+  },
+  "other_requirements": [
+    {
+      "item": "Oath/promise of allegiance to the King and obedience to the Constitution (over 14), and registration in the Civil Registry",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+      "quote": "a) Que el mayor de catorce años y capaz para prestar una declaración por sí jure o prometa fidelidad al Rey y obediencia a la Constitución y a las leyes. [...] c) Que la adquisición se inscriba en el Registro Civil español."
+    },
+    {
+      "item": "Personal appearance at the consulate for anyone over 14",
+      "source_url": "https://www.exteriores.gob.es/Consulados/nuevayork/es/ServiciosConsulares/Paginas/index.aspx?scco=Estados+Unidos&scd=215&scca=Nacionalidad&scs=Nacionalidad+espa%c3%b1ola+-+Opci%c3%b3n",
+      "quote": "La comparecencia personal del interesado mayor de 14 años durante el procedimiento es siempre necesaria."
+    },
+    {
+      "item": "No language test or residence for the option route (none listed in arts. 20 and 23 CC); residence route requires residence in Spain plus civic conduct and integration (art. 22.4)",
+      "source_url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763",
+      "quote": "4. El interesado deberá justificar, en el expediente regulado por la legislación del Registro Civil, buena conducta cívica y suficiente grado de integración en la sociedad española."
+    }
+  ],
+  "recent_changes": [
+    {
+      "date": "2025-10-22",
+      "what": "Window of DA 8ª Ley 20/2022 (Democratic Memory, 'Ley de nietos') closed at 23:59 local time after the one-year extension agreed by the Council of Ministers (9 July 2024). No new appointment requests since 23 Oct 2025.",
+      "source_url": "https://www.exteriores.gob.es/Consulados/montreal/es/Comunicacion/Noticias/Paginas/Articulos/FIN-DEL-PLAZO-DE-PRESENTACI%C3%93N-DE-EXPEDIENTES-DE-LA-LEY-DE-MEMORIA-DEMOCR%C3%81TICA.aspx"
+    },
+    {
+      "date": "2026-05-20",
+      "what": "Consulates remind that pending DA 8ª files must be filed at the office where the appointment was obtained; missed appointments are not rescheduled.",
+      "source_url": "https://exteriores.gob.es/Consulados/buenosaires/es/Comunicacion/Noticias/Paginas/Articulos/presentacion-solicitudes-nacionalidad-lmd.aspx"
+    },
+    {
+      "date": "2026-06",
+      "what": "Buenos Aires consulate announces a special procedure for minor children of new Spaniards who could not file while the parent's registration was pending (they may request an appointment once the parent is registered). Not confirmed for US consulates.",
+      "source_url": "https://exteriores.gob.es/Consulados/buenosaires/es/Comunicacion/PublishingImages/Paginas/Boletin-informativo/Bolet%c3%adn_junio_2026.pdf"
+    }
+  ],
+  "open_questions": [
+    "Exact official text of the Council of Ministers agreement of 9 July 2024 extending DA 8ª: the government press note URL (mpt.gob.es/.../20240709_CM_PRORROGA_NACIONALIDAD.pdf) returned 404 on 2026-10-25; the 22 Oct 2025 end date is confirmed by consular pages (NY, Montreal, Caracas guide).",
+    "Renunciation for the art. 20.1.b option: the NY consulate page says renunciation is required (US not exempt), but the DGSJFP Instrucción of 25 Oct 2022 contains the sentence 'Para el ejercicio de la opción regulada en el artículo 20.1.b) del Código Civil y la regulada en ... la disposición adicional octava ... deben cumplir las condiciones exigidas en los artículos 20 y 23 del Código Civil, salvo la renuncia a la nacionalidad anterior', which can be read as also exempting 20.1.b. Ambiguous; treat as 'renunciation declaration likely requested for US nationals' and confirm with the consulate.",
+    "Effect of a Spanish renunciation declaration on US citizenship: no Spanish official source addresses it; needs a US State Department source (handled in us-paperwork.json if covered).",
+    "Pending reform: the Consejo General de la Ciudadanía Española en el Exterior proposed a permanent Civil Code reform for descendants (presented to Congress/Senate 2024-2025); no enacted law found as of 2026-10-25 (BOE consolidated Civil Code shows art. 20 last amended in 2021).",
+    "Sephardic route (Ley 12/2015): closed; not re-verified on an official page in this pass (deadline 1 Oct 2019, with completion window to 2021 per general knowledge) — do not display dates without checking boe.es BOE-A-2015-7045.",
+    "Processing times of Spanish consulates in the US other than New York (Washington, Miami, Houston, Los Angeles, San Francisco, Chicago, Boston, San Juan) not collected."
+  ],
+  "sources": [
+    {"key": "es-cc", "title": "Código Civil (texto consolidado)", "publisher": "Agencia Estatal Boletín Oficial del Estado", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1889-4763", "read_on": "2026-10-25", "http": "200"},
+    {"key": "es-ley-20-2022", "title": "Ley 20/2022, de 19 de octubre, de Memoria Democrática", "publisher": "BOE", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-17099", "read_on": "2026-10-25", "http": "200"},
+    {"key": "es-instruccion-2022", "title": "Instrucción de 25 de octubre de 2022 (DGSJFP) sobre la DA 8ª Ley 20/2022", "publisher": "BOE", "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-17470", "read_on": "2026-10-25", "http": "200"},
+    {"key": "es-ny-opcion", "title": "Nacionalidad española - Opción", "publisher": "Consulado General de España en Nueva York (exteriores.gob.es)", "url": "https://www.exteriores.gob.es/Consulados/nuevayork/es/ServiciosConsulares/Paginas/index.aspx?scco=Estados+Unidos&scd=215&scca=Nacionalidad&scs=Nacionalidad+espa%c3%b1ola+-+Opci%c3%b3n", "read_on": "2026-10-25", "http": "200"},
+    {"key": "es-ny-lmd", "title": "Nacionalidad española por la Ley de Memoria Democrática", "publisher": "Consulado General de España en Nueva York", "url": "https://www.exteriores.gob.es/Consulados/nuevayork/es/ServiciosConsulares/Paginas/index.aspx?scco=Estados+Unidos&scd=215&scca=Nacionalidad&scs=Nacionalidad+espa%c3%b1ola+por+la+Ley+de+Memoria+Democr%c3%a1tica", "read_on": "2026-10-25", "http": "200"},
+    {"key": "es-ny-recuperacion", "title": "Recuperación de la nacionalidad española", "publisher": "Consulado General de España en Nueva York", "url": "https://www.exteriores.gob.es/Consulados/nuevayork/es/ServiciosConsulares/Paginas/index.aspx?scco=Estados+Unidos&scd=215&scca=Nacionalidad&scs=Recuperaci%c3%b3n+de+la+nacionalidad+espa%c3%b1ola", "read_on": "2026-10-25", "http": "200"},
+    {"key": "es-ny-checklist", "title": "Ley 20/2022 – Checklist para su cita de LMD", "publisher": "Consulado General de España en Nueva York", "url": "https://www.exteriores.gob.es/Consulados/nuevayork/es/Consulado/Documents/Checklist.pdf", "read_on": "2026-10-25", "http": "200"},
+    {"key": "es-montreal-fin", "title": "Fin del plazo de presentación de expedientes de la LMD (23 Oct 2025)", "publisher": "Consulado General de España en Montreal", "url": "https://www.exteriores.gob.es/Consulados/montreal/es/Comunicacion/Noticias/Paginas/Articulos/FIN-DEL-PLAZO-DE-PRESENTACI%C3%93N-DE-EXPEDIENTES-DE-LA-LEY-DE-MEMORIA-DEMOCR%C3%81TICA.aspx", "read_on": "2026-10-25", "http": "200"},
+    {"key": "es-ba-lmd", "title": "Recordatorio: competencia y turnos en solicitudes LMD (20 May 2026)", "publisher": "Consulado General de España en Buenos Aires", "url": "https://exteriores.gob.es/Consulados/buenosaires/es/Comunicacion/Noticias/Paginas/Articulos/presentacion-solicitudes-nacionalidad-lmd.aspx", "read_on": "2026-10-25", "http": "200"},
+    {"key": "es-ba-boletin-2026-06", "title": "Boletín del Consulado, 10ª edición, junio 2026", "publisher": "Consulado General de España en Buenos Aires", "url": "https://exteriores.gob.es/Consulados/buenosaires/es/Comunicacion/PublishingImages/Paginas/Boletin-informativo/Bolet%c3%adn_junio_2026.pdf", "read_on": "2026-10-25", "http": "200"},
+    {"key": "es-caracas-guia", "title": "Guía aplicación LMD – CG Caracas (versión 19/09/2025)", "publisher": "Consulado General de España en Caracas", "url": "https://www.exteriores.gob.es/DocumentosAuxiliaresSC/Venezuela/CARACAS%20(C)/2025%2009%2019%20Gu%C3%ADa%20aplicaci%C3%B3n%20LMD%20-%20CG%20Caracas.pdf", "read_on": "2026-10-25", "http": "200"}
+  ]
+}

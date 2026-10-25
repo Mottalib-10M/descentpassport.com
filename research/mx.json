@@ -1,0 +1,135 @@
+{
+  "country": "Mexico",
+  "code": "mx",
+  "retrieved_at": "2026-10-25",
+  "laws": [
+    {
+      "name": "Constitución Política de los Estados Unidos Mexicanos (texto vigente, última reforma DOF 15-11-2024)",
+      "articles": "Art. 30 A) II y III; Art. 32; Art. 37 A)",
+      "url": "http://www.ordenjuridico.gob.mx/Constitucion/cn16.pdf",
+      "quote": "Artículo 30. La nacionalidad mexicana se adquiere por nacimiento o por naturalización. A) Son mexicanos por nacimiento: I. Los que nazcan en territorio de la República, sea cual fuere la nacionalidad de sus padres. II. Los que nazcan en el extranjero, hijos de padres mexicanos, de madre mexicana o de padre mexicano; Fracción reformada DOF 26-12-1969, 20-03-1997, 17-05-2021 III. Los que nazcan en el extranjero, hijos de padres mexicanos por naturalización, de padre mexicano por naturalización, o de madre mexicana por naturalización [EN: Mexicans by birth include those born abroad to a Mexican mother or father, including a parent who is Mexican by naturalization.]"
+    },
+    {
+      "name": "Decreto por el que se reforma el artículo 30 de la Constitución Política de los Estados Unidos Mexicanos, en materia de nacionalidad (DOF 17-05-2021)",
+      "articles": "Artículo Único; Transitorio Único",
+      "url": "https://www.scjn.gob.mx/sites/default/files/cpeum/decretos_reformas/2021-05/17052021_art30.pdf",
+      "quote": "II. Los que nazcan en el extranjero, hijos de padres mexicanos, de madre mexicana o de padre mexicano; ... Transitorio Único. El presente Decreto entrará en vigor el día siguiente al de su publicación en el Diario Oficial de la Federación. [Published Monday 17 May 2021 -> in force 18 May 2021]"
+    },
+    {
+      "name": "Ley de Nacionalidad (DOF 23-01-1998, última reforma DOF 23-04-2012)",
+      "articles": "Arts. 3, 12, 13, 16, 17",
+      "url": "https://portales.sre.gob.mx/tramites-dgaj/images/documentos/leydenacionalidad.pdf",
+      "quote": "Artículo 12.- Los mexicanos por nacimiento que salgan del territorio nacional o ingresen a él, deberán hacerlo sin excepción, ostentándose como nacionales, aun cuando posean o hayan adquirido otra nacionalidad. [EN: Mexicans by birth must enter and leave Mexico as Mexicans (i.e. on Mexican documents) even if they hold another nationality.]"
+    }
+  ],
+  "rules": [
+    {
+      "id": "born-abroad-to-mexican-parent",
+      "rule": "A person born outside Mexico to a Mexican mother or a Mexican father (by birth or by naturalization) is Mexican BY BIRTH. Mother and father transmit equally; marital status of the parents is not a condition in the Constitution. Practically, the birth must be registered with the Mexican civil registry (e.g. at a consulate) to obtain a Mexican birth certificate.",
+      "source_url": "http://www.ordenjuridico.gob.mx/Constitucion/cn16.pdf",
+      "quote": "II. Los que nazcan en el extranjero, hijos de padres mexicanos, de madre mexicana o de padre mexicano; ... III. Los que nazcan en el extranjero, hijos de padres mexicanos por naturalización, de padre mexicano por naturalización, o de madre mexicana por naturalización"
+    },
+    {
+      "id": "no-generation-limit-since-2021-05-18",
+      "rule": "Since 18 May 2021 there is no requirement that the Mexican parent was born in Mexico, so grandchildren (and later generations) of Mexicans born abroad qualify step by step: each generation registers its birth, then can transmit to the next. A checker can treat 'parent is (or can be registered as) Mexican' as sufficient regardless of where the parent was born.",
+      "source_url": "https://www.scjn.gob.mx/sites/default/files/cpeum/decretos_reformas/2021-05/17052021_art30.pdf",
+      "quote": "Artículo Único. Se reforma la fracción II del Apartado A) del artículo 30 de la Constitución Política de los Estados Unidos Mexicanos, para quedar como sigue: ... II. Los que nazcan en el extranjero , hijos de padres mexicanos, de madre mexicana o de padre mexicano; ... Transitorio Único. El presente Decreto entrará en vigor el día siguiente al de su publicación en el Diario Oficial de la Federación."
+    },
+    {
+      "id": "mexican-by-birth-cannot-be-deprived",
+      "rule": "A Mexican by birth cannot be deprived of Mexican nationality (acquiring US citizenship does not cause loss). Only naturalized Mexicans can lose nationality (voluntary foreign naturalization, using a foreign passport, 5 years' continuous residence abroad).",
+      "source_url": "http://www.ordenjuridico.gob.mx/Constitucion/cn16.pdf",
+      "quote": "Artículo 37. A) Ningún mexicano por nacimiento podrá ser privado de su nacionalidad. B) La nacionalidad mexicana por naturalización se perderá en los siguientes casos: I. Por adquisición voluntaria de una nacionalidad extranjera, por hacerse pasar en cualquier instrumento público como extranjero, por usar un pasaporte extranjero, ... II. Por residir durante cinco años continuos en el extranjero."
+    },
+    {
+      "id": "enter-leave-as-mexican",
+      "rule": "Dual nationals who are Mexican by birth must enter and leave Mexico as Mexicans (Mexican documents); breach is fined under art. 33 of the Ley de Nacionalidad.",
+      "source_url": "https://portales.sre.gob.mx/tramites-dgaj/images/documentos/leydenacionalidad.pdf",
+      "quote": "Artículo 12.- Los mexicanos por nacimiento que salgan del territorio nacional o ingresen a él, deberán hacerlo sin excepción, ostentándose como nacionales, aun cuando posean o hayan adquirido otra nacionalidad."
+    },
+    {
+      "id": "adults-register-themselves",
+      "rule": "Adults (18+) can register their own birth at a consulate; the Atlanta consulate asks for both parents' birth certificates and the parents' marriage certificate (marriage at least 180 days before the birth). No upper age limit is stated.",
+      "source_url": "https://consulmex.sre.gob.mx/atlanta/images/stories/content/regcivil/2026/sitio/Registro_de_Nacimiento-Requisitos_V300726.pdf",
+      "quote": "Personas mayores de 18 años de edad que se registran por sí mismas Acta de matrimonio de los padres. El matrimonio debe haberse realizado por lo menos 180 días antes del nacimiento de la persona a registrar. Actas de nacimiento de ambos padres."
+    }
+  ],
+  "procedure": {
+    "authority": "Secretaría de Relaciones Exteriores (SRE) through Mexican consulates (Registro Civil consular)",
+    "how": "Book an appointment (miconsulado.sre.gob.mx or the consulate's channel) for 'Registro / Inscripción de nacimiento (Doble Nacionalidad)'; attend in person with originals. Alternative 'inscripción' transcribes the foreign birth certificate literally. The Mexican birth certificate obtained is proof of nationality (Ley de Nacionalidad art. 3) and is used for passport.",
+    "source_url": "https://consulmex.sre.gob.mx/atlanta/images/stories/content/regcivil/2026/sitio/Registro_de_Nacimiento-Requisitos_V300726.pdf"
+  },
+  "documents": [
+    {
+      "item": "US birth certificate of the person to register (long form showing place and time of birth, parents' names and nationalities)",
+      "note": "Originals required; for US births the Atlanta list does not require an apostille. Persons born in a country other than the US: foreign birth certificate apostilled or legalized and translated into Spanish by a certified expert translator (perito).",
+      "source_url": "https://consulmex.sre.gob.mx/atlanta/images/stories/content/regcivil/2026/sitio/Registro_de_Nacimiento-Requisitos_V300726.pdf"
+    },
+    {
+      "item": "Mexican birth certificate of the Mexican mother and/or father",
+      "note": "Original; at least one parent must be Mexican.",
+      "source_url": "https://consulmex.sre.gob.mx/atlanta/images/stories/content/regcivil/2026/sitio/Registro_de_Nacimiento-Requisitos_V300726.pdf"
+    },
+    {
+      "item": "Official ID of the person(s) carrying out the procedure; physical presence of both parents and the person registered (special cases: power of attorney, or parents' marriage certificate if married at least 180 days before the birth)",
+      "note": "Rules vary by consulate; this is the Atlanta consulate's list updated 30 Jul 2026.",
+      "source_url": "https://consulmex.sre.gob.mx/atlanta/images/stories/content/regcivil/2026/sitio/Registro_de_Nacimiento-Requisitos_V300726.pdf"
+    }
+  ],
+  "fees": [
+    {
+      "label": "Birth registration / inscription (dual nationality) at a consulate, includes one certified copy",
+      "amount": 0,
+      "currency": "USD",
+      "source_url": "https://consulmex.sre.gob.mx/atlanta/images/stories/content/regcivil/2026/sitio/Registro_de_Nacimiento-Requisitos_V300726.pdf",
+      "quote": "El registro/inscripción de nacimiento (doble nacionalidad) es un trámite gratuito • El trámite incluye una copia certificada gratuita."
+    },
+    {
+      "label": "Each additional certified copy of the birth certificate (Atlanta consulate)",
+      "amount": 20,
+      "currency": "USD",
+      "source_url": "https://consulmex.sre.gob.mx/atlanta/images/stories/content/regcivil/2026/sitio/Registro_de_Nacimiento-Requisitos_V300726.pdf",
+      "quote": "El costo de cada copia certificada adicional es de $20.00 dólares"
+    }
+  ],
+  "processing_time": [],
+  "dual_citizenship": {
+    "allowed": "yes",
+    "note": "Mexicans by birth cannot lose Mexican nationality (Const. art. 37 A); the law regulates dual nationals (Const. art. 32) and requires them to enter/leave Mexico as Mexicans (LNac art. 12). Some offices reserved to Mexicans by birth who hold no other nationality.",
+    "source_url": "http://www.ordenjuridico.gob.mx/Constitucion/cn16.pdf",
+    "quote": "Artículo 37. A) Ningún mexicano por nacimiento podrá ser privado de su nacionalidad."
+  },
+  "other_requirements": [
+    {
+      "item": "Appointment required; consulates publish appointment slots (Atlanta: Fridays)",
+      "source_url": "https://consulmex.sre.gob.mx/atlanta/images/stories/content/regcivil/2026/sitio/Registro_de_Nacimiento-Requisitos_V300726.pdf",
+      "quote": "El trámite de registro de nacimiento (doble nacionalidad) se realiza únicamente mediante cita que puede obtener a través de la plataforma http://www.miconsulado.sre.gob.mx o por WhatsApp 1(424) 309-0009 Las citas se publican todos los días viernes."
+    },
+    {
+      "item": "Offices reserved to Mexicans by birth without another nationality (e.g. active armed forces) require a certificate of Mexican nationality and express renunciation of the other nationality",
+      "source_url": "https://portales.sre.gob.mx/tramites-dgaj/images/documentos/leydenacionalidad.pdf",
+      "quote": "Artículo 17.- Los mexicanos por nacimiento a los que otro Estado considere como sus nacionales, podrán solicitar a la Secretaría el certificado de nacionalidad mexicana, únicamente para los efectos del artículo anterior. Para ello, formularán renuncia expresa a la nacionalidad que les sea atribuida ..."
+    }
+  ],
+  "recent_changes": [
+    {
+      "date": "2021-05-18",
+      "what": "Constitution art. 30 A) II amended (DOF 17-05-2021, in force the next day): Mexican nationality by birth passes to children born abroad of any Mexican parent, removing the first-generation-abroad limit.",
+      "source_url": "https://www.scjn.gob.mx/sites/default/files/cpeum/decretos_reformas/2021-05/17052021_art30.pdf"
+    }
+  ],
+  "open_questions": [
+    "Pre-2021 wording of art. 30 A) II (parent had to be born in Mexican territory) is known from secondary sources (revistaabogacia.com, elconta.mx); the official decree read only shows the new text, not the old one.",
+    "Ley de Nacionalidad (last reformed 23-04-2012) has not been updated to mirror the 2021 constitutional change; no secondary-law effect checked.",
+    "Processing time: consulates do not publish a processing time for birth registration; registration is done at the appointment (not confirmed in writing). Appointment availability is the real delay.",
+    "Requirements (apostille for US births, both parents' presence, copy fee USD 20 vs USD 19 in 2025) vary by consulate; only the Atlanta list was read in full.",
+    "diputados.gob.mx (official consolidated laws) refused connections from this machine; the Constitution was read on ordenjuridico.gob.mx (Secretaría de Gobernación) and the Ley de Nacionalidad on the SRE portal (Cámara de Diputados PDF).",
+    "Mexicans by birth who acquired a foreign nationality before 20 March 1998 lost it under the old regime and had a recovery route; not researched on an official page."
+  ],
+  "sources": [
+    {"key": "mx-cpeum", "title": "Constitución Política de los Estados Unidos Mexicanos (texto vigente, última reforma DOF 15-11-2024)", "publisher": "Orden Jurídico Nacional, Secretaría de Gobernación", "url": "http://www.ordenjuridico.gob.mx/Constitucion/cn16.pdf", "read_on": "2026-10-25", "http": "200"},
+    {"key": "mx-dof-2021", "title": "DOF 17 de mayo de 2021 - Decreto por el que se reforma el artículo 30 de la CPEUM, en materia de nacionalidad (facsimile)", "publisher": "Suprema Corte de Justicia de la Nación (copy of the DOF)", "url": "https://www.scjn.gob.mx/sites/default/files/cpeum/decretos_reformas/2021-05/17052021_art30.pdf", "read_on": "2026-10-25", "http": "200"},
+    {"key": "mx-lnac", "title": "Ley de Nacionalidad (última reforma DOF 23-04-2012)", "publisher": "Secretaría de Relaciones Exteriores portal (Cámara de Diputados PDF)", "url": "https://portales.sre.gob.mx/tramites-dgaj/images/documentos/leydenacionalidad.pdf", "read_on": "2026-10-25", "http": "200"},
+    {"key": "mx-consulmex-atlanta", "title": "Registro / Inscripción de nacimiento (Doble Nacionalidad) - Requisitos (actualización 30jul2026)", "publisher": "Consulado General de México en Atlanta, SRE", "url": "https://consulmex.sre.gob.mx/atlanta/images/stories/content/regcivil/2026/sitio/Registro_de_Nacimiento-Requisitos_V300726.pdf", "read_on": "2026-10-25", "http": "200"}
+  ]
+}

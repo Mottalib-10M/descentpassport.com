@@ -1,0 +1,723 @@
+{
+ "it": {
+  "name": "Italy",
+  "adj": "Italian",
+  "page": "italy",
+  "law": {
+   "label": "Law 91/1992, art. 3-bis (added by Decree-Law 36/2025, converted by Law 74/2025)",
+   "src": "it-law-91-art3bis"
+  },
+  "authority": "the Italian consulate for your US address (from 1 January 2029, a central office of the Foreign Ministry in Rome)",
+  "fee": {
+   "amount": 600,
+   "cur": "EUR",
+   "label": "Consular fee for recognition, per adult",
+   "src": "it-cons-ny"
+  },
+  "usdFee": {
+   "amount": 691,
+   "label": "Same fee in dollars at the New York consulate, October 1 to December 31, 2026",
+   "src": "it-cons-ny-tariffe"
+  },
+  "time": {
+   "text": "730 days legal limit (24 months at San Francisco); 36 months for adult files under Law 11/2026",
+   "minMonths": 24,
+   "maxMonths": 36,
+   "src": "it-cons-sf-iure"
+  },
+  "dual": {
+   "status": "yes",
+   "text": "No renunciation of US citizenship (art. 11 of Law 91/1992).",
+   "src": "it-law-91-art11"
+  },
+  "cutoffs": {
+   "filedBy": "2025-03-27",
+   "lawInForce": "2025-05-24",
+   "motherFrom": 1948,
+   "law555End": 1992,
+   "minorsDeadline": "2029-05-31",
+   "minorsYears": 3,
+   "central": "2029-01-01",
+   "residenceYears": 2
+  },
+  "gens": "Parent or grandparent only, since March 28, 2025",
+  "slug": "italian-citizenship-by-descent",
+  "docs": {
+   "apostille": true,
+   "translation": true,
+   "src": "it-cons-ny-iure"
+  }
+ },
+ "ie": {
+  "name": "Ireland",
+  "adj": "Irish",
+  "page": "ireland",
+  "law": {
+   "label": "Irish Nationality and Citizenship Act 1956, s. 7 (as amended)",
+   "src": "ie-act-1956-revised"
+  },
+  "authority": "the Department of Foreign Affairs (Foreign Births Register, online)",
+  "fee": {
+   "amount": 278,
+   "cur": "EUR",
+   "label": "Foreign Birth Registration, applicant 18 or over (EUR 270 + EUR 8 postage)",
+   "src": "ie-dfa-fbr"
+  },
+  "feeMinor": {
+   "amount": 153,
+   "cur": "EUR",
+   "label": "Foreign Birth Registration, applicant under 18",
+   "src": "ie-dfa-fbr"
+  },
+  "time": {
+   "text": "about 12 months for a complete application, in strict date order",
+   "minMonths": 12,
+   "maxMonths": 12,
+   "src": "ie-dfa-fbr"
+  },
+  "dual": {
+   "status": "yes",
+   "text": "Ireland allows dual citizenship.",
+   "src": "ie-ci-right"
+  },
+  "gens": "Parent born in Ireland (automatic) or grandparent born in Ireland (register)",
+  "slug": "irish-citizenship-by-descent",
+  "docs": {
+   "apostille": false,
+   "translation": false,
+   "src": "ie-dfa-fbr"
+  }
+ },
+ "gb": {
+  "name": "United Kingdom",
+  "adj": "British",
+  "page": "uk",
+  "law": {
+   "label": "British Nationality Act 1981, ss. 2, 3 and 4C",
+   "src": "gb-bna-s2"
+  },
+  "authority": "UK Visas and Immigration (online forms UKM, UKF, MN1)",
+  "fee": {
+   "amount": 130,
+   "cur": "GBP",
+   "label": "Registration under s. 4C (form UKM) or as child of an unmarried father (UKF): citizenship ceremony fee only",
+   "src": "gb-fees"
+  },
+  "feeChild": {
+   "amount": 1000,
+   "cur": "GBP",
+   "label": "Registering a child under s. 3(2) (form MN1)",
+   "src": "gb-fees"
+  },
+  "feeStatus": {
+   "amount": 489,
+   "cur": "GBP",
+   "label": "Confirmation that you are already British (form NS)",
+   "src": "gb-fees"
+  },
+  "feePriority": {
+   "amount": 500,
+   "cur": "GBP",
+   "label": "Optional priority service (about 30 working days)",
+   "src": "gb-priority"
+  },
+  "time": {
+   "text": "usually within 6 months (about 30 working days with priority)",
+   "minMonths": 1,
+   "maxMonths": 6,
+   "src": "gb-ukm-guide"
+  },
+  "dual": {
+   "status": "yes",
+   "text": "Dual citizenship is allowed in the UK.",
+   "src": "gb-dual"
+  },
+  "cutoffs": {
+   "mother1983": 1983,
+   "unmarriedFather": "2006-07-01",
+   "parentResidenceYears": 3
+  },
+  "gens": "One generation born abroad (a parent born in the UK)",
+  "slug": "british-citizenship-by-descent",
+  "docs": {
+   "apostille": false,
+   "translation": false,
+   "src": "gb-ukm-guide"
+  }
+ },
+ "pl": {
+  "name": "Poland",
+  "adj": "Polish",
+  "page": "poland",
+  "law": {
+   "label": "Polish Citizenship Act of 2 April 2009, with the 1920 and 1951 Acts for earlier births",
+   "src": "pl-act-2009"
+  },
+  "authority": "a Polish consulate in the US, which forwards the file to a voivode (regional governor) in Poland",
+  "fee": {
+   "amount": 118,
+   "cur": "USD",
+   "label": "Consular fee for filing a confirmation application in the US",
+   "src": "pl-consulate-usa"
+  },
+  "feePoland": {
+   "amount": 277,
+   "cur": "PLN",
+   "label": "Stamp duty when filed directly with the voivode (Łódź office)",
+   "src": "pl-uw-lodz"
+  },
+  "time": {
+   "text": "no decision time published by the voivodes",
+   "minMonths": null,
+   "maxMonths": null,
+   "src": "pl-consulate-usa"
+  },
+  "dual": {
+   "status": "yes",
+   "text": "Tolerated: Poland treats a dual citizen solely as Polish on its territory.",
+   "src": "pl-act-2009"
+  },
+  "cutoffs": {
+   "act1920": 1920,
+   "act1951": 1951,
+   "act1962": 1962
+  },
+  "gens": "No limit, if every link was still Polish when the next child was born",
+  "slug": "polish-citizenship-by-descent",
+  "docs": {
+   "apostille": true,
+   "translation": true,
+   "src": "pl-consulate-usa"
+  }
+ },
+ "ca": {
+  "name": "Canada",
+  "adj": "Canadian",
+  "page": "canada",
+  "law": {
+   "label": "Citizenship Act, s. 3, as amended by Bill C-3 (S.C. 2025, c. 5)",
+   "src": "ca-citizenship-act"
+  },
+  "authority": "Immigration, Refugees and Citizenship Canada (proof of citizenship certificate)",
+  "fee": {
+   "amount": 75,
+   "cur": "CAD",
+   "label": "Citizenship certificate (proof of citizenship)",
+   "src": "ca-fees"
+  },
+  "time": {
+   "text": "not published for certificates on the pages read; a citizenship record search is shown at 19 months (October 21, 2026)",
+   "minMonths": null,
+   "maxMonths": null,
+   "src": "ca-ptime-json"
+  },
+  "dual": {
+   "status": "yes",
+   "text": "Canada allows multiple citizenship; you need a Canadian passport to fly back to Canada.",
+   "src": "ca-dual"
+  },
+  "cutoffs": {
+   "c3": "2025-12-15",
+   "presenceDays": 1095
+  },
+  "gens": "No limit for people born before December 15, 2025; after that, 1,095 days of the parent's presence in Canada",
+  "slug": "canadian-citizenship-by-descent",
+  "docs": {
+   "apostille": false,
+   "translation": false,
+   "src": "ca-proof-apply"
+  }
+ },
+ "no": {
+  "name": "Norway",
+  "adj": "Norwegian",
+  "page": "norway",
+  "law": {
+   "label": "Norwegian Nationality Act 2005, ss. 4, 22 a and 24",
+   "src": "no-statsborgerloven"
+  },
+  "authority": "the Norwegian Directorate of Immigration (UDI), through a Norwegian mission in the US",
+  "fee": {
+   "amount": 3200,
+   "cur": "NOK",
+   "label": "Getting Norwegian citizenship back by notification, adult",
+   "src": "udi-fees"
+  },
+  "time": {
+   "text": "3 months for former citizens' notifications (updated September 24, 2026)",
+   "minMonths": 3,
+   "maxMonths": 3,
+   "src": "udi-wait"
+  },
+  "dual": {
+   "status": "yes",
+   "text": "Allowed since January 1, 2020.",
+   "src": "udi-dual"
+  },
+  "cutoffs": {
+   "act2006": 2006,
+   "mother1979": 1979,
+   "dual2020": 2020,
+   "lossAge": 22
+  },
+  "gens": "Parent only, Norwegian when you were born",
+  "slug": "norwegian-citizenship-by-descent",
+  "docs": {
+   "apostille": null,
+   "translation": null,
+   "src": "norway-us-reclaim"
+  }
+ },
+ "de": {
+  "name": "Germany",
+  "adj": "German",
+  "page": "germany",
+  "law": {
+   "label": "Nationality Act (StAG) ss. 4, 5 and 15; Basic Law art. 116(2)",
+   "src": "de-stag-4"
+  },
+  "authority": "the Federal Office of Administration (BVA) in Cologne, through a German mission in the US",
+  "fee": {
+   "amount": 51,
+   "cur": "EUR",
+   "label": "Certificate of citizenship for people already German by descent",
+   "src": "de-bva-feststellung-gebuehren"
+  },
+  "feeS5": {
+   "amount": 0,
+   "cur": "EUR",
+   "label": "Declaration under s. 5 StAG (free)",
+   "src": "de-bva-eer-gebuehren"
+  },
+  "feeS15": {
+   "amount": 0,
+   "cur": "EUR",
+   "label": "Naturalisation under s. 15 StAG or art. 116(2) (free)",
+   "src": "de-bva-e15-gebuehren"
+  },
+  "time": {
+   "text": "two to three years for a certificate of citizenship; no time published for s. 5, s. 15 or art. 116(2)",
+   "minMonths": 24,
+   "maxMonths": 36,
+   "src": "de-gi-certificate"
+  },
+  "dual": {
+   "status": "yes",
+   "text": "Accepted generally since June 27, 2024; losses before that date stay.",
+   "src": "de-bva-2024"
+  },
+  "cutoffs": {
+   "emigrated": 1904,
+   "mother1975": 1975,
+   "father1993": 1993,
+   "womenMarriage1953": 1953,
+   "s5Born": 1949,
+   "s5Deadline": "2031-08-19",
+   "dual2024": 2024,
+   "born2000": 2000,
+   "persecution": [
+    1933,
+    1945
+   ]
+  },
+  "gens": "No limit, if every link was still German when the next child was born",
+  "slug": "german-citizenship-by-descent",
+  "docs": {
+   "apostille": null,
+   "translation": false,
+   "src": "de-gi-nazi"
+  }
+ },
+ "at": {
+  "name": "Austria",
+  "adj": "Austrian",
+  "page": "austria",
+  "law": {
+   "label": "Nationality Act 1985 (StbG), s. 58c, and s. 7 for descent at birth",
+   "src": "at-stbg"
+  },
+  "authority": "the Vienna provincial government (MA 35), through the Austrian embassy or consulate for your US address",
+  "fee": {
+   "amount": 0,
+   "cur": "EUR",
+   "label": "Declaration under s. 58c (no federal fee)",
+   "src": "at-bmeia-58c-faq"
+  },
+  "time": {
+   "text": "not published; MA 35 closed 10,420 s. 58c files in 2025",
+   "minMonths": null,
+   "maxMonths": null,
+   "src": "at-ma35-2025"
+  },
+  "dual": {
+   "status": "conditional",
+   "text": "No renunciation for s. 58c, but acquiring another citizenship after filing costs Austrian citizenship retroactively; outside s. 58c Austria generally forbids dual citizenship.",
+   "src": "at-bmeia-dual"
+  },
+  "cutoffs": {
+   "left": 1955,
+   "persecution": [
+    1933,
+    1945
+   ],
+   "lossAfter": "2022-05-01",
+   "from": "2020-09-01"
+  },
+  "gens": "Parent only at birth; no limit for descendants of persecuted people (s. 58c)",
+  "slug": "austrian-citizenship-by-descent",
+  "docs": {
+   "apostille": true,
+   "translation": false,
+   "src": "at-bmeia-58c-decl"
+  }
+ },
+ "fr": {
+  "name": "France",
+  "adj": "French",
+  "page": "france",
+  "law": {
+   "label": "Civil Code, arts. 18 and 30-3",
+   "src": "fr-cc-18"
+  },
+  "authority": "the nationality service of the Paris judicial court (certificate of French nationality)",
+  "fee": {
+   "amount": 0,
+   "cur": "EUR",
+   "label": "Certificate of French nationality (free)",
+   "src": "fr-sp-cnf"
+  },
+  "time": {
+   "text": "6 months from the receipt, extendable twice by 6 months (18 months at most)",
+   "minMonths": 6,
+   "maxMonths": 18,
+   "src": "fr-sp-cnf"
+  },
+  "dual": {
+   "status": "yes",
+   "text": "No renunciation of US citizenship; French nationals who take another nationality keep French nationality unless they declare otherwise.",
+   "src": "fr-us-nationalite"
+  },
+  "cutoffs": {
+   "desuetudeYears": 50
+  },
+  "gens": "No limit in law, but blocked after 50 years abroad without French papers (art. 30-3)",
+  "slug": "french-citizenship-by-descent",
+  "docs": {
+   "apostille": true,
+   "translation": true,
+   "src": "fr-sp-cnf"
+  }
+ },
+ "se": {
+  "name": "Sweden",
+  "adj": "Swedish",
+  "page": "sweden",
+  "law": {
+   "label": "Swedish Citizenship Act (2001:82), as amended from June 6, 2026",
+   "src": "se-medborgarskapslag"
+  },
+  "authority": "the Swedish Migration Agency (Migrationsverket), through a Swedish embassy or consulate",
+  "fee": {
+   "amount": 0,
+   "cur": "SEK",
+   "label": "Declaration of citizenship (free)",
+   "src": "mv-declaration"
+  },
+  "feeFather": {
+   "amount": 475,
+   "cur": "SEK",
+   "label": "Notification by a Swedish father, child born abroad out of wedlock before April 1, 2015",
+   "src": "mv-father"
+  },
+  "time": {
+   "text": "7 months for a father's notification; not published for declarations",
+   "minMonths": 7,
+   "maxMonths": 7,
+   "src": "mv-father"
+  },
+  "dual": {
+   "status": "yes",
+   "text": "Allowed since July 1, 2001.",
+   "src": "mv-means"
+  },
+  "cutoffs": {
+   "act2001": 2001,
+   "act2015": 2015,
+   "lossAge": 22,
+   "reform": "2026-06-06"
+  },
+  "gens": "Parent only, Swedish when you were born",
+  "slug": "swedish-citizenship-by-descent",
+  "docs": {
+   "apostille": null,
+   "translation": null,
+   "src": "mv-declaration"
+  }
+ },
+ "es": {
+  "name": "Spain",
+  "adj": "Spanish",
+  "page": "spain",
+  "law": {
+   "label": "Civil Code, arts. 17 to 26; Democratic Memory Law 20/2022 (window closed October 22, 2025)",
+   "src": "es-cc"
+  },
+  "authority": "the civil registry of the Spanish consulate for your US address",
+  "fee": {
+   "amount": 0,
+   "cur": "EUR",
+   "label": "Civil registry procedures: option, recovery, registration (free)",
+   "src": "es-ny-opcion"
+  },
+  "time": {
+   "text": "around 6 to 8 weeks for registration after an option at the New York consulate",
+   "minMonths": 2,
+   "maxMonths": 2,
+   "src": "es-ny-opcion"
+  },
+  "dual": {
+   "status": "conditional",
+   "text": "An option under art. 20 requires a declaration renouncing US nationality before Spanish authorities; Spaniards by origin keep both.",
+   "src": "es-ny-opcion"
+  },
+  "cutoffs": {
+   "lmdClosed": "2025-10-22",
+   "keepYears": 3,
+   "optionAge": 20
+  },
+  "gens": "Parent born in Spain (option at any age); grandchildren only through the Democratic Memory Law, closed on October 22, 2025",
+  "slug": "spanish-citizenship-by-descent",
+  "docs": {
+   "apostille": null,
+   "translation": false,
+   "src": "es-ny-opcion"
+  }
+ },
+ "pt": {
+  "name": "Portugal",
+  "adj": "Portuguese",
+  "page": "portugal",
+  "law": {
+   "label": "Nationality Law 37/81, art. 1(1)(c) and (d), as amended by Organic Law 1/2026",
+   "src": "pt-lei-37-81-consolidada"
+  },
+  "authority": "the Central Registry Office (IRN) in Lisbon, through the Portuguese consulate for your US address",
+  "fee": {
+   "amount": null,
+   "cur": "EUR",
+   "label": "Registry fee: not stated on the official guide pages read",
+   "src": "pt-irn-neto"
+  },
+  "time": {
+   "text": "no average time published by the registry",
+   "minMonths": null,
+   "maxMonths": null,
+   "src": "pt-irn-submeter"
+  },
+  "dual": {
+   "status": "yes",
+   "text": "No renunciation required; Portuguese nationality ends only by a declaration of the person.",
+   "src": "pt-lei-37-81-consolidada"
+  },
+  "cutoffs": {
+   "lo2026": "2026-05-19"
+  },
+  "gens": "Parent, or grandparent with a language and culture test since May 19, 2026",
+  "slug": "portuguese-citizenship-by-descent",
+  "docs": {
+   "apostille": true,
+   "translation": true,
+   "src": "pt-irn-neto"
+  }
+ },
+ "mx": {
+  "name": "Mexico",
+  "adj": "Mexican",
+  "page": "mexico",
+  "law": {
+   "label": "Constitution, art. 30 A(II), as amended on May 17, 2021",
+   "src": "mx-cpeum"
+  },
+  "authority": "the civil registry of the Mexican consulate for your US address",
+  "fee": {
+   "amount": 0,
+   "cur": "USD",
+   "label": "Birth registration for dual nationality, one certified copy included (Atlanta consulate)",
+   "src": "mx-consulmex-atlanta"
+  },
+  "time": {
+   "text": "no time published; the record is made at the appointment",
+   "minMonths": null,
+   "maxMonths": null,
+   "src": "mx-consulmex-atlanta"
+  },
+  "dual": {
+   "status": "yes",
+   "text": "A Mexican by birth cannot lose Mexican nationality; you enter and leave Mexico as a Mexican.",
+   "src": "mx-cpeum"
+  },
+  "cutoffs": {
+   "reform": "2021-05-18"
+  },
+  "gens": "No limit since May 18, 2021: each generation registers in turn",
+  "slug": "mexican-citizenship-by-descent",
+  "docs": {
+   "apostille": false,
+   "translation": false,
+   "src": "mx-consulmex-atlanta"
+  }
+ },
+ "gr": {
+  "name": "Greece",
+  "adj": "Greek",
+  "page": "greece",
+  "law": {
+   "label": "Greek Citizenship Code (codified 2025), arts. 1, 14 and 26",
+   "src": "gr-kei-2025"
+  },
+  "authority": "the Greek consulate for your US address, which registers you in a municipal register in Greece",
+  "fee": {
+   "amount": 0,
+   "cur": "EUR",
+   "label": "Registration of a person Greek from birth: no fee in the Code",
+   "src": "gr-kei-2025"
+  },
+  "feeArt26": {
+   "amount": 100,
+   "cur": "EUR",
+   "label": "Determination of citizenship under art. 26, or naturalization of a person of Greek origin",
+   "src": "gr-kei-2025"
+  },
+  "time": {
+   "text": "no time published",
+   "minMonths": null,
+   "maxMonths": null,
+   "src": "gr-mfa-usa-citizenship"
+  },
+  "dual": {
+   "status": "yes",
+   "text": "Taking another citizenship does not end Greek citizenship without the Interior Minister's permission.",
+   "src": "gr-mfa-japan"
+  },
+  "cutoffs": {
+   "equal1984": 1984
+  },
+  "docs": {
+   "apostille": true,
+   "translation": true,
+   "src": "gr-kei-2025"
+  },
+  "gens": "No limit, generation by generation, each one registered in Greece",
+  "slug": "greek-citizenship-by-descent"
+ },
+ "hu": {
+  "name": "Hungary",
+  "adj": "Hungarian",
+  "page": "hungary",
+  "law": {
+   "label": "Act LV of 1993 on Hungarian Citizenship, s. 4(3)",
+   "src": "hu-act-lv-1993"
+  },
+  "authority": "the Hungarian consulate for your US address (citizenship verification or simplified naturalization)",
+  "fee": {
+   "amount": 0,
+   "cur": "EUR",
+   "label": "Citizenship verification, without a certificate (free)",
+   "src": "hu-ny-vizsgalat"
+  },
+  "time": {
+   "text": "several months for a verification (New York consulate); 3 months, extendable by 3, for the minister's step of a naturalization",
+   "minMonths": 3,
+   "maxMonths": 6,
+   "src": "hu-act-lv-1993"
+  },
+  "dual": {
+   "status": "yes",
+   "text": "Hungary does not ask you to give up US citizenship.",
+   "src": "hu-bfkh-simplified"
+  },
+  "docs": {
+   "apostille": true,
+   "translation": true,
+   "src": "hu-bfkh-simplified"
+  },
+  "gens": "No limit for simplified naturalization, with a conversation in Hungarian",
+  "slug": "hungarian-citizenship-by-descent"
+ },
+ "cz": {
+  "name": "Czech Republic",
+  "adj": "Czech",
+  "page": "czech",
+  "law": {
+   "label": "Act 186/2013 on Czech Citizenship, s. 31 (as amended by Act 207/2019)",
+   "src": "cz-act-186-2013"
+  },
+  "authority": "a Czech consulate in the US, which forwards the declaration to the regional office",
+  "fee": {
+   "amount": 1000,
+   "cur": "CZK",
+   "label": "Declaration of acquisition (s. 31) at a Czech consulate in the US",
+   "src": "cz-fees-2026-10"
+  },
+  "usdFee": {
+   "amount": 46,
+   "label": "Same fee in dollars, October 2026 consular schedule",
+   "src": "cz-fees-2026-10"
+  },
+  "time": {
+   "text": "the consulate forwards the declaration within 30 days; no decision time published",
+   "minMonths": null,
+   "maxMonths": null,
+   "src": "cz-act-186-2013"
+  },
+  "dual": {
+   "status": "yes",
+   "text": "Since January 1, 2014 Czech citizens keep their citizenship when they take another.",
+   "src": "cz-sydney-dual"
+  },
+  "cutoffs": {
+   "dual2014": 2014
+  },
+  "docs": {
+   "apostille": true,
+   "translation": true,
+   "src": "cz-gk-chicago-31"
+  },
+  "gens": "Children and grandchildren of a former citizen (declaration)",
+  "slug": "czech-citizenship-by-descent"
+ },
+ "sk": {
+  "name": "Slovakia",
+  "adj": "Slovak",
+  "page": "slovakia",
+  "law": {
+   "label": "Act 40/1993 on Slovak Citizenship, s. 7(8)",
+   "src": "sk-act-40-1993"
+  },
+  "authority": "the Ministry of the Interior, through a Slovak embassy or consulate",
+  "fee": {
+   "amount": 30,
+   "cur": "EUR",
+   "label": "Grant to a person with a Czechoslovak parent, grandparent or great-grandparent born in Slovakia",
+   "src": "sk-act-145-1995"
+  },
+  "time": {
+   "text": "24 months at most from receipt by the Ministry",
+   "minMonths": null,
+   "maxMonths": 24,
+   "src": "sk-act-40-1993"
+  },
+  "dual": {
+   "status": "conditional",
+   "text": "No renunciation of US citizenship is asked, but a Slovak citizen who later naturalizes abroad loses it, save exceptions.",
+   "src": "sk-act-40-1993"
+  },
+  "docs": {
+   "apostille": null,
+   "translation": null,
+   "src": "sk-act-40-1993"
+  },
+  "gens": "Parent, grandparent or great-grandparent born in Slovakia (discretionary grant)",
+  "slug": "slovak-citizenship-by-descent"
+ }
+}

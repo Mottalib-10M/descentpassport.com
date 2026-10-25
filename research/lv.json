@@ -1,0 +1,95 @@
+{
+  "country": "Latvia",
+  "code": "lv",
+  "retrieved_at": "2026-10-25",
+  "laws": [
+    {
+      "name": "Pilsonības likums (Citizenship Law), official English translation on likumi.lv",
+      "articles": "Section 2(1)(1)-(2), Section 2(2)-(4), Section 8.1",
+      "url": "https://likumi.lv/ta/en/en/id/57512-citizenship-law",
+      "quote": "Section 2 (1) A Latvian citizen is: 1) a person who was a Latvian citizen on 17 June 1940, as well as a descendant of such person, if such person or his or her descendant, by 1 October 2013, has registered as a Latvian citizen in accordance with the procedures set out in law or who had the right to register as a Latvian citizen in compliance with Section 2, Clause 1 of this Law in the version that was in force until 1 October 2013; 2) a person whose both parents at the time of his or her birth are Latvian citizens or one of them is a Latvian citizen, provided that the conditions of Section 9, Paragraph two or five of this Law are complied with;"
+    }
+  ],
+  "rules": [
+    {
+      "id": "lv-exiles",
+      "rule": "EXILE ROUTE (registration, keeps US citizenship): an ancestor who was a Latvian citizen on 17 June 1940 AND fled the Soviet or German occupation or was deported between 17 June 1940 and 4 May 1990 AND for that reason could not return as a permanent resident before 4 May 1990. The exile and descendants born BEFORE 1 October 2014 (any generation) can register as Latvian citizens and keep any other citizenship. Descendants born on/after 1 October 2014 are not covered by this route themselves (they can derive citizenship by birth from a parent who is already a Latvian citizen).",
+      "source_url": "https://www.pmlp.gov.lv/en/latvian-exiles-and-their-descendants",
+      "quote": "A Latvian exile is a person who meets all the following requirements: was a citizen of Latvia on 17 June 1940 (or is a descendent of a citizen of Latvia); fled from Latvia the USSR or German occupation regime or was deported during the period from 17 June 1940 to 4 May 1990; due to the reasons referred to in Paragraph 2 has not been able to return to Latvia as a permanent resident until 4 May 1990. Their descendants born before 1 October 2014 may concurrently acquire citizenship of Latvia. In case of registration of Latvian citizenship, can retain their current citizenship."
+    },
+    {
+      "id": "lv-1940-continuity",
+      "rule": "NON-EXILE ROUTE (case law, continuity doctrine): a person who cannot register as an exile (e.g. the ancestor emigrated BEFORE 17 June 1940) but documents that an ancestor was a Latvian citizen on 17 June 1940 can acquire citizenship under Section 2(1)(2): it is presumed that a parent was a Latvian citizen at birth. Children under 15 can be included. A US citizen may keep US citizenship (USA = NATO member, permitted country); citizens of non-permitted countries must renounce.",
+      "source_url": "https://www.pmlp.gov.lv/en/person-who-was-citizen-latvia-17-june-1940-or-his-or-her-descendant-and-who-citizen-another-country",
+      "quote": "Persons who cannot register Latvian citizenship as exiles and their descendants, but can document that the person was a Latvian citizen on 14 June 1940, or is a descendant of such a person, can acquire Latvian citizenship in accordance with case-law. It follows from the doctrine of the continuity of the Latvian State and the principle of the continuity of citizenship contained therein that during the period of occupation of Latvia, Latvian citizenship continued to exist and to be transferred to subsequent generations provided that any of the ancestors was a Latvian citizen on 17 June 1940. Namely, if a person's ancestor was a citizen of Latvia on 17 June 1940, it shall be presumed that at the time of the person's birth one of the parents was a citizen of Latvia, and Latvian citizenship may be acquired in accordance with Section 2(1)(2) of the Citizenship Law."
+    },
+    {
+      "id": "lv-key-date",
+      "rule": "The decisive fact is Latvian citizenship of an ancestor ON 17 JUNE 1940. An ancestor who left before Latvia's independence (1918) or who was not a Latvian citizen on that date does not open either route (see separate 'Latvian or Liv' route requiring language test).",
+      "source_url": "https://likumi.lv/ta/en/en/id/57512-citizenship-law",
+      "quote": "1) a person who was a Latvian citizen on 17 June 1940, as well as a descendant of such person [...]"
+    },
+    {
+      "id": "lv-latvian-liv",
+      "rule": "Separate route for ethnic Latvians or Livs: ancestor permanently living in Latvia's territory in 1881 or later, proof of Latvian/Liv ethnicity of the applicant, a parent or grandparent, AND a Latvian language fluency test. Examined within one year.",
+      "source_url": "https://likumi.lv/ta/en/en/id/57512-citizenship-law",
+      "quote": "3) a Latvian or Liv who has certified all of the following conditions in Latvia: a) that in 1881 or later his or her ancestor had been permanently living in the territory of Latvia as it existed until 17 June 1940, b) his or her fluency in the Latvian language in accordance with Section 20 of this Law [...] c) his or her belonging to the constituent nation (Latvians) or autochthon population (Livs) [...]"
+    },
+    {
+      "id": "lv-children-15",
+      "rule": "For a child under 15 the legal representative applies; 15-18 year olds apply themselves. A child under 15 of a Section 2(1)(2) or (3) applicant may acquire citizenship together with the parent.",
+      "source_url": "https://likumi.lv/ta/en/en/id/57512-citizenship-law",
+      "quote": "(2) The volition to register a child as a Latvian citizen in accordance with Paragraph one of this Section shall be expressed by: 1) the lawful representative of the child, if the child has not reached the age of 15 years; 2) the child himself or herself between 15 to 18 years of age. (3) Also a child of the person referred to in Paragraph one, Clause 2 or 3 of this Section may acquire Latvian citizenship concurrently with such person until the child has reached 15 years of age."
+    },
+    {
+      "id": "lv-later-naturalization",
+      "rule": "After registering, a new foreign citizenship can only be acquired under the general rules (permitted countries: EU/EFTA, NATO, Australia, Brazil, New Zealand; Cabinet permission; marriage/adoption ex lege). Acquiring a non-permitted citizenship obliges renunciation of Latvian citizenship within 30 days.",
+      "source_url": "https://www.pmlp.gov.lv/en/dual-citizenship",
+      "quote": "Persons registering citizenship of Latvia as Latvians or Livs, or exiles will have the right to retain dual citizenship with any country. After acquiring citizenship of Latvia new citizenship of another country may only be acquired in accordance with the general provisions ( permitted countries , permission from the Cabinet, marriage, adoption)."
+    }
+  ],
+  "procedure": {
+    "authority": "Office of Citizenship and Migration Affairs (OCMA / PMLP), Persons Status Control Division, Riga",
+    "how": "Send the application (in Latvian), the exile confirmation form (exile route) and documents by post to OCMA, Čiekurkalna 1. līnija 1, k-3, Riga, LV-1026. Copies must be notarised and apostilled (except the ID copy); originals are returned with the decision. Contact the Embassy of Latvia in the USA about submitting through the mission.",
+    "source_url": "https://www.usa.mfa.gov.lv/en/requesting-latvian-citizenship"
+  },
+  "documents": [
+    {"item": "Application in Latvian (separate form for a child under 15); exile confirmation form (exile route)", "note": "Forms updated 02.06.2026 / 04.06.2026 on pmlp.gov.lv", "source_url": "https://www.pmlp.gov.lv/en/latvian-exiles-and-their-descendants"},
+    {"item": "Copy of passport data page", "note": "No notarisation needed for the ID copy", "source_url": "https://www.usa.mfa.gov.lv/en/requesting-latvian-citizenship"},
+    {"item": "Original birth certificate; marriage certificate/divorce decree; children's birth certificates", "note": "US documents need an apostille from the Secretary of State of the issuing state; translation into Latvian (any person fluent in Latvian may translate, with signed statement of accuracy)", "source_url": "https://www.usa.mfa.gov.lv/en/requesting-latvian-citizenship"},
+    {"item": "Proof the ancestor was a Latvian citizen on 17 June 1940: pre-war Latvian passport, Latvian civil registry birth/marriage record, 1935 census, tax or military records from the State Historical Archives", "note": "", "source_url": "https://www.pmlp.gov.lv/en/latvian-exiles-and-their-descendants"},
+    {"item": "Documents proving the relationship to the ancestor (each generation)", "note": "", "source_url": "https://www.pmlp.gov.lv/en/person-who-was-citizen-latvia-17-june-1940-or-his-or-her-descendant-and-who-citizen-another-country"}
+  ],
+  "fees": [
+    {"label": "Return of original documents by post (OCMA service), plus postage", "amount": 12.15, "currency": "EUR", "source_url": "https://www.pmlp.gov.lv/en/latvian-exiles-and-their-descendants", "quote": "The fee for returning original documents is €12.15, plus postal expenses according to postal service rates."}
+  ],
+  "processing_time": [
+    {"label": "Exile route decision", "value": "within four months from receipt of all necessary documents", "source_url": "https://www.pmlp.gov.lv/en/latvian-exiles-and-their-descendants", "quote": "A decision on granting citizenship, updating data in the Population Register and assigning an identity number or refusal to grant citizenship is taken within four months from the day OCMA receives all the necessary documents.", "published_or_updated": "page snapshot 2026-10-04 (wayback)"},
+    {"label": "17 June 1940 descendant route (Section 2(1)(2), case law)", "value": "within one month from receipt of the documents", "source_url": "https://www.pmlp.gov.lv/en/person-who-was-citizen-latvia-17-june-1940-or-his-or-her-descendant-and-who-citizen-another-country", "quote": "The decision is taken within one month from the date of receipt of the documents at the Office of Citizenship and Migration Affairs.", "published_or_updated": "Published: 08.05.2024. Updated: 16.09.2024."}
+  ],
+  "dual_citizenship": {
+    "allowed": "conditional",
+    "note": "Allowed with EU/EFTA, NATO (incl. USA), Australia, Brazil, New Zealand, or by Cabinet permission or ex lege by marriage/adoption; exiles, their descendants and Latvians/Livs who register keep any citizenship. Children may hold any dual citizenship but must choose by 25 if the other country is not permitted (not applicable to exile descendants).",
+    "source_url": "https://www.pmlp.gov.lv/en/dual-citizenship",
+    "quote": "Citizenship of Latvia may be retained for persons who have acquired: citizenship of another EU Member State or another EFTA Member State ; citizenship of another NATO Member State ; citizenship of Australia, Brazil or New Zealand; citizenship of such a country with which Latvia has concluded an agreement on the recognition of dual citizenship (no such agreement is currently concluded); citizenship of a country not referred to previously if due to important national interests permission from the Cabinet is received to retain dual citizenship; citizenship of a country not referred to previously if it has been acquired automatically (ex lege) through marriage or as a result of adoption."
+  },
+  "other_requirements": [
+    {"item": "No language test for the exile route or the 1940-continuity route (language test applies only to the Latvian/Liv route under Section 2(1)(3)).", "source_url": "https://likumi.lv/ta/en/en/id/57512-citizenship-law", "quote": "b) his or her fluency in the Latvian language in accordance with Section 20 of this Law"}
+  ],
+  "recent_changes": [
+    {"date": "2026-02-27", "what": "OCMA dual-citizenship page updated; new 'List of countries that allow dual citizenship' added 27.02.2026.", "source_url": "https://www.pmlp.gov.lv/en/dual-citizenship"},
+    {"date": "2026-06-02", "what": "Exile registration application forms updated (02.06.2026, confirmation form 04.06.2026).", "source_url": "https://www.pmlp.gov.lv/en/latvian-exiles-and-their-descendants"}
+  ],
+  "open_questions": [
+    "State fee for exile registration / Section 2(1)(2) acquisition: no fee stated on the OCMA pages read; a search result mentions EUR 21.34 for 'documenting the restoration of Latvian citizenship' (pmlp.gov.lv/en/state-fee-restoration-citizenship) - not read directly.",
+    "Full text of Section 9 (dual citizenship) and Section 8.1 of the Citizenship Law not retrieved: likumi.lv, pmlp.gov.lv and mfa.gov.lv refuse direct connections from this environment; read via Wayback snapshots, which captured only the first part of the likumi.lv page.",
+    "The 1940-continuity page says '14 June 1940' in one sentence and '17 June 1940' elsewhere; 17 June 1940 is the date in the law."
+  ],
+  "sources": [
+    {"key": "lv-citizenship-law", "title": "Citizenship Law (Pilsonības likums), English translation", "publisher": "Latvijas Vēstnesis / likumi.lv", "url": "https://likumi.lv/ta/en/en/id/57512-citizenship-law", "read_on": "2026-10-25", "http": "wayback copy of 2026-10-04 (direct connection refused)"},
+    {"key": "lv-pmlp-exiles", "title": "Latvian exiles and their descendants", "publisher": "Office of Citizenship and Migration Affairs (PMLP)", "url": "https://www.pmlp.gov.lv/en/latvian-exiles-and-their-descendants", "read_on": "2026-10-25", "http": "wayback copy of 2026-10-04"},
+    {"key": "lv-pmlp-1940", "title": "A person who was a citizen of Latvia on 17 June 1940, or his or her descendant, and who is a citizen of another country", "publisher": "PMLP", "url": "https://www.pmlp.gov.lv/en/person-who-was-citizen-latvia-17-june-1940-or-his-or-her-descendant-and-who-citizen-another-country", "read_on": "2026-10-25", "http": "wayback copy of 2025-02-25"},
+    {"key": "lv-pmlp-dual", "title": "Dual citizenship (updated 27.02.2026)", "publisher": "PMLP", "url": "https://www.pmlp.gov.lv/en/dual-citizenship", "read_on": "2026-10-25", "http": "wayback copy of 2026-04-13"},
+    {"key": "lv-embassy-usa", "title": "Requesting Latvian citizenship (published 25.02.2026)", "publisher": "Embassy of Latvia in the USA (mfa.gov.lv)", "url": "https://www.usa.mfa.gov.lv/en/requesting-latvian-citizenship", "read_on": "2026-10-25", "http": "wayback copy of 2026-09-06"}
+  ]
+}

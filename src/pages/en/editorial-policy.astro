@@ -1,0 +1,25 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { AUTHOR_NAME, CONTACT_EMAIL, LAST_UPDATED } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+const lang = 'en';
+---
+<PageLayout title="Editorial policy of Descent Passport Check: laws and dates" description="The nationality laws and consular pages Descent Passport Check relies on, the sources it refuses, how a changed rule is dated, and how corrections reach the checker." lang={lang} noindex={true} breadcrumbs={[{ label: 'Editorial policy' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Editorial and corrections policy</h1>
+    <p>A family may spend months and several hundred dollars on records because of an answer given here. Each rule, fee and waiting time is therefore tied to the page it was read on and to the day of that reading.</p>
+    <h2>Who is responsible</h2><p>{AUTHOR_NAME}, reachable at <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.</p>
+    <h2>What we read</h2>
+    <ul>
+      <li>the nationality acts in their consolidated versions, on the legislation portals of each country (Normattiva, Irish revised acts, legislation.gov.uk, Justice Laws, gesetze-im-internet.de, BOE, Lovdata and others);</li>
+      <li>the citizenship pages of consulates in the United States and of the ministries behind them, for documents, fees and waiting times;</li>
+      <li>court rulings when a consulate applies them, such as the Italian Court of Cassation judgment of July 2026;</li>
+      <li>for the US side, travel.state.gov, the US Code, the IRS, FinCEN, USCIS and the National Archives.</li>
+    </ul>
+    <h2>Sources we refuse</h2><p>No rule or figure comes from a law firm, an agency, a forum or another website. When a fee or a delay is not published by an official body, the page says so rather than guess.</p>
+    <h2>Review cycle</h2><p>Countries whose law moved recently (Italy, Canada, Portugal, Spain, Sweden) are reread every month; the others at least every quarter. The date of the latest reading is printed on the home page.</p>
+    <h2>Corrections</h2>
+    <ol><li>The official page is read again.</li><li>The parameter or rule is fixed and a test is added for that family situation.</li><li>The rebuilt site carries the new date.</li></ol>
+    <h2>Independence</h2><p>No firm, agency or government funds or approves these pages, and no link earns a commission. See also the <a href={route('method', lang)}>method page</a>. Version: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

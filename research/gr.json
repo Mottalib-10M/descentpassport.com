@@ -1,0 +1,166 @@
+{
+  "country": "Greece",
+  "code": "gr",
+  "retrieved_at": "2026-10-25",
+  "laws": [
+    {
+      "name": "Ν. 3284/2004 – Κώδικας Ελληνικής Ιθαγένειας (Code of Greek Citizenship), ΦΕΚ Α΄ 217/10.11.2004, consolidated to 17/9/2025",
+      "articles": "art. 1 (by birth), 2 (recognition), 10 (naturalization of ethnic Greeks abroad), 14 (declarations for pre-1984/1982 births), 16-18 (loss), 26 (determination procedure)",
+      "url": "https://www.ypes.gr/wp-content/uploads/2025/09/20250917-KEI-NOMOS.pdf",
+      "quote": "Άρθρο 1 1. Το τέκνο Έλληνα ή Ελληνίδας αποκτά από τη γέννηση του την Ελληνική Ιθαγένεια. [Gloss: the child of a Greek father or Greek mother acquires Greek citizenship at birth.] (Consolidation by NOMOS published by the Ministry of Interior; informational only, to be checked against the Government Gazette.)"
+    },
+    {
+      "name": "Εγκύκλιος 16 (31.07.2026) Υπουργείου Εσωτερικών – Γενική Γραμματεία Ιθαγένειας: Διαδικασία επί αιτήσεων διαπίστωσης της ελληνικής ιθαγένειας σύμφωνα με το άρθρο 26 ΚΕΙ",
+      "articles": "Interpretation of art. 26 as replaced by art. 56 ν. 5143/2024 (ΦΕΚ Α 161/11.10.2024)",
+      "url": "https://www.ypes.gr/wp-content/uploads/2026/08/eggr43360-egk16-20260731.pdf",
+      "quote": "Με το νέο άρθρο 26 του Κ.Ε.Ι. ορίστηκε εκ νέου η διαδικασία διαπίστωσης από γεννήσεως της ελληνικής ιθαγένειας λόγω γέννησης από Έλληνα γονέα (πατέρα ή/και μητέρα) αποκλειστικά για τις περιπτώσεις όπου η κτήση της ελληνικής ιθαγένειας του γονέα δεν έχει συντελεστεί αυτοδίκαια με τη γέννησή του, αλλά σε χρόνο μετά τη γέννηση του ενδιαφερόμενου σήμερα τέκνου του [...] [Gloss: the art. 26 'determination' procedure is only for people whose Greek parent was himself/herself recognised as Greek by a determination decision issued after the applicant's birth; if the parent was already Greek at the applicant's birth, the applicant is Greek automatically and simply registers.]"
+    }
+  ],
+  "rules": [
+    {
+      "id": "gr-child-of-greek-parent",
+      "rule": "A child of a Greek father or Greek mother is Greek from birth (current rule, Law 1438/1984 onwards, i.e. births from 8 May 1984). The parent need not have been registered/recognised, as long as the parent was entitled (child of a Greek). Recognition is done by registering the parents' marriage and the applicant's birth in the Greek civil and municipal registries (dimotologio).",
+      "source_url": "https://www.ypes.gr/wp-content/uploads/2025/09/20250917-KEI-NOMOS.pdf",
+      "quote": "1. Το τέκνο Έλληνα ή Ελληνίδας αποκτά από τη γέννηση του την Ελληνική Ιθαγένεια."
+    },
+    {
+      "id": "gr-historic-father-line",
+      "rule": "Before 8 May 1984 the historic laws (1856 Act art. 14, Legislative Decree 3370/1955 art. 1) made Greek from birth a person born to a Greek FATHER, or to a Greek MOTHER when the father was not legally established. Such persons acquire citizenship automatically by birth registration (no decision needed), including children born in a marriage of a Greek father with a foreign woman before 18.7.1982 that is valid under Greek law.",
+      "source_url": "https://www.ypes.gr/wp-content/uploads/2026/08/eggr43360-egk16-20260731.pdf",
+      "quote": "Σύμφωνα με το δίκαιο του αίματος και ενόψει της αρχής της διαχρονικότητας, προβλεπόταν με το άρθρο 14 εδ (α) του ΑΝ έτους 1856, και το άρ.1 εδ. (α) του ΝΔ 3370/1955, ότι από γεννήσεως Έλληνας είναι ο εξ Έλληνος πατρός γεννηθείς. Ομοίως με το άρθρο 14 εδ. (β) του ΑΝ έτους 1856 και το άρ.1 εδ. (γ) του ΝΔ 3370/1955, από γεννήσεως Έλληνας είναι ο εξ Ελληνίδος μητρός και πατρός μη νομίμου γεννηθείς. Ακολούθως με το άρθρο 1 του ν.1438/1984 (δηλαδή από 8.5.84 κ.ε.) και του ν.3284/2004, αποκτάει από τη γέννησή του την ελληνική ιθαγένεια το τέκνο του Έλληνα ή της Ελληνίδας."
+    },
+    {
+      "id": "gr-greek-mother-before-1984",
+      "rule": "A person born BEFORE 8 May 1984 to a mother who was Greek at the birth or at the marriage (child born in wedlock to a foreign father) is not Greek automatically, but becomes Greek by a simple DECLARATION to the Greek consular authority of residence (no deadline in the text). Same declaration route for a child of a Greek father and foreign mother born before 16/18 July 1982 in a marriage not valid under Greek law (e.g. civil-only marriage abroad) but treated as legitimate. Minor unmarried children of the declarant become Greek automatically.",
+      "source_url": "https://www.ypes.gr/wp-content/uploads/2025/09/20250917-KEI-NOMOS.pdf",
+      "quote": "1. Τέκνο που γεννήθηκε πριν από την 8.5.1984 από μητέρα Ελληνίδα κατά το χρόνο του τοκετού ή της τέλεσης του γάμου από τον οποίο γεννήθηκε το τέκνο, γίνεται Έλληνας, αν δηλώσει τη σχετική βούλησή του στον Γενικό Γραμματέα της Περιφέρειας ή στην Ελληνική Προξενική Αρχή του τόπου της κατοικίας του ή της διαμονής του. 2. Τέκνο που γεννήθηκε από Έλληνα πατέρα και αλλοδαπή μητέρα πριν από την ισχύ του Ν. 1250/1982 (16.7. 1982), εφόσον θεωρείται γνήσιο σύμφωνα με τη διάταξη του άρθρου 7 παράγραφος 3 του ανωτέρω νόμου, γίνεται Έλληνας, αν δηλώσει τη σχετική βούλησή του [...] 4. Τα τέκνα αυτών που αποκτούν την Ελληνική Ιθαγένεια, σύμφωνα με το παρόν άρθρο, γίνονται Έλληνες χωρίς άλλη διατύπωση, αν κατά την ημερομηνία της δήλωσης είναι ανήλικα και άγαμα."
+    },
+    {
+      "id": "gr-grandchild-chain",
+      "rule": "There is no separate 'grandchild' route: a grandchild qualifies only through the chain. If the parent was already Greek (by birth) when the applicant was born, the applicant is Greek by birth and registers (registration of parents first). If the parent's Greek citizenship was only determined by a decision issued AFTER the applicant's birth (with effect from the parent's birth), the applicant applies under art. 26 (determination, EUR 100) — available if born in wedlock, or out of wedlock to a Greek mother. The art. 14 declaration (pre-1984 mother line) is NOT available if the Greek parent was only recognised retroactively after the applicant's birth.",
+      "source_url": "https://www.ypes.gr/wp-content/uploads/2026/08/eggr43360-egk16-20260731.pdf",
+      "quote": "Άλλωστε κύρια προϋπόθεση για την εφαρμογή των διατάξεων του άρθρου 14 του ΚΕΙ είναι, ο Έλληνας γονέας να έχει ήδη την ελληνική ιθαγένεια κατά το χρόνο γέννησης του αιτούντος τέκνου του και δεν αρκεί να την έχει αποκτήσει με διαπιστωτική απόφαση αναδρομικά από γεννήσεως σε χρόνο μετά την γέννηση του τέκνου του."
+    },
+    {
+      "id": "gr-art26-determination",
+      "rule": "Art. 26 determination: the person is Greek under the rules in force at his/her birth after a decision, if (a) born in wedlock/civil partnership to parents who were not Greek at the birth but one or both later obtained Greek citizenship from birth by a determination decision, or (b) born out of wedlock to a mother whose Greek citizenship was determined after the child's birth. Apply to the Greek consul of residence; fee EUR 100.",
+      "source_url": "https://www.ypes.gr/wp-content/uploads/2025/09/20250917-KEI-NOMOS.pdf",
+      "quote": "1. Αποκτά την ελληνική ιθαγένεια με βάση τις ισχύουσες, κατά τον χρόνο γέννησής του, διατάξεις μετά από την έκδοση απόφασης για τη διαπίστωσή της, κάθε πρόσωπο που ανήκει στις ακόλουθες περιπτώσεις: α) Είναι τέκνο που έχει γεννηθεί εντός γάμου ή σύμφωνου συμβίωσης από γονείς που δεν ήταν Έλληνες κατά τον χρόνο που γεννήθηκε, αλλά και οι δύο ή ο ένας εξ αυτών απέκτησαν την ελληνική ιθαγένεια από γεννήσεως μεταγενέστερα της γέννησης του τέκνου αυτού, μετά από την έκδοση απόφασης για τη διαπίστωση της ελληνικής τους ιθαγένειας. β) Είναι τέκνο που έχει γεννηθεί χωρίς γάμο ή σύμφωνο συμβίωσης από Ελληνίδα μητέρα, αλλά η ελληνική ιθαγένεια της μητέρας αποκτήθηκε μετά τη γέννηση του τέκνου της, μετά την έκδοση απόφασης για τη διαπίστωση αυτής."
+    },
+    {
+      "id": "gr-out-of-wedlock-father",
+      "rule": "A foreign child born out of wedlock and legally recognised as the child of a Greek father becomes Greek from the recognition only if still a MINOR at the time of recognition.",
+      "source_url": "https://www.ypes.gr/wp-content/uploads/2025/09/20250917-KEI-NOMOS.pdf",
+      "quote": "Αλλοδαπός που γεννήθηκε χωρίς γάμο των γονέων του και αναγνωρίσθηκε νόμιμα ως τέκνο Έλληνα, έτσι ώστε να εξομοιώνεται πλήρως με γνήσιο τέκνο του πατέρα του, γίνεται Έλληνας από την αναγνώριση, αν κατά το χρόνο αυτόν είναι ανήλικος."
+    },
+    {
+      "id": "gr-ancestor-naturalized-abroad",
+      "rule": "Acquiring a foreign citizenship (e.g. US naturalization) did NOT by itself end Greek citizenship under the current Code: loss on voluntary acquisition of a foreign nationality happens only after permission of the Minister of Interior. So a Greek emigrant who naturalized in the US generally stayed Greek, and children born after naturalization still descend from a Greek. (Historic loss cases before the 2004 Code are not covered here — see open_questions.)",
+      "source_url": "https://www.ypes.gr/wp-content/uploads/2025/09/20250917-KEI-NOMOS.pdf",
+      "quote": "1. Αποβάλλει την Ελληνική Ιθαγένεια, μετά από άδεια του Υπουργού Εσωτερικών, Δημόσιας Διοίκησης και Αποκέντρωσης, όποιος: α) Απέκτησε με τη βούλησή του αλλοδαπή ιθαγένεια, ή β) Ανέλαβε δημόσια υπηρεσία σε αλλοδαπό κράτος, εφόσον η ανάληψη της υπηρεσίας αυτής συνεπάγεται κτήση της ιθαγένειας του εν λόγω κράτους."
+    },
+    {
+      "id": "gr-omogenis-naturalization",
+      "rule": "Fallback for persons of Greek origin (omogeneis) living abroad who have no birth-right route (e.g. the chain is broken): naturalization application through the Greek consul, decided by the Ministry of Interior, with a declaration before the consul and two Greek citizen witnesses, passport, apostilled and translated birth certificate and criminal record, and a EUR 100 fee. Minor unmarried children of the naturalized person become Greek automatically.",
+      "source_url": "https://www.ypes.gr/wp-content/uploads/2025/09/20250917-KEI-NOMOS.pdf",
+      "quote": "1. Η αίτηση πολιτογράφησης ομογενών που διαμένουν στο εξωτερικό υποβάλλεται στον Έλληνα Πρόξενο του τόπου κατοικίας τους, ο οποίος τη διαβιβάζει στο Υπουργείο Εσωτερικών [...] α. Δήλωση πολιτογράφησης, η οποία γίνεται ενώπιον του Προξένου, παρουσία δύο (2) Ελλήνων πολιτών ως μαρτύρων. β. Ακριβές αντίγραφο ισχύοντος αλλοδαπού διαβατηρίου ή άλλου αποδεικτικού ταυτοπροσωπίας. γ. Πρωτότυπο πιστοποιητικό γέννησης νομίμως επικυρωμένο και επίσημα μεταφρασμένο [...] δ. Πρωτότυπο πιστοποιητικό ποινικού μητρώου αλλοδαπής αρχής νομίμως επικυρωμένο και επίσημα μεταφρασμένο. ε. Παράβολο ύψους εκατό (100) ευρώ."
+    },
+    {
+      "id": "gr-collateral-not-valid",
+      "rule": "Citizenship derived from a parent recognised through a collateral relative (sibling, uncle/aunt) or under opinion 504/2000 does not qualify (those decisions were held unlawful by Legal Council opinion 89/2006).",
+      "source_url": "https://www.ypes.gr/wp-content/uploads/2026/08/eggr43360-egk16-20260731.pdf",
+      "quote": "δεν υπάγονται στο πεδίο εφαρμογής των διατάξεων της παρ.1 του άρθρου 26 του Κ.Ε.Ι., όπως τροποποιήθηκε και ισχύει με το άρ.56 του ν. 5143/2024, όσoι έλκουν την ελληνική ιθαγένεια από γονείς που την απέκτησαν μετά τη γέννηση των τέκνων τους με απόφαση καθορισμού δυνάμει πλάγιας συγγενικής σχέσης με αδελφό/ή ή θείο/α ή με βάση την 504/2000 ατομική γνωμοδότηση του Νομικού Συμβούλου"
+    },
+    {
+      "id": "gr-deceased-parent-ok",
+      "rule": "The death of the Greek parent does not stop the child's claim, provided the parent's citizenship facts were complete and the parent is registered in a municipal family record in Greece (even if marked deleted due to death).",
+      "source_url": "https://www.ypes.gr/wp-content/uploads/2026/08/eggr43360-egk16-20260731.pdf",
+      "quote": "Ομοίως, τυχόν θάνατος του γονέα δεν ανακόπτει το δικαίωμα του τέκνου στη ρύθμιση της ελληνικής ιθαγένειας που έλκεται από τον θανόντα γονέα, εφόσον έως και πριν το θάνατό του, είχαν διαμορφωθεί πλήρως τα αναγκαία εκείνα νομικά περιστατικά ιθαγένειας στο πρόσωπο του γονέα, ο οποίος βρίσκεται ήδη δημοτολογημένος σε πατρική ή συζυγική οικογενειακή μερίδα σε Δήμο στην Ελλάδα, αν και με ένδειξη διαγραφής λόγω θανάτου."
+    }
+  ],
+  "procedure": {
+    "authority": "Ministry of Interior – General Secretariat for Citizenship (Regional Citizenship Directorates) decides determinations and naturalizations; municipalities keep the municipal register (dimotologio); Greek consulates receive and forward applications but do not grant citizenship.",
+    "how": "Automatic cases (parent already Greek at your birth): register the parents' marriage and your birth with the Greek civil registry (Special Registry/consulate), then initial registration in the dimotologio of the parent's municipality. Art. 26 determination: application to the Greek consul of residence with supporting documents and EUR 100 fee; the consul researches consular records and forwards it to the competent Regional Citizenship Directorate, which issues the determination act and names the municipality of registration. Art. 14 (pre-1984 mother line): declaration to the Greek consular authority of residence.",
+    "source_url": "https://www.ypes.gr/wp-content/uploads/2025/09/20250917-KEI-NOMOS.pdf"
+  },
+  "documents": [
+    {
+      "item": "Applicant's birth certificate and parents' marriage certificate (registered in Greek civil registry); proof of the Greek parent's/grandparent's municipal registration (pistopoiitiko dimotologiou)",
+      "note": "Registration of the parents' marriage and of the applicant's birth in the Greek registries is the precondition for municipal registration certificates (Embassy in Tokyo page, last updated 19 Feb 2013).",
+      "source_url": "https://www.mfa.gr/missionsabroad/japan/other-services/ellenike-ithageneia.html"
+    },
+    {
+      "item": "For omogenis naturalization: passport copy, original birth certificate legalised (apostille) and officially translated, original foreign criminal record legalised and officially translated, declaration before the consul with two Greek witnesses, EUR 100 fee",
+      "note": "Art. 10(1) KEI.",
+      "source_url": "https://www.ypes.gr/wp-content/uploads/2025/09/20250917-KEI-NOMOS.pdf"
+    },
+    {
+      "item": "Supporting documents proving the legal basis (art. 26 determination)",
+      "note": "Art. 26(3): 'τα δικαιολογητικά που τεκμηριώνουν την επικαλούμενη νομική βάση κτήσης'; the detailed checklist of US consulates could not be read (mfa.gr blocked).",
+      "source_url": "https://www.ypes.gr/wp-content/uploads/2025/09/20250917-KEI-NOMOS.pdf"
+    }
+  ],
+  "fees": [
+    {
+      "label": "Art. 26 determination of Greek citizenship (paravolo)",
+      "amount": 100,
+      "currency": "EUR",
+      "source_url": "https://www.ypes.gr/wp-content/uploads/2025/09/20250917-KEI-NOMOS.pdf",
+      "quote": "3. Με την αίτηση συνυποβάλλονται τα δικαιολογητικά που τεκμηριώνουν την επικαλούμενη νομική βάση κτήσης της ελληνικής ιθαγένειας και καταβάλλεται παράβολο ύψους εκατό (100) ευρώ."
+    },
+    {
+      "label": "Naturalization of ethnic Greeks living abroad (art. 10)",
+      "amount": 100,
+      "currency": "EUR",
+      "source_url": "https://www.ypes.gr/wp-content/uploads/2025/09/20250917-KEI-NOMOS.pdf",
+      "quote": "ε. Παράβολο ύψους εκατό (100) ευρώ."
+    }
+  ],
+  "processing_time": [],
+  "dual_citizenship": {
+    "allowed": "yes",
+    "note": "Greece accepts dual citizenship; no renunciation of US citizenship is required. Greek citizenship is lost on acquiring another only with ministerial permission or on request.",
+    "source_url": "https://www.mfa.gr/missionsabroad/japan/other-services/ellenike-ithageneia.html",
+    "quote": "Α) Δεν απασχολεί την ελληνική πλευρά εάν ο αιτών έχει άλλη ιθαγένεια: η Ελλάς δέχεται την διπλή ιθαγένεια."
+  },
+  "other_requirements": [
+    {
+      "item": "No language test or residence requirement for birth-right recognition (art. 1, 14, 26 contain none); omogenis naturalization (art. 10) applies arts. 8-9 conditions.",
+      "source_url": "https://www.ypes.gr/wp-content/uploads/2025/09/20250917-KEI-NOMOS.pdf",
+      "quote": "3. Οι διατάξεις των άρθρων 8 και 9 εφαρμόζονται και για την πολιτογράφηση του παρόντος άρθρου."
+    },
+    {
+      "item": "Military service: Greek male citizens have conscription obligations; the US consulates have an Armed Forces Department and issue 'permanent resident abroad' certificates for military use. Exact rules for dual nationals living in the US not verified (see open_questions).",
+      "source_url": "https://www.mfa.gr/usa/en/services/citizen-services/information-regarding-citizen-services/",
+      "quote": "- Permanent resident abroad certificate for military use (for more information please click here )"
+    }
+  ],
+  "recent_changes": [
+    {
+      "date": "2024-10-11",
+      "what": "Art. 26 KEI replaced by art. 56 ν. 5143/2024: determination procedure now limited to children of parents recognised by a later determination decision; children born before 18.7.1982 in a valid marriage of a Greek father with a foreign woman, and before 8.5.1984 in an 'invalid' marriage of a Greek mother with a foreigner, no longer need a determination decision (automatic registration).",
+      "source_url": "https://www.ypes.gr/wp-content/uploads/2026/08/eggr43360-egk16-20260731.pdf"
+    },
+    {
+      "date": "2026-07-31",
+      "what": "Ministry of Interior Circular 16 clarifies art. 26 scope and orders pending automatic-acquisition files at Regional Directorates/consulates to be forwarded to municipal registries without delay; art. 26 applies to all pending cases.",
+      "source_url": "https://www.ypes.gr/wp-content/uploads/2026/08/eggr43360-egk16-20260731.pdf"
+    }
+  ],
+  "open_questions": [
+    "mfa.gr (US embassy/consulates) and ypes.gr return HTTP 403 to automated requests from this machine (Akamai); the current US consulate 'Greek Citizenship' page (https://www.mfa.gr/usa/en/services/other-services/greek-citizenship/) has no Wayback copy and could not be read. Its document checklist, fees in USD and processing time are therefore missing. A search snippet indicates it says consulates do not grant citizenship, verify documents and transmit applications.",
+    "ypes.gr PDFs read as Wayback copies: Code consolidation (snapshot 2026-06-17) and Circular 16 (snapshot 2026-10-10).",
+    "Processing time: no official published figure found.",
+    "Historic loss of Greek citizenship before the 2004 Code (e.g. former art. 19 of LD 3370/1955 for persons of non-Greek ethnic origin abroad, repealed 1998; ministerial deprivation decisions) is not covered; a checker should not assume loss but flag 'consulate check' for ancestors who left before 1955.",
+    "Male Registry (mitroa arrenon) was abolished from 1.1.2023 per Circular 16; cases where the parent is registered only in the Male Registry are referred to the Citizenship Determination Department (art. 109 ν. 4622/2019).",
+    "Greek military service obligations for US-resident dual nationals (deferral/exemption for permanent residents abroad) not verified on an official page.",
+    "Embassy in Tokyo page used for dual-citizenship quote is dated 19 Feb 2013 (Wayback snapshot 2024-11-28); confirm with a current mfa.gr page when reachable. The Code itself contains no renunciation requirement for birth-right recognition."
+  ],
+  "sources": [
+    {"key": "gr-kei-2025", "title": "Ν. 3284/2004 Κώδικας Ελληνικής Ιθαγένειας – κωδικοποίηση έως 17/9/2025", "publisher": "Υπουργείο Εσωτερικών (ypes.gr), consolidation by ΝΟΜΟΣ", "url": "https://www.ypes.gr/wp-content/uploads/2025/09/20250917-KEI-NOMOS.pdf", "read_on": "2026-10-25", "http": "wayback copy of 2026-06-17 (live site 403)"},
+    {"key": "gr-circular-16-2026", "title": "Εγκύκλιος 16/31.07.2026 – Διαδικασία επί αιτήσεων διαπίστωσης ιθαγένειας (άρθρο 26 ΚΕΙ)", "publisher": "Υπουργείο Εσωτερικών – Γενική Γραμματεία Ιθαγένειας", "url": "https://www.ypes.gr/wp-content/uploads/2026/08/eggr43360-egk16-20260731.pdf", "read_on": "2026-10-25", "http": "wayback copy of 2026-10-10 (live site 403)"},
+    {"key": "gr-mfa-japan", "title": "Ελληνική Ιθαγένεια – Λοιπές Υπηρεσίες (Πρεσβεία της Ελλάδος στο Τόκιο)", "publisher": "Hellenic Ministry of Foreign Affairs", "url": "https://www.mfa.gr/missionsabroad/japan/other-services/ellenike-ithageneia.html", "read_on": "2026-10-25", "http": "wayback copy of 2024-11-28 (page last updated 2013-02-19)"},
+    {"key": "gr-mfa-usa-services", "title": "Information Regarding Consular Services of General Consulate in NY", "publisher": "Hellenic Ministry of Foreign Affairs – Greece in the USA", "url": "https://www.mfa.gr/usa/en/services/citizen-services/information-regarding-citizen-services/", "read_on": "2026-10-25", "http": "wayback copy of 2026-04-14 (live site 403)"},
+    {"key": "gr-mfa-usa-citizenship", "title": "Greek Citizenship", "publisher": "Hellenic Ministry of Foreign Affairs – Greece in the USA", "url": "https://www.mfa.gr/usa/en/services/other-services/greek-citizenship/", "read_on": "2026-10-25", "http": "blocked (403), no wayback copy — not used for quotes"}
+  ]
+}

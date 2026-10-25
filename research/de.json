@@ -1,0 +1,469 @@
+{
+ "country": "Germany",
+ "code": "de",
+ "retrieved_at": "2026-10-25",
+ "laws": [
+  {
+   "name": "Staatsangehörigkeitsgesetz (StAG)",
+   "articles": "§ 4 (acquisition by birth, generational cut-off)",
+   "url": "https://www.gesetze-im-internet.de/stag/__4.html",
+   "quote": "(1) Durch die Geburt erwirbt ein Kind die deutsche Staatsangehörigkeit, wenn ein Elternteil die deutsche Staatsangehörigkeit besitzt. [...] (4) Die deutsche Staatsangehörigkeit wird nicht nach Absatz 1 erworben bei Geburt im Ausland, wenn der deutsche Elternteil nach dem 31. Dezember 1999 im Ausland geboren wurde und dort seinen gewöhnlichen Aufenthalt hat, es sei denn, das Kind würde sonst staatenlos. Die Rechtsfolge nach Satz 1 tritt nicht ein, wenn innerhalb eines Jahres nach der Geburt des Kindes ein Antrag nach § 36 des Personenstandsgesetzes auf Beurkundung der Geburt im Geburtenregister gestellt wird [...] | EN gloss: a child is German at birth if one parent is German; but no acquisition for a child born abroad whose German parent was himself/herself born abroad after 31 Dec 1999 and lives abroad, unless the birth is registered in the German birth register within one year."
+  },
+  {
+   "name": "Staatsangehörigkeitsgesetz (StAG)",
+   "articles": "§ 5 (acquisition by declaration, gender-discrimination cases)",
+   "url": "https://www.gesetze-im-internet.de/stag/__5.html",
+   "quote": "(1) Durch die Erklärung, deutsche Staatsangehörige werden zu wollen, erwerben die nach dem Inkrafttreten des Grundgesetzes geborenen 1. Kinder eines deutschen Elternteils, die durch Geburt nicht die deutsche Staatsangehörigkeit erworben haben, 2. Kinder einer Mutter, die vor der Kindesgeburt durch Eheschließung mit einem Ausländer die deutsche Staatsangehörigkeit verloren hat, 3. Kinder, die ihre durch Geburt erworbene deutsche Staatsangehörigkeit durch eine von einem Ausländer bewirkte und nach den deutschen Gesetzen wirksame Legitimation verloren haben, und 4. Abkömmlinge der Kinder nach Nummer 1 bis 3 die deutsche Staatsangehörigkeit [...] (3) Das Erklärungsrecht nach Absatz 1 kann nur innerhalb von zehn Jahren nach Inkrafttreten dieses Gesetzes ausgeübt werden. | EN gloss: persons born after the Basic Law (23 May 1949) who were excluded by sex-discriminatory rules, and their descendants, become German by declaration; the right lasts ten years from entry into force (20 Aug 2021)."
+  },
+  {
+   "name": "Staatsangehörigkeitsgesetz (StAG)",
+   "articles": "§ 15 (naturalisation of persons persecuted 1933-1945 and descendants)",
+   "url": "https://www.gesetze-im-internet.de/stag/__15.html",
+   "quote": "Personen, die im Zusammenhang mit Verfolgungsmaßnahmen aus den in Artikel 116 Absatz 2 Satz 1 des Grundgesetzes aufgeführten Gründen in der Zeit vom 30. Januar 1933 bis zum 8. Mai 1945 1. die deutsche Staatsangehörigkeit vor dem 26. Februar 1955 aufgegeben oder verloren haben, [...] und ihre Abkömmlinge sind auf Antrag einzubürgern [...]; § 12a Absatz 1 findet keine Anwendung. | EN gloss: persons who, in connection with Nazi persecution 1933-1945, gave up or lost German citizenship before 26 Feb 1955 (or were excluded from acquiring it, or lost their habitual residence in Germany), and their descendants, must be naturalised on application."
+  },
+  {
+   "name": "Grundgesetz (GG)",
+   "articles": "Art. 116 Abs. 2",
+   "url": "https://www.gesetze-im-internet.de/gg/art_116.html",
+   "quote": "(2) Frühere deutsche Staatsangehörige, denen zwischen dem 30. Januar 1933 und dem 8. Mai 1945 die Staatsangehörigkeit aus politischen, rassischen oder religiösen Gründen entzogen worden ist, und ihre Abkömmlinge sind auf Antrag wieder einzubürgern. | EN gloss: former German citizens whose citizenship was revoked 1933-1945 on political, racial or religious grounds, and their descendants, are re-naturalised on application."
+  },
+  {
+   "name": "Staatsangehörigkeitsgesetz (StAG)",
+   "articles": "§ 38 (fees)",
+   "url": "https://www.gesetze-im-internet.de/stag/__38.html",
+   "quote": "(2) Gebühren werden erhoben für: 1. die Einbürgerung in Höhe von 255 Euro 2. die Feststellung des Bestehens oder Nichtbestehens der deutschen Staatsangehörigkeit auf Antrag und in Höhe von 51 Euro [...] (3) Gebührenfrei sind: 1. die Einbürgerung nach Artikel 116 Absatz 2 Satz 1 des Grundgesetzes sowie die Bescheinigung der Staatsangehörigkeit nach Artikel 116 Absatz 2 Satz 2 des Grundgesetzes, 2. die Einbürgerung nach § 15, 3. die Einbürgerung von ehemaligen Deutschen, die durch Eheschließung mit einem Ausländer die deutsche Staatsangehörigkeit verloren haben, 4. der Erklärungserwerb nach § 5, [...] | EN gloss: naturalisation EUR 255; certificate of citizenship (Feststellung) EUR 51; Art. 116(2), § 15, and § 5 declarations are free."
+  },
+  {
+   "name": "Staatsangehörigkeitsgesetz (StAG)",
+   "articles": "§ 25 (former loss on acquiring a foreign citizenship) – now repealed",
+   "url": "https://www.gesetze-im-internet.de/stag/__25.html",
+   "quote": "§ 25 (weggefallen) | EN gloss: § 25 (loss of German citizenship on voluntary acquisition of a foreign citizenship) has been repealed (Act on the Modernisation of Nationality Law, in force 27 June 2024)."
+  }
+ ],
+ "rules": [
+  {
+   "id": "de-parent-german-at-birth",
+   "rule": "A person is German by birth if at least one parent was a German citizen at the moment of the birth. For births before 1 Jan 1975 in wedlock, only a German father transmitted (a German mother transmitted only if the child would otherwise be stateless, 1964-1974); for births out of wedlock, a German mother always transmitted (since 1914), a German father only for births on/after 1 July 1993 with legally valid paternity recognition. Each link of the chain must be checked with the law in force on that person's birth date.",
+   "source_url": "https://www.germany.info/us-en/service/03-citizenship/german-citizenship-obtain-919576",
+   "quote": "Children born in wedlock between Jan. 1, 1914 and Dec. 31, 1974, acquired German citizenship only if the father was a German citizen at the time of their birth. Children born to a German mother in wedlock between Jan. 1, 1964 and Dec. 31, 1974 only acquired German citizenship if they would have become stateless otherwise. Children born in wedlock after Jan. 1, 1975, acquired German citizenship if one of the parents was a German citizen at the time of their birth. [...] Children born out of wedlock to a German mother after Jan. 1, 1914 acquired German citizenship. Children born out of wedlock to a German father after July 1, 1993 acquired German citizenship if (among other requirements) paternity had been established according to German law."
+  },
+  {
+   "id": "de-father-recognition-before-23",
+   "rule": "If only the father is German and paternity has to be recognised or established, the recognition must be made (or the court procedure started) before the child turns 23.",
+   "source_url": "https://www.gesetze-im-internet.de/stag/__4.html",
+   "quote": "die Anerkennungserklärung muß abgegeben oder das Feststellungsverfahren muß eingeleitet sein, bevor das Kind das 23. Lebensjahr vollendet hat."
+  },
+  {
+   "id": "de-pre-1904-emigrants",
+   "rule": "Under the 1870 Act (in force until 31 Dec 1913), a German automatically lost citizenship after more than 10 years' residence abroad; in practice an ancestor who emigrated to the US before 1904 cannot normally be the basis of a claim.",
+   "source_url": "https://www.germany.info/us-en/service/03-citizenship",
+   "quote": "The German Citizenship Act in the version of 1871-1914 stipulated that a German automatically lost his/her citizenship by residing outside of Germany for more than 10 years. As most immigrants from Germany were affected by this automatic loss of German citizenship, it is usually not possible to base a claim to German citizenship on ancestors who immigrated to the United States before 1904."
+  },
+  {
+   "id": "de-ancestor-naturalized-before-child-birth",
+   "rule": "Before 27 June 2024, a German who applied for and obtained a foreign citizenship (e.g. US naturalisation) automatically lost German citizenship unless a retention permit (Beibehaltungsgenehmigung) was obtained beforehand. So citizenship passes only if the German ancestor was still German on the day the next-generation child was born, i.e. the ancestor naturalised in the US AFTER that child's birth (or never). The 2024 reform is not retroactive. Acquiring US citizenship by birth in the US never caused loss.",
+   "source_url": "https://www.germany.info/us-en/service/03-citizenship/german-citizenship-loss-904670",
+   "quote": "If you willingly applied for a foreign citizenship and obtained it before the most recent change of the German nationality law, entered into force on June 27, 2024, your German citizenship was automatically lost. Loss of German citizenship could be avoided by obtaining a retention permit (“Beibehaltungsgenehmigung”) . If you obtained a foreign citizenship without an application for naturalization, you remained a German citizen."
+  },
+  {
+   "id": "de-checker-quick-criteria",
+   "rule": "German missions in the US pre-screen with three criteria: ancestor came to the US after 1904; did not naturalise in the US before their children were born; descendants born in the US between 1914 and 1975 in the line are all male (otherwise see § 5 declaration).",
+   "source_url": "https://www.germany.info/us-en/service/03-citizenship/certificate-of-citizenship-933536",
+   "quote": "Your ancestors came from Germany to the U.S. after 1904 \n The migrating ancestors did not naturalize in the U.S. before their children were born \n The descendants of the migrating ancestors born in the U.S. between 1914 and 1975 are all male"
+  },
+  {
+   "id": "de-loss-by-marriage-women-pre-1953",
+   "rule": "A German woman who married a foreign man before 1 April 1953 lost German citizenship (§ 17(6) RuStAG old version); children born after that marriage did not acquire German citizenship from her. They and their descendants can now use the § 5 declaration (if born after 23 May 1949).",
+   "source_url": "https://www.germany.info/us-en/service/03-citizenship/2479488-2479488",
+   "quote": "children whose German mother had lost German citizenship through marriage to a foreigner prior to April 1 st 1953 pursuant to Section 17 (6) of the Reich and Nationality Act (old version), or"
+  },
+  {
+   "id": "de-s5-declaration",
+   "rule": "§ 5 StAG declaration: open to persons born after 23 May 1949 who did not acquire German citizenship because of sex-discriminatory rules (born in wedlock before 1 Jan 1975 to a German mother and foreign father; born out of wedlock before 1 July 1993 to a German father (paternity recognised before age 23, parents not married before 1 July 1998); mother lost citizenship by marriage to a foreigner before 1 April 1953 and child born afterwards; lost by legitimation before 1 April 1953) and to all their descendants. Must be RECEIVED by the BVA by 19 August 2031. Citizenship is acquired on the day the BVA receives the declaration. Free. No renunciation of US citizenship.",
+   "source_url": "https://www.bva.bund.de/SharedDocs/Downloads/DE/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Einbuergerung/Ermessen/EER_Merkblatt_englisch.pdf?__blob=publicationFile&v=5",
+   "quote": "I was born after 23 May 1949 and before 1 January 1975. \n My mother was a German citizen on the day of my birth. \n My father was not a German citizen on the day of my birth. \n My parents married before my birth. [...] The declaration must be submitted by 19 August 2031 at the latest. [...] You acquire German citizenship on the day the Federal Office of Administration receives your declaration."
+  },
+  {
+   "id": "de-s5-born-before-1949",
+   "rule": "Persons born before 23 May 1949 in the same sex-discrimination situations cannot use § 5; they may apply for discretionary naturalisation under § 14 StAG, which requires fairly good German.",
+   "source_url": "https://www.germany.info/us-en/service/03-citizenship/2479488-2479488",
+   "quote": "Individuals, who were born before the implementation of the German Basic Law (implemented on May 23 rd 1949) and who do have a German parent who could not pass on German citizenship to them or whose parent lost German citizenship due to gender discrimination can apply for German Citizenship acc. to Sec. 14 German Citizenship Law. Same applies to descendants of these individuals. \nPlease note: you will have to speak German on a fairly well level to be able to successfully apply for German Citizenship acc. to Sec. 14 Citizenship Law."
+  },
+  {
+   "id": "de-s5-exclusion-later-loss",
+   "rule": "§ 5 is not available if the person (or the ancestor) later re-acquired German citizenship (e.g. by naturalisation) and lost it again; nor for descendants born after that renewed loss.",
+   "source_url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Einbuergerung/EER/01-Informationen_EER/01_01_EER_was_ist/01_02_EER_was_ist_node.html",
+   "quote": "Wenn Sie die deutsche Staatsangehörigkeit später (nach der Geburt, nach dem Verlust) erworben oder wiedererworben hatten ( z. B. durch Einbürgerung), aber sie danach wieder verloren haben ( z. B. durch Verzicht, Entlassung, Erwerb einer fremden Staatsangehörigkeit), ist der Erklärungserwerb nicht möglich. Dies gilt auch für danach geborene Kinder oder angenommene Kinder."
+  },
+  {
+   "id": "de-generation-cutoff-2000",
+   "rule": "Generational cut-off (§ 4(4) StAG): a child born abroad does NOT acquire German citizenship if the German parent was born abroad after 31 Dec 1999 and lives abroad, unless the child would otherwise be stateless or the birth is registered with a German registry office / German mission within one year of birth (application must arrive within that year). Does not apply to descendants of Art. 116(2) / § 15 beneficiaries (§ 4(5)).",
+   "source_url": "https://www.germany.info/us-en/service/03-citizenship/german-citizenship-acquired-through-notification-of-birth-occuring-abroad-943378",
+   "quote": "Children born abroad do not acquire German nationality by birth if their German parent(s) were themselves born abroad after December 31, 1999 and at the time of the child’s birth were ordinarily resident abroad , provided such children acquire another nationality upon birth.\nChildren who fall into this category may acquire German nationality retroactively from birth if their parents register the birth with the German authorities before the child’s first birthday ."
+  },
+  {
+   "id": "de-art116-2",
+   "rule": "Art. 116(2) Basic Law: descendants (no generation limit stated) of a person whose German citizenship was revoked 1933-1945 on political, racial or religious grounds are entitled to re-naturalisation on application. Since the Federal Constitutional Court decision of 20 May 2020 (2 BvR 2628/18) this includes children born in wedlock before 1 April 1953 to a deprived mother and foreign father, and children born out of wedlock before 1 July 1993 to a deprived father. Free; dual citizenship accepted.",
+   "source_url": "https://www.germany.info/us-en/service/03-citizenship/2479490-2479490",
+   "quote": "The Federal Constitutional Court decision 2 BvR 2628/18 of 20 th May 2020 has made it possible for more individuals than before to claim citizenship under Art. 116 II Basic Law.\nThese include: \nchildren born in wedlock prior to April 1 st , 1953 to mothers who were forcibly deprived of their German nationality and foreign fathers \nand children born out of wedlock prior to July 1 st , 1993 to fathers who were forcibly deprived of their German nationality and foreign mothers."
+  },
+  {
+   "id": "de-s15",
+   "rule": "§ 15 StAG: if Art. 116(2) does not apply (citizenship not formally revoked), persons who in connection with Nazi persecution 1933-1945 gave up/lost German citizenship before 26 Feb 1955 (e.g. by naturalising elsewhere), were excluded from acquiring it, were refused naturalisation, or lost their habitual residence in Germany (established before 30 Jan 1933, or as a child after), and all their descendants, are entitled to naturalisation. Excluded: sentences of 2+ years; persons who re-acquired German citizenship after 8 May 1945 and lost it again. Citizenship is acquired on handover of the naturalisation certificate. Free.",
+   "source_url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Einbuergerung/EB15/01-Informationen_E15/01_01_Erm15_was_ist/01_02_Erm15_was_ist_node.html",
+   "quote": "die deutsche Staatsangehörigkeit vor dem 26.02.1955 aufgegeben oder verloren haben (insbesondere durch Einbürgerung auf Antrag in einen anderen Staat), [...] Die Einbürgerungsmöglichkeit steht auch den Abkömmlingen dieser Personen offen. [...] Die deutsche Staatsangehörigkeit erwerben Sie mit der Aushändigung der Einbürgerungsurkunde."
+  }
+ ],
+ "procedure": {
+  "authority": "Bundesverwaltungsamt (BVA), Cologne – citizenship authority for all persons residing abroad; German missions in the US (Embassy Washington, Consulates General) pre-assess and forward applications and hand over certificates.",
+  "how": "Three tracks: (1) already German by descent -> application for a certificate of citizenship (Staatsangehörigkeitsausweis, Feststellung under § 30 StAG, forms F + Anlage V per ancestor); US missions first ask for a questionnaire to pre-assess. (2) Sex-discrimination cases -> § 5 declaration (form EER + Anlage EER + Anlage AV), sent to the BVA or via the competent mission, must reach the BVA by 19 Aug 2031. (3) Nazi persecution -> Art. 116(2) GG application or § 15 StAG application (form E15). German-language forms.",
+  "source_url": "https://www.germany.info/us-en/service/03-citizenship/certificate-of-citizenship-933536"
+ },
+ "documents": [
+  {
+   "item": "Birth, marriage and (if any) name-change certificates for the applicant and every ancestor in the line back to the German emigrant; passports/ID of applicant",
+   "note": "BVA wants officially or notarially certified copies (not plain copies); originals only on request.",
+   "source_url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Einbuergerung/EER/01-Informationen_EER/01_02_EER_Wie_geht_es/02_02_EER_Anleitung_node.html"
+  },
+  {
+   "item": "Proof of the German ancestor's citizenship (e.g. old German passport, Heimatschein, birth in Germany before 1914) and of the date of any foreign naturalisation (US naturalisation certificate / record) – to show naturalisation happened after the next child's birth",
+   "note": "Anlage V must be filled for each ancestor back to the one who held a German certificate, was born in Germany before 1914, or naturalised.",
+   "source_url": "https://www.bva.bund.de/SharedDocs/Downloads/DE/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Feststellung/MerkblattF.pdf?__blob=publicationFile&v=8"
+  },
+  {
+   "item": "Current criminal-record certificate of country of residence (original) – § 5 and § 15 procedures",
+   "note": "For § 15, the BVA requires an FBI background check with an apostille (germany.info).",
+   "source_url": "https://www.germany.info/us-en/service/03-citizenship/2479490-2479490"
+  },
+  {
+   "item": "Apostille and translations",
+   "note": "BVA § 5 information sheet: foreign public documents must as a rule be legalised or carry a Hague apostille, and foreign-language documents need a sworn translation. The German missions in the US state that English documents generally need no translation and US documents usually no apostille (Art. 116 / § 15 page). Follow the instructions of the mission/BVA in each case.",
+   "source_url": "https://www.bva.bund.de/SharedDocs/Downloads/DE/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Einbuergerung/Ermessen/EER_Merkblatt_englisch.pdf?__blob=publicationFile&v=5"
+  },
+  {
+   "item": "Certified copies: who may certify",
+   "note": "Only notaries (public), registrars of the issuing civil-status office, or German authorities (incl. German missions); certification must be original (stamp + signature).",
+   "source_url": "https://www.bva.bund.de/SharedDocs/Downloads/DE/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Einbuergerung/Ermessen/EER_Merkblatt_englisch.pdf?__blob=publicationFile&v=5"
+  }
+ ],
+ "fees": [
+  {
+   "label": "§ 5 StAG declaration (Erklärungserwerb)",
+   "amount": 0,
+   "currency": "EUR",
+   "source_url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Einbuergerung/EER/01-Informationen_EER/01_03_EER_Gebuehren/01_03_EER_Gebuehren_node.html",
+   "quote": "Das Verfahren ist gebührenfrei."
+  },
+  {
+   "label": "Art. 116(2) GG re-naturalisation",
+   "amount": 0,
+   "currency": "EUR",
+   "source_url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Einbuergerung/Anspruch/01-Informationen_E_A/01_03_E_A_Gebuehren/01_03_EA_Gebuehren_node.html",
+   "quote": "Gebühren im Verfahren zur Anspruchseinbürgerung \nDas Verfahren ist gebührenfrei."
+  },
+  {
+   "label": "§ 15 StAG naturalisation",
+   "amount": 0,
+   "currency": "EUR",
+   "source_url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Einbuergerung/EB15/01-Informationen_E15/01_03_Erm15_Gebuehren/01_03_Erm15_Gebuehren_node.html",
+   "quote": "Gebühren im Verfahren zur Wiedergutmachungseinbürgerung nach Verfolgung ( § 15 StAG ) \nDas Verfahren ist gebührenfrei."
+  },
+  {
+   "label": "Certificate of citizenship (Staatsangehörigkeitsausweis) for people already German by descent",
+   "amount": 51,
+   "currency": "EUR",
+   "source_url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Feststellung_Start/Feststellung/01_Informationen_Feststellung/01_03_F_Gebuehren/01_03_F_Gebuehren_node.html",
+   "quote": "Staatsangehörigkeitsausweis 51,00 Euro \n Ablehnungsbescheid \n(Ablehnung des Antrages)\n 25.00 bis 51,00 Euro"
+  },
+  {
+   "label": "Discretionary naturalisation (e.g. § 14 for persons born before 23 May 1949)",
+   "amount": 255,
+   "currency": "EUR",
+   "source_url": "https://www.gesetze-im-internet.de/stag/__38.html",
+   "quote": "1. die Einbürgerung in Höhe von 255 Euro"
+  }
+ ],
+ "processing_time": [
+  {
+   "label": "Certificate of citizenship (Feststellung) via US missions",
+   "value": "between two and three years",
+   "source_url": "https://www.germany.info/us-en/service/03-citizenship/certificate-of-citizenship-933536",
+   "quote": "The certificate will be handed out to you for a fee of EUR 51.00. The processing time may take between two and three years.",
+   "published_or_updated": "no date shown"
+  },
+  {
+   "label": "§ 5 declaration",
+   "value": "not published; handled in order of receipt, varies by case",
+   "source_url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Einbuergerung/EER/Infobox_EER/Infobox_EER_4.html",
+   "quote": "Die Bearbeitungszeiten werden aufgrund der verschiedenen Lebensgeschichten hinter jedem Vorgang sehr unterschiedlich sein. [...] Die hier eingehenden Erklärungen werden in der Reihenfolge des Eingangs bearbeitet.",
+   "published_or_updated": "no date shown"
+  },
+  {
+   "label": "Art. 116(2) GG – temporary delays announced",
+   "value": "temporary delays (no figure)",
+   "source_url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/_documents/Meldung/20261019_citizenship.html",
+   "quote": "As a result, there will be temporary delays in the review process and in the issuance of documents by diplomatic missions abroad. [...] Proceedings under §15 of the StAG are not affected by this measure.",
+   "published_or_updated": "Stand 19.10.2026"
+  }
+ ],
+ "dual_citizenship": {
+  "allowed": "yes",
+  "note": "No renunciation of US citizenship is required for § 5, § 15, Art. 116(2) or a certificate of citizenship; since 27 June 2024 Germany accepts multiple nationality generally and no longer withdraws German citizenship when a German naturalises abroad. Losses that happened before 27 June 2024 remain.",
+  "source_url": "https://www.bva.bund.de/SharedDocs/Downloads/DE/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Einbuergerung/Ermessen/EER_Merkblatt_englisch.pdf?__blob=publicationFile&v=5",
+  "quote": "6. Do I have to renounce my current citizenship on acquiring German citizenship?\nNo."
+ },
+ "other_requirements": [
+  {
+   "item": "No criminal sentence of 2 years or more (§ 5 and § 15); § 15 also requires a solemn declaration of commitment to the free democratic basic order before handover",
+   "source_url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Einbuergerung/EB15/01-Informationen_E15/01_01_Erm15_was_ist/01_02_Erm15_was_ist_node.html",
+   "quote": "Sie dürfen u. a. nicht zu einer Freiheits- oder Jugendstrafe (im In- und Ausland) von zwei oder mehr Jahren verurteilt worden sein und es dürfen keine Ausschlussgründe nach § 11 StAG vorliegen. \nVor Aushändigung der Einbürgerungsurkunde ist ein feierliches Bekenntnis zur freiheitlich demokratischen Grundordnung abzugeben."
+  },
+  {
+   "item": "No German language test or residence for § 5, § 15, Art. 116(2) or Feststellung; German required for § 14 discretionary naturalisation",
+   "source_url": "https://www.germany.info/us-en/service/03-citizenship/2479488-2479488",
+   "quote": "Please note: you will have to speak German on a fairly well level to be able to successfully apply for German Citizenship acc. to Sec. 14 Citizenship Law."
+  }
+ ],
+ "recent_changes": [
+  {
+   "date": "2024-06-27",
+   "what": "StAG modernisation (StARModG) in force: § 25 repealed, dual citizenship generally accepted, no loss on naturalising abroad, retention permit abolished; not retroactive.",
+   "source_url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/_documents/Meldung/Meldung_Gesetzesaenderung_2024.html"
+  },
+  {
+   "date": "2021-08-20",
+   "what": "4th StAG amendment: new § 5 declaration (10-year window to 19 Aug 2031) and § 15 entitlement for Nazi-persecution cases.",
+   "source_url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/_documents/Meldung/Meldung_Gesetzesaenderung.html"
+  },
+  {
+   "date": "2026-10-19",
+   "what": "BVA announces temporary delays for Art. 116(2) GG re-naturalisations while it tightens checks after forgery/fraud reports; § 15 cases not affected.",
+   "source_url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/_documents/Meldung/20261019_citizenship.html"
+  }
+ ],
+ "open_questions": [
+  "No published processing time for § 5, § 15 or Art. 116(2) from the BVA; only germany.info gives 2-3 years for certificates of citizenship (undated page).",
+  "Apostille/translation for US documents: BVA § 5 Merkblatt (as at Oct 2025) says foreign public documents must as a rule carry an apostille and foreign-language documents need sworn translation; germany.info says English documents generally need no translation and US documents usually no apostille. The checker should say 'follow the mission's instructions'.",
+  "The English § 5 Merkblatt contains an apparent typo: 'Declarations received by the Federal Office of Administration after 19 August 2021 will not lead to the acquisition' – context and § 5(3) StAG (ten years from 20 Aug 2021) show 19 Aug 2031 is meant.",
+  "Effect of a minor child's derivative US naturalisation (through a parent) on German citizenship under the pre-2024 rule (loss only on acquisition 'auf Antrag'): not confirmed on an official page; needs case-by-case BVA assessment.",
+  "Exact historical text of § 25 RuStAG (loss on naturalisation abroad) and of the 1870 10-year rule not read on an official legislation portal (only current StAG on gesetze-im-internet.de); rules are cited from germany.info (Federal Foreign Office)."
+ ],
+ "sources": [
+  {
+   "key": "de-stag-4",
+   "title": "§ 4 StAG",
+   "publisher": "Bundesministerium der Justiz / gesetze-im-internet.de",
+   "url": "https://www.gesetze-im-internet.de/stag/__4.html",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-stag-5",
+   "title": "§ 5 StAG",
+   "publisher": "gesetze-im-internet.de",
+   "url": "https://www.gesetze-im-internet.de/stag/__5.html",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-stag-15",
+   "title": "§ 15 StAG",
+   "publisher": "gesetze-im-internet.de",
+   "url": "https://www.gesetze-im-internet.de/stag/__15.html",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-stag-25",
+   "title": "§ 25 StAG (weggefallen)",
+   "publisher": "gesetze-im-internet.de",
+   "url": "https://www.gesetze-im-internet.de/stag/__25.html",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-stag-38",
+   "title": "§ 38 StAG (Gebühren)",
+   "publisher": "gesetze-im-internet.de",
+   "url": "https://www.gesetze-im-internet.de/stag/__38.html",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-gg-116",
+   "title": "Art. 116 GG",
+   "publisher": "gesetze-im-internet.de",
+   "url": "https://www.gesetze-im-internet.de/gg/art_116.html",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-bva-eer",
+   "title": "Erklärungserwerb – was ist das?",
+   "publisher": "Bundesverwaltungsamt",
+   "url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Einbuergerung/EER/01-Informationen_EER/01_01_EER_was_ist/01_02_EER_was_ist_node.html",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-bva-eer-anleitung",
+   "title": "Erklärungserwerb – Wie geht das?",
+   "publisher": "Bundesverwaltungsamt",
+   "url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Einbuergerung/EER/01-Informationen_EER/01_02_EER_Wie_geht_es/02_02_EER_Anleitung_node.html",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-bva-eer-gebuehren",
+   "title": "Gebühren Erklärungserwerb",
+   "publisher": "Bundesverwaltungsamt",
+   "url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Einbuergerung/EER/01-Informationen_EER/01_03_EER_Gebuehren/01_03_EER_Gebuehren_node.html",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-bva-eer-dauer",
+   "title": "Wie lange dauert das Verfahren zum Erklärungserwerb?",
+   "publisher": "Bundesverwaltungsamt",
+   "url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Einbuergerung/EER/Infobox_EER/Infobox_EER_4.html",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-bva-eer-merkblatt-en",
+   "title": "Information sheet – Acquisition of German citizenship by declaration (as at Oct 2025)",
+   "publisher": "Bundesverwaltungsamt",
+   "url": "https://www.bva.bund.de/SharedDocs/Downloads/DE/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Einbuergerung/Ermessen/EER_Merkblatt_englisch.pdf?__blob=publicationFile&v=5",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-bva-e15",
+   "title": "Wiedergutmachungseinbürgerung nach Verfolgung (§ 15 StAG)",
+   "publisher": "Bundesverwaltungsamt",
+   "url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Einbuergerung/EB15/01-Informationen_E15/01_01_Erm15_was_ist/01_02_Erm15_was_ist_node.html",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-bva-e15-gebuehren",
+   "title": "Gebühren § 15 StAG",
+   "publisher": "Bundesverwaltungsamt",
+   "url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Einbuergerung/EB15/01-Informationen_E15/01_03_Erm15_Gebuehren/01_03_Erm15_Gebuehren_node.html",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-bva-116",
+   "title": "Anspruchseinbürgerung (Art. 116 Abs. 2 GG)",
+   "publisher": "Bundesverwaltungsamt",
+   "url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Einbuergerung/Anspruch/01-Informationen_E_A/01_01_E_A_was_ist/01_02_EA_was_ist_node.html",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-bva-116-gebuehren",
+   "title": "Gebühren Anspruchseinbürgerung",
+   "publisher": "Bundesverwaltungsamt",
+   "url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Einbuergerung/Anspruch/01-Informationen_E_A/01_03_E_A_Gebuehren/01_03_EA_Gebuehren_node.html",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-bva-feststellung-gebuehren",
+   "title": "Gebühren Feststellungsverfahren",
+   "publisher": "Bundesverwaltungsamt",
+   "url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Feststellung_Start/Feststellung/01_Informationen_Feststellung/01_03_F_Gebuehren/01_03_F_Gebuehren_node.html",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-bva-merkblatt-f",
+   "title": "Merkblatt Feststellung der deutschen Staatsangehörigkeit (Stand Okt. 2025)",
+   "publisher": "Bundesverwaltungsamt",
+   "url": "https://www.bva.bund.de/SharedDocs/Downloads/DE/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/Feststellung/MerkblattF.pdf?__blob=publicationFile&v=8",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-bva-2024",
+   "title": "Modernisierung des Staatsangehörigkeitsrechts in Kraft getreten",
+   "publisher": "Bundesverwaltungsamt",
+   "url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/_documents/Meldung/Meldung_Gesetzesaenderung_2024.html",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-bva-2021",
+   "title": "Staatsangehörigkeitsrecht geändert! (20.08.2021)",
+   "publisher": "Bundesverwaltungsamt",
+   "url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/_documents/Meldung/Meldung_Gesetzesaenderung.html",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-bva-20261019",
+   "title": "Naturalization under Article 116 of the Basic Law: Temporary procedural delays",
+   "publisher": "Bundesverwaltungsamt",
+   "url": "https://www.bva.bund.de/DE/Services/Buerger/Ausweis-Dokumente-Recht/Staatsangehoerigkeit/_documents/Meldung/20261019_citizenship.html",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-gi-citizenship",
+   "title": "German Citizenship",
+   "publisher": "Federal Foreign Office – German Missions in the US",
+   "url": "https://www.germany.info/us-en/service/03-citizenship",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-gi-obtain",
+   "title": "Obtaining German Citizenship",
+   "publisher": "German Missions in the US",
+   "url": "https://www.germany.info/us-en/service/03-citizenship/german-citizenship-obtain-919576",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-gi-loss",
+   "title": "Loss of German Citizenship",
+   "publisher": "German Missions in the US",
+   "url": "https://www.germany.info/us-en/service/03-citizenship/german-citizenship-loss-904670",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-gi-certificate",
+   "title": "Certificate of Citizenship",
+   "publisher": "German Missions in the US",
+   "url": "https://www.germany.info/us-en/service/03-citizenship/certificate-of-citizenship-933536",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-gi-s5",
+   "title": "Declaration or application for German citizenship if you do have a German mother or father but never were considered German",
+   "publisher": "German Missions in the US",
+   "url": "https://www.germany.info/us-en/service/03-citizenship/2479488-2479488",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-gi-nazi",
+   "title": "Naturalization for individuals whose families were persecuted by the Nazi-Regime",
+   "publisher": "German Missions in the US",
+   "url": "https://www.germany.info/us-en/service/03-citizenship/2479490-2479490",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "de-gi-birth-abroad",
+   "title": "German Citizenship Acquired through Notification of Birth Occurring Abroad",
+   "publisher": "German Missions in the US",
+   "url": "https://www.germany.info/us-en/service/03-citizenship/german-citizenship-acquired-through-notification-of-birth-occuring-abroad-943378",
+   "read_on": "2026-10-25",
+   "http": "200"
+  }
+ ]
+}

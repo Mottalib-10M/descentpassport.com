@@ -1,0 +1,78 @@
+{
+  "retrieved_at": "2026-10-25",
+  "dual_nationality": [
+    {"fact": "US law does not require a choice between US citizenship and another nationality; a US citizen may naturalize abroad without risk to US citizenship.", "source_url": "https://travel.state.gov/content/travel/en/legal/travel-legal-considerations/Relinquishing-US-Nationality/Dual-Nationality.html", "quote": "U.S. law does not require a U.S. citizen to choose between U.S. citizenship and another (foreign) nationality (or nationalities). A U.S. citizen may naturalize in a foreign state without any risk to their U.S. citizenship."},
+    {"fact": "No US permission is needed to acquire a foreign citizenship by birth, descent or naturalization, including for minor children.", "source_url": "https://travel.state.gov/content/travel/en/legal/travel-legal-considerations/Relinquishing-US-Nationality/Dual-Nationality.html", "quote": "U.S. law does not impede its citizens' acquisition of foreign citizenship whether by birth, descent, naturalization or other form of acquisition, by imposing requirements of permission from U.S. courts or any governmental agency. If a foreign country's law permits parents to apply for citizenship on behalf of minor children, nothing in U.S. law impedes U.S. citizen parents from doing so."},
+    {"fact": "Dual nationals must use a US passport to enter and leave the US; using the foreign passport elsewhere is fine.", "source_url": "https://travel.state.gov/content/travel/en/legal/travel-legal-considerations/Relinquishing-US-Nationality/Dual-Nationality.html", "quote": "U.S. nationals, including U.S. dual nationals, must use a U.S. passport to enter and leave the United States. U.S. dual nationals may also be required by the country of their foreign nationality to use that country’s passport to enter and leave that country. Use of the foreign passport to travel to or from a country other than the United States is not inconsistent with U.S. law."},
+    {"fact": "Dual nationals owe allegiance to both countries and may have limited US consular protection in the other country.", "source_url": "https://travel.state.gov/content/travel/en/legal/travel-legal-considerations/Relinquishing-US-Nationality/Dual-Nationality.html", "quote": "U.S. dual nationals owe allegiance to both the United States and the foreign country (or countries, if they are nationals of more than one). They are required to obey the laws of both countries, and either country has the right to enforce its laws. [...] U.S. dual nationals may also face restrictions in the U.S. consular protections available to U.S. nationals abroad, particularly in the country of their other nationality."}
+  ],
+  "loss_of_nationality": [
+    {"fact": "Loss of US nationality requires a potentially expatriating act performed voluntarily AND with the intention of relinquishing US nationality (8 U.S.C. 1481 / INA 349). Acquiring a foreign citizenship by descent, without intent to give up US citizenship, does not cost US citizenship.", "source_url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title8/html/USCODE-2023-title8-chap12-subchapIII-partIII-sec1481.htm", "quote": "(a) A person who is a national of the United States whether by birth or naturalization, shall lose his nationality by voluntarily performing any of the following acts with the intention of relinquishing United States nationality— (1) obtaining naturalization in a foreign state upon his own application or upon an application filed by a duly authorized agent, after having attained the age of eighteen years; or (2) taking an oath or making an affirmation or other formal declaration of allegiance to"},
+    {"fact": "State Department list of the seven potentially expatriating acts; loss is not automatic.", "source_url": "https://travel.state.gov/content/travel/en/legal/travel-legal-considerations/Relinquishing-US-Nationality.html", "quote": "Immigration and Nationality Act (INA) Section 349 ( 8 U.S.C. 1481 ), as amended, lists seven potentially expatriating acts which, if performed voluntarily and with the intention of relinquishing U.S. nationality, may provide a legal basis for the U.S Government to approve a U.S. national’s properly completed request for a Certificate of Loss of Nationality of the United States. [...] if the Department denies the request, the person remains a U.S. national – loss of U.S. nationality is not automatic."}
+  ],
+  "fbar": {
+    "form": "FinCEN Form 114 (Report of Foreign Bank and Financial Accounts)",
+    "threshold_usd": 10000,
+    "threshold_rule": "aggregate value of all foreign financial accounts exceeds USD 10,000 at any time during the calendar year",
+    "due_date": "April 15 following the calendar year reported",
+    "extension": "automatic extension to October 15, no request needed",
+    "source_url": "https://www.irs.gov/businesses/small-businesses-self-employed/report-of-foreign-bank-and-financial-accounts-fbar",
+    "quote": "a financial interest in or signature or other authority over at least one financial account located outside the United States if the aggregate value of those foreign financial accounts exceeded $10,000 at any time during the calendar year reported. [...] The FBAR is an annual report, due April 15 following the calendar year reported. You’re allowed an automatic extension to October 15 if you fail to meet the FBAR annual due date of April 15. You don’t need to request an extension to file the FBAR.",
+    "source_url_2": "https://www.fincen.gov/report-foreign-bank-and-financial-accounts",
+    "quote_2": "A United States person that has a financial interest in or signature authority over foreign financial accounts must file an FBAR if the aggregate value of the foreign financial accounts exceeds $10,000 at any time during the calendar year.",
+    "page_updated": "irs.gov page last reviewed or updated 30-Jul-2026"
+  },
+  "fatca_8938": {
+    "form": "Form 8938, Statement of Specified Foreign Financial Assets (attached to the income tax return; only if a return is required)",
+    "thresholds": [
+      {"situation": "living in the US", "filing_status": "single (unmarried)", "end_of_year_usd": 50000, "any_time_usd": 75000},
+      {"situation": "living in the US", "filing_status": "married filing jointly", "end_of_year_usd": 100000, "any_time_usd": 150000},
+      {"situation": "living abroad", "filing_status": "single or married filing separately", "end_of_year_usd": 200000, "any_time_usd": 300000},
+      {"situation": "living abroad", "filing_status": "married filing jointly", "end_of_year_usd": 400000, "any_time_usd": 600000}
+    ],
+    "source_url": "https://www.irs.gov/businesses/corporations/summary-of-fatca-reporting-for-us-taxpayers",
+    "quote": "Taxpayers living abroad. You must file a Form 8938 if you must file an income tax return and: You are married filing a joint income tax return and the total value of your specified foreign financial assets is more than $400,000 on the last day of the tax year or more than $600,000 at any time during the year. [...] You are not a married person filing a joint income tax return and the total value of your specified foreign financial assets is more than $200,000 on the last day of the tax year or more than $300,000 at any time during the year. Taxpayers living in the United States. You must file Form 8938 if [...] You are unmarried and the total value of your specified foreign financial assets is more than $50,000 on the last day of the tax year or more than $75,000 at any time during the tax year You are married filing a joint income tax return and the total value of your specified foreign financial assets is more than $100,000 on the last day of the tax year or more than $150,000 at any time during the tax year.",
+    "page_updated": "19-Sep-2026",
+    "note": "US-resident married filing separately uses the single-filer USD 50,000 / 75,000 thresholds (same page; not quoted here)."
+  },
+  "citizenship_based_taxation": {
+    "rule": "US citizens are taxed on worldwide income wherever they live; filing rules are generally the same at home or abroad.",
+    "source_url": "https://www.irs.gov/individuals/international-taxpayers/us-citizens-and-resident-aliens-abroad",
+    "quote": "state, and gift tax returns and paying estimated tax are generally the same whether you are in the United States or abroad. You are subject to tax on worldwide income from all sources and must report all taxable income and pay taxes according to the Internal Revenue Code. Many Americans living abroad qualify for special tax benefits, such as the foreign ear[ned income exclusion]",
+    "page_updated": "20-Oct-2026",
+    "site_note": "Gaining a second citizenship changes nothing for US tax: worldwide income stays reportable to the IRS."
+  },
+  "feie": {
+    "tax_year": 2026,
+    "amount_usd": 132900,
+    "previous_year": {"tax_year": 2025, "amount_usd": 130000},
+    "source_url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf",
+    "quote": "For taxable years beginning in 2026, the foreign earned income exclusion amount under § 911(b)(2)(D)(i) is $132,900.",
+    "source_url_2": "https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill",
+    "quote_2": "Foreign Earned Income Exclusion . For tax year 2026, the foreign earned income exclusion is $132,900 up from $130,000 for tax year 2025.",
+    "authority": "Rev. Proc. 2025-32 (IR-2025-103)"
+  },
+  "form_2555": {
+    "form": "Form 2555, Foreign Earned Income",
+    "use": "Figures the foreign earned income exclusion and the housing exclusion or deduction; only for people who qualify (living and working abroad).",
+    "source_url": "https://www.irs.gov/forms-pubs/about-form-2555",
+    "quote": "If you qualify, you can use Form 2555 to figure your foreign earned income exclusion and your housing exclusion or deduction. You cannot exclude or deduct more than your foreign earned income for the year.",
+    "page_updated": "30-Mar-2026"
+  },
+  "sources": [
+    {"key": "dos-dual", "title": "Dual Nationality", "publisher": "U.S. Department of State, Bureau of Consular Affairs", "url": "https://travel.state.gov/content/travel/en/legal/travel-legal-considerations/Relinquishing-US-Nationality/Dual-Nationality.html", "read_on": "2026-10-25", "http": "403 to curl/WebFetch (bot block) - blocked-but-opens-in-browser; text read from the identical CMS page served at https://adoption.state.gov/content/travel/en/legal/travel-legal-considerations/Relinquishing-US-Nationality/Dual-Nationality.html (200); Wayback snapshot of 2026-07-07 exists"},
+    {"key": "dos-relinquish", "title": "Relinquishing U.S. Nationality", "publisher": "U.S. Department of State", "url": "https://travel.state.gov/content/travel/en/legal/travel-legal-considerations/Relinquishing-US-Nationality.html", "read_on": "2026-10-25", "http": "403 on travel.state.gov; read at adoption.state.gov mirror (200)"},
+    {"key": "usc-1481", "title": "8 U.S.C. 1481 - Loss of nationality by native-born or naturalized citizen", "publisher": "GovInfo (U.S. GPO), U.S. Code 2023 edition", "url": "https://www.govinfo.gov/content/pkg/USCODE-2023-title8/html/USCODE-2023-title8-chap12-subchapIII-partIII-sec1481.htm", "read_on": "2026-10-25", "http": "200"},
+    {"key": "irs-fbar", "title": "Report of Foreign Bank and Financial Accounts (FBAR)", "publisher": "IRS", "url": "https://www.irs.gov/businesses/small-businesses-self-employed/report-of-foreign-bank-and-financial-accounts-fbar", "read_on": "2026-10-25", "http": "200"},
+    {"key": "fincen-fbar", "title": "Report Foreign Bank and Financial Accounts", "publisher": "FinCEN", "url": "https://www.fincen.gov/report-foreign-bank-and-financial-accounts", "read_on": "2026-10-25", "http": "200"},
+    {"key": "irs-fatca", "title": "Summary of FATCA reporting for U.S. taxpayers", "publisher": "IRS", "url": "https://www.irs.gov/businesses/corporations/summary-of-fatca-reporting-for-us-taxpayers", "read_on": "2026-10-25", "http": "200"},
+    {"key": "irs-abroad", "title": "U.S. citizens and resident aliens abroad", "publisher": "IRS", "url": "https://www.irs.gov/individuals/international-taxpayers/us-citizens-and-resident-aliens-abroad", "read_on": "2026-10-25", "http": "200"},
+    {"key": "irs-rp-2025-32", "title": "Rev. Proc. 2025-32 (2026 inflation adjustments)", "publisher": "IRS", "url": "https://www.irs.gov/pub/irs-drop/rp-25-32.pdf", "read_on": "2026-10-25", "http": "200"},
+    {"key": "irs-ir-2025-103", "title": "IRS releases tax inflation adjustments for tax year 2026 (IR-2025-103)", "publisher": "IRS", "url": "https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill", "read_on": "2026-10-25", "http": "200"},
+    {"key": "irs-2555", "title": "About Form 2555, Foreign Earned Income", "publisher": "IRS", "url": "https://www.irs.gov/forms-pubs/about-form-2555", "read_on": "2026-10-25", "http": "200"}
+  ],
+  "open_questions": [
+    "The URLs given in the brief (travel.state.gov/.../us-citizenship/Dual-Nationality.html and .../Advice-about-Possible-Loss-of-US-Nationality-Dual-Nationality.html) return 403 to automated clients; the Dual Nationality page now lives under /Relinquishing-US-Nationality/. A separate 'Advice about possible loss of U.S. nationality and dual nationality' page was not found under that name (404 on the mirror); its content is covered by the Relinquishing U.S. Nationality page and 8 U.S.C. 1481. The old sentence 'U.S. law does not mention dual nationality or require a person to choose one nationality or another' no longer appears on the current page; use the current wording quoted above.",
+    "irs.gov FEIE page (updated 12-Jun-2026) still lists amounts only up to 2023; the 2026 figure comes from Rev. Proc. 2025-32 and IR-2025-103."
+  ]
+}

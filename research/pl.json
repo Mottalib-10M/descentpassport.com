@@ -1,0 +1,144 @@
+{
+  "country": "Poland",
+  "code": "pl",
+  "retrieved_at": "2026-10-25",
+  "laws": [
+    {
+      "name": "Ustawa z dnia 2 kwietnia 2009 r. o obywatelstwie polskim (Polish Citizenship Act of 2 April 2009), consolidated text Dz. U. z 2025 r. poz. 1611",
+      "articles": "art. 2, 3, 5, 14, 38-39, 46, 55-57",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20120000161/U/D20120161Lj.pdf",
+      "quote": "Art. 14. Małoletni nabywa obywatelstwo polskie przez urodzenie, w przypadku gdy: 1) co najmniej jedno z rodziców jest obywatelem polskim; [...] (A minor acquires Polish citizenship by birth where at least one parent is a Polish citizen.)"
+    },
+    {
+      "name": "Ustawa z dnia 20 stycznia 1920 r. o obywatelstwie Państwa Polskiego (Dz. U. 1920 Nr 7 poz. 44)",
+      "articles": "art. 1, 2, 4, 5, 11, 13",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19200070044/O/D19200044.pdf",
+      "quote": "Art. 5. Przez urodzenie dzieci ślubne nabywają obywatelstwo ojca, dzieci nieślubne — obywatelstwo matki. [...] Art. 11. Utrata obywatelstwa polskiego następuje: 1) przez nabycie obcego obywatelstwa; 2) przez przyjęcie urzędu publicznego lub wstąpienie do służby wojskowej w państwie obcem bez zgody Rządu Polskiego. (Children born in wedlock take the father's citizenship, out of wedlock the mother's. Polish citizenship is lost 1) by acquiring a foreign citizenship; 2) by accepting public office or entering military service in a foreign state without the consent of the Polish Government.) [Text transcribed by OCR from the ISAP scan of the Journal of Laws; OCR typos corrected.]"
+    },
+    {
+      "name": "Ustawa z dnia 8 stycznia 1951 r. o obywatelstwie polskim (Dz. U. 1951 Nr 4 poz. 25)",
+      "articles": "art. 1, 5, 6, 11, 12, 17, 19",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19510040025/O/D19510025.pdf",
+      "quote": "Art. 11. 1. Obywatel polski może nabyć obywatelstwo obce jedynie po uzyskaniu zezwolenia władzy polskiej na zmianę obywatelstwa. [...] 5. Nabycie obywatelstwa obcego zgodnie z ust. 1—4 pociąga za sobą utratę obywatelstwa polskiego. [...] Art. 19. Ustawa wchodzi w życie z dniem ogłoszenia. (A Polish citizen may acquire a foreign citizenship only after obtaining permission of the Polish authority to change citizenship [...] Acquiring foreign citizenship in accordance with paras 1-4 entails loss of Polish citizenship. The Act enters into force on the day of publication.) [OCR of ISAP scan.]"
+    },
+    {
+      "name": "Ustawa z dnia 15 lutego 1962 r. o obywatelstwie polskim (Dz. U. z 2000 r. poz. 353 t.j.)",
+      "articles": "art. 13, 14, 15 (cited by art. 38 of the 2009 Act)",
+      "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20120000161/U/D20120161Lj.pdf",
+      "quote": "Not read directly; referenced in art. 38(1)(3) of the 2009 Act as a ground of pre-1999 loss that can be restored."
+    }
+  ],
+  "rules": [
+    {
+      "id": "pl-descent-today",
+      "rule": "A child acquires Polish citizenship automatically at birth if at least one parent is a Polish citizen at the time of birth (no generation limit, place of birth irrelevant). The checker must therefore trace an unbroken chain of Polish citizens: each ancestor must still have been a Polish citizen when the next generation was born.",
+      "source_url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20120000161/U/D20120161Lj.pdf",
+      "quote": "Art. 14. Małoletni nabywa obywatelstwo polskie przez urodzenie, w przypadku gdy: 1) co najmniej jedno z rodziców jest obywatelem polskim;"
+    },
+    {
+      "id": "pl-existing-citizens",
+      "rule": "Anyone who held Polish citizenship under earlier laws (1920, 1951, 1962) on the day the 2009 Act took effect is still a Polish citizen; the claim is therefore a confirmation of an existing status, judged under the law in force at each ancestor's birth / emigration.",
+      "source_url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20120000161/U/D20120161Lj.pdf",
+      "quote": "Art. 2. W dniu wejścia w życie ustawy obywatelami polskimi są osoby, które posiadają obywatelstwo polskie na podstawie dotychczasowych przepisów."
+    },
+    {
+      "id": "pl-1920-who",
+      "rule": "There was no Polish citizenship before the 1920 Act. An ancestor who emigrated before the 1920 Act generally never became a Polish citizen (the Act granted citizenship to persons settled in / born on Polish state territory who did not hold another citizenship, or under international treaties). Flag pre-1920 emigrants as 'unlikely'.",
+      "source_url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19200070044/O/D19200044.pdf",
+      "quote": "Art. 2. Z chwilą ogłoszenia ustawy niniejszej prawo obywatelstwa polskiego służy każdej osobie bez różnicy płci, wieku, wyznania i narodowości, która: 1) jest osiedlona na obszarze Państwa Polskiego, o ile jej nie służy obywatelstwo innego państwa. [...] 2) urodziła się na obszarze Państwa Polskiego, o ile nie służy jej obywatelstwo innego Państwa; 3) ponadto której na mocy traktatów międzynarodowych obywatelstwo polskie przysługuje."
+    },
+    {
+      "id": "pl-1920-transmission",
+      "rule": "Under the 1920 Act (births up to January 1951): a child born in wedlock took the FATHER's citizenship only; a child born out of wedlock took the MOTHER's. A Polish mother married to a foreigner did not transmit citizenship during this period.",
+      "source_url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19200070044/O/D19200044.pdf",
+      "quote": "Art. 5. Przez urodzenie dzieci ślubne nabywają obywatelstwo ojca, dzieci nieślubne — obywatelstwo matki."
+    },
+    {
+      "id": "pl-1920-loss-naturalization",
+      "rule": "Under the 1920 Act an ancestor lost Polish citizenship by acquiring a foreign citizenship (e.g. US naturalization) before 19 January 1951; the loss extended to his wife and children under 18 (art. 13). EXCEPTION: a man subject to active military service who naturalized without permission of the Minister of Military Affairs continued to be regarded as a Polish citizen. If the child was born BEFORE the father naturalized, the child was a citizen at birth but may have lost it with the father if under 18 at that time.",
+      "source_url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19200070044/O/D19200044.pdf",
+      "quote": "Art. 11. Utrata obywatelstwa polskiego następuje: 1) przez nabycie obcego obywatelstwa; [...] Osoby, obowiązane do czynnej służby wojskowej, nabyć mogą obywatelstwo obce nie inaczej, jak po wyjednaniu na to zezwolenia od Ministra Spraw Wojskowych, w przeciwnym razie wobec Państwa Polskiego nie przestaną być uważane za obywateli polskich. Art. 13. Nadanie i utrata obywatelstwa polskiego [...] rozciąga się na żonę nabywającego lub tracącego obywatelstwo polskie, tudzież na jego dzieci, w wieku do lat 18."
+    },
+    {
+      "id": "pl-1920-loss-military",
+      "rule": "Under the 1920 Act, accepting a public office or joining the military of a foreign state without consent of the Polish Government caused loss of Polish citizenship (e.g. US Army service before 1951 is a red flag).",
+      "source_url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19200070044/O/D19200044.pdf",
+      "quote": "2) przez przyjęcie urzędu publicznego lub wstąpienie do służby wojskowej w państwie obcem bez zgody Rządu Polskiego."
+    },
+    {
+      "id": "pl-1920-marriage-women",
+      "rule": "Under the 1920 Act a foreign woman marrying a Polish citizen acquired Polish citizenship, and a Polish woman who married a foreigner could lose it (she could regain it after the marriage ended and she settled in Poland). From the 1951 Act, marriage no longer changes citizenship.",
+      "source_url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19200070044/O/D19200044.pdf",
+      "quote": "Art. 7. Przez zamążpójście nabywa obywatelstwo polskie cudzoziemka poślubiająca obywatela polskiego. [...] Art. 10. Obywatelka polska, która przez zamążpójście za cudzoziemca utraciła obywatelstwo polskie, odzyskuje je, jeżeli po ustaniu tego małżeństwa i osiedleniu się w Polsce złoży odpowiednie oświadczenie"
+    },
+    {
+      "id": "pl-1951-onwards",
+      "rule": "From the 1951 Act (in force on publication, January 1951): a Polish citizen could acquire a foreign citizenship with loss of Polish citizenship only with permission of the Polish authority; naturalizing abroad WITHOUT permission did not end Polish citizenship. Marriage to a foreigner no longer changes citizenship. A child acquired Polish citizenship if both parents were Polish, or one was Polish and the other unknown/stateless (art. 6); for mixed couples see art. 8-9.",
+      "source_url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19510040025/O/D19510025.pdf",
+      "quote": "Art. 11. 1. Obywatel polski może nabyć obywatelstwo obce jedynie po uzyskaniu zezwolenia władzy polskiej na zmianę obywatelstwa. [...] 5. Nabycie obywatelstwa obcego zgodnie z ust. 1—4 pociąga za sobą utratę obywatelstwa polskiego. Art. 5. 1. Zawarcie związku małżeńskiego przez obywatela polskiego z osobą, nie będącą obywatelem polskim, nie powoduje zmian w obywatelstwie małżonków."
+    },
+    {
+      "id": "pl-1951-deprivation",
+      "rule": "The 1951 Act also allowed deprivation of citizenship of Poles abroad (disloyalty, illegal departure after 9 May 1945, refusing to return, evading military duty, etc.); such a decision breaks the chain. Ask whether the ancestor was formally deprived of citizenship.",
+      "source_url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19510040025/O/D19510025.pdf",
+      "quote": "Art. 12. 1. Obywatel polski, który przebywa za granicą, może być pozbawiony obywatelstwa polskiego, jeżeli: [...] 3) nielegalnie opuścił obszar Państwa Polskiego po dniu 9 maja 1945 r., 4) odmówił powrotu do kraju na wezwanie właściwej władzy, 5) uchyla się od wykonania obowiązku wojskowego"
+    },
+    {
+      "id": "pl-restoration",
+      "rule": "A person (not a descendant) who personally lost Polish citizenship before 1 January 1999 under art. 11 or 13 of the 1920 Act, art. 11 or 12 of the 1951 Act or art. 13, 14 or 15 of the 1962 Act (this includes many March 1968 emigrants who left with permission to change citizenship) can apply to the Minister of the Interior to have it restored; excluded: voluntary Axis service 1939-45, Axis public office, acting against Poland. Their children born before restoration do not automatically become citizens.",
+      "source_url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20120000161/U/D20120161Lj.pdf",
+      "quote": "Art. 38. 1. Cudzoziemcowi, który utracił obywatelstwo polskie przed dniem 1 stycznia 1999 r. na podstawie: 1) art. 11 lub 13 ustawy z dnia 20 stycznia 1920 r. o obywatelstwie Państwa Polskiego [...], 2) art. 11 lub 12 ustawy z dnia 8 stycznia 1951 r. o obywatelstwie polskim [...], 3) art. 13, 14 lub 15 ustawy z dnia 15 lutego 1962 r. o obywatelstwie polskim [...] – przywraca się obywatelstwo polskie, na jego wniosek."
+    },
+    {
+      "id": "pl-marriage-today",
+      "rule": "Marriage to a non-Polish citizen does not change either spouse's citizenship (current law).",
+      "source_url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20120000161/U/D20120161Lj.pdf",
+      "quote": "Art. 5. Zawarcie związku małżeńskiego przez obywatela polskiego z osobą niebędącą obywatelem polskim nie powoduje zmian w obywatelstwie małżonków."
+    }
+  ],
+  "procedure": {
+    "authority": "Voivode (wojewoda) of the last place of residence in Poland of the person concerned; if none, the Mazovian Voivode (Wojewoda Mazowiecki). Applicants abroad may file through the Polish consul for their place of residence. Appeal: Minister of the Interior and Administration, within 14 days.",
+    "how": "File the 'wniosek o potwierdzenie posiadania lub utraty obywatelstwa polskiego' (in Polish only) with civil-status records of the applicant and ancestors up to the second degree (parents, grandparents) and proof of the ancestors' Polish citizenship; appointment via e-Konsulat, documents in person or by post; the consul forwards the file to the voivode, who issues an administrative decision.",
+    "source_url": "https://www.gov.pl/web/usa/potwierdzenie-posiadania-lub-utraty-obywatelstwa-polskiego"
+  },
+  "documents": [
+    {"item": "Application form (wniosek o potwierdzenie posiadania lub utraty obywatelstwa polskiego), filled in Polish only", "note": "Form under Regulation of the Minister of the Interior of 7 August 2012", "source_url": "https://www.gov.pl/web/usa/potwierdzenie-posiadania-lub-utraty-obywatelstwa-polskiego"},
+    {"item": "Full (long-form) birth certificate with parents' names; marriage/divorce records; name-change documents", "note": "US documents: apostille (Hague Convention). Copies certified by the consul. Foreign-language documents translated into Polish by a Polish sworn translator or the consul.", "source_url": "https://www.gov.pl/web/usa/potwierdzenie-posiadania-lub-utraty-obywatelstwa-polskiego"},
+    {"item": "Documents proving the parents'/grandparents' Polish origin and citizenship (birth, marriage, baptism records, old Polish passports, ID cards, military booklets)", "note": "", "source_url": "https://www.gov.pl/web/usa/potwierdzenie-posiadania-lub-utraty-obywatelstwa-polskiego"},
+    {"item": "Document confirming acquisition of a foreign citizenship (e.g. ancestor's naturalization record)", "note": "Listed by the Łódź voivode office", "source_url": "https://www.gov.pl/web/uw-lodzki/potwierdzenie-posiadania-lub-utraty-obywatelstwa-polskiego"},
+    {"item": "Original valid ID document (for inspection)", "note": "", "source_url": "https://www.gov.pl/web/usa/potwierdzenie-posiadania-lub-utraty-obywatelstwa-polskiego"}
+  ],
+  "fees": [
+    {"label": "Consular fee for filing the confirmation application at a Polish consulate in the USA", "amount": 118, "currency": "USD", "source_url": "https://www.gov.pl/web/usa/potwierdzenie-posiadania-lub-utraty-obywatelstwa-polskiego", "quote": "Opłata za złożenie wniosku wynosi 118 USD."},
+    {"label": "Stamp duty for the voivode's decision when filed directly in Poland (Łódź voivode office)", "amount": 277, "currency": "PLN", "source_url": "https://www.gov.pl/web/uw-lodzki/potwierdzenie-posiadania-lub-utraty-obywatelstwa-polskiego", "quote": "Zgodnie z unormowaniami ustawy z dnia 16 listopada 2006 r. o opłacie skarbowej należy uiścić opłatę skarbową w kwocie 277 zł."}
+  ],
+  "processing_time": [
+    {"label": "Consular step", "value": "Consul forwards the application to the voivode without delay; no decision time published", "source_url": "https://www.gov.pl/web/usa/potwierdzenie-posiadania-lub-utraty-obywatelstwa-polskiego", "quote": "Konsul niezwłocznie przekaże Twój wniosek do właściwego wojewody.", "published_or_updated": ""}
+  ],
+  "dual_citizenship": {
+    "allowed": "yes",
+    "note": "Polish law tolerates multiple citizenship but a dual citizen is treated solely as Polish by Polish authorities (must enter/leave Poland on a Polish document in practice). Polish citizenship is lost only by renunciation with the President's consent.",
+    "source_url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20120000161/U/D20120161Lj.pdf",
+    "quote": "Art. 3. 1. Obywatel polski posiadający równocześnie obywatelstwo innego państwa ma wobec Rzeczypospolitej Polskiej takie same prawa i obowiązki jak osoba posiadająca wyłącznie obywatelstwo polskie. 2. Obywatel polski nie może wobec władz Rzeczypospolitej Polskiej powoływać się ze skutkiem prawnym na posiadane równocześnie obywatelstwo innego państwa [...] Art. 46. Obywatel polski, który zrzeka się obywatelstwa polskiego, traci obywatelstwo polskie po uzyskaniu zgody Prezydenta Rzeczypospolitej Polskiej"
+  },
+  "other_requirements": [
+    {"item": "No language, residence or ancestry-percentage requirement for confirmation: it is a declaratory decision on an existing status. The application must include data on ascendants up to the second degree.", "source_url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20120000161/U/D20120161Lj.pdf", "quote": "Art. 56. 1. Wniosek o potwierdzenie posiadania lub utraty obywatelstwa polskiego zawiera dane osoby, której potwierdzenie dotyczy, i jej wstępnych do drugiego stopnia oraz informacje o istotnych okolicznościach niezbędnych do ustalenia stanu faktycznego i prawnego."}
+  ],
+  "recent_changes": [
+    {"date": "2025", "what": "New consolidated text of the 2009 Act published as Dz. U. z 2025 r. poz. 1611 (ISAP text dated 2025-11-27); no change found to the confirmation rules (art. 55-57).", "source_url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20120000161/U/D20120161Lj.pdf"}
+  ],
+  "open_questions": [
+    "Fee when filing via consul: the US consulate page states USD 118; it is not stated whether the voivode's stamp duty (PLN 277 per the Łódź office) is also payable. Mazowiecki voivode office page not retrieved.",
+    "Processing time: no official published decision time found (gov.pl pages say only that the consul forwards 'niezwłocznie'). General KPA deadlines (1-2 months) are routinely exceeded; not stated on an official page for this procedure.",
+    "Exact publication dates of the 1920 Act (believed 31 Jan 1920) and the 1951 Act (believed 19 Jan 1951): both acts enter into force on publication, but the ISAP metadata pages were bot-blocked; dates come from secondary sources only.",
+    "1962 Act art. 13-15 text not read directly (scanned PDF); March 1968 emigrants: the 2009 Act restoration route (art. 38) applies to those who lost under art. 13 of 1962 Act; case law of the NSA treating 1968 'travel document' losses as invalid was not checked on an official court page.",
+    "Mixed-nationality couples 1951-1962 (art. 8-9 of 1951 Act) and the 1962 Act transmission rules (mother/father) need a direct reading of the 1962 Act text."
+  ],
+  "sources": [
+    {"key": "pl-act-2009", "title": "Ustawa z dnia 2 kwietnia 2009 r. o obywatelstwie polskim (tekst ujednolicony)", "publisher": "Kancelaria Sejmu / ISAP", "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20120000161/U/D20120161Lj.pdf", "read_on": "2026-10-25", "http": "200"},
+    {"key": "pl-act-1920", "title": "Ustawa z dnia 20 stycznia 1920 r. o obywatelstwie Państwa Polskiego (Dz. U. Nr 7 poz. 44), scan", "publisher": "ISAP", "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19200070044/O/D19200044.pdf", "read_on": "2026-10-25", "http": "200 (scanned image, OCR'd locally)"},
+    {"key": "pl-act-1951", "title": "Ustawa z dnia 8 stycznia 1951 r. o obywatelstwie polskim (Dz. U. Nr 4 poz. 25), scan", "publisher": "ISAP", "url": "https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU19510040025/O/D19510025.pdf", "read_on": "2026-10-25", "http": "200 (scanned image, OCR'd locally)"},
+    {"key": "pl-consulate-usa", "title": "Potwierdzenie posiadania lub utraty obywatelstwa polskiego - Polska w USA", "publisher": "Embassy of Poland in the USA (gov.pl)", "url": "https://www.gov.pl/web/usa/potwierdzenie-posiadania-lub-utraty-obywatelstwa-polskiego", "read_on": "2026-10-25", "http": "200"},
+    {"key": "pl-uw-lodz", "title": "Potwierdzenie posiadania lub utraty obywatelstwa polskiego - Łódzki Urząd Wojewódzki", "publisher": "Łódź Voivode Office (gov.pl)", "url": "https://www.gov.pl/web/uw-lodzki/potwierdzenie-posiadania-lub-utraty-obywatelstwa-polskiego", "read_on": "2026-10-25", "http": "200"}
+  ]
+}

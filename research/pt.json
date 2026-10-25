@@ -1,0 +1,156 @@
+{
+  "country": "Portugal",
+  "code": "pt",
+  "retrieved_at": "2026-10-25",
+  "laws": [
+    {
+      "name": "Lei n.º 37/81, de 3 de outubro (Lei da Nacionalidade), 13.ª versão, na redação da Lei Orgânica n.º 1/2026, de 18 de maio",
+      "articles": "art. 1.º (nacionalidade originária), art. 6.º (naturalização, incl. n.º 8 bisnetos), art. 8.º (perda), art. 9.º (oposição), art. 11.º",
+      "url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=614&tabela=leis",
+      "quote": "1 - São portugueses de origem: [...] c) Os filhos de mãe portuguesa ou de pai português nascidos no estrangeiro se tiverem o seu nascimento inscrito no registo civil português ou se declararem que querem ser portugueses; d) Os indivíduos com, pelo menos, um ascendente de nacionalidade portuguesa originária do 2.º grau na linha reta que não tenha perdido essa nacionalidade, se declararem que querem ser portugueses e possuírem laços de efetiva ligação à comunidade nacional; [...] 3 - A atribuição da nacionalidade portuguesa ao abrigo da alínea d) do n.º 1 pressupõe o preenchimento dos requisitos constantes das alíneas c) a h) do n.º 1 do artigo 6.º [Gloss: (c) children born abroad of a Portuguese parent, by registering the birth or declaring; (d) grandchildren of an original Portuguese grandparent who never lost it, by declaration plus effective ties; the grandchild route now requires art. 6(1)(c)-(h) conditions.]"
+    },
+    {
+      "name": "Lei Orgânica n.º 1/2026, de 18 de maio – Alteração à Lei n.º 37/81 (Diário da República n.º 95/2026, 1.ª série)",
+      "articles": "arts. 2.º (amendments), 7.º (aplicação no tempo), 8.º (entrada em vigor)",
+      "url": "https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996",
+      "quote": "Artigo 7.º Aplicação no tempo 1 — A presente lei produz efeitos a partir da data da sua entrada em vigor, sem prejuízo do disposto no número seguinte. 2 — Aos procedimentos administrativos pendentes à data da entrada em vigor da presente lei aplica-se a Lei n.º 37/81, de 3 de outubro, na redação anterior à presente lei. Artigo 8.º Entrada em vigor A presente lei entra em vigor no dia seguinte ao da sua publicação. [Gloss: in force 19 May 2026; applications pending on that date keep the old rules.] (Text read from the PDF of the DR 1.ª série hosted by madeira.gov.pt because diariodarepublica.pt renders by JavaScript only.)"
+    }
+  ],
+  "rules": [
+    {
+      "id": "pt-child-of-portuguese-parent",
+      "rule": "A person born abroad to a Portuguese mother or father is Portuguese of origin if the birth is entered in the Portuguese civil registry or the person declares wanting to be Portuguese. No age limit in the text; attribution takes effect from birth. Checker: parent Portuguese (at the time of your birth per IRN guidance) -> eligible, any age.",
+      "source_url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=614&tabela=leis",
+      "quote": "c) Os filhos de mãe portuguesa ou de pai português nascidos no estrangeiro se tiverem o seu nascimento inscrito no registo civil português ou se declararem que querem ser portugueses;"
+    },
+    {
+      "id": "pt-attribution-effect-from-birth",
+      "rule": "Attribution (routes 1(1)(c) and (d)) has effect from birth, so a grandchild who becomes Portuguese of origin can in turn pass it to his/her children as 'child of a Portuguese parent'.",
+      "source_url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=614&tabela=leis",
+      "quote": "A atribuição da nacionalidade portuguesa produz efeitos desde o nascimento, sem prejuízo da validade das relações jurídicas anteriormente estabelecidas com base em outra nacionalidade."
+    },
+    {
+      "id": "pt-grandchild",
+      "rule": "Grandchild route: at least one grandparent who was Portuguese of origin AND never lost Portuguese nationality; declaration of wanting to be Portuguese; effective ties to the Portuguese community. Since 19 May 2026 (Lei Orgânica 1/2026) the grandchild must also meet art. 6(1)(c)-(h): prove knowledge of Portuguese language AND culture, history and national symbols by test or certificate; know fundamental rights/duties and political organisation; solemnly declare adherence to the rule of law; no final prison sentence over 3 years for listed crimes; not a security threat; not under UN/EU sanctions. Applications filed before 19 May 2026 keep the previous rules.",
+      "source_url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=614&tabela=leis",
+      "quote": "c) Comprovarem, através de teste ou de certificado, conhecer suficientemente a língua e a cultura portuguesas, a história e os símbolos nacionais; d) Conhecerem suficientemente os direitos e deveres fundamentais inerentes à nacionalidade portuguesa e a organização política do Estado português; e) Declararem solenemente a sua adesão aos princípios fundamentais do Estado de direito democrático; f) Não terem sido condenados, com trânsito em julgado da decisão judicial, com pena de prisão efetiva superior a 3 anos, por crimes de terrorismo, criminalidade violenta e especialmente violenta, criminalidade altamente organizada, contra a segurança do Estado ou de auxílio à imigração ilegal, puníveis segundo a lei portuguesa;"
+    },
+    {
+      "id": "pt-great-grandchild-residence",
+      "rule": "Great-grandchildren (3rd degree descendants of original Portuguese) have no attribution route: only discretionary naturalization after at least 5 years of legal residence in Portugal (instead of 7/10), plus the other art. 6 conditions.",
+      "source_url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=614&tabela=leis",
+      "quote": "8 - O Governo pode conceder a nacionalidade, com dispensa do requisito previsto na alínea b) do n.º 1, aos indivíduos que sejam descendentes em 3.º grau na linha reta de portugueses originários e que tenham residência legal em território nacional há pelo menos cinco anos."
+    },
+    {
+      "id": "pt-minor-child-of-new-citizen",
+      "rule": "Minor (or incapacitated) children of a parent who acquires Portuguese nationality may also acquire it by declaration (acquisition, not attribution).",
+      "source_url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=614&tabela=leis",
+      "quote": "Os filhos menores ou incapazes de pai ou mãe que adquira a nacionalidade portuguesa podem também adquiri-la, mediante declaração."
+    },
+    {
+      "id": "pt-opposition-foreign-military",
+      "rule": "For acquisition by will (declaration routes), the Public Prosecutor may oppose within 2 years of registration if the person exercised non-technical public functions or performed NON-compulsory military service for a foreign state (relevant for US military volunteers), or lacks effective ties.",
+      "source_url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=614&tabela=leis",
+      "quote": "1 - Constituem fundamento de oposição à aquisição da nacionalidade portuguesa por efeito da vontade: a) A inexistência de laços de efetiva ligação à comunidade nacional, tendo em consideração os parâmetros materiais constantes das alíneas c) a i) do n.º 1 do artigo 6.º, incluindo a ponderação de condenação por crime de ultraje aos símbolos nacionais; b) [Revogada.] c) O exercício de funções públicas sem caráter predominantemente técnico ou a prestação de serviço militar não obrigatório a Estado estrangeiro;"
+    },
+    {
+      "id": "pt-filiation-during-minority",
+      "rule": "Only filiation (parentage) established while the person was a minor counts for nationality; parentage established in adulthood counts only for nationality of origin when established through or recognised in a court action.",
+      "source_url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=614&tabela=leis",
+      "quote": "1 - Sem prejuízo do disposto no número seguinte, só a filiação estabelecida durante a menoridade produz efeitos relativamente à nacionalidade. 2 - A filiação estabelecida na maioridade só produz efeitos relativamente à nacionalidade quando estiver em causa a nacionalidade originária e o estabelecimento da filiação ocorra na sequência de processo judicial ou quando seja objeto de reconhecimento em ação judicial, após o trânsito em julgado da decisão judicial, sem prejuízo do estabelecido em matéria de revisão de decisão estrangeira."
+    },
+    {
+      "id": "pt-pending-old-law",
+      "rule": "Applications (administrative procedures) pending on 19 May 2026 are decided under the pre-2026 version of the law.",
+      "source_url": "https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996",
+      "quote": "2 — Aos procedimentos administrativos pendentes à data da entrada em vigor da presente lei aplica-se a Lei n.º 37/81, de 3 de outubro, na redação anterior à presente lei."
+    }
+  ],
+  "procedure": {
+    "authority": "Instituto dos Registos e do Notariado (IRN, Conservatória dos Registos Centrais in Lisbon and nationality desks); Portuguese consulates receive applications from residents abroad.",
+    "how": "File the declaration (form for each type) with documents in person at a Balcão da Nacionalidade, the Conservatória dos Registos Centrais, a civil registry office or the Portuguese consulate for your area; or by registered mail to a nationality desk / Conservatória dos Registos Centrais (Rua Rodrigo da Fonseca, 198, 1099-003 Lisboa) with the signature certified; lawyers/solicitadores must file online. Payment by certified/bank cheque in euros to IRN, IP or credit card via the IRN payment platform. After entry, an e-mail gives a code to follow the case online.",
+    "source_url": "https://justica.gov.pt/Servicos/Pedido-de-Nacionalidade-por-correio"
+  },
+  "documents": [
+    {
+      "item": "Applicant's birth certificate (full copy if possible)",
+      "note": "Foreign certificate must be legalised by apostille or Portuguese consulate visa; if not in Portuguese, add a certified translation.",
+      "source_url": "https://justica.gov.pt/Nasceu-no-estrangeiro-e-e-neto-de-um-portugues"
+    },
+    {
+      "item": "Birth certificate of the parent who is the child of the Portuguese grandparent (grandchild route)",
+      "note": "Apostille + certified translation; can be waived if the birth is registered in Portugal and you give the registry office, year and number.",
+      "source_url": "https://justica.gov.pt/Nasceu-no-estrangeiro-e-e-neto-de-um-portugues"
+    },
+    {
+      "item": "Birth certificate of the Portuguese grandparent / Portuguese parent",
+      "note": "Can be waived if the registry office, year and registration number are identified.",
+      "source_url": "https://justica.gov.pt/Nasceu-no-estrangeiro-e-e-neto-de-um-portugues"
+    },
+    {
+      "item": "Criminal record certificates (grandchild route) from the foreign countries of birth, nationality and residence since age 16",
+      "note": "With certified Portuguese translation (US: FBI Identity History Summary is the usual federal record — not stated on the page).",
+      "source_url": "https://justica.gov.pt/Nasceu-no-estrangeiro-e-e-neto-de-um-portugues"
+    },
+    {
+      "item": "Declaration for acquisition of Portuguese nationality (signed before registry staff, or signature certified if sent by mail; signed by legal representatives for minors)",
+      "note": "Proof of language/culture knowledge required since 19 May 2026 for the grandchild route (art. 1(3) + 6(1)(c)); the IRN guide page still describes only 'conhecimento da língua portuguesa' (possibly not yet updated).",
+      "source_url": "https://justica.gov.pt/Nasceu-no-estrangeiro-e-e-neto-de-um-portugues"
+    }
+  ],
+  "fees": [],
+  "processing_time": [],
+  "dual_citizenship": {
+    "allowed": "yes",
+    "note": "Portuguese law does not require renouncing another nationality; Portuguese nationality is lost only by a declaration of not wanting to be Portuguese by someone who holds another nationality.",
+    "source_url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=614&tabela=leis",
+    "quote": "Sem prejuízo do disposto na lei, perdem a nacionalidade portuguesa os que, sendo nacionais de outro Estado, declarem que não querem ser portugueses."
+  },
+  "other_requirements": [
+    {
+      "item": "Grandchild route: language, culture, history and national symbols test/certificate; knowledge of rights/duties; solemn declaration; clean criminal record (art. 1(3) referring to art. 6(1)(c)-(h))",
+      "source_url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=614&tabela=leis",
+      "quote": "3 - A atribuição da nacionalidade portuguesa ao abrigo da alínea d) do n.º 1 pressupõe o preenchimento dos requisitos constantes das alíneas c) a h) do n.º 1 do artigo 6.º"
+    },
+    {
+      "item": "Biometric data collection (face image, fingerprints, height)",
+      "source_url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=614&tabela=leis",
+      "quote": "1 - Para efeitos de comprovação da identidade do requerente e para verificação do cumprimento dos requisitos previstos na presente lei, são recolhidos os seguintes dados biométricos dos interessados, que podem ser confrontados com outras bases de dados biométricos: a) Imagem facial; b) Impressões digitais; c) Altura."
+    },
+    {
+      "item": "No residence requirement for children (1(1)(c)) or grandchildren (1(1)(d)); 5 years' legal residence for great-grandchildren (art. 6(8))",
+      "source_url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=614&tabela=leis",
+      "quote": "aos indivíduos que sejam descendentes em 3.º grau na linha reta de portugueses originários e que tenham residência legal em território nacional há pelo menos cinco anos."
+    }
+  ],
+  "recent_changes": [
+    {
+      "date": "2026-05-19",
+      "what": "Lei Orgânica n.º 1/2026 (approved by Parliament 1 Apr 2026, promulgated 3 May 2026, published 18 May 2026) in force: grandchild route now requires art. 6(1)(c)-(h) (language + culture/history/symbols test, rights and duties, solemn declaration, criminal record); naturalization residence raised to 7 years (CPLP/EU nationals) or 10 years (others); great-grandchildren may naturalize after 5 years of legal residence (art. 6(8)); Sephardic naturalization (old art. 6(7)) revoked; pending applications keep the old law (art. 7).",
+      "source_url": "https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996"
+    },
+    {
+      "date": "2026-05-19 (+90 days)",
+      "what": "Government must amend the Regulamento da Nacionalidade Portuguesa (DL 237-A/2006) within 90 days of publication; IRN states some changes depend on that regulation.",
+      "source_url": "https://irn.justica.gov.pt/Servicos/Cidadao/Nacionalidade"
+    }
+  ],
+  "open_questions": [
+    "Fees: no official page read on 2026-10-25 states the current amount. justica.gov.pt guide pages have an empty 'Quanto custa' section and refer to the Regulamento Emolumentar dos Registos e do Notariado (DL 322-A/2001, art. 18.º), whose consolidated text on diariodarepublica.pt only renders with JavaScript. Secondary (non-citable) sources give EUR 250 for adult grandchild declarations and free for minors; the EUR 175 figure for adult registration of a child of a Portuguese parent is unverified. Do not display a fee until art. 18.º RERN is read.",
+    "Processing time: IRN publishes no average time; nothing citable found.",
+    "Whether the amended Regulamento da Nacionalidade (due within 90 days of 18 May 2026) has been published, and how it defines the language/culture test for grandchildren living abroad (which certificate level, exemptions for CPLP nationals do not help Americans).",
+    "The official IRN guide for grandchildren (justica.gov.pt) still says ties are recognised by 'conhecimento da língua portuguesa' only — appears not updated after LO 1/2026.",
+    "Constitutional Court review: the 2025 parliamentary decree was reportedly partly struck down by the Tribunal Constitucional in December 2025 before the version enacted as LO 1/2026 — not verified on tribunalconstitucional.pt in this pass.",
+    "Consolidated text read from pgdlisboa.pt (Procuradoria-Geral Regional de Lisboa, public prosecution service; consolidation without official value). The official DR page could not be read without JavaScript; amending text verified in the DR 1.ª série PDF copy hosted at madeira.gov.pt.",
+    "Rule that the parent must have been Portuguese AT the time of the child's birth for 1(1)(c): the IRN mandatory online-service list says 'filho/a de mãe/pai português à data do nascimento (por transcrição)'; the law text itself says only 'filhos de mãe portuguesa ou de pai português'. If the parent acquired nationality by attribution later, attribution has effect from birth (art. 11)."
+  ],
+  "sources": [
+    {"key": "pt-lei-37-81-consolidada", "title": "Lei n.º 37/81 – Lei da Nacionalidade (versão atualizada, 13.ª versão, LO 1/2026)", "publisher": "Procuradoria-Geral Regional de Lisboa (pgdlisboa.pt)", "url": "https://www.pgdlisboa.pt/leis/lei_mostra_articulado.php?nid=614&tabela=leis", "read_on": "2026-10-25", "http": "200"},
+    {"key": "pt-lo-1-2026-dr", "title": "Lei Orgânica n.º 1/2026, de 18 de maio (DR n.º 95/2026, 1.ª série)", "publisher": "Diário da República", "url": "https://diariodarepublica.pt/dr/detalhe/lei-organica/1-2026-1123539996", "read_on": "2026-10-25", "http": "200 but content rendered by JavaScript (empty to curl/WebFetch)"},
+    {"key": "pt-lo-1-2026-pdf", "title": "Lei Orgânica n.º 1/2026 – PDF of DR 1.ª série", "publisher": "Governo Regional da Madeira (copy of the official gazette page)", "url": "https://www.madeira.gov.pt//Portals/25/Documentos/Legislacao/Lei_Organica_1_2026.pdf", "read_on": "2026-10-25", "http": "200"},
+    {"key": "pt-irn-neto", "title": "É neto de um português", "publisher": "Justiça.gov.pt / IRN", "url": "https://justica.gov.pt/Nasceu-no-estrangeiro-e-e-neto-de-um-portugues", "read_on": "2026-10-25", "http": "200"},
+    {"key": "pt-irn-filho", "title": "Nasceu no estrangeiro e é filho de um português", "publisher": "Justiça.gov.pt / IRN", "url": "https://justica.gov.pt/Nasceu-no-estrangeiro-e-e-filho-de-um-portugues", "read_on": "2026-10-25", "http": "200"},
+    {"key": "pt-irn-correio", "title": "Pedido de nacionalidade por correio (informação atualizada a 03 julho 2025)", "publisher": "Justiça.gov.pt / IRN", "url": "https://justica.gov.pt/Servicos/Pedido-de-Nacionalidade-por-correio", "read_on": "2026-10-25", "http": "200"},
+    {"key": "pt-irn-submeter", "title": "Submeter pedido de nacionalidade", "publisher": "Justiça.gov.pt / IRN", "url": "https://irn.justica.gov.pt/Servicos/Cidadao/Nacionalidade", "read_on": "2026-10-25", "http": "200 (page titled Submeter pedido de nacionalidade)"}
+  ]
+}

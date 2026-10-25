@@ -1,0 +1,143 @@
+{
+  "country": "Canada",
+  "code": "ca",
+  "retrieved_at": "2026-10-25",
+  "laws": [
+    {
+      "name": "Citizenship Act (R.S.C., 1985, c. C-29), as amended by An Act to amend the Citizenship Act (2025), S.C. 2025, c. 5 (Bill C-3)",
+      "articles": "s. 3(1)(b), s. 3(3), s. 3(5)",
+      "url": "https://laws-lois.justice.gc.ca/eng/acts/C-29/FullText.html",
+      "quote": "3 (1) Subject to this Act, a person is a citizen if ... (b) the person was born outside Canada after February 14, 1977 and at the time of his birth one of his parents, other than a parent who adopted him, was a citizen; ... (3) Paragraph (1)(b) does not apply to a person born outside Canada on or after the day on which An Act to amend the Citizenship Act (2025) comes into force (a) if (i) at the time of the person's birth (A) only one of the person's parents was a citizen and that parent was a citizen under any of paragraphs (1)(b), (c.1), (e), (g) to (j) and (o) to (r) and was born outside Canada, ... and (ii) neither of the person's parents who was a citizen was physically present in Canada for at least 1,095 days before the person's birth. [Act current to 2026-09-30 and last amended on 2025-12-15.]"
+    }
+  ],
+  "rules": [
+    {
+      "id": "born-abroad-before-2025-12-15",
+      "rule": "A person born outside Canada BEFORE 15 December 2025 to a Canadian-citizen parent is, in most cases, automatically a Canadian citizen, with no generation limit (second generation and later included), including when that parent only became Canadian through the 2025 changes. No application is needed to become a citizen, but a citizenship certificate (proof) must be obtained to confirm it.",
+      "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/act-changes/rules-2025.html",
+      "quote": "This means that in most cases you're automatically a Canadian citizen if you were born before December 15, 2025 outside Canada to a Canadian parent. This rule also applies to you if you were born to someone who became Canadian because of these rule changes."
+    },
+    {
+      "id": "born-abroad-after-2025-12-15-substantial-connection",
+      "rule": "A child born outside Canada ON OR AFTER 15 December 2025 to a Canadian parent who was themselves born or adopted outside Canada is a citizen only if that Canadian parent had at least 1,095 days (three years) of cumulative physical presence in Canada before the child's birth (not necessarily continuous; any time before the birth). If the Canadian parent was born in Canada, the child is a citizen under s. 3(1)(b) without this test.",
+      "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2025/12/bill-c-3-an-act-to-amend-the-citizenship-act-2025-comes-into-effect.html",
+      "quote": "at least 1,095 days (three years) of cumulative physical presence in Canada before the applicant's birth or adoption"
+    },
+    {
+      "id": "adopted-abroad-after-2025-12-15",
+      "rule": "A person born and adopted outside Canada in the second generation or later may obtain a direct grant of citizenship for adopted persons if the Canadian adoptive parent spent at least 1,095 days in Canada before the adoption.",
+      "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/act-changes/rules-2025.html",
+      "quote": "Adopted people are likely eligible to apply for Canadian citizenship through a direct grant for adopted people if they were born and adopted outside Canada in the second generation or later, and their Canadian parent spent at least 1,095 days in Canada before the adoption"
+    },
+    {
+      "id": "crown-service-exception",
+      "rule": "The first-generation limit (s. 3(3)) does not apply to a child born to a parent employed outside Canada in the Canadian Armed Forces, the federal public administration or a provincial public service (s. 3(5)).",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-29/FullText.html",
+      "quote": "Exception — child or grandchild of person in service abroad (5) Subsection (3) does not apply to a person (a) born to a parent who, at the time of the person's birth, was employed outside Canada in o[r with the Canadian Armed Forces ...]"
+    },
+    {
+      "id": "renounced-after-grant-excluded",
+      "rule": "The restoration paragraphs do not apply to a person who became a citizen by grant and later renounced their citizenship (s. 3(2.5)); people already Canadian before C-3 are unaffected; a person who became Canadian automatically and does not want it can apply to renounce.",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-29/FullText.html",
+      "quote": "(2.5) Paragraphs (1)(b), (f) to (j), (q) and (r) do not apply to a person who became a citizen by way of grant before the day on which this subsection comes into force and subsequently renounced their citizenship under any of the provisions referred to in clauses (1)(f)(i)(A) to (F)."
+    },
+    {
+      "id": "pre-1977-history-mostly-irrelevant",
+      "rule": "Historical rules (1947 Act, pre-15 Feb 1977 wedlock / registration / retention rules, loss on acquiring another citizenship) no longer block most claims: s. 3(1)(f) to (r) restore citizenship to persons who ceased to be citizens for reasons other than renunciation/revocation. For a checker: born abroad before 15 Dec 2025 + a Canadian-citizen parent at birth = likely citizen; edge cases (renunciation, revocation, declaration of alienage before 1 April 1949) need a certificate decision.",
+      "source_url": "https://laws-lois.justice.gc.ca/eng/acts/C-29/FullText.html",
+      "quote": "(f) before the coming into force of this paragraph, the person ceased to be a citizen for any reason other than the following reasons and did not subsequently become a citizen: (i) the person renounced his or her citizenship ..."
+    }
+  ],
+  "procedure": {
+    "authority": "Immigration, Refugees and Citizenship Canada (IRCC)",
+    "how": "Apply for a citizenship certificate (proof of citizenship), online or on paper (not both). IRCC reviews whether the applicant is a citizen and, if so, issues a certificate. The paper package (instruction guide, forms, checklist) is obtained from the 'Get the application package' link; the adult form is commonly CIT 0001 (form number not shown on the apply page read).",
+    "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/proof-citizenship/apply.html"
+  },
+  "documents": [
+    {
+      "item": "Proof of parentage and Canadian citizenship for each parent, grandparent and parental ancestor relied on (birth certificate showing the parent-child relationship in each generation; provincial/territorial or foreign)",
+      "note": "Documents must come from the original authority; hospital or baptismal records may be accepted if no birth certificate. All documents as clear colour copies.",
+      "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/proof-citizenship/apply.html"
+    },
+    {
+      "item": "Translations of documents not in English or French",
+      "note": "Translation plus sworn statement (affidavit) of the translator; translations by family members are not accepted. No apostille requirement mentioned on the page.",
+      "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/proof-citizenship/apply.html"
+    }
+  ],
+  "fees": [
+    {
+      "label": "Citizenship certificate (proof of citizenship)",
+      "amount": 75,
+      "currency": "CAD",
+      "source_url": "https://ircc.canada.ca/english/information/fees/fees.asp",
+      "quote": "Citizenship certificate (proof of citizenship) 75.00 [Date modified: 2026-09-21]"
+    },
+    {
+      "label": "Search for your record of citizenship",
+      "amount": 75,
+      "currency": "CAD",
+      "source_url": "https://ircc.canada.ca/english/information/fees/fees.asp",
+      "quote": "Search for your record of citizenship 75.00"
+    },
+    {
+      "label": "Resume your citizenship (18 and over)",
+      "amount": 530,
+      "currency": "CAD",
+      "source_url": "https://ircc.canada.ca/english/information/fees/fees.asp",
+      "quote": "Resume your citizenship (18 and over) 530.00"
+    }
+  ],
+  "processing_time": [
+    {
+      "label": "Search for your record of citizenship (official JSON behind the IRCC processing-times tool)",
+      "value": "19 months",
+      "source_url": "https://www.canada.ca/content/dam/ircc/documents/json/data-ptime-non-country-en.json",
+      "quote": "\"cit_search\": \"19 months\"",
+      "published_or_updated": "October 21, 2026"
+    }
+  ],
+  "dual_citizenship": {
+    "allowed": "yes",
+    "note": "Canada allows multiple citizenship. Canadian dual citizens need a valid Canadian passport to return to Canada by air.",
+    "source_url": "https://travel.gc.ca/travelling/documents/dual-citizenship",
+    "quote": "Canada allows you to have multiple citizenships while keeping your Canadian citizenship."
+  },
+  "other_requirements": [
+    {
+      "item": "Canadian passport required for air return to Canada",
+      "source_url": "https://travel.gc.ca/travelling/documents/dual-citizenship",
+      "quote": "If you are a Canadian with dual citizenship, you need to carry a valid Canadian passport to return to Canada by air."
+    }
+  ],
+  "recent_changes": [
+    {
+      "date": "2025-11-20",
+      "what": "Bill C-3, An Act to amend the Citizenship Act (2025), received royal assent (S.C. 2025, c. 5).",
+      "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2025/12/bill-c-3-an-act-to-amend-the-citizenship-act-2025-comes-into-effect.html"
+    },
+    {
+      "date": "2025-12-15",
+      "what": "Bill C-3 came into effect: first-generation limit removed for persons born abroad before that date; 1,095-day substantial-connection test for children born/adopted abroad on or after it. Applications under the March 2025 interim measure are processed under the new rules.",
+      "source_url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/act-changes.html"
+    }
+  ],
+  "open_questions": [
+    "Processing time for 'Citizenship certificate (proof of citizenship)': the IRCC tool computes it dynamically and the key does not appear in the JSON files read (data-ptime-non-country-en.json shows only cit_resumption, cit_renunciation, cit_search, cit_adoption_part1). Secondary sites (immigration.ca, cicnews.com, moving2canada.com) report the IRCC estimate at about 33-34 months in Sept-Oct 2026; NOT confirmed on an official page. Check https://www.canada.ca/en/immigration-refugees-citizenship/services/application/check-processing-times.html in a browser.",
+    "Form number CIT 0001 is not displayed on the apply page read; it appears inside the application package (not fetched).",
+    "canada.ca refused curl (HTTP/2 stream error); pages were read via WebFetch, so quotes are as returned by that tool.",
+    "Licence: canada.ca Terms and conditions allow non-commercial reproduction with attribution and forbid commercial redistribution without permission; the terms page read does not mention the Open Government Licence - Canada. We only cite facts (not reproduce), which is not restricted."
+  ],
+  "sources": [
+    {"key": "ca-citizenship-act", "title": "Citizenship Act (R.S.C., 1985, c. C-29) - full text", "publisher": "Justice Laws Website, Government of Canada", "url": "https://laws-lois.justice.gc.ca/eng/acts/C-29/FullText.html", "read_on": "2026-10-25", "http": "200"},
+    {"key": "ca-rules-2025", "title": "Changes to citizenship rules as of December 15, 2025", "publisher": "IRCC", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/act-changes/rules-2025.html", "read_on": "2026-10-25", "http": "blocked-but-opens-in-browser (read via WebFetch; date modified 2025-12-24)"},
+    {"key": "ca-act-changes", "title": "Changes to the Citizenship Act", "publisher": "IRCC", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/act-changes.html", "read_on": "2026-10-25", "http": "blocked-but-opens-in-browser (read via WebFetch)"},
+    {"key": "ca-news-c3-in-force", "title": "Bill C-3: An Act to amend the Citizenship Act (2025) comes into effect", "publisher": "IRCC news release, 2025-12-15", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2025/12/bill-c-3-an-act-to-amend-the-citizenship-act-2025-comes-into-effect.html", "read_on": "2026-10-25", "http": "blocked-but-opens-in-browser (read via WebFetch)"},
+    {"key": "ca-news-c3-assent", "title": "Canada reaches important milestone in restoring fairness and clarity to citizenship by descent", "publisher": "IRCC news release, 2025-11-21", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/news/2025/11/canada-reaches-important-milestone-in-restoring-fairness-and-clarity-to-citizenship-by-descent.html", "read_on": "2026-10-25", "http": "blocked-but-opens-in-browser (read via WebFetch)"},
+    {"key": "ca-proof-apply", "title": "Proof of citizenship: How to apply", "publisher": "IRCC", "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/canadian-citizenship/proof-citizenship/apply.html", "read_on": "2026-10-25", "http": "blocked-but-opens-in-browser (read via WebFetch; date modified 2026-07-17)"},
+    {"key": "ca-fees", "title": "Fee list", "publisher": "IRCC", "url": "https://ircc.canada.ca/english/information/fees/fees.asp", "read_on": "2026-10-25", "http": "200"},
+    {"key": "ca-ptime-json", "title": "Processing times data (non-country)", "publisher": "IRCC", "url": "https://www.canada.ca/content/dam/ircc/documents/json/data-ptime-non-country-en.json", "read_on": "2026-10-25", "http": "blocked-but-opens-in-browser (read via WebFetch)"},
+    {"key": "ca-dual", "title": "Dual citizens", "publisher": "Government of Canada (travel.gc.ca)", "url": "https://travel.gc.ca/travelling/documents/dual-citizenship", "read_on": "2026-10-25", "http": "200 via WebFetch (date modified 2026-08-13)"},
+    {"key": "ca-terms", "title": "Terms and conditions", "publisher": "Government of Canada", "url": "https://www.canada.ca/en/transparency/terms.html", "read_on": "2026-10-25", "http": "blocked-but-opens-in-browser (read via WebFetch)"}
+  ]
+}

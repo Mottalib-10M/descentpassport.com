@@ -1,0 +1,28 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED, AUTHOR_NAME, CONTACT_EMAIL, AUTHOR_ROLE } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { organizationSchema, breadcrumbSchema, profilePageSchema } from '../../lib/seo';
+import { dateL } from '../../lib/format-l';
+import { COUNTRY_ORDER } from '../../lib/engine/descent';
+const lang = 'en';
+const n = COUNTRY_ORDER.length;
+---
+<PageLayout title="About Descent Passport Check: publisher, funding, limits" description="Who publishes Descent Passport Check, why a family tree checker for twenty countries, how it is funded, what it never sells, and how to report a rule that changed." lang={lang} jsonLd={[organizationSchema(lang), profilePageSchema({ path: route('about', lang), lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'About', path: route('about', lang) }])]} breadcrumbs={[{ label: 'About' }]}>
+  <header class="mb-6"><p class="kicker">About</p><h1 class="mt-0 text-3xl font-bold text-navy-900 md:text-4xl">Who publishes Descent Passport Check</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <div class="not-prose mb-6"><p class="text-lg font-semibold text-navy-900">{AUTHOR_NAME}</p><p class="text-navy-700">{AUTHOR_ROLE[lang]}</p></div>
+    <p>Descent Passport Check is published by Radif Partners, a company that builds free calculators from laws and government pages. This one answers a question millions of American families ask once a relative mentions the old country: does a grandmother born in Cork, a great-grandfather from Calabria or a father from Kraków give us a second passport today?</p>
+    <h2>Why one tree for {n} countries</h2>
+    <p>Most families have more than one line. The same person may have an Irish grandmother, a Polish great-grandfather and a German one, and each country counts generations, naturalization dates and the role of mothers differently. The checker takes the tree once and applies each country's dated rules side by side, so a family can see which line is worth the paperwork.</p>
+    <h2>What it is not</h2>
+    <p>It is not a consulate, a ministry or a law firm, and its answers are not legal advice. It does not take applications, book appointments or review files. It recommends no lawyer, genealogist or agency, and no one pays to be mentioned.</p>
+    <h2>Funding</h2>
+    <p>Nothing is sold: no consultation, report, document retrieval or membership. Advertising may appear in a few marked places, never inside a tool or between a question and its answer.</p>
+    <h2>Your family data</h2>
+    <p>Years and relationships you type stay in your browser. They are not stored, not sent and not used to build a profile. A shared link carries only the years you chose to put in it.</p>
+    <h2>Corrections</h2>
+    <p>Nationality laws moved fast in 2025 and 2026: Italy, Canada, Spain, Portugal and Sweden all changed. If a rule or a fee here no longer matches the official page, write to <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> with the page concerned. The <a href={route('editorial', lang)}>editorial policy</a> explains what happens next and the <a href={route('method', lang)}>method page</a> how each verdict is built.</p>
+    <p class="text-sm text-navy-600">Rules and fees last read on <time datetime={LAST_UPDATED}>{dateL(LAST_UPDATED)}</time>.</p>
+  </div>
+</PageLayout>

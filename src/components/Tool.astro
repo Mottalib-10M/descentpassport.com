@@ -1,0 +1,34 @@
+---
+/**
+ * Renders one tool with its page defaults: `checker` (family tree checker, props: country, rel),
+ * `cost` (paperwork cost, props: country), `dualtable` (filterable table), `fbar` (FBAR and Form 8938
+ * thresholds), `frise` (steps in time, props: preset) or `mini:<spec>`. First render = build defaults
+ * (RECETTE §17.5).
+ */
+import DescentChecker from './calc/DescentChecker';
+import CostTool from './calc/CostTool';
+import DualTable from './calc/DualTable';
+import FbarTool from './calc/FbarTool';
+import Frise from './ui/Frise';
+import { steps as friseSteps, labels as friseLabels, friseStart } from '../lib/frises';
+import MiniSim from './calc/MiniSim';
+import { route, hasRoute, type Locale } from '../i18n/routes';
+import { getSpec } from '../lib/mini-specs';
+import type { ToolDef } from '../lib/guide-types';
+interface Props { tool: ToolDef; lang: Locale; primary?: boolean; idPrefix?: string; seedKey?: string }
+const { tool, lang, primary = false, idPrefix } = Astro.props;
+const props = (tool.props ?? {}) as Record<string, any>;
+const kind = tool.kind;
+const mini = kind.startsWith('mini:') ? kind.slice(5) : null;
+const spec = mini ? getSpec(mini, 'en') : null;
+const href = spec?.ctaPage && hasRoute(spec.ctaPage, lang) ? route(spec.ctaPage, lang) : undefined;
+const numDefaults: Record<string, number> = {};
+for (const [k, v] of Object.entries(props)) if (typeof v === 'number') numDefaults[k] = v;
+const preset = String(props.preset ?? 'ie-fbr');
+---
+{kind === 'checker' && <DescentChecker client:load idPrefix={idPrefix ?? 'c'} defaultCountry={props.country} defaultRel={props.rel} primary={primary} />}
+{kind === 'cost' && <CostTool client:load idPrefix={idPrefix ?? 'k'} defaultCountry={props.country} primary={primary} />}
+{kind === 'dualtable' && <DualTable client:load idPrefix={idPrefix ?? 't'} primary={primary} />}
+{kind === 'fbar' && <FbarTool client:load idPrefix={idPrefix ?? 'f'} primary={primary} />}
+{kind === 'frise' && <Frise client:visible steps={friseSteps(preset)} labels={friseLabels(preset)} locale="en-US" defaultStart={friseStart(preset)} id={`frise-${idPrefix ?? 'f'}`} />}
+{mini && <MiniSim client:load kind={mini} lang="en" href={href} defaults={numDefaults} primary={primary} idPrefix={idPrefix ?? (primary ? 'p' : 'm')} />}

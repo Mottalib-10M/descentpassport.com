@@ -1,0 +1,298 @@
+{
+ "topic": "US-side paperwork for European citizenship-by-descent files",
+ "code": "us",
+ "retrieved_at": "2026-10-25",
+ "who_apostilles_what": [
+  {
+   "document_type": "Federal documents (USCIS letters/certificates, NARA certified copies, FBI records, etc.)",
+   "authority": "U.S. Department of State, Office of Authentications",
+   "source_url": "https://www.hcch.net/en/states/authorities/details3/?aid=353",
+   "quote": "The U.S. Department of State’s Office of Authentications issues Apostilles for documents issued by Federal agencies of the United States."
+  },
+  {
+   "document_type": "State/county documents (birth, marriage, death certificates; county court naturalization records; documents notarized by a state notary)",
+   "authority": "Designated authority of the issuing state, generally the state Secretary of State",
+   "source_url": "https://www.hcch.net/en/states/authorities/details3/?aid=353",
+   "quote": "Public documents issued by U.S. states, the District of Columbia and other U.S. jurisdictions may be apostillized by designated competent authorities in their respective jurisdictions, generally the state Secretary of State's office."
+  },
+  {
+   "document_type": "Documents issued by U.S. federal courts (e.g. federal court naturalization records certified by the court)",
+   "authority": "Clerks and Deputy Clerks of the U.S. Federal Courts",
+   "source_url": "https://www.hcch.net/en/states/authorities/details3/?aid=353",
+   "quote": "The Clerks and Deputy Clerks of U.S. Federal Courts issue apostilles on documents issued by those courts."
+  },
+  {
+   "document_type": "Consular Reports of Birth, Death and Marriage Abroad",
+   "authority": "U.S. Department of State, Passport Services, Vital Records Section",
+   "source_url": "https://www.hcch.net/en/states/authorities/details3/?aid=353",
+   "quote": "The U.S. Department of State’s Bureau of Consular Affairs, Passport Services, Vital Records Section issues apostilles for Consular Reports of Birth, Death and Marriage."
+  }
+ ],
+ "rules": [
+  {
+   "id": "state-records-apostille",
+   "rule": "A US birth, marriage or death certificate must be a certified copy issued by the state/county vital records office and apostilled by that state's competent authority (usually the Secretary of State), not by the federal State Department.",
+   "source_url": "https://www.hcch.net/en/states/authorities/details3/?aid=353",
+   "quote": "Public documents issued by U.S. states, the District of Columbia and other U.S. jurisdictions may be apostillized by designated competent authorities in their respective jurisdictions, generally the state Secretary of State's office."
+  },
+  {
+   "id": "federal-records-apostille",
+   "rule": "USCIS letters (e.g. Certificate of Non-Existence) and NARA documents are federal documents: apostille from the US Department of State Office of Authentications (Form DS-4194), USD 20 per document.",
+   "source_url": "https://www.ecfr.gov/current/title-22/chapter-I/subchapter-B/part-22/section-22.1",
+   "quote": "46. Authentications (by the Office of Authentications domestically): (a) Each basic authentication service $20"
+  },
+  {
+   "id": "nara-no-apostille-power",
+   "rule": "NARA issues certified copies (red ribbon, gold seal) of naturalization records it holds, and negative search letters, but cannot issue an apostille nor a certification of non-existence. The State Department accepts a printout of NARA's electronically signed negative search letter for apostille.",
+   "source_url": "https://www.archives.gov/research/immigration/dual-citizenship-faq",
+   "quote": "NARA does not have the authority to issue a certification of non-existence of a record and can only issue a negative search letter. Only the U.S. Citizenship and Immigration Services (USCIS) can issue a certification of non-existence of a record for post-1906 records [...] If a paper copy is needed, researchers may simply print out the electronic letter NARA provides. The Department of State will accept the print out for apostille purposes."
+  },
+  {
+   "id": "cne-uscis-only",
+   "rule": "Proof that an ancestor NEVER naturalized (needed for Italy's old rules and for the 'exclusively Italian' exception) comes from USCIS Form G-1566 (Certificate of Non-Existence) for post-27 Sept 1906 records, plus NARA / county court no-record letters where the consulate asks for them.",
+   "source_url": "https://www.uscis.gov/g-1566",
+   "quote": "Use Form G-1566 to determine if specific immigration records exist within our database. If we determine the records you inquired about do not exist, we will issue a Certificate of Non-Existence. If we find the immigration record you inquired about, we will respond with additional information and will not issue a Certificate of Non-Existence."
+  },
+  {
+   "id": "uscis-photocopies-only",
+   "rule": "The USCIS Genealogy Program sends photocopies, not certified copies, of C-Files (naturalization certificate files 1906-1956), A-Files, AR-2, Visa and Registry files of deceased immigrants. Two steps: index search (G-1041) then record request (G-1041A); for dual-citizenship use, writing 'Dual Citz-Natz Certificate Only' on G-1041A requests the certificate only and avoids Privacy Act delays.",
+   "source_url": "https://www.uscis.gov/records/genealogy/genealogical-records-help/genealogy-frequently-asked-questions",
+   "quote": "Can the USCIS Genealogy Program provide a copy or a certified copy of naturalization records? No. We can only provide a photocopy of a naturalization record. If you need only a copy of the naturalization certificate (not certified) to satisfy requirements for your foreign application for dual citizenship, you may submit Form G-1041A, Genealogy Records Request for the naturalization certificate only."
+  },
+  {
+   "id": "where-naturalization-records-are",
+   "rule": "Before 27 Sept 1906 any court of record (municipal, county, state, federal) could naturalize; federal court records (declaration of intention, petition) are at the NARA facility serving that state; state/local court records are usually at state archives or the county; NARA holds no US District Court naturalization records after October 1991 (transferred to INS). There is no central index.",
+   "source_url": "https://www.archives.gov/research/naturalization",
+   "quote": "Prior to September 27, 1906, any \"court of record\" (municipal, county, state, or Federal) could grant United States citizenship. [...] As a general rule, the National Archives does not have naturalization records created in state or local courts. [...] If a naturalization took place in a Federal court, naturalization indexes, declarations of intention (with any accompanying certificates of arrival), and petitions for naturalization will usually be in the National Archives facility serving the state in which the Federal court is located. No central index exists."
+  },
+  {
+   "id": "italy-us-naturalization-proof",
+   "rule": "Italian consulates (NY list) accept as proof of naturalization date: notarized copy of the Certificate of Naturalization (if it shows correct name and date of birth), or NARA certified Declaration/Petition/Oath (no apostille, no translation), or county-court certified copies (with apostille). Proof of non-naturalization: USCIS no-record letter with its envelope (apostille) + NARA no-record letter (apostille) + county non-existence statements (apostille), or census/AR-2 alien status after the next-in-line's birth. Naturalization documents need no Italian translation.",
+   "source_url": "https://consnewyork.esteri.it/wp-content/uploads/2025/08/List_of_documents.pdf",
+   "quote": "Letter of No Record of Naturalization issued by US Citizenship and Immigration Services (USCIS). The declaration must include all aliases and different dates of birth, if any, as the Italian-born ancestor’s name and date of birth may be indicated differently in other documents, such marriage or death certificate, than his/her Italian birth certificate. The letter of no record must be submitted along with the envelope in which it was sent. With Apostille. No translation required;"
+  }
+ ],
+ "fees": [
+  {
+   "label": "US Department of State Office of Authentications - apostille/authentication per document",
+   "amount": 20,
+   "currency": "USD",
+   "source_url": "https://www.ecfr.gov/current/title-22/chapter-I/subchapter-B/part-22/section-22.1",
+   "quote": "46. Authentications (by the Office of Authentications domestically): (a) Each basic authentication service $20"
+  },
+  {
+   "label": "USCIS Form G-1041 Genealogy Index Search - online",
+   "amount": 30,
+   "currency": "USD",
+   "source_url": "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf",
+   "quote": "G-1041 Genealogy Index Search Request (uscis.gov/g-1041) General filing Paper Filing: $80 Online Filing: $30"
+  },
+  {
+   "label": "USCIS Form G-1041 Genealogy Index Search - paper",
+   "amount": 80,
+   "currency": "USD",
+   "source_url": "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf",
+   "quote": "G-1041 Genealogy Index Search Request (uscis.gov/g-1041) General filing Paper Filing: $80 Online Filing: $30"
+  },
+  {
+   "label": "USCIS Form G-1041A Genealogy Records Request - online",
+   "amount": 30,
+   "currency": "USD",
+   "source_url": "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf",
+   "quote": "G-1041A Genealogy Records Request (uscis.gov/g-1041a) General filing Paper Filing: $80 Online Filing: $30"
+  },
+  {
+   "label": "USCIS Form G-1041A Genealogy Records Request - paper",
+   "amount": 80,
+   "currency": "USD",
+   "source_url": "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf",
+   "quote": "G-1041A Genealogy Records Request (uscis.gov/g-1041a) General filing Paper Filing: $80 Online Filing: $30"
+  },
+  {
+   "label": "USCIS Form G-1566 Certificate of Non-Existence - online",
+   "amount": 280,
+   "currency": "USD",
+   "source_url": "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf",
+   "quote": "G-1566 Request for a Certificate of Non-Existence (uscis.gov/g-1566) General filing Paper Filing: $330 Online Filing: $280"
+  },
+  {
+   "label": "USCIS Form G-1566 Certificate of Non-Existence - paper",
+   "amount": 330,
+   "currency": "USD",
+   "source_url": "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf",
+   "quote": "G-1566 Request for a Certificate of Non-Existence (uscis.gov/g-1566) General filing Paper Filing: $330 Online Filing: $280"
+  },
+  {
+   "label": "NARA certified copy of a naturalization record",
+   "amount": 25,
+   "currency": "USD",
+   "source_url": "https://www.archives.gov/research/immigration/dual-citizenship-faq",
+   "quote": "The cost for a certified copy of a naturalization record is $25.00."
+  },
+  {
+   "label": "Example state apostille: California Secretary of State, per apostille",
+   "amount": 20,
+   "currency": "USD",
+   "source_url": "https://www.sos.ca.gov/notary/authentication",
+   "quote": "A check or money order payable to Secretary of State in the amount of $20.00 per Apostille requested."
+  }
+ ],
+ "processing_time": [
+  {
+   "label": "State Department Office of Authentications - by mail",
+   "value": "within five weeks from receipt",
+   "source_url": "https://web.archive.org/web/20260106111402/https://travel.state.gov/content/travel/en/replace-certify-docs/authenticate-your-document/office-of-authentications.html",
+   "quote": "Mail your request 5+ Weeks Send your request by mail . We will process it within five weeks from the date we receive it.",
+   "published_or_updated": "page 'Last Updated: December 22, 2025' (Wayback copy of 2026-01-06)"
+  },
+  {
+   "label": "State Department Office of Authentications - walk-in drop-off (Washington DC)",
+   "value": "seven business days; max 15 documents, one request per day",
+   "source_url": "https://web.archive.org/web/20260106111402/https://travel.state.gov/content/travel/en/replace-certify-docs/authenticate-your-document/office-of-authentications.html",
+   "quote": "Walk-in to drop off and pick up your request. You can submit one request per day with a limit of 15 documents for one customer or company. We will process the request in seven business days.",
+   "published_or_updated": "Last Updated: December 22, 2025 (Wayback copy of 2026-01-06)"
+  }
+ ],
+ "offices": [
+  {
+   "name": "U.S. Department of State, Office of Authentications",
+   "address": "Mailing: 44132 Mercure Cir., PO Box 1206, Sterling, VA 20166-1206; physical: 600 19th Street NW, Washington, DC 20006",
+   "form": "DS-4194",
+   "source_url": "https://web.archive.org/web/20260106111402/https://travel.state.gov/content/travel/en/replace-certify-docs/authenticate-your-document/office-of-authentications.html"
+  },
+  {
+   "name": "USCIS Genealogy Program (G-1041 / G-1041A by mail)",
+   "address": "USCIS, Attn: Genealogy Program, P.O. Box 805925, Chicago, IL 60680-4188 (or online)",
+   "form": "G-1041, G-1041A",
+   "source_url": "https://www.uscis.gov/g-1041"
+  },
+  {
+   "name": "USCIS Certificate of Non-Existence (G-1566 by mail)",
+   "address": "USPS: USCIS, Attn: G-1566 Manual Process, P.O. Box 4074, Carol Stream, IL 60197-4074; couriers: 2500 Westfield Drive, Elgin, IL 60124-7836 (or online)",
+   "form": "G-1566",
+   "source_url": "https://www.uscis.gov/g-1566"
+  },
+  {
+   "name": "National Archives (NARA) regional facilities - federal court naturalization records",
+   "address": "By state: Atlanta, Boston, Chicago, Denver, Fort Worth, Kansas City, Philadelphia (incl. NY and NJ), Riverside, San Francisco, Seattle, Washington DC; request by e-mail to the facility",
+   "form": "none",
+   "source_url": "https://www.archives.gov/research/immigration/dual-citizenship-faq"
+  }
+ ],
+ "recent_changes": [
+  {
+   "date": "2026-10-16",
+   "what": "New edition of USCIS Form G-1055 Fee Schedule (10/16/26); genealogy and G-1566 fees as listed above (unchanged forms G-1041/G-1041A/G-1566 edition 04/01/24).",
+   "source_url": "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf"
+  },
+  {
+   "date": "2025/2026",
+   "what": "State Department moved its authentications pages under travel.state.gov/content/travel/en/replace-certify-docs/... (live site returns 403 to scripts).",
+   "source_url": "https://web.archive.org/web/20260106111402/https://travel.state.gov/content/travel/en/replace-certify-docs/authenticate-your-document/office-of-authentications.html"
+  }
+ ],
+ "open_questions": [
+  "travel.state.gov returns HTTP 403 to curl and WebFetch; processing times are from a Wayback copy dated 2026-01-06 (page last updated 22 Dec 2025). The fee (USD 20) is confirmed in the current eCFR (22 CFR 22.1, item 46). Current 2026-10 processing times not confirmed.",
+  "State apostille fees vary by state; only California (USD 20) was confirmed. New York Department of State page (dos.ny.gov) returned 403 (live and Wayback).",
+  "USCIS Genealogy and G-1566 processing times are not published on the pages read.",
+  "Some states require county-clerk certification before the Secretary of State apostille (e.g. New York City records); not verified on official pages in this pass."
+ ],
+ "sources": [
+  {
+   "key": "hcch-us-competent-authorities",
+   "title": "United States of America - Competent Authority (Art. 6), Apostille Convention",
+   "publisher": "HCCH (Hague Conference on Private International Law)",
+   "url": "https://www.hcch.net/en/states/authorities/details3/?aid=353",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "us-ecfr-22-cfr-22-1",
+   "title": "22 CFR 22.1 Schedule of fees for consular services (item 46)",
+   "publisher": "eCFR / Office of the Federal Register",
+   "url": "https://www.ecfr.gov/current/title-22/chapter-I/subchapter-B/part-22/section-22.1",
+   "read_on": "2026-10-25",
+   "http": "200 (via eCFR renderer API)"
+  },
+  {
+   "key": "us-dos-authentications",
+   "title": "Office of Authentications",
+   "publisher": "U.S. Department of State - travel.state.gov",
+   "url": "https://travel.state.gov/content/travel/en/replace-certify-docs/authenticate-your-document/office-of-authentications.html",
+   "read_on": "2026-10-25",
+   "http": "wayback copy of 2026-01-06 (live site 403 to scripts, opens in browser)"
+  },
+  {
+   "key": "us-uscis-g1055",
+   "title": "Form G-1055 Fee Schedule, edition 10/16/26 (PDF)",
+   "publisher": "USCIS",
+   "url": "https://www.uscis.gov/sites/default/files/document/forms/g-1055.pdf",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "us-uscis-genealogy",
+   "title": "Genealogy",
+   "publisher": "USCIS",
+   "url": "https://www.uscis.gov/records/genealogy",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "us-uscis-genealogy-faq",
+   "title": "Genealogy Frequently Asked Questions",
+   "publisher": "USCIS",
+   "url": "https://www.uscis.gov/records/genealogy/genealogical-records-help/genealogy-frequently-asked-questions",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "us-uscis-g1041",
+   "title": "G-1041, Genealogy Index Search Request",
+   "publisher": "USCIS",
+   "url": "https://www.uscis.gov/g-1041",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "us-uscis-g1566",
+   "title": "G-1566, Request for Certificate of Non-Existence",
+   "publisher": "USCIS",
+   "url": "https://www.uscis.gov/g-1566",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "us-nara-naturalization",
+   "title": "Naturalization Records",
+   "publisher": "National Archives (NARA)",
+   "url": "https://www.archives.gov/research/naturalization",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "us-nara-dual-citizenship-faq",
+   "title": "Dual Citizenship Assistance - Frequently Asked Questions",
+   "publisher": "National Archives (NARA)",
+   "url": "https://www.archives.gov/research/immigration/dual-citizenship-faq",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "us-ca-sos-apostille",
+   "title": "Request an Apostille",
+   "publisher": "California Secretary of State",
+   "url": "https://www.sos.ca.gov/notary/authentication",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "it-cons-ny-doclist",
+   "title": "List of documents (US naturalization / non-naturalization proof) (PDF)",
+   "publisher": "Consolato Generale d'Italia a New York (MAECI)",
+   "url": "https://consnewyork.esteri.it/wp-content/uploads/2025/08/List_of_documents.pdf",
+   "read_on": "2026-10-25",
+   "http": "200"
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { LAST_UPDATED } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+import { breadcrumbSchema, articleSchema } from '../../lib/seo';
+import { helpers } from '../../lib/helpers';
+import { COUNTRY_ORDER, countryName } from '../../lib/engine/descent';
+const lang = 'en';
+const h = helpers(lang);
+const P = h.P;
+const names = COUNTRY_ORDER.map(countryName);
+const s = (k: Parameters<typeof h.src>[0], t: string) => h.src(k, t);
+const nSources = Object.keys(P.sources).length;
+---
+<PageLayout title="Checker method: how each citizenship verdict is built" description="How Descent Passport Check turns twenty nationality laws into verdicts: the line it reads, the cut-off dates, same-year cases, fees and times, and what it leaves out." lang={lang} jsonLd={[articleSchema({ title: 'How each citizenship verdict is built', description: 'Method of Descent Passport Check', path: route('method', lang), lang }), breadcrumbSchema([{ name: 'Home', path: route('home', lang) }, { name: 'Method', path: route('method', lang) }])]} breadcrumbs={[{ label: 'Method' }]}>
+  <header class="mb-6"><p class="kicker">Method</p><h1 class="mt-0 text-3xl font-bold text-navy-900 md:text-4xl">How each verdict is built</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <p>Every page and tool reads one parameter file holding, for {names.length} countries, the cut-off dates, fees, published waiting times and dual citizenship rules as read on {h.date(P.retrieved_at)}, with {h.num(nSources)} links to the laws and official pages behind them. A date or a fee is never typed into a page; when a consulate changes one, a single edit updates the whole site.</p>
+    <h2>1. The line the checker reads</h2>
+    <p>One line runs from a foreign-born ancestor to you. For each person in between it asks two things: the year of birth and, for the person in the line above, whether they were a mother or a father. For the ancestor it adds the year they took US or another citizenship, if they ever did. Those few facts decide most cases, because nationality laws turn on three questions: was the parent a citizen on the day the child was born, did the law of that year let a mother pass it on, and how many generations born abroad does the country accept.</p>
+    <h2>2. Years, not days</h2>
+    <p>The checker works with years so that nobody has to dig out exact dates before knowing whether a line is worth it. When a decisive event falls in the same year as a birth, for example a naturalization in 1938 and a son born in 1938, the answer becomes "possible, to check": only the two certificates can tell which came first.</p>
+    <h2>3. Country rules</h2>
+    <p>Each country has its own short rule set, written from the law and the consulate's reading of it. Examples: Italy applies article 3-bis of Law 91/1992 since March 28, 2025 (<Fragment set:html={s('it-law-91-art3bis', 'Normattiva')} />), with the old unlimited rules only for files lodged by March 27, 2025. Canada applies Bill C-3, in force since December 15, 2025 (<Fragment set:html={s('ca-rules-2025', 'IRCC')} />). Ireland counts a grandparent born on the island through the Foreign Births Register. Spain's Democratic Memory route closed on October 22, 2025. Germany checks whether the ancestor naturalized before the next child's birth and whether a mother transmitted before 1975, which the free declaration of section 5 now repairs. Every reason shown in a verdict links the page it rests on.</p>
+    <h2>4. Levels of answer</h2>
+    <ul>
+      <li><strong>Likely eligible</strong>: every condition the checker can test is met.</li>
+      <li><strong>Possible, to check</strong>: a condition depends on a fact it cannot see, a same-year event or a discretionary decision.</li>
+      <li><strong>Not under current rules</strong>: a condition fails, with the reason named.</li>
+      <li><strong>Route closed</strong>: the route existed and ended on a known date.</li>
+    </ul>
+    <h2>5. Fees, times and paperwork</h2>
+    <p>Fees are those of the consulate or ministry, in their own currency; a dollar figure appears only when the consulate publishes it, as Italy's New York consulate does each quarter. Waiting times are the published ones; when none is published, the page says so. The cost calculator uses California's vital record fees (<Fragment set:html={s('ca-cdph-fees', 'CDPH')} />) and apostille fee by default, which you can replace with your state's.</p>
+    <h2>6. Automated checks</h2>
+    <p>Each build runs tests on typical families for every country: an Italian great-grandparent after 2025, a German ancestor naturalized before or after the next birth, an Irish great-grandparent with or without a registered parent, a child born in Canada's new regime. A test also checks that every country has a fee, a time and a dual citizenship answer tied to a source.</p>
+    <h2>7. What the checker leaves out</h2>
+    <ul>
+      <li>Adoption, legitimation, name changes and court decisions on parentage.</li>
+      <li>Criminal record conditions, military service obligations and security checks.</li>
+      <li>Investment, residence and marriage routes, which are not citizenship by descent.</li>
+    </ul>
+    <p>Its answers are not legal advice; the decision always belongs to the country concerned. Method version: {LAST_UPDATED}. A rule looks wrong: <a href={route('contact', lang)}>contact</a>.</p>
+  </div>
+</PageLayout>

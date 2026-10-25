@@ -1,0 +1,160 @@
+{
+  "country": "Hungary",
+  "code": "hu",
+  "retrieved_at": "2026-10-25",
+  "laws": [
+    {
+      "name": "1993. évi LV. törvény a magyar állampolgárságról (Act LV of 1993 on Hungarian Citizenship)",
+      "articles": "§ 1(4), § 3, § 4(3), § 4(8), § 7 (oath), § 17 (deadlines)",
+      "url": "https://njt.hu/jogszabaly/1993-55-00-00",
+      "quote": "(3) Az (1) bekezdés b) és d) pontjában meghatározott feltételek fennállása esetén – kérelmére – kedvezményesen honosítható az a nem magyar állampolgár, akinek felmenője magyar állampolgár volt vagy valószínűsíti magyarországi származását, és magyar nyelvtudását igazolja. [Gloss: a non-Hungarian whose ancestor was a Hungarian citizen, or who shows probable origin from Hungary, may be naturalized on preferential terms if he/she has a clean record under Hungarian law, is not a public/national security risk, and proves Hungarian language knowledge.]"
+    },
+    {
+      "name": "Magyarország Alaptörvénye, G) cikk (1) (Fundamental Law) – citizenship by descent at birth, applied through § 3 of Act LV of 1993",
+      "articles": "Act LV of 1993 § 3(1)-(2)",
+      "url": "https://njt.hu/jogszabaly/1993-55-00-00",
+      "quote": "3. § (1) A magyar állampolgárság Alaptörvény G) cikk (1) bekezdése szerinti keletkezése megállapítása tekintetében a Polgári Törvénykönyvnek a leszármazásra, illetve az apai és az anyai jogállásra vonatkozó rendelkezéseit kell alkalmazni. [Gloss: whether citizenship arose at birth by descent (Fundamental Law art. G(1)) is determined under the Civil Code rules on descent and paternal/maternal status.]"
+    }
+  ],
+  "rules": [
+    {
+      "id": "hu-simplified-naturalization-ancestor",
+      "rule": "Simplified (preferential) naturalization: anyone whose ancestor (parent, grandparent, great-grandparent, etc., no generation limit stated) was a Hungarian citizen, or who can make Hungarian origin probable, may apply WITHOUT living in Hungary, if: clean criminal record under Hungarian law and no pending criminal case in a Hungarian court; no threat to public/national security; proves Hungarian language knowledge. The ancestral chain must be documented link by link.",
+      "source_url": "https://njt.hu/jogszabaly/1993-55-00-00",
+      "quote": "(3) Az (1) bekezdés b) és d) pontjában meghatározott feltételek fennállása esetén – kérelmére – kedvezményesen honosítható az a nem magyar állampolgár, akinek felmenője magyar állampolgár volt vagy valószínűsíti magyarországi származását, és magyar nyelvtudását igazolja."
+    },
+    {
+      "id": "hu-language-checked",
+      "rule": "Hungarian language is checked in person by the authority receiving the application (consulate) for applicants aged 14+; no exam certificate needed, but two-way conversation at intermediate level is required. Insufficient Hungarian = expect refusal. For legally incapacitated minors the legal representative's language counts.",
+      "source_url": "http://www.kormanyhivatal.hu/hu/budapest/jarasok/egyszerusitett-honositasi-eljaras",
+      "quote": "A 14. életévét betöltött kérelmező magyar nyelvtudását a kérelmet átvevő szerv ellenőrzi, a kérelemnyomtatványon tanúsítja. [...] A nyelvtudást nem kell nyelvvizsgával igazolni, a magyar nyelven történő kommunikáció az elvárás; a kommunikációnak kétoldalúnak kell lennie, azaz mind a megértésnek, mind a kifejezőképességnek középszinten kell állnia."
+    },
+    {
+      "id": "hu-existing-citizenship-verification",
+      "rule": "If your parent was a Hungarian citizen at your birth, you may ALREADY be Hungarian (citizenship by descent at birth); the route is a citizenship verification (állampolgársági vizsgálat) at any Hungarian consulate, not naturalization, and needs no Hungarian language. Child of a non-Hungarian: if the descent link to a person who was Hungarian at the child's birth is established after birth, citizenship arises retroactively to birth. Laws in force when the relevant facts occurred apply (no retroactivity).",
+      "source_url": "https://njt.hu/jogszabaly/1993-55-00-00",
+      "quote": "(2) A nem magyar állampolgár szülő gyermekének magyar állampolgársága a születés napjára visszaható hatállyal keletkezik, ha a gyermek születése időpontjában magyar állampolgársággal rendelkező személy és a gyermek közötti leszármazáson alapuló egyenes ági rokoni kapcsolat a gyermek születését követően jön létre. / (4) A törvénynek nincs visszaható hatálya. A magyar állampolgárságra azok a jogszabályok az irányadók, amelyek az állampolgárságra ható tények vagy események bekövetkezésekor hatályban voltak."
+    },
+    {
+      "id": "hu-verification-documents",
+      "rule": "For a verification, your birth certificate and your parents' marriage certificate suffice if you or a parent was born in Hungary, held a Hungarian passport/ID, or already had citizenship established; otherwise also the (presumed) Hungarian ancestor's birth certificate and that ancestor's parents' marriage certificate. If you or ancestors left Hungary before 1945, add other proof (old passport, certificate of domicile 'illetőségi bizonyítvány', military book, etc.).",
+      "source_url": "https://newyork.mfa.gov.hu/hu/magyar-allampolgarsag-fennallasanak-vizsgalata",
+      "quote": "Elegendő saját születési anyakönyvi kivonatát és szülei házassági anyakönyvi kivonatát csatolnia, ha Ön vagy legalább egyik szülője Magyarországon született, vagy Önnek vagy legalább egyik szülőjének korábban volt magyar útlevele vagy személyazonosító igazolványa, illetve ha Önnek vagy legalább egyik szülőjének korábban már megállapították a magyar állampolgárságát (pl. állampolgársági bizonyítványt kapott). [...] Amennyiben Ön vagy felmenői 1945 előtt hagyták el Magyarországot, célszerű egyéb magyar állampolgárságot igazoló vagy valószínűsítő okiratot is csatolni"
+    },
+    {
+      "id": "hu-oath-within-one-year",
+      "rule": "Naturalized applicants acquire citizenship on the day they take the citizenship oath/pledge (can be taken at a Hungarian consulate abroad); if not taken within one year of the first invitation, the naturalization certificate lapses.",
+      "source_url": "http://www.kormanyhivatal.hu/hu/budapest/jarasok/egyszerusitett-honositasi-eljaras",
+      "quote": "A kérelmező a magyar állampolgárságot az eskü vagy a fogadalom letételének napjával szerzi meg. Amennyiben az eskü vagy fogadalom letételére az első felhívást követő egy éven belül nem kerül sor, a honosítási okirat hatályát veszti."
+    },
+    {
+      "id": "hu-minors",
+      "rule": "Naturalization of a minor (under 18) requires the consent of both parents; minors must attend in person (biometrics). Children 14+ have their Hungarian checked; younger children may be checked if they will turn 14 before the end of the procedure.",
+      "source_url": "http://www.kormanyhivatal.hu/hu/budapest/jarasok/egyszerusitett-honositasi-eljaras",
+      "quote": "Kiskorú, 18 életévét be nem töltött személy honosításához mindkét szülő hozzájárulása szükséges."
+    },
+    {
+      "id": "hu-maternal-line-marriage-proof",
+      "rule": "When relying on a maternal line, maiden and married names must be proven with marriage certificates; every intermediate ancestor must be documented (not just the great-grandparent).",
+      "source_url": "http://www.kormanyhivatal.hu/hu/budapest/jarasok/egyszerusitett-honositasi-eljaras",
+      "quote": "A felmenői láncnak levezethetőnek kell lennie, vagyis nem elegendő például a hivatkozott dédapa születési anyakönyvi kivonatát csatolni, hanem szükséges a köztes felmenők (pl. apa és nagyapa) igazolása is. Anyai ágon való hivatkozás esetén szükséges a leánykori és a házassági nevet igazolni, ezért szükséges a házassági anyakönyvi kivonat(ok) csatolása is."
+    }
+  ],
+  "procedure": {
+    "authority": "Application received by Hungarian consulates (or Hungarian government district offices); decided by the authority for citizenship matters, the Minister proposes and the President of the Republic issues the naturalization certificate; oath before a mayor or the head of a Hungarian mission.",
+    "how": "Book an appointment (NY: e-mail info.ny@mfa.gov.hu for simplified naturalization), bring completed forms (incl. handwritten CV for adults, data sheets for registering foreign birth/marriage, optional name-change request), original or certified documents with certified Hungarian translations; biometrics taken; language checked on the spot. After the certificate arrives, the consulate invites you to the oath.",
+    "source_url": "https://newyork.mfa.gov.hu/hu/a-magyar-allampolgarsag-megszerzese-honositas"
+  },
+  "documents": [
+    {
+      "item": "Application form 'Honosítási- visszahonosítási kérelem ... 4. § (3) és (3a) bekezdése, illetve 5 §-a alapján' with handwritten CV (adults)",
+      "note": "Forms downloadable from the government office / consulate pages.",
+      "source_url": "http://www.kormanyhivatal.hu/hu/budapest/jarasok/egyszerusitett-honositasi-eljaras"
+    },
+    {
+      "item": "Applicant's birth certificate and civil-status documents (marriage, divorce, death)",
+      "note": "Original or certified copy, bound with certified Hungarian translation, with diplomatic legalisation (apostille) unless a treaty provides otherwise.",
+      "source_url": "http://www.kormanyhivatal.hu/hu/budapest/jarasok/egyszerusitett-honositasi-eljaras"
+    },
+    {
+      "item": "Ancestors' (parents, grandparents, great-grandparents) official birth/marriage/death certificates; church or archive certificates; military book, work book, school certificates of the ancestor",
+      "note": "Certified Hungarian translation required; the chain must be complete.",
+      "source_url": "http://www.kormanyhivatal.hu/hu/budapest/jarasok/egyszerusitett-honositasi-eljaras"
+    },
+    {
+      "item": "Translations",
+      "note": "NY consulate can certify an applicant-made translation if the document is in English or French (consular fee); in Hungary only OFFI makes certified translations; EU certified translators accepted since 16 Feb 2019.",
+      "source_url": "https://newyork.mfa.gov.hu/hu/a-magyar-allampolgarsag-megszerzese-honositas"
+    }
+  ],
+  "fees": [
+    {
+      "label": "Citizenship verification (állampolgársági vizsgálat), if no citizenship certificate requested",
+      "amount": 0,
+      "currency": "EUR",
+      "source_url": "https://newyork.mfa.gov.hu/hu/magyar-allampolgarsag-fennallasanak-vizsgalata",
+      "quote": "Az állampolgársági vizsgálat díjmentes, amennyiben állampolgársági bizonyítványt nem igényel."
+    }
+  ],
+  "processing_time": [
+    {
+      "label": "Statutory deadline for the Minister's proposal to the President (naturalization)",
+      "value": "3 months (extendable by 3 months; time for supplying missing documents, suspension and inter-agency requests not counted)",
+      "source_url": "https://njt.hu/jogszabaly/1993-55-00-00",
+      "quote": "(2) A miniszter a 6. § (1) bekezdésében foglalt előterjesztést három hónapon belül nyújtja be a köztársasági elnöknek.",
+      "published_or_updated": "Act as consolidated on njt.hu (Wayback copy 2026-04-14)"
+    },
+    {
+      "label": "Citizenship verification (NY consulate)",
+      "value": "several months",
+      "source_url": "https://newyork.mfa.gov.hu/hu/magyar-allampolgarsag-fennallasanak-vizsgalata",
+      "quote": "Az eljárás több hónapig tarthat.",
+      "published_or_updated": "no date shown"
+    },
+    {
+      "label": "Oath after the naturalization certificate arrives (NY consulate)",
+      "value": "within a few months of the certificate's arrival",
+      "source_url": "https://newyork.mfa.gov.hu/hu/a-magyar-allampolgarsag-megszerzese-honositas",
+      "quote": "Minden esküre várót a honosítási okirat megérkezése utáni első esküre behívunk, így az okirat megérkezése után pár hónapon belül sor kerül az esküre (nyáron és év végén a várakozási idő hosszabb lehet).",
+      "published_or_updated": "no date shown"
+    }
+  ],
+  "dual_citizenship": {
+    "allowed": "yes",
+    "note": "Hungary does not require renouncing the foreign citizenship; Hungarian authorities warn that some other countries may withdraw their citizenship on acquisition of another.",
+    "source_url": "http://www.kormanyhivatal.hu/hu/budapest/jarasok/egyszerusitett-honositasi-eljaras",
+    "quote": "A magyar állampolgárság megszerzésének nem feltétele a külföldi állampolgárságról való lemondás, azonban egyes országokban a más állam állampolgárságának megszerzése eredményezheti az eredeti állampolgárság elvesztését."
+  },
+  "other_requirements": [
+    {
+      "item": "Hungarian language (no statutory exemption except legally incapacitated persons)",
+      "source_url": "https://newyork.mfa.gov.hu/en/simplified-naturalization",
+      "quote": "We invite you to pay particular attention to meet all legal requirements of the simplified naturalization procedure when submitting the application, pay special attention to learn Hungarian, as no statutory exemption will permit the lack of sufficient language knowledge, and the authorities will always directly verify it."
+    },
+    {
+      "item": "No residence in Hungary, no constitutional exam for § 4(3) (only § 4(1)(b) and (d) conditions apply)",
+      "source_url": "https://njt.hu/jogszabaly/1993-55-00-00",
+      "quote": "Az (1) bekezdés b) és d) pontjában meghatározott feltételek fennállása esetén – kérelmére – kedvezményesen honosítható [...]"
+    },
+    {
+      "item": "In-person filing only; biometrics (photo, signature, fingerprints) for the Hungarian ID card issued at the oath",
+      "source_url": "http://www.kormanyhivatal.hu/hu/budapest/jarasok/egyszerusitett-honositasi-eljaras",
+      "quote": "2020. február 1-jét követően benyújtott egyszerűsített honosítási kérelem esetén a kérelmezőnek a lakóhelyétől és életkorától függetlenül, hivatalból személyazonosító igazolvány kerül kiállításra."
+    }
+  ],
+  "recent_changes": [],
+  "open_questions": [
+    "Fee for simplified naturalization: no official page read states the amount (or that it is free). The NY consulate says citizenship VERIFICATION is free (without certificate) and that translations/certified copies cost consular fees. Hungarian fee law (1990. évi XCIII.) not read.",
+    "No 2026 amendment found (search on 2026-10-25); njt.hu consolidated text read from a Wayback copy of 2026-04-14 because njt.hu reset connections from this machine — re-check for amendments after April 2026.",
+    "Historic loss of Hungarian citizenship by emigrants (e.g. Act L of 1879 ten-year absence rule; post-1945 deprivations; 1948/1957 laws) determines whether a US descendant is already Hungarian or must naturalize; the consulate handles this in the verification. Not encoded here — checker should route 'ancestor left before 1945' users to verification + simplified naturalization as fallback.",
+    "Minor-child transmission and pre-1957 maternal-line rules for citizenship at birth not verified on an official page."
+  ],
+  "sources": [
+    {"key": "hu-act-lv-1993", "title": "1993. évi LV. törvény a magyar állampolgárságról (hatályos szöveg)", "publisher": "Nemzeti Jogszabálytár (njt.hu)", "url": "https://njt.hu/jogszabaly/1993-55-00-00", "read_on": "2026-10-25", "http": "wayback copy of 2026-04-14 (live site reset connection)"},
+    {"key": "hu-bfkh-simplified", "title": "Egyszerűsített honosítási eljárás – Tájékoztató", "publisher": "Budapest Főváros Kormányhivatala (kormanyhivatal.hu)", "url": "http://www.kormanyhivatal.hu/hu/budapest/jarasok/egyszerusitett-honositasi-eljaras", "read_on": "2026-10-25", "http": "200"},
+    {"key": "hu-ny-honositas", "title": "A magyar állampolgárság megszerzése - honosítás", "publisher": "Magyarország Főkonzulátusa New York (mfa.gov.hu)", "url": "https://newyork.mfa.gov.hu/hu/a-magyar-allampolgarsag-megszerzese-honositas", "read_on": "2026-10-25", "http": "200"},
+    {"key": "hu-ny-vizsgalat", "title": "Magyar állampolgárság fennállásának vizsgálata", "publisher": "Magyarország Főkonzulátusa New York", "url": "https://newyork.mfa.gov.hu/hu/magyar-allampolgarsag-fennallasanak-vizsgalata", "read_on": "2026-10-25", "http": "200"},
+    {"key": "hu-ny-simplified-en", "title": "Simplified Naturalization", "publisher": "Consulate General of Hungary New York", "url": "https://newyork.mfa.gov.hu/en/simplified-naturalization", "read_on": "2026-10-25", "http": "200"},
+    {"key": "hu-oif-letter-2014", "title": "Information letter on the simplified naturalization procedure (Office of Immigration and Nationality, 10 July 2014)", "publisher": "Consulate General of Hungary New York (attachment)", "url": "https://newyork.mfa.gov.hu/storage/9bd1c386-d16d-4097-b8d4-c38bd6aecb6c/attachments/miDkeQMFIRF2Zse08lo00GWxyfnqq7xN1GtAcL9m.pdf", "read_on": "2026-10-25", "http": "200"}
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "country": "Czech Republic",
+  "code": "cz",
+  "retrieved_at": "2026-10-25",
+  "laws": [
+    {
+      "name": "Zákon č. 186/2013 Sb., o státním občanství České republiky a o změně některých zákonů (zákon o státním občanství České republiky), ve znění zákona č. 207/2019 Sb., 279/2019 Sb., 261/2021 Sb., 270/2021 Sb. a 152/2025 Sb. (consolidated version in force from 2025-10-01)",
+      "articles": "§ 4, § 31, § 32, § 37, § 40",
+      "url": "https://www.e-sbirka.cz/sb/2013/186",
+      "quote": "§ 31 (3) Fyzická osoba, jejíž alespoň jeden z rodičů nebo prarodičů je nebo byl bývalým občanem podle odstavce 1, může státní občanství České republiky nabýt prohlášením, pokud není ke dni učinění prohlášení státním občanem Slovenské republiky. (A person at least one of whose parents or grandparents is or was a former citizen under para 1 may acquire Czech citizenship by declaration, unless on the day of the declaration he or she is a citizen of the Slovak Republic.)"
+    },
+    {
+      "name": "Zákon České národní rady č. 40/1993 Sb., o nabývání a pozbývání státního občanství České republiky (version in force until 2013-12-31)",
+      "articles": "§ 13, § 17",
+      "url": "https://www.e-sbirka.cz/sb/1993/40",
+      "quote": "§ 17 (1) Státní občan České republiky pozbývá státní občanství České republiky dnem, kdy na základě výslovného projevu vůle (žádost, prohlášení, souhlas nebo jiný úkon směřující k nabytí cizího státního občanství) dobrovolně nabyde cizí státní občanství. (A Czech citizen loses Czech citizenship on the day he or she voluntarily acquires a foreign citizenship on the basis of an express act of will.)"
+    }
+  ],
+  "rules": [
+    {
+      "id": "cz-31-former-citizen",
+      "rule": "A person who personally lost Czech or Czechoslovak citizenship at any time before 1 January 2014 (e.g. by US naturalization) can reacquire it by simple declaration. Excluded: loss under the 1945 presidential decree on Germans and Hungarians or the 1945 CSR-USSR treaty on Subcarpathian Ukraine, and persons who became Slovak (SSR) citizens on 1 January 1969 or later acquired Slovak citizenship and still hold it.",
+      "source_url": "https://www.e-sbirka.cz/sb/2013/186",
+      "quote": "§ 31 (1) Prohlášením o nabytí státního občanství České republiky (dále jen „prohlášení“) může nabýt státní občanství České republiky fyzická osoba, která pozbyla české nebo československé státní občanství přede dnem nabytí účinnosti tohoto zákona, nejednalo-li se o pozbytí československého státního občanství podle ústavního dekretu prezidenta republiky o úpravě československého státního občanství osob národnosti německé a maďarské nebo podle smlouvy mezi Československou republikou a Svazem sovětských socialistických republik o Zakarpatské Ukrajině, nebo nejedná-li se o československého státního občana, který se ke dni 1. ledna 1969 stal, nebo by se k tomuto dni stal státním občanem Slovenské socialistické republiky, anebo po 1. lednu 1969 nabyl státní občanství Slovenské socialistické republiky nebo Slovenské republiky a je dosud jejím občanem."
+    },
+    {
+      "id": "cz-31-descendants",
+      "rule": "Children AND grandchildren of such a former Czech/Czechoslovak citizen can acquire Czech citizenship by declaration (since 6 September 2019, Act 207/2019). Great-grandchildren are not covered directly (a grandchild who acquires citizenship can then pass it on by birth to children born afterwards). Not available to current Slovak citizens. No residence, language or test requirement; no deadline in the text in force from 1 October 2025.",
+      "source_url": "https://www.e-sbirka.cz/sb/2013/186",
+      "quote": "§ 31 (3) Fyzická osoba, jejíž alespoň jeden z rodičů nebo prarodičů je nebo byl bývalým občanem podle odstavce 1, může státní občanství České republiky nabýt prohlášením, pokud není ke dni učinění prohlášení státním občanem Slovenské republiky."
+    },
+    {
+      "id": "cz-31-czech-residence-before-leaving",
+      "rule": "A former Czechoslovak citizen who had permanent residence in the Czech lands before leaving abroad may also declare (useful where the ancestor was a Czechoslovak citizen of Czech residence), provided he or she is not a Slovak citizen.",
+      "source_url": "https://www.e-sbirka.cz/sb/2013/186",
+      "quote": "§ 31 (2) Prohlášení může dále učinit bývalý československý státní občan, který měl před odchodem do ciziny trvalý pobyt na území České republiky nebo České socialistické republiky, pokud není ke dni učinění prohlášení státním občanem Slovenské republiky."
+    },
+    {
+      "id": "cz-birth",
+      "rule": "Today a child is Czech by birth if at least one parent is a Czech citizen on the day of birth (place of birth irrelevant). If the parent held Czech citizenship continuously when the child was born, the child may simply apply for a citizenship certificate (osvědčení) instead of declaring.",
+      "source_url": "https://www.e-sbirka.cz/sb/2013/186",
+      "quote": "§ 4 Dítě nabývá státní občanství České republiky narozením, je-li v den jeho narození alespoň jeden z rodičů státním občanem České republiky."
+    },
+    {
+      "id": "cz-pre2014-loss",
+      "rule": "Between 1 January 1993 and 31 December 2013 a Czech citizen lost Czech citizenship on the day he or she voluntarily acquired a foreign citizenship by an express act (application, declaration, consent); exception for acquisition by marriage during the marriage. The decisive date is the date the foreign citizenship was actually acquired. Earlier Czechoslovak losses (incl. under bilateral naturalization treaties) are not detailed here; § 31 covers any pre-2014 loss except the listed exclusions.",
+      "source_url": "https://www.e-sbirka.cz/sb/1993/40",
+      "quote": "§ 17 (1) Státní občan České republiky pozbývá státní občanství České republiky dnem, kdy na základě výslovného projevu vůle (žádost, prohlášení, souhlas nebo jiný úkon směřující k nabytí cizího státního občanství) dobrovolně nabyde cizí státní občanství. K pozbytí státního občanství České republiky nedojde v případech, kdy došlo k nabytí cizího státního občanství v souvislosti s uzavřením manželství se státním občanem cizího státu, a to za předpokladu, že došlo k nabytí cizího státního občanství manžela za trvání manželství."
+    },
+    {
+      "id": "cz-acquired-on-receipt",
+      "rule": "Citizenship by declaration is acquired on the day the applicant takes delivery of the certificate of acquisition (listina o nabytí státního občanství), not on filing.",
+      "source_url": "https://www.e-sbirka.cz/sb/2013/186",
+      "quote": "§ 37 (3) K nabytí státního občanství České republiky dochází dnem převzetí listiny o nabytí státního občanství České republiky [...]"
+    },
+    {
+      "id": "cz-child-separate-declaration",
+      "rule": "Parents may file a separate declaration for a minor child under § 31(3) with the other parent's notarised consent; a child over 15 must consent with a certified signature.",
+      "source_url": "https://www.e-sbirka.cz/sb/2013/186",
+      "quote": "§ 31 (5) Rodiče, popřípadě jeden z nich, mohou pro dítě učinit samostatné prohlášení podle odstavce 3. [...] (7) K nabytí státního občanství České republiky prohlášením podle odstavce 3 dítětem starším 15 let je třeba jeho souhlas s úředně ověřeným podpisem."
+    }
+  ],
+  "procedure": {
+    "authority": "Regional office (krajský úřad) of the applicant's (or last) permanent residence in the Czech Republic; if the applicant never had permanent residence there, the Úřad městské části Praha 1. Abroad the declaration is made at a Czech embassy/consulate, which forwards it within 30 days.",
+    "how": "Fill in the declaration form (§ 31 odst. 1 a 2, or § 31 odst. 3, or separate form for a child), attach the documents below plus a statement of not having acquired Slovak citizenship, and submit in person at the consulate (e.g. Consulate General in Chicago) with originals and two sets of copies; the regional office checks the conditions and issues the certificate of acquisition, handed over by the consulate.",
+    "source_url": "https://mzv.gov.cz/chicago/cz/konzularni_informace/statni_obcanstvi/nabyvani_statniho_obcanstvi_ceske.html"
+  },
+  "documents": [
+    {"item": "Applicant's birth certificate; marriage/partnership/divorce/death-of-spouse documents", "note": "US documents need an apostille and an official Czech translation (except apostille clauses, Slovak-language documents and the naturalization certificate, which the consulate abstracts).", "source_url": "https://mzv.gov.cz/chicago/cz/konzularni_informace/statni_obcanstvi/nabyvani_statniho_obcanstvi_ceske.html"},
+    {"item": "Parents' and, where needed, grandparents' birth and marriage (or divorce/death) certificates", "note": "", "source_url": "https://www.e-sbirka.cz/sb/2013/186"},
+    {"item": "Document proving the date and manner of loss of Czech/Czechoslovak citizenship of the applicant or the parent/grandparent (e.g. US naturalization certificate; duplicate from USCIS if missing)", "note": "", "source_url": "https://mzv.gov.cz/chicago/cz/konzularni_informace/statni_obcanstvi/nabyvani_statniho_obcanstvi_ceske.html"},
+    {"item": "Valid ID (a US passport or US driver's licence is accepted if no Czech ID)", "note": "", "source_url": "https://mzv.gov.cz/chicago/cz/konzularni_informace/statni_obcanstvi/nabyvani_statniho_obcanstvi_ceske.html"},
+    {"item": "Declaration of not having acquired Slovak citizenship (Prohlášení o nenabytí slovenského občanství)", "note": "", "source_url": "https://mzv.gov.cz/chicago/cz/konzularni_informace/statni_obcanstvi/nabyvani_statniho_obcanstvi_ceske.html"}
+  ],
+  "fees": [
+    {"label": "Acceptance of a declaration of acquisition of Czech citizenship under § 31, 32, 35, 36 at a Czech consulate in the USA (item 159b)", "amount": 1000, "currency": "CZK", "source_url": "https://mzv.gov.cz/file/6302524/Konzularni_spravni_poplatky___RIJEN_2026___Consular_Fees___OCTOBER_2026.pdf", "quote": "159b Přijetí prohlášení o nabytí st. občanství ČR podle §31,32,35 a 36 zákona o st. občanství ČR / Declaration of aquisition of Czech Citizenship under § 31, 32, 35 and 36 1000 46"},
+    {"label": "Same fee expressed in USD (October 2026 schedule, 1 USD = 21.522 CZK)", "amount": 46, "currency": "USD", "source_url": "https://mzv.gov.cz/file/6302524/Konzularni_spravni_poplatky___RIJEN_2026___Consular_Fees___OCTOBER_2026.pdf", "quote": "159b [...] 1000 46"},
+    {"label": "Issuance of a Czech citizenship certificate (osvědčení) at a consulate (item 159a)", "amount": 600, "currency": "CZK", "source_url": "https://mzv.gov.cz/file/6302524/Konzularni_spravni_poplatky___RIJEN_2026___Consular_Fees___OCTOBER_2026.pdf", "quote": "159a Vydání osvědčení o st. obč. ČR / Issuance of the Czech citizenship certificate 600 28"}
+  ],
+  "processing_time": [
+    {"label": "Consulate forwarding", "value": "Consulate sends the declaration to the regional office within 30 days; no official decision time published", "source_url": "https://www.e-sbirka.cz/sb/2013/186", "quote": "V cizině lze prohlášení učinit před zastupitelským úřadem, který je ve lhůtě 30 dnů zašle spolu s předloženými doklady příslušnému krajskému úřadu nebo ministerstvu.", "published_or_updated": ""}
+  ],
+  "dual_citizenship": {
+    "allowed": "yes",
+    "note": "Since 1 January 2014 Czech citizens do not lose Czech citizenship when they acquire another on request; the only way to lose it is a declaration of renunciation (§ 40) by a person living abroad who holds or is acquiring another citizenship.",
+    "source_url": "https://mzv.gov.cz/sydney/cz/konzularni_informace/statni_obcanstvi_cr/cesti_obcane_nabytim_ciziho_statniho.html",
+    "quote": "Zásadní změnu představuje ustanovení, na jehož základě čeští občané, kteří budou mít zájem o nabytí cizího státního občanství na základě žádosti, neztratí po 1. lednu 2014 státní občanství ČR."
+  },
+  "other_requirements": [
+    {"item": "Applicant must not be a Slovak citizen on the day of the declaration (§ 31(2) and (3)); a Slovak citizen would have to give up Slovak citizenship first.", "source_url": "https://www.e-sbirka.cz/sb/2013/186", "quote": "pokud není ke dni učinění prohlášení státním občanem Slovenské republiky."}
+  ],
+  "recent_changes": [
+    {"date": "2019-09-06", "what": "Act 207/2019 extended § 31 to children and grandchildren of former citizens (§ 31(3)).", "source_url": "https://mzv.gov.cz/chicago/cz/konzularni_informace/statni_obcanstvi/nabyvani_statniho_obcanstvi_ceske.html"},
+    {"date": "2025-10-01", "what": "Consolidated version incl. Act 152/2025 in force; § 31 text contains no deadline. The suggested 31 Dec 2025 deadline is NOT in the official text.", "source_url": "https://www.e-sbirka.cz/sb/2013/186"},
+    {"date": "2026-10", "what": "Consular fee schedule October 2026: § 31 declaration CZK 1,000 / USD 46.", "source_url": "https://mzv.gov.cz/file/6302524/Konzularni_spravni_poplatky___RIJEN_2026___Consular_Fees___OCTOBER_2026.pdf"}
+  ],
+  "open_questions": [
+    "Processing time of the regional office / Praha 1 decision is not published on any official page found.",
+    "Czechoslovak-era loss rules before 1993 (e.g. 1928 US-Czechoslovakia naturalization treaty, Act 194/1949, Act 39/1969) not checked against official text; they matter only to determine that the ancestor lost citizenship 'before 2014', which § 31 covers regardless of the ground (except the listed exclusions).",
+    "Whether the domestic regional-office fee (správní poplatek) equals the consular CZK 1,000 not checked."
+  ],
+  "sources": [
+    {"key": "cz-act-186-2013", "title": "Zákon č. 186/2013 Sb., o státním občanství České republiky (znění od 1. 10. 2025)", "publisher": "e-Sbírka (Ministry of the Interior), official API sbr-cache", "url": "https://www.e-sbirka.cz/sb/2013/186", "read_on": "2026-10-25", "http": "200"},
+    {"key": "cz-act-40-1993", "title": "Zákon ČNR č. 40/1993 Sb. (znění k 31. 12. 2013)", "publisher": "e-Sbírka", "url": "https://www.e-sbirka.cz/sb/1993/40", "read_on": "2026-10-25", "http": "200"},
+    {"key": "cz-gk-chicago-31", "title": "Nabývání státního občanství České republiky prohlášením (updated 20.01.2026)", "publisher": "Consulate General of the Czech Republic in Chicago (mzv.gov.cz)", "url": "https://mzv.gov.cz/chicago/cz/konzularni_informace/statni_obcanstvi/nabyvani_statniho_obcanstvi_ceske.html", "read_on": "2026-10-25", "http": "200"},
+    {"key": "cz-fees-2026-10", "title": "Konzulární správní poplatky – říjen 2026 / Consular Fees – October 2026", "publisher": "Consulate General of the Czech Republic in Chicago (mzv.gov.cz)", "url": "https://mzv.gov.cz/file/6302524/Konzularni_spravni_poplatky___RIJEN_2026___Consular_Fees___OCTOBER_2026.pdf", "read_on": "2026-10-25", "http": "200"},
+    {"key": "cz-sydney-dual", "title": "Nabytím cizího státního občanství se české již nepozbývá", "publisher": "Consulate of the Czech Republic in Sydney (mzv.gov.cz)", "url": "https://mzv.gov.cz/sydney/cz/konzularni_informace/statni_obcanstvi_cr/cesti_obcane_nabytim_ciziho_statniho.html", "read_on": "2026-10-25", "http": "200"}
+  ]
+}

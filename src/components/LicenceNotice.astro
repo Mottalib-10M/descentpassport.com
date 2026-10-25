@@ -1,0 +1,7 @@
+---
+/** Rights notice in the footer of every page, embeds included (RECETTE §12.1, rule 3). UK rules are
+ * read on gov.uk and legislation.gov.uk, published under the Open Government Licence v3.0. */
+interface Props { class?: string }
+const { class: cls = 'text-xs text-navy-500' } = Astro.props;
+---
+<p class={cls} data-licence-notice>Contains public sector information licensed under the <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/" target="_blank" rel="noopener" class="underline">Open Government Licence v3.0</a>. Laws and consular pages of other countries are summarized in our own words; no official text is reproduced.</p>

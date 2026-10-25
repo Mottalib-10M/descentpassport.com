@@ -1,0 +1,22 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../../components/LegalIdentity.astro';
+import { CONTACT_EMAIL, LAST_UPDATED } from '../../data/site-config';
+import { route } from '../../i18n/routes';
+const lang = 'en';
+---
+<PageLayout title="Contact Descent Passport Check: report a changed rule or fee" description="Write to Descent Passport Check when a nationality rule, a consular fee or a waiting time looks out of date, or to embed the family tree checker on another site." lang={lang} noindex={true} breadcrumbs={[{ label: 'Contact' }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>Contact</h1>
+    <p>Email: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. A person at Radif Partners reads every message.</p>
+    <h2>A rule, fee or waiting time has changed</h2>
+    <p>Tell us the country and link the consulate or ministry page that shows the new figure. We read that page, update the parameter file, rerun the tests and date the change.</p>
+    <h2>Questions about your own family</h2>
+    <p>We cannot assess a personal case, check documents or say whether a consulate will accept a file. Do not send birth certificates, passport numbers or names of relatives: the checker works without them, and so should our mailbox.</p>
+    <h2>Embedding the checker</h2>
+    <p>Genealogy societies, libraries and heritage associations may show the checker on their sites for free: see the <a href={route('widget', lang)}>embed page</a>.</p>
+    <h2>Publisher</h2>
+    <LegalIdentity lang={lang} />
+    <p>Updated: {LAST_UPDATED}.</p>
+  </div>
+</PageLayout>

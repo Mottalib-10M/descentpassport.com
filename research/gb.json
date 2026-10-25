@@ -1,0 +1,143 @@
+{
+  "country": "United Kingdom",
+  "code": "gb",
+  "retrieved_at": "2026-10-25",
+  "laws": [
+    {
+      "name": "British Nationality Act 1981 (c. 61)",
+      "articles": "s. 2 (acquisition by descent)",
+      "url": "https://www.legislation.gov.uk/ukpga/1981/61/section/2",
+      "quote": "(1) A person born outside the United Kingdom and the qualifying territories after commencement shall be a British citizen if at the time of the birth his father or mother— (a) is a British citizen otherwise than by descent; or (b) is a British citizen and is serving outside the United Kingdom and the qualifying territories in service to which this paragraph applies, his or her recruitment for that service having taken place in the United Kingdom or a qualifying territory; [...]"
+    },
+    {
+      "name": "British Nationality Act 1981 (c. 61)",
+      "articles": "s. 3(1), 3(2)-(3), 3(5)-(6) (registration of minors)",
+      "url": "https://www.legislation.gov.uk/ukpga/1981/61/section/3",
+      "quote": "(2) A person born outside the United Kingdom and the qualifying territories shall be entitled, on an application for his registration as a British citizen made while he is a minor, to be registered as such a citizen if the requirements specified in subsection (3) [...] are fulfilled [...] (3) [...] (a) that the parent in question was a British citizen by descent at the time of the birth; and (b) that the father or mother of the parent in question— (i) was a British citizen otherwise than by descent at the time of the birth of the parent in question; or (ii) became a British citizen otherwise than by descent at commencement [...]; and (c) that, as regards some period of three years ending with a date not later than the date of the birth— (i) the parent in question was in the United Kingdom or a qualifying territory at the beginning of that period; and (ii) the number of days on which the parent in question was absent from the United Kingdom and the qualifying territories in that period does not exceed 270."
+    },
+    {
+      "name": "British Nationality Act 1981 (c. 61)",
+      "articles": "s. 4C (registration: certain persons born before 1983), inserted 2003, amended 2009 and 2022",
+      "url": "https://www.legislation.gov.uk/ukpga/1981/61/section/4C",
+      "quote": "(1) A person is entitled to be registered as a British citizen if— (a) he applies for registration under this section, and (b) he satisfies each of the following conditions. (2) The first condition is that the applicant was born . . . before 1st January 1983. [...] (3A) Assumption A is that— (a) section 5 or 12(2) of, or paragraph 3 of Schedule 3 to, the 1948 Act (as the case may be) provided for citizenship by descent from a mother in the same terms as it provided for citizenship by descent from a father [...] (3D) [...] the requirement that a person's birth was registered at a United Kingdom consulate, as set out in section 5(1)(b) of the British Nationality Act 1948, is to be ignored. (4) The third condition is that immediately before 1st January 1983 the applicant would have had the right of abode in the United Kingdom [...]"
+    }
+  ],
+  "rules": [
+    {
+      "id": "one-generation-rule",
+      "rule": "British citizenship normally passes automatically only ONE generation abroad: if you were born outside the UK to a parent who was British 'otherwise than by descent' (born, adopted, naturalised or registered in the UK in their own right, or a Crown servant), you are a British citizen by descent automatically. Your own children born outside the UK will NOT be automatically British.",
+      "source_url": "https://www.gov.uk/apply-citizenship-british-parent",
+      "quote": "British citizenship is normally automatically passed down one generation to children born outside the UK. For example, you might automatically become a citizen if you're born outside the UK to a British parent. But your children will not automatically be citizens if they're born outside the UK."
+    },
+    {
+      "id": "born-1983-2006-unmarried-father",
+      "rule": "Born abroad 1 Jan 1983 - 30 Jun 2006: automatic only if the British parent could pass it on AND, if only the father was British, the parents were married. Children of unmarried British fathers born before 1 July 2006 can register (form UKF, GBP 130 ceremony fee). From 1 July 2006 an unmarried British father passes citizenship like a mother.",
+      "source_url": "https://www.gov.uk/apply-citizenship-british-parent",
+      "quote": "you were born between 1 January 1983 and 30 June 2006 your mother or father was a British citizen when you were born (they must have been married if your father had British citizenship but your mother did not)"
+    },
+    {
+      "id": "born-before-1983-british-mother-4C",
+      "rule": "Born before 1 January 1983 to a British (CUKC) mother: not automatically British, but ENTITLED to register under section 4C (form UKM) if you would have become a CUKC had women then passed on citizenship like men, and would have had right of abode. Being born in a non-Commonwealth country (e.g. the USA) satisfies the descent condition when the mother was a CUKC; right of abode is satisfied if your mother was a CUKC by birth/adoption/naturalisation/registration in the UK, Channel Islands or Isle of Man (or one of her parents was). No age limit, no deadline. You become British by descent (cannot pass on to children born abroad).",
+      "source_url": "https://www.gov.uk/government/publications/form-ukm-guidance/form-ukm-guidance-accessible-version",
+      "quote": "You will be eligible to apply for British citizenship if: you were born before 1 January 1983 you would have become a citizen of the United Kingdom and Colonies if, before 1 January 1983, women had been able to pass on citizenship to their children in the same way as men at the time of your birth [...] Katie was born in Canada in 1982. Her mother was born in the UK. If women had been able to pass on citizenship in 1982, Katie would have become a citizen of the UK and Colonies at birth and would now be a British citizen. She can apply using Form UKM."
+    },
+    {
+      "id": "born-before-1983-father-married",
+      "rule": "Born abroad before 1 January 1983 to a father who was a CUKC, married to your mother, and able to pass it on (born/adopted/naturalised/registered in the UK in his own right or Crown servant): you may automatically be British; apply for a UK passport.",
+      "source_url": "https://www.gov.uk/apply-citizenship-british-parent",
+      "quote": "When you were born, your father must have been all of the following: a citizen of the United Kingdom and Colonies married to your mother able to pass on his citizenship to you"
+    },
+    {
+      "id": "double-descent-3-2",
+      "rule": "Section 3(2) ('double descent'): a child born abroad to a parent who is British by descent can be REGISTERED only while under 18, if (a) the grandparent was British otherwise than by descent at the parent's birth (or on 1 Jan 1983), and (b) the British-by-descent parent lived in the UK for a continuous 3 years at any time before the child's birth with no more than 270 days' absence. The child becomes British by descent. Fee GBP 1,000 (form MN1).",
+      "source_url": "https://www.gov.uk/government/publications/form-mn1-guidance/form-mn1-guidance-accessible-version",
+      "quote": "The British citizen by descent parent must have lived in the UK (or, if the child was born on or after 21 May 2002, in a qualifying British overseas territory) for a continuous period of 3 years at any time before the child's birth. During that period they should not have absences exceeding 270 days. The application must be made whilst the child is under 18 years of age."
+    },
+    {
+      "id": "section-3-5-family-in-uk",
+      "rule": "Section 3(5): a child (under 18) of a British-by-descent parent can register if the child and both parents lived in the UK for the 3 years ending on the application date (max 270 days' absence each, no discretion). The child becomes British otherwise than by descent. Requires moving to the UK.",
+      "source_url": "https://www.gov.uk/government/publications/form-mn1-guidance/form-mn1-guidance-accessible-version",
+      "quote": "To qualify under this section the child and their mother and father should have lived in the UK (or qualifying British Overseas Territory if born after 21 May 2002) for a 3-year period ending with the date the application is received."
+    },
+    {
+      "id": "grandparent-alone-no",
+      "rule": "A British grandparent alone does NOT give British citizenship to an adult born abroad (no automatic route, no adult registration route). The only grandparent-based paths are section 3(2) for a child under 18 (parent's 3-year UK residence required) or section 4C where the pre-1983 mother/grandparent rules apply. Adults with no route may consider section 4L (form ARD, discretionary, historical unfairness / public body error / exceptional circumstances).",
+      "source_url": "https://www.gov.uk/government/publications/form-mn1-guidance/form-mn1-guidance-accessible-version",
+      "quote": "Children born to parents who are British by descent have no automatic claim to British citizenship. Applications may be made through entitlement under section 3(2) or section 3(5) if children satisfy the requirements for registration."
+    },
+    {
+      "id": "ancestry-visa-not-for-us-citizens",
+      "rule": "The UK Ancestry visa (grandparent born in the UK, Channel Islands or Isle of Man) is an immigration visa, not citizenship, and is open only to Commonwealth citizens and certain British nationals. A US-only citizen is NOT eligible.",
+      "source_url": "https://www.gov.uk/ancestry-visa",
+      "quote": "You can apply for a UK Ancestry visa if you're one of the following: a Commonwealth citizen a British overseas citizen a British overseas territories citizen a British national (overseas) a citizen of Zimbabwe You must also: prove one of your grandparents was born in the UK, the Channel Islands or the Isle of Man"
+    },
+    {
+      "id": "minors-under-18-good-character",
+      "rule": "MN1 applications must be made before age 18; a child aged 10 or over must be of good character.",
+      "source_url": "https://www.gov.uk/government/publications/form-mn1-guidance/form-mn1-guidance-accessible-version",
+      "quote": "Children must be under 18 years old when the application is made. Once they reach the age of 18 they must apply for British citizenship as adults, either by registration if they have an entitlement, or by naturalisation. [...] If the child is aged 10 or over they must be of good character."
+    }
+  ],
+  "procedure": {
+    "authority": "Home Office (UK Visas and Immigration), decision by the Secretary of State; ceremony at a British Embassy/Consulate for applicants abroad. If already automatically British: HM Passport Office (passport application) or a citizenship status letter.",
+    "how": "If automatically British, apply for a UK passport directly. Otherwise apply online (UKM, UKF or MN1) or by post, pay the fee, enrol biometrics (usually within 45 days, told where after applying; documents uploaded or scanned at the appointment). UKM needs 2 referees (one professional, one British passport holder, each knowing you for 3+ years). Adults then attend a citizenship ceremony within 90 days (abroad: embassy/high commission/consulate) and swear the oath. Minors become British on approval.",
+    "source_url": "https://www.gov.uk/government/publications/form-ukm-guidance/form-ukm-guidance-accessible-version"
+  },
+  "documents": [
+    {"item": "Your passport", "note": "UKM list", "source_url": "https://www.gov.uk/government/publications/form-ukm-guidance/form-ukm-guidance-accessible-version"},
+    {"item": "Your full (long-form) birth certificate naming your parent(s)", "note": "Requested from the relevant authorities in your country of origin (US state vital records office). No apostille requirement is stated.", "source_url": "https://www.gov.uk/government/publications/form-ukm-guidance/form-ukm-guidance-accessible-version"},
+    {"item": "Mother's full birth certificate, and either her naturalisation/registration certificate as a CUKC (or British subject before 1949), adoption papers, or her expired CUKC passport", "note": "UKM", "source_url": "https://www.gov.uk/government/publications/form-ukm-guidance/form-ukm-guidance-accessible-version"},
+    {"item": "Marriage certificates if family names differ", "note": "", "source_url": "https://www.gov.uk/government/publications/form-ukm-guidance/form-ukm-guidance-accessible-version"},
+    {"item": "If the mother was not a CUKC by birth etc. in the UK but one of her parents was: her parents' marriage certificate, that grandparent's birth certificate and naturalisation/registration certificate", "note": "Right of abode evidence", "source_url": "https://www.gov.uk/government/publications/form-ukm-guidance/form-ukm-guidance-accessible-version"},
+    {"item": "Translations where applicable; a family tree is helpful", "note": "If documents are missing, the Home Office decides on the balance of probabilities", "source_url": "https://www.gov.uk/government/publications/form-ukm-guidance/form-ukm-guidance-accessible-version"},
+    {"item": "MN1 section 3(2): evidence that the British parent lived in the UK for 3 years at some time before the child's birth", "note": "", "source_url": "https://www.gov.uk/government/publications/form-mn1-guidance/form-mn1-guidance-accessible-version"}
+  ],
+  "fees": [
+    {"label": "Form UKM / UKF (sections 4C, 4G, 4H, 4I registration), ceremony fee only, adult", "amount": 130, "currency": "GBP", "source_url": "https://www.gov.uk/government/publications/fees-for-citizenship-applications/fees-for-citizenship-applications-and-the-right-of-abode-from-6-april-2018", "quote": "UKM, UKF, BOTC(F), BOTC(M) Section 4C, 4G, 4H, 4I registration (ceremony fee only) £130"},
+    {"label": "Form MN1, child under 18 registering as a British citizen (sections 3(1), 3(2), 3(5))", "amount": 1000, "currency": "GBP", "source_url": "https://www.gov.uk/government/publications/fees-for-citizenship-applications/fees-for-citizenship-applications-and-the-right-of-abode-from-6-april-2018", "quote": "B(OTA), B(OS), EM, MN1, S2, S3, T Child under 18 applying to register as a British citizen. **An additional £130 per applicant is required to cover the ceremony fee should the child turn 18 during the application process. This will be required at point of decision £1,000"},
+    {"label": "Naturalisation (form AN), for comparison", "amount": 1839, "currency": "GBP", "source_url": "https://www.gov.uk/government/publications/fees-for-citizenship-applications/fees-for-citizenship-applications-and-the-right-of-abode-from-6-april-2018", "quote": "AN Naturalisation £1,839"},
+    {"label": "Confirmation of status as a British citizen (form NS), if unsure whether already British", "amount": 489, "currency": "GBP", "source_url": "https://www.gov.uk/government/publications/fees-for-citizenship-applications/fees-for-citizenship-applications-and-the-right-of-abode-from-6-april-2018", "quote": "NS Confirmation of status as a British citizen £489"},
+    {"label": "Optional priority service for online citizenship applications (incl. born before 1983 to a British mother, registering a child), on top of the application fee", "amount": 500, "currency": "GBP", "source_url": "https://www.gov.uk/faster-decision-visa-settlement", "quote": "If you're eligible you can choose the priority service when you apply. You'll need to pay £500 in addition to the application fee."}
+  ],
+  "processing_time": [
+    {"label": "Citizenship registration (UKM / UKF / MN1), standard", "value": "usually within 6 months", "source_url": "https://www.gov.uk/government/publications/form-ukm-guidance/form-ukm-guidance-accessible-version", "quote": "We currently aim to conclude citizenship applications within 6 months from the date on which we receive your application.", "published_or_updated": "Guide UKM August 2026 (page updated 2026-08-10)"},
+    {"label": "Citizenship application with priority service", "value": "usually 30 working days", "source_url": "https://www.gov.uk/government/publications/form-ukm-guidance/form-ukm-guidance-accessible-version", "quote": "If you use the priority service, you'll usually get a decision within 30 working days, but may not do so if we need to make additional checks with other government departments about your application, or if it is particularly complex.", "published_or_updated": "Guide UKM August 2026"},
+    {"label": "Ceremony deadline after approval (adults)", "value": "within 90 days of invitation", "source_url": "https://www.gov.uk/government/publications/form-ukm-guidance/form-ukm-guidance-accessible-version", "quote": "You must arrange and attend your ceremony within 90 days of receiving your invitation.", "published_or_updated": "Guide UKM August 2026"}
+  ],
+  "dual_citizenship": {
+    "allowed": "yes",
+    "note": "The UK does not require renouncing US citizenship. Dual nationals cannot get UK consular help in their other country of nationality.",
+    "source_url": "https://www.gov.uk/dual-citizenship",
+    "quote": "Dual citizenship (also known as dual nationality) is allowed in the UK. This means you can be a British citizen and also a citizen of other countries."
+  },
+  "other_requirements": [
+    {"item": "Citizenship ceremony and oath of allegiance for adults (abroad: at a British embassy/consulate)", "source_url": "https://www.gov.uk/government/publications/form-ukm-guidance/form-ukm-guidance-accessible-version", "quote": "You will be asked to affirm or swear an Oath of Allegiance to the Monarch and to pledge your loyalty to the UK. This is a legal requirement for adults and is the point at which you will become a British citizen."},
+    {"item": "Biometric enrolment, usually within 45 days of applying", "source_url": "https://www.gov.uk/government/publications/form-ukm-guidance/form-ukm-guidance-accessible-version", "quote": "You will usually be required to enrol your biometric information within 45 days of submitting your application. Failure to do so will invalidate your application."},
+    {"item": "Two referees (UKM)", "source_url": "https://www.gov.uk/government/publications/form-ukm-guidance/form-ukm-guidance-accessible-version", "quote": "Your application must be endorsed by 2 referees."},
+    {"item": "No language test or Life in the UK test for 4C/3(2) registration (not listed among the requirements); no UK residence for 4C or 3(2)", "source_url": "https://www.gov.uk/government/publications/form-ukm-guidance/form-ukm-guidance-accessible-version", "quote": "You will be entitled to registration if you meet all of these requirements: You were born before 1 January 1983 [...]"}
+  ],
+  "recent_changes": [
+    {"date": "2026-04-08", "what": "Home Office fee uprating: the citizenship fee table was updated (naturalisation GBP 1,839; MN1 GBP 1,000; UKM/UKF ceremony fee GBP 130).", "source_url": "https://www.gov.uk/government/publications/fees-for-citizenship-applications"},
+    {"date": "2026-07-20", "what": "UKM guidance updated (processing times); MN1 guidance updated to say the citizenship priority service (GBP 500, about 30 working days) is live.", "source_url": "https://www.gov.uk/government/publications/form-mn1-guidance"},
+    {"date": "2022-06-28", "what": "Nationality and Borders Act 2022 s. 6 inserted s. 4C(3D): the old requirement that a pre-1983 birth be registered at a UK consulate is ignored. The 2022 Act also created s. 4L (form ARD, discretionary).", "source_url": "https://www.legislation.gov.uk/ukpga/1981/61/section/4C"}
+  ],
+  "open_questions": [
+    "The 'Apply for citizenship if you have a British parent' guide (gov.uk/apply-citizenship-british-parent) still quotes GBP 1,000 for MN1 and GBP 130 for UKM. That matches the fee table updated 8 April 2026, but the fee table's title still says 'from 9 April 2025'.",
+    "Form ARD (section 4L) fee: not shown in the fee table we read. Not confirmed.",
+    "Apostille: neither the UKM nor the MN1 guidance requires apostilles on US vital records. Treat as not required (not stated).",
+    "No published live processing statistics for UKM specifically, only the '6 months' service aim."
+  ],
+  "sources": [
+    {"key": "gb-bna-s2", "title": "British Nationality Act 1981, s. 2", "publisher": "legislation.gov.uk (The National Archives)", "url": "https://www.legislation.gov.uk/ukpga/1981/61/section/2", "read_on": "2026-10-25", "http": "200"},
+    {"key": "gb-bna-s3", "title": "British Nationality Act 1981, s. 3", "publisher": "legislation.gov.uk", "url": "https://www.legislation.gov.uk/ukpga/1981/61/section/3", "read_on": "2026-10-25", "http": "200"},
+    {"key": "gb-bna-s4c", "title": "British Nationality Act 1981, s. 4C (up to date with changes in force on or before 25 October 2026)", "publisher": "legislation.gov.uk", "url": "https://www.legislation.gov.uk/ukpga/1981/61/section/4C", "read_on": "2026-10-25", "http": "200"},
+    {"key": "gb-govuk-british-parent", "title": "Apply for citizenship if you have a British parent", "publisher": "GOV.UK (Home Office)", "url": "https://www.gov.uk/apply-citizenship-british-parent", "read_on": "2026-10-25", "http": "200"},
+    {"key": "gb-ukm-guide", "title": "Form UKM: guidance (accessible version), August 2026", "publisher": "GOV.UK (Home Office)", "url": "https://www.gov.uk/government/publications/form-ukm-guidance/form-ukm-guidance-accessible-version", "read_on": "2026-10-25", "http": "200"},
+    {"key": "gb-mn1-guide", "title": "Form MN1: guidance (accessible version), August 2026", "publisher": "GOV.UK (Home Office)", "url": "https://www.gov.uk/government/publications/form-mn1-guidance/form-mn1-guidance-accessible-version", "read_on": "2026-10-25", "http": "200"},
+    {"key": "gb-fees", "title": "Fees for citizenship applications and the right of abode (updated 8 April 2026)", "publisher": "GOV.UK (Home Office)", "url": "https://www.gov.uk/government/publications/fees-for-citizenship-applications/fees-for-citizenship-applications-and-the-right-of-abode-from-6-april-2018", "read_on": "2026-10-25", "http": "200"},
+    {"key": "gb-priority", "title": "Get a faster decision on your visa, settlement or citizenship application", "publisher": "GOV.UK (Home Office)", "url": "https://www.gov.uk/faster-decision-visa-settlement", "read_on": "2026-10-25", "http": "200"},
+    {"key": "gb-ancestry", "title": "UK Ancestry visa", "publisher": "GOV.UK (Home Office)", "url": "https://www.gov.uk/ancestry-visa", "read_on": "2026-10-25", "http": "200"},
+    {"key": "gb-dual", "title": "Dual citizenship", "publisher": "GOV.UK", "url": "https://www.gov.uk/dual-citizenship", "read_on": "2026-10-25", "http": "200"},
+    {"key": "gb-ard-guide", "title": "Guidance on registering as a British citizen (form ARD, section 4L)", "publisher": "GOV.UK (Home Office)", "url": "https://www.gov.uk/government/publications/application-for-registration-as-a-british-citizen-form-ard/guidance-on-registering-as-a-british-citizen-form-ard-accessible", "read_on": "2026-10-25", "http": "200"}
+  ]
+}

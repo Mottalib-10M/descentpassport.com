@@ -1,0 +1,245 @@
+{
+ "country": "Austria",
+ "code": "at",
+ "retrieved_at": "2026-10-25",
+ "laws": [
+  {
+   "name": "Staatsbürgerschaftsgesetz 1985 (StbG)",
+   "articles": "§ 58c Abs. 1, 1a, 2 (persecuted persons)",
+   "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005579",
+   "quote": "(1) Ein Fremder erwirbt unter den Voraussetzungen des § 10 Abs. 1 Z 2 bis 6 und 8 und Abs. 2 Z 1 und 3 bis 7 die Staatsbürgerschaft, wenn er der Behörde (§ 39) unter Bezugnahme auf dieses Bundesgesetz schriftlich anzeigt, sich als Staatsbürger oder Staatsangehöriger eines der Nachfolgestaaten der ehemaligen österreichisch-ungarischen Monarchie oder Staatenloser jeweils mit Hauptwohnsitz im Bundesgebiet vor dem 15. Mai 1955 in das Ausland begeben zu haben, weil er Verfolgungen durch Organe der NSDAP oder der Behörden des Deutschen Reiches mit Grund zu befürchten hatte oder erlitten hat oder weil er wegen seines Eintretens für die demokratische Republik Österreich Verfolgungen ausgesetzt war oder solche zu befürchten hatte. | EN gloss: a person who, as an Austrian, a national of a successor state of Austria-Hungary, or a stateless person with main residence in Austria, left for abroad before 15 May 1955 because of feared or suffered Nazi persecution (or persecution for defending the democratic Republic) acquires citizenship by written notification (Anzeige)."
+  },
+  {
+   "name": "Staatsbürgerschaftsgesetz 1985 (StbG)",
+   "articles": "§ 58c Abs. 3 (direct descendants)",
+   "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005579",
+   "quote": "(3) Ein Fremder erwirbt unter den Voraussetzungen des § 10 Abs. 1 Z 2 bis 6 und 8 und Abs. 2 Z 1 und 3 bis 7 die Staatsbürgerschaft, wenn er der Behörde (§ 39) unter Bezugnahme auf dieses Bundesgesetz schriftlich anzeigt und durch unbedenkliche Urkunden oder sonstige geeignete und gleichwertige Bescheinigungsmittel nachweist, dass er Nachkomme in direkter absteigender Linie einer Person ist, die gemäß Abs. 1 oder 2 die Staatsbürgerschaft erworben hat oder erwerben hätte können, wobei die Prüfung der Erfüllung der Voraussetzungen des § 10 Abs. 1 Z 2 bis 6 und 8 und Abs. 2 Z 1 und 3 bis 7 hinsichtlich des Vorfahren entfällt. | EN gloss: a direct descendant (any generation) of a person who acquired or could have acquired citizenship under para. 1 or 2 acquires citizenship by written notification with documentary proof."
+  },
+  {
+   "name": "Staatsbürgerschaftsgesetz 1985 (StbG)",
+   "articles": "§ 58c Abs. 5, 7, 8, 9",
+   "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005579",
+   "quote": "(5) Die Abs. 3 und 4 gelten nicht, wenn der Fremde die Staatsbürgerschaft nicht mehr besitzt, weil er eine fremde Staatsangehörigkeit erworben hat (§ 27), es sei denn, der Fremde wusste zum Zeitpunkt des Erwerbs der fremden Staatsangehörigkeit nicht, dass er im Besitz der Staatsbürgerschaft ist. [...] (7) Liegen die Voraussetzungen des Abs. 1, 2, 3 oder 4 vor, so hat die Behörde mit schriftlichem Bescheid festzustellen, dass der Einschreiter die Staatsbürgerschaft mit dem Tag des Einlangens der Anzeige bei der Behörde (§ 39) erworben hat. (8) Die Anzeige kann auch bei der gemäß § 41 Abs. 2 zuständigen Vertretungsbehörde eingebracht werden, die sie an die Behörde weiterzuleiten hat. (9) Die Anzeige, der Bescheid und im Verfahren beizubringende Unterlagen wie insbesondere Zeugnisse, Personenstandsurkunden und Übersetzungen sind gebührenfrei. | EN gloss: excluded if the person lost Austrian citizenship by acquiring a foreign one (unless unaware); citizenship is acquired on the day the notification reaches the authority; may be filed at the competent embassy/consulate; notification, decision and supporting documents are fee-free."
+  },
+  {
+   "name": "Staatsbürgerschaftsgesetz 1985 (StbG)",
+   "articles": "§ 7 Abs. 1 (descent at birth)",
+   "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005579",
+   "quote": "(1) Kinder erwerben die Staatsbürgerschaft mit dem Zeitpunkt der Geburt, wenn in diesem Zeitpunkt 1. die Mutter gemäß § 143 des Allgemeinen Bürgerlichen Gesetzbuches – ABGB, JGS 946/1811, Staatsbürgerin ist, 2. der Vater gemäß § 144 Abs. 1 Z 1 ABGB Staatsbürger ist, 3. der Vater Staatsbürger ist und dieser die Vaterschaft gemäß § 144 Abs. 1 Z 2 ABGB anerkannt hat, oder 4. der Vater Staatsbürger ist und dessen Vaterschaft gemäß § 144 Abs. 1 Z 3 ABGB gerichtlich festgestellt wurde. | EN gloss: a child is Austrian at birth if the mother, or the legal father, is Austrian at that moment (current law)."
+  },
+  {
+   "name": "Staatsbürgerschaftsgesetz 1985 (StbG)",
+   "articles": "§ 27 Abs. 1 (loss on voluntary acquisition of foreign nationality)",
+   "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005579",
+   "quote": "(1) Die Staatsbürgerschaft verliert, wer auf Grund seines Antrages, seiner Erklärung oder seiner ausdrücklichen Zustimmung eine fremde Staatsangehörigkeit erwirbt, sofern ihm nicht vorher die Beibehaltung der Staatsbürgerschaft bewilligt worden ist. | EN gloss: an Austrian who voluntarily acquires a foreign nationality loses Austrian citizenship unless retention was approved beforehand."
+  }
+ ],
+ "rules": [
+  {
+   "id": "at-58c-persecuted-ancestor",
+   "rule": "Qualifying ancestor (any one of): (a) left Austria before 15 May 1955 as an Austrian citizen, a national of a successor state of Austria-Hungary, or a stateless person with main residence in (today's) Austria, because of feared or suffered Nazi persecution or persecution for defending the democratic Republic of Austria (including a woman who lost Austrian citizenship by marriage to a foreigner shortly before leaving); (b) Austrian citizen without main residence in Austria between 30 Jan 1933 and 9 May 1945 because return would have meant persecution; (c) Austrian, or successor-state national/stateless resident in Austria, deported abroad or killed by persecution before 9 May 1945.",
+   "source_url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/citizenship-for-persecuted-persons-and-their-direct-descendants",
+   "quote": "Persons who went abroad as Austrian citizens, citizens of one of the successor states of the former Austro-Hungarian monarchy or as stateless persons with their main place of residence in the federal territory of Austria before May 15, 1955 because they feared or suffered persecution. This also includes those who lost their Austrian citizenship shortly before they left the country because they acquired a foreign citizenship through marriage ."
+  },
+  {
+   "id": "at-58c-all-generations",
+   "rule": "All direct descendants of a persecuted ancestor qualify, with no generation limit (children, grandchildren, great-grandchildren...), in maternal and paternal lines; children adopted as minors count, adults adopted as adults do not.",
+   "source_url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/citizenship-for-persecuted-persons-and-their-direct-descendants/declaration-pursuant-to-58c-of-the-austrian-citizenship-act",
+   "quote": "All direct descendants of a persecuted ancestor , i.e. children, grandchildren, great-grandchildren… are eligible. Children who were adopted as minors are also regarded as direct descendants."
+  },
+  {
+   "id": "at-58c-no-deadline",
+   "rule": "No deadline: declarations can be filed at any time on or after 1 September 2020.",
+   "source_url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/citizenship-for-persecuted-persons-and-their-direct-descendants/frequently-asked-questions-faq",
+   "quote": "No. You can submit your declaration on or at any date after September 1, 2020, without any deadline."
+  },
+  {
+   "id": "at-58c-exclusion-loss-after-2022",
+   "rule": "A descendant who already held Austrian citizenship and lost it after 1 May 2022 by acquiring a foreign citizenship cannot file (unless unaware of being Austrian); renunciation or revocation also bars filing. Loss before 1 May 2022 does not bar filing.",
+   "source_url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/citizenship-for-persecuted-persons-and-their-direct-descendants/frequently-asked-questions-faq",
+   "quote": "As a descendant, it is not possible to file a declaration if you had already possessed Austrian citizenship and lost it after 1 May 2022 through the acquisition of a foreign citizenship, unless the possession of your Austrian citizenship was not known to you. Also, in cases of renunciation or revocation of your Austrian citizenship, a subsequent declaration is not possible. Should you have lost your citizenship prior to May 1, 2022, you can file a declaration."
+  },
+  {
+   "id": "at-58c-retroactive-to-filing",
+   "rule": "Austrian citizenship takes effect on the date the declaration is received; acquiring any other citizenship after that date (even on an application filed earlier) causes automatic retroactive loss. Users planning another citizenship should obtain it before filing.",
+   "source_url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/citizenship-for-persecuted-persons-and-their-direct-descendants/frequently-asked-questions-faq",
+   "quote": "Austrian citizenship is acquired retroactively on the date of receipt of the declaration. Any acquisition of a foreign citizenship after the date your declaration was filed (including regarding an application made before the filing of the notification) will therefore in principle lead to the retroactive automatic loss of Austrian citizenship, even if the proceedings in Austria may not have been completed."
+  },
+  {
+   "id": "at-descent-parent-only",
+   "rule": "Outside § 58c there is no general descent route for grandchildren: Austrian citizenship by descent is acquired only at birth from a parent who is Austrian at that moment (mother; or father if married, or if unmarried and paternity acknowledged/established within eight weeks of birth). A parent who voluntarily acquired a foreign citizenship (e.g. US naturalisation) without a prior retention permit was no longer Austrian and could not transmit.",
+   "source_url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/acquisition",
+   "quote": "Children obtain Austrian citizenship at birth if the mother is an Austrian citizen . The same applies if the parents are married and only the father is an Austrian citizen . \nIf the parents are not married and only the father of the child is an Austrian citizen, and the mother is a citizen of another state, the child acquires Austrian citizenship by descent if the Austrian father within eight weeks after birth has either acknowledged paternity or his paternity has been established by court ."
+  },
+  {
+   "id": "at-loss-voluntary-foreign",
+   "rule": "Austrian law generally forbids dual citizenship: voluntarily acquiring a foreign citizenship causes automatic loss unless a retention permit was approved beforehand. Exception: dual citizenship acquired at birth (e.g. US birth + Austrian parent) is kept, with no obligation to choose.",
+   "source_url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/dual-citizenship",
+   "quote": "In principle, anyone who voluntarily acquires a foreign citizenship thereby loses Austrian citizenship. [...] If in addition to Austrian citizenship, another citizenship is acquired at the time of birth - for example by descent from the other parent (\"ius sanguinis\") or by the country-of-birth principle (\"ius soli\") - Austrian citizenship is not lost."
+  }
+ ],
+ "procedure": {
+  "authority": "Wiener Landesregierung – Magistratsabteilung 35 (MA35, Vienna) for persons not born in and not residing in Austria; the declaration is filed through the Austrian Embassy/Consulate General of the consular district of main residence, which forwards it to MA35.",
+  "how": "Complete the BMEIA online questionnaire (ias.bmeia.gv.at, only from the website of the competent mission) to get a personalised declaration form and document checklist; gather documents (apostilled where required); contact/submit to the competent Austrian mission; MA35 issues a written decision (Bescheid) confirming acquisition as of the filing date.",
+  "source_url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/citizenship-for-persecuted-persons-and-their-direct-descendants/declaration-pursuant-to-58c-of-the-austrian-citizenship-act"
+ },
+ "documents": [
+  {
+   "item": "Valid passport; current passport photograph; birth certificate; marriage/name-change documents if surname changed",
+   "note": "In German or English, or with German translation by a sworn and court-certified translator; English needs no translation unless requested.",
+   "source_url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/citizenship-for-persecuted-persons-and-their-direct-descendants/declaration-pursuant-to-58c-of-the-austrian-citizenship-act"
+  },
+  {
+   "item": "Current criminal record certificate of country of residence, not older than 8 months (for US residents: FBI Identity History Summary)",
+   "note": "Needs apostille (US is a Hague Convention member). FBI naming is our gloss; the page says 'criminal record certificate from your country of residence'.",
+   "source_url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/citizenship-for-persecuted-persons-and-their-direct-descendants/declaration-pursuant-to-58c-of-the-austrian-citizenship-act"
+  },
+  {
+   "item": "Documents about the persecuted ancestor: proof of former Austrian/successor-state citizenship or statelessness, main residence in Austria, persecution, departure before 15 May 1955, marriage causing loss (if applicable)",
+   "note": "Ancestor documents need no apostille; in principle none needed if the ancestor was deported or killed.",
+   "source_url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/citizenship-for-persecuted-persons-and-their-direct-descendants/frequently-asked-questions-faq"
+  },
+  {
+   "item": "Proof of direct line: birth and marriage certificates, paternity acknowledgements, adoption decrees, name changes",
+   "note": "Applicant's own original foreign documents require apostille or diplomatic authentication; originals returned after verification.",
+   "source_url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/citizenship-for-persecuted-persons-and-their-direct-descendants/frequently-asked-questions-faq"
+  }
+ ],
+ "fees": [
+  {
+   "label": "§ 58c declaration (federal fees)",
+   "amount": 0,
+   "currency": "EUR",
+   "source_url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/citizenship-for-persecuted-persons-and-their-direct-descendants/frequently-asked-questions-faq",
+   "quote": "Filing a declaration in accordance to § 58c para. 1a of the Austrian Citizenship Act has been exempted from all federal fees by law. \nHowever, since citizenship matters in Austria are within the jurisdiction of the federal provinces, some fees may be charged depending on the federal province in question. If you were not born in Austria and/or do not live in Austria, the Province of Vienna is responsible for you and will not charge any fees."
+  }
+ ],
+ "processing_time": [
+  {
+   "label": "§ 58c declaration",
+   "value": "not published; depends on documents and research needed",
+   "source_url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/citizenship-for-persecuted-persons-and-their-direct-descendants/frequently-asked-questions-faq",
+   "quote": "The processing time of your declaration in Austria depends on several factors, including which documents you have submitted and whether extensive research by the Austrian authorities is necessary.",
+   "published_or_updated": "no date shown"
+  },
+  {
+   "label": "Volume indicator (not a duration): MA35 closed 10,420 § 58c procedures in 2025",
+   "value": "10,420 decisions in 2025",
+   "source_url": "https://www.wien.gv.at/pdf/ma35/jahresbericht.pdf",
+   "quote": "„Staatsbürgerschaft nach §58c“ mit 10.420 \nErledigungen",
+   "published_or_updated": "Jahresbericht 2025"
+  }
+ ],
+ "dual_citizenship": {
+  "allowed": "yes",
+  "note": "For § 58c, no renunciation of US citizenship is required. But Austria otherwise forbids later voluntary acquisition of another citizenship: if the user acquires another citizenship after filing, Austrian citizenship is lost retroactively.",
+  "source_url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/citizenship-for-persecuted-persons-and-their-direct-descendants",
+  "quote": "According to § 58c of the Austrian Citizenship Act persecuted persons and their descendants can acquire Austrian citizenship by means of a declaration (“Anzeige”), without having to give up their current citizenship or nationality in return."
+ },
+ "other_requirements": [
+  {
+   "item": "No disqualifying criminal record (§ 10 Abs. 1 Z 2-6 and 8 conditions apply to the applicant; not to the ancestor)",
+   "source_url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/citizenship-for-persecuted-persons-and-their-direct-descendants/frequently-asked-questions-faq",
+   "quote": "According to the provisions of the Austrian Citizenship Act, only persons without previous criminal convictions may acquire citizenship."
+  },
+  {
+   "item": "Military service: male citizens 17-50 must register with the mission if living abroad; no actual service unless they move to Austria",
+   "source_url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/citizenship-for-persecuted-persons-and-their-direct-descendants/frequently-asked-questions-faq",
+   "quote": "As a male Austrian citizen between the ages of 17 and 50 you are required to do military service. If you permanently reside abroad, you only have to register with the Austrian diplomatic representation (Austrian Embassy or Consulate General), but are not required to do actual military service."
+  },
+  {
+   "item": "No German language test and no residence in Austria for § 58c (not listed among requirements on the official pages)",
+   "source_url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/citizenship-for-persecuted-persons-and-their-direct-descendants",
+   "quote": "persecuted persons and their descendants can acquire Austrian citizenship by means of a declaration (“Anzeige”), without having to give up their current citizenship or nationality in return."
+  }
+ ],
+ "recent_changes": [
+  {
+   "date": "2020-09-01",
+   "what": "§ 58c extended to descendants (first version).",
+   "source_url": "https://www.oesterreich.gv.at/de/themen/menschen_aus_anderen_staaten/staatsbuergerschaft/Erwerb-durch-Anzeige/Staatsbuergerschaft_Verfolgte_Nationalsozialismus_und-direkte_Nachkommen"
+  },
+  {
+   "date": "2022-05-01",
+   "what": "§ 58c amendment in force: wider group (successor-state nationals and stateless residents, deported/killed persons, loss by marriage, all generations, adopted minors).",
+   "source_url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/citizenship-for-persecuted-persons-and-their-direct-descendants"
+  },
+  {
+   "date": "2026-06-12",
+   "what": "Asyl- und Migrationspakt-Anpassungsgesetz (BGBl. I Nr. 39/2026) amended StbG provisions incl. § 10 Abs. 2 Z 1 and 2 (in force 12 June 2026). § 58c references § 10 Abs. 2 Z 1 and 3-7; no change to the § 58c text itself was found in the consolidated version of 25.10.2026.",
+   "source_url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005579"
+  }
+ ],
+ "open_questions": [
+  "No official processing time published for § 58c (BMEIA FAQ and MA35 2025 annual report give none).",
+  "The old BMEIA US mission pages (Washington, New York) for § 58c now 404 after a site revision; the content was read on the central BMEIA pages instead.",
+  "Historical rule for children of Austrian mothers born in wedlock before 1983 (no transmission by mother under older law) not verified on an official page; current § 7 text only reflects today's law. Relevant only for the non-persecution parent route.",
+  "Effect of BGBl. I Nr. 39/2026 on § 10 Abs. 2 Z 1 (a condition referenced by § 58c) not analysed in detail."
+ ],
+ "sources": [
+  {
+   "key": "at-stbg",
+   "title": "Staatsbürgerschaftsgesetz 1985, consolidated version of 25.10.2026",
+   "publisher": "Rechtsinformationssystem des Bundes (RIS)",
+   "url": "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10005579",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "at-bmeia-58c",
+   "title": "Citizenship for Persecuted Persons and their Direct Descendants",
+   "publisher": "Federal Ministry for European and International Affairs (BMEIA)",
+   "url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/citizenship-for-persecuted-persons-and-their-direct-descendants",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "at-bmeia-58c-decl",
+   "title": "Declaration pursuant to § 58c of the Austrian Citizenship Act",
+   "publisher": "BMEIA",
+   "url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/citizenship-for-persecuted-persons-and-their-direct-descendants/declaration-pursuant-to-58c-of-the-austrian-citizenship-act",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "at-bmeia-58c-faq",
+   "title": "Frequently Asked Questions – FAQ (§ 58c)",
+   "publisher": "BMEIA",
+   "url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/citizenship-for-persecuted-persons-and-their-direct-descendants/frequently-asked-questions-faq",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "at-bmeia-acquisition",
+   "title": "Acquisition",
+   "publisher": "BMEIA",
+   "url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/acquisition",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "at-bmeia-dual",
+   "title": "Dual Citizenship",
+   "publisher": "BMEIA",
+   "url": "https://www.bmeia.gv.at/en/travel-stay/living-abroad/citizenship-and-union-citizenship/dual-citizenship",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "at-oegv-58c",
+   "title": "Staatsbürgerschaft für Verfolgte des Nationalsozialismus und ihre direkten Nachkommen (Letzte Aktualisierung 29.01.2026)",
+   "publisher": "oesterreich.gv.at (Bundesministerium für Inneres)",
+   "url": "https://www.oesterreich.gv.at/de/themen/menschen_aus_anderen_staaten/staatsbuergerschaft/Erwerb-durch-Anzeige/Staatsbuergerschaft_Verfolgte_Nationalsozialismus_und-direkte_Nachkommen",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "at-ma35-2025",
+   "title": "Jahresbericht 2025 Einwanderung und Staatsbürgerschaft",
+   "publisher": "Stadt Wien – MA 35",
+   "url": "https://www.wien.gv.at/pdf/ma35/jahresbericht.pdf",
+   "read_on": "2026-10-25",
+   "http": "200"
+  }
+ ]
+}

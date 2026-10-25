@@ -1,0 +1,480 @@
+{
+ "country": "Italy",
+ "code": "it",
+ "retrieved_at": "2026-10-25",
+ "laws": [
+  {
+   "name": "Legge 5 febbraio 1992, n. 91 - Nuove norme sulla cittadinanza",
+   "articles": "art. 1 (citizen by birth), art. 3-bis (limit for persons born abroad with another citizenship, added by D.L. 36/2025), art. 4 c.1 and c.1-bis (acquisition by benefit of law, minors), art. 9-bis (EUR 250 contribution), art. 11 (dual citizenship), art. 17 (reacquisition window)",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91",
+   "quote": "Art. 1 - 1. È cittadino per nascita: a) il figlio di padre o di madre cittadini; [EN: A person is a citizen by birth if he or she is the child of a citizen father or mother.]"
+  },
+  {
+   "name": "Legge 5 febbraio 1992, n. 91, art. 3-bis (testo in vigore dal 24-5-2025)",
+   "articles": "art. 3-bis c.1 lett. a, a-bis, b, c, d",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91~art3bis",
+   "quote": "è considerato non avere mai acquistato la cittadinanza italiana chi è nato all'estero anche prima della data di entrata in vigore del presente articolo ed è in possesso di altra cittadinanza, salvo che ricorra una delle seguenti condizioni: [...] c) un ascendente di primo o di secondo grado possiede, o possedeva al momento della morte, esclusivamente la cittadinanza italiana; d) un genitore o adottante è stato residente in Italia per almeno due anni continuativi successivamente all'acquisto della cittadinanza italiana e prima della data di nascita o di adozione del figlio [EN: anyone born abroad, even before this article entered into force, who holds another citizenship is deemed never to have acquired Italian citizenship, unless one of the listed conditions applies: (c) a parent or grandparent holds, or held at death, ONLY Italian citizenship; (d) a parent or adoptive parent resided in Italy for at least two continuous years after acquiring Italian citizenship and before the child's birth or adoption.]"
+  },
+  {
+   "name": "Decreto-legge 28 marzo 2025, n. 36 - Disposizioni urgenti in materia di cittadinanza, convertito con modificazioni dalla Legge 23 maggio 2025, n. 74",
+   "articles": "art. 1 c.1 (inserts art. 3-bis), c.1-bis (art. 4 c.1-bis), c.1-ter (transitional declaration for minors, deadline now 31 May 2029)",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-03-28;36~art1",
+   "quote": "1-ter. Per i minorenni alla data di entrata in vigore della legge di conversione del presente decreto, figli di cittadini per nascita di cui all' articolo 3-bis, comma 1, lettere a) , a-bis) e b), della legge 5 febbraio 1992, n. 91 , la dichiarazione prevista dall'articolo 4, comma 1-bis, lettera b), della medesima legge può essere presentata entro le 23:59, ora di Roma, del ((31 maggio 2029)) [EN: for persons who were minors when the conversion law entered into force, children of citizens by birth recognised under letters a, a-bis or b of art. 3-bis, the declaration may be filed until 23:59 Rome time on 31 May 2029.]"
+  },
+  {
+   "name": "Legge 19 gennaio 2026, n. 11 (GU n.28 del 04-02-2026), replacing art. 10 of Decreto legislativo 3 febbraio 2011, n. 71",
+   "articles": "art. 1 c.1 (new art. 10 D.Lgs. 71/2011, commi 2-7)",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2026-01-19;11",
+   "quote": "le domande di riconoscimento del possesso della cittadinanza italiana da parte di persone maggiorenni residenti all'estero sono presentate a un ufficio di livello dirigenziale generale nell'ambito dell'amministrazione centrale del Ministero degli affari esteri e della cooperazione internazionale. [...] 5. I commi 2, 3 e 4 si applicano a decorrere dal 1° gennaio del terzo anno solare successivo a quello in corso alla data di entrata in vigore della presente disposizione. [...] 7. Il termine per la conclusione dei procedimenti di cui ai commi 2 e 6 è fissato in trentasei mesi [EN: applications by adults living abroad go to a central office of the Ministry of Foreign Affairs; this applies from 1 January of the third calendar year after entry into force (i.e. 1 Jan 2029); the time limit for deciding is 36 months.]"
+  },
+  {
+   "name": "Legge 13 giugno 1912, n. 555 - Sulla cittadinanza italiana (repealed by Law 91/1992 from 16-8-1992; still governs births before that date)",
+   "articles": "art. 1, 7, 8, 10, 12",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1912-06-13;555",
+   "quote": "Art. 7 ((PROVVEDIMENTO ABROGATO DALLA L. 5 FEBBRAIO 1992, N. 91 )) [EN: Normattiva shows the 1912 articles as repealed; their content as applied to pre-1992 facts is stated in Cass. SU 24045/2026, see rules.]"
+  }
+ ],
+ "rules": [
+  {
+   "id": "base-rule-born-abroad",
+   "rule": "DEFAULT FOR AMERICANS: a person born outside Italy who holds another citizenship (e.g. US) is deemed never to have acquired Italian citizenship by descent, even if born before 28 March 2025, UNLESS one of the exceptions below applies (pre-27-March-2025 application, exclusively-Italian parent/grandparent, or parent with 2 years' residence in Italy before the birth).",
+   "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91~art3bis",
+   "quote": "è considerato non avere mai acquistato la cittadinanza italiana chi è nato all'estero anche prima della data di entrata in vigore del presente articolo ed è in possesso di altra cittadinanza, salvo che ricorra una delle seguenti condizioni:"
+  },
+  {
+   "id": "cutoff-27-march-2025",
+   "rule": "If an administrative application (to a consulate or Italian mayor) or a court case was filed by 23:59 Rome time on 27 March 2025, or the application was filed on an appointment date communicated by the consulate by that deadline, the case is decided under the OLD rules (unlimited generations, mother transmits from 1 Jan 1948, ancestor must not have naturalized before the next-in-line's birth, etc.). Anyone else falls under the new art. 3-bis limits.",
+   "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91~art3bis",
+   "quote": "a) lo stato di cittadino dell'interessato è riconosciuto, nel rispetto della normativa applicabile al 27 marzo 2025, a seguito di domanda, corredata della necessaria documentazione, presentata all'ufficio consolare o al sindaco competenti non oltre le 23:59, ora di Roma, della medesima data; a-bis) [...] nel giorno indicato da appuntamento comunicato all'interessato dall'ufficio competente entro le 23:59, ora di Roma, della medesima data del 27 marzo 2025; b) lo stato di cittadino dell'interessato è accertato giudizialmente, nel rispetto della normativa applicabile al 27 marzo 2025, a seguito di domanda giudiziale presentata non oltre le 23:59, ora di Roma, della medesima data;"
+  },
+  {
+   "id": "exclusive-italian-parent-or-grandparent",
+   "rule": "New-rule exception (c): qualifies if a parent or grandparent holds, or held at the time of death, ONLY Italian citizenship (no other citizenship). For a typical US family this fails if the Italian ancestor naturalized as a US citizen (consulates ask for US 'negative' naturalization certificates or proof of alien status to prove exclusivity). Two generations maximum (parent or grandparent).",
+   "source_url": "https://consnewyork.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/cittadinanza/cittadinanza-per-discendenza-iure-sanguinis/",
+   "quote": "Il richiedente che ha un genitore o un nonno che possiede – o possedeva al momento della morte – esclusivamente la cittadinanza italiana ( Art. 3-bis, comma 1, lett. c Legge 91/1992); [...] In caso di esclusivo possesso della cittadinanza italiana (art. 3-bis, lettera c, Legge 91/1992), a titolo esemplificativo, certificati negativi di naturalizzazione nel Paese o Paesi di emigrazione o documentazione atta a confermare il soggiorno come straniero nei paesi di emigrazione;"
+  },
+  {
+   "id": "parent-two-years-residence",
+   "rule": "New-rule exception (d): qualifies if an Italian-citizen parent (or adoptive parent) lived in Italy for at least 2 continuous years AFTER becoming Italian and BEFORE the applicant's birth/adoption. Proof: certificato storico di residenza from the Italian municipality.",
+   "source_url": "https://consnewyork.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/cittadinanza/cittadinanza-per-discendenza-iure-sanguinis/",
+   "quote": "Il richiedente che ha un genitore (anche adottivo) cittadino italiano che è stato residente in Italia per almeno due anni continuativi successivamente all'acquisto della cittadinanza italiana e prima della data di nascita o di adozione del figlio ( Art. 3-bis, comma 1, lett. d Legge 91/1992). [...] In caso di residenza in Italia per almeno due anni continuativi, certificato storico di residenza emesso dal Comune di residenza in Italia."
+  },
+  {
+   "id": "generation-limit-consular-reading",
+   "rule": "Consular reading of the new law (Sydney consulate, MAECI network): citizenship passes for at most two generations, and only if the Italian parent never renounced or naturalized before the descendant's birth. Note: Sydney phrases condition (c) as 'at the time of the applicant's birth — or at the time of their ancestor's death', while the statute says 'possiede, o possedeva al momento della morte' (holds now or held at death). Treat the timing of exclusivity as an open point.",
+   "source_url": "https://conssydney.esteri.it/en/?p=3911",
+   "quote": "According to the new version of Law No. 91/1992, modified by Law n. 74, 23/05/2025, Italian citizenship is transmitted from parent to child for a maximum of two generations , on the condition that the Italian parent has never renounced Italian citizenship or naturalized before the direct descendant’s birth."
+  },
+  {
+   "id": "minor-child-declaration-3-years",
+   "rule": "Minors born abroad who do not qualify at birth: if at least one parent is an Italian citizen BY BIRTH (even if dual), both parents can file a declaration within 3 YEARS of the child's birth (or of the later date filiation/adoption is established). Citizenship is acquired from the day after the declaration, not from birth. The 3-year term replaced the original 1-year term from 1 Jan 2026 (2026 Budget Law). Alternative: declaration followed by 2 continuous years of legal residence in Italy. Not available if the parent became Italian by naturalization, benefit of law, marriage, art. 14 or Law 379/2000.",
+   "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91~art4",
+   "quote": "1-bis. Il minore straniero o apolide, del quale il padre o la madre sono cittadini per nascita, diviene cittadino se i genitori o il tutore dichiarano la volontà dell'acquisto della cittadinanza e ricorre uno dei seguenti requisiti: a) successivamente alla dichiarazione, il minore risiede legalmente per almeno due anni continuativi in Italia; b) la dichiarazione è presentata ((entro tre anni)) dalla nascita del minore o dalla data successiva in cui è stabilita la filiazione, anche adottiva, da cittadino italiano."
+  },
+  {
+   "id": "minor-transitional-31-may-2029",
+   "rule": "Children who were under 18 on 24 May 2025 and whose parent is a citizen by birth recognised on an application filed by 27 March 2025 (letters a, a-bis, b): parents may file a declaration until 23:59 Rome time on 31 May 2029 (extended from 31 May 2026). If the child turns 18 before filing, the child files personally by the same date. Effective from the day after the declaration.",
+   "source_url": "https://consnewyork.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/cittadinanza/acquisto-della-cittadinanza-italiana-da-parte-dei-minori-nati-allestero/",
+   "quote": "Se si tratta di minorenni alla data di entrata in vigore della Legge 74/2025 di conversione del D.L. 36/2025 (quindi minorenni al 24 maggio 2025), che siano figli di cittadini per nascita, riconosciuti sulla base di domanda amministrativa o giudiziale presentata entro le 23:59 (ora di Roma) del 27 marzo 2025 [...] che presentano dichiarazione di volontà di acquisto della cittadinanza italiana entro il 31 maggio 2029 [...]. Se l’interessato, minorenne alla data del 24 maggio 2025, diviene nel frattempo maggiorenne, la dichiarazione dovrà essere presentata da lui personalmente entro la medesima data."
+  },
+  {
+   "id": "minor-issue-su-24045-2026",
+   "rule": "'Minor issue' (old-rule cases): a child born to an Italian parent in a jus soli country (e.g. USA) while Law 555/1912 applied (births 1 July 1912 to 15 Aug 1992) was a dual citizen from birth and KEPT Italian citizenship even if the Italian parent naturalized (or otherwise lost citizenship) while the child was a minor, unless the child later renounced as an adult. Only a minor holding ONLY Italian citizenship lost it with the parent. Applies equally to mothers and fathers. Ministry of the Interior circular of 10 Aug 2026 adopts this; consulates accept requests for review (riesame) of refusals based on the 3 Oct 2024 circular. Relevant only for applications decided under the old rules (filed by 27 March 2025) or as part of proving the line under an exception.",
+   "source_url": "https://www.cortedicassazione.it/resources/cms/documents/24045072026_oscuramento.pdf",
+   "quote": "ii) ai sensi dell’art. 7 l. 555/1912, il minore non emancipato, nato all’estero da cittadino o cittadina italiano in uno Stato di residenza ove la cittadinanza si acquisti a titolo originario per effetto dello ius soli, è bipolide di diritto dalla nascita e conserva la cittadinanza italiana anche in caso di naturalizzazione o perdita della stessa da parte del genitore cittadino italiano, salve diverse disposizioni speciali in senso contrario stipulate con trattati internazionali o sua eventuale rinunzia ritualmente intervenuta una volta raggiunta la maggiore età od ottenuta l’emancipazione; iii) ai sensi dell’art. 12 l. 555 /1912, soltanto il minore non emancipato che abbia esclusivamente la cittadinanza italiana può subire gli effetti della perdita della cittadinanza da parte del genitore con cui condivide la residenza"
+  },
+  {
+   "id": "maternal-line-pre-1948",
+   "rule": "Mothers transmit citizenship administratively only to children born on/after 1 Jan 1948. For children born before 1948 to an Italian mother (and for Italian women who lost citizenship by marrying a foreigner before 1948), recognition is only possible through an Italian court (Cass. SU 4466/2009). After 27 March 2025, a new court case is also subject to art. 3-bis (letter b covers only cases filed by 27 March 2025), so for most Americans this route survives only for cases already filed or where a 3-bis exception applies.",
+   "source_url": "https://www.cortedicassazione.it/resources/cms/documents/24045072026_oscuramento.pdf",
+   "quote": "A questa pronuncia ha fatto seguito l’arresto (Cass., Sez. U., 4466/2009) con cui le Sezioni Unite di questa Corte hanno ritenuto che, per effetto delle sentenze della Corte costituzionale n. 87/1975 e 30/1983, la cittadinanza italiana deve essere riconosciuta in sede giudiziaria alla donna che l'abbia perduta ex art. 10 l. 555/1912, per aver contratto matrimonio con cittadino straniero anteriormente al 1° gennaio 1948 [...] riacquista la cittadinanza italiana dal 1° gennaio 1948 anche il figlio di donna nella situazione descritta, nato prima di tale data e nel vigore della legge n. 555/1912, e tale diritto si trasmette ai suoi figli"
+  },
+  {
+   "id": "woman-marriage-before-1948",
+   "rule": "Administrative (consular) practice: an Italian woman who married a foreigner before 1 Jan 1948 lost Italian citizenship automatically if her husband's country gave her its citizenship by marriage; women transmit only from 1 Jan 1948. (Courts restore this, see maternal-line-pre-1948.)",
+   "source_url": "https://conssydney.esteri.it/en/?p=3911",
+   "quote": "A woman transmits Italian citizenship to her descendants only from the 1 st of January 1948 onwards. An Italian woman married to a foreign citizen before the 1 st of January 1948 automatically lost her Italian citizenship if the nationality law of her husband’s country provided for the automatic acquisition of that country’s citizenship by virtue of marriage."
+  },
+  {
+   "id": "reacquisition-art17-window",
+   "rule": "Former citizens (born in Italy or resident there 2 continuous years) who lost citizenship under arts. 8 no.1-2 or 12 of Law 555/1912 (e.g. naturalized in the US before 16 Aug 1992) can reacquire by declaration between 1 July 2025 and 31 Dec 2027. Fee EUR 250 at the consulate. Does not help descendants born abroad directly.",
+   "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91~art17",
+   "quote": "chi è nato in Italia o è stato ivi residente per almeno due anni continuativi e ha perduto la cittadinanza in applicazione dell' articolo 8, numeri 1 e 2 , o dell' articolo 12 della legge 13 giugno 1912, n. 555 , la riacquista se effettua una dichiarazione in tal senso in data compresa tra il 1° luglio 2025 e il 31 dicembre 2027"
+  },
+  {
+   "id": "descendant-residence-route-art4",
+   "rule": "Other route (not automatic): a foreigner whose parent or grandparent is/was an Italian citizen by birth becomes a citizen by declaration if, on reaching majority, he/she has resided legally in Italy for at least 2 years and declares within one year (or via Italian military service / State employment).",
+   "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91~art4",
+   "quote": "1. Lo straniero o l'apolide, del quale il padre o la madre o uno degli ascendenti in linea retta di secondo grado sono o sono stati cittadini per nascita, diviene cittadino: [...] c) se, al raggiungimento della maggiore età, risiede legalmente da almeno due anni nel territorio della Repubblica e dichiara, entro un anno dal raggiungimento, di voler acquistare la cittadinanza italiana."
+  }
+ ],
+ "procedure": {
+  "authority": "Until 31 Dec 2028: the Italian consulate with jurisdiction over the applicant's US residence (e.g. Consulate General in New York for NY, CT and 13 NJ counties; San Francisco for northern/central CA, AK, HI, ID, MT, OR, UT, WA), or an Italian mayor (comune) if resident in Italy, or an Italian court. From 1 Jan 2029 (Law 11/2026): a central general-directorate-level office of the Ministry of Foreign Affairs in Rome for adults residing abroad, by post only; consulates keep minors' cases.",
+  "how": "Book a citizenship appointment on the MAECI Prenot@mi portal (NY: the waiting list is closed to new registrations; the system offers dates to those already listed). On the appointment day the full file is mailed to the consulate (NY, SF), with the EUR 600 fee paid by money order in USD. Consulates are capped until 2028 at the number of cases concluded in the year before the law (minimum 100 per year) and some (e.g. Sydney) have suspended new adult appointments. Minors (art. 4 c.1-bis / DL 36 art. 1 c.1-ter declarations) are handled by e-mail request then appointment at the consulate.",
+  "source_url": "https://consnewyork.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/cittadinanza/cittadinanza-per-discendenza-iure-sanguinis/"
+ },
+ "documents": [
+  {
+   "item": "Extract of the Italian ancestor's birth record (estratto dell'atto di nascita) issued within the last 6 months by the Italian comune",
+   "note": "Italian document, no apostille or translation",
+   "source_url": "https://consnewyork.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/cittadinanza/cittadinanza-per-discendenza-iure-sanguinis/"
+  },
+  {
+   "item": "Birth certificates of every direct descendant down to the applicant",
+   "note": "Legalized (apostille for US documents) and with official Italian translation; US certificates in long form",
+   "source_url": "https://consnewyork.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/cittadinanza/cittadinanza-per-discendenza-iure-sanguinis/"
+  },
+  {
+   "item": "Marriage certificate of the Italian ancestor and of each descendant (and applicant), divorce decrees where applicable",
+   "note": "Apostille + Italian translation if issued abroad; SF requires a separate divorce-transcription form for the applicant",
+   "source_url": "https://conssanfrancisco.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/cittadinanza/cittadinanza-per-discendenza-iure-sanguinis/"
+  },
+  {
+   "item": "Death certificates of ancestors in the line, if any",
+   "note": "Apostille + Italian translation if issued abroad",
+   "source_url": "https://consnewyork.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/cittadinanza/cittadinanza-per-discendenza-iure-sanguinis/"
+  },
+  {
+   "item": "Proof of the ancestor's US naturalization status: if naturalized, notarized copy of the Certificate of Naturalization or NARA/court certified Declaration of Intention, Petition and Oath; if never naturalized, USCIS 'No Record' letter with envelope (apostille) AND NARA No Record letter (apostille) and county court non-existence statements (apostille), or census / alien registration (AR-2) showing alien status",
+   "note": "NY list: NARA certified copies need no apostille and no translation; county court copies need apostille; USCIS/NARA no-record letters need apostille; no translation of naturalization documents",
+   "source_url": "https://consnewyork.esteri.it/wp-content/uploads/2025/08/List_of_documents.pdf"
+  },
+  {
+   "item": "For new-rule exceptions: negative naturalization certificates from the emigration country(ies) (to prove exclusively Italian citizenship) or certificato storico di residenza (2-year residence)",
+   "note": "",
+   "source_url": "https://consnewyork.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/cittadinanza/cittadinanza-per-discendenza-iure-sanguinis/"
+  },
+  {
+   "item": "Application forms (modello 1, 2, 3 or 4) with notarized signatures",
+   "note": "NY: notarized and apostilled, dated within 6 months of the appointment",
+   "source_url": "https://consnewyork.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/cittadinanza/cittadinanza-per-discendenza-iure-sanguinis/"
+  },
+  {
+   "item": "Valid passport copy, proof of residence in the consular district (driver licence, utility bill or latest federal tax statement), Prenot@mi appointment confirmation, money order",
+   "note": "",
+   "source_url": "https://consnewyork.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/cittadinanza/cittadinanza-per-discendenza-iure-sanguinis/"
+  }
+ ],
+ "fees": [
+  {
+   "label": "Consular fee for recognition of citizenship iure sanguinis, per adult applicant",
+   "amount": 600,
+   "currency": "EUR",
+   "source_url": "https://consnewyork.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/cittadinanza/",
+   "quote": "La trattazione delle domande di riconoscimento della cittadinanza italiana di persona maggiorenne è soggetta al pagamento di 600 euro da corrispondere con money order intestato al Consolato Generale d’Italia in New York."
+  },
+  {
+   "label": "Same fee in USD at the NY consulate, Q4 2026 (1 Oct - 31 Dec 2026), exchange rate EUR 1 = USD 1.1516",
+   "amount": 691,
+   "currency": "USD",
+   "source_url": "https://consnewyork.esteri.it/wp-content/uploads/2026/09/TAB.-DIR.-CONS.-IV-TRIM.-2026-DAL-01-10-26-AL-AL-31-12-26_CG.pdf",
+   "quote": "Cittadinanza iure sanguinis 7B € 600,00 $690,96 $691,00"
+  },
+  {
+   "label": "Declaration of acquisition for minors (art. 4 c.1-bis lett. b) filed from 1 Jan 2026",
+   "amount": 0,
+   "currency": "EUR",
+   "source_url": "https://consnewyork.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/cittadinanza/acquisto-della-cittadinanza-italiana-da-parte-dei-minori-nati-allestero/",
+   "quote": "La Legge di Bilancio per l’anno 2026 ha previsto la gratuità per tutte le dichiarazioni di volontà di acquisto della cittadinanza italiana per beneficio di legge presentate dal 1° gennaio 2026."
+  },
+  {
+   "label": "Contribution under art. 9-bis for election/acquisition/reacquisition/renunciation/grant applications (not for art. 4 c.1-bis lett. b declarations); paid to the Ministry of the Interior",
+   "amount": 250,
+   "currency": "EUR",
+   "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91~art9bis",
+   "quote": "Le istanze o dichiarazioni di elezione, acquisto, riacquisto, rinuncia o concessione della cittadinanza, ad eccezione delle dichiarazioni di riacquisto presentate innanzi a un ufficio consolare, sono soggette al pagamento di un contributo di importo pari a 250 euro. (( Il presente comma non si applica alle dichiarazioni di cui all'articolo 4, comma 1-bis, lettera b) ))"
+  },
+  {
+   "label": "Reacquisition declaration under art. 17 at a consulate",
+   "amount": 250,
+   "currency": "EUR",
+   "source_url": "https://consnewyork.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/cittadinanza/",
+   "quote": "Dichiarazioni di volontà di riacquisto della cittadinanza ex art. 17 della Legge 91/1992 sono soggette al pagamento di Euro 250 da corrispondere con money order intestato al Consolato Generale d’Italia in New York."
+  }
+ ],
+ "processing_time": [
+  {
+   "label": "Legal time limit for consular citizenship recognition (DPCM 33/2014)",
+   "value": "730 days",
+   "source_url": "https://conssydney.esteri.it/en/?p=3911",
+   "quote": "The processing time for the assessment of the Italian citizenship is 730 days , as established by Decree of the President of the Council of Ministers No. 33 of the 17 th of January 2014, published in the Official Gazette No. 64 of the 18 th of March 2014.",
+   "published_or_updated": ""
+  },
+  {
+   "label": "San Francisco consulate, complete files",
+   "value": "within 24 months after filing",
+   "source_url": "https://conssanfrancisco.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/cittadinanza/cittadinanza-per-discendenza-iure-sanguinis/",
+   "quote": "Le domande rispondenti ai requisiti richiesti, corredate da documentazione complete e corretta, saranno definite entro i successivi 24 mesi.",
+   "published_or_updated": ""
+  },
+  {
+   "label": "New York consulate",
+   "value": "'within the legal time limits'; waiting list closed to new registrations",
+   "source_url": "https://consnewyork.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/cittadinanza/cittadinanza-per-discendenza-iure-sanguinis/",
+   "quote": "Agli utenti gia’ iscritti nella lista d’attesa, il sistema in automatico propone via mail un appuntamento, partendo dai primi in lista. Non sono possibili nuove iscrizioni. [...] Le domande rispondenti ai requisiti richiesti saranno trattate nei termini di legge.",
+   "published_or_updated": ""
+  },
+  {
+   "label": "Time limit set by Law 11/2026 for adult applications (capped consular intake until 2028, central MAECI office from 2029)",
+   "value": "36 months",
+   "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-02-03;71~art10",
+   "quote": "7. Il termine per la conclusione dei procedimenti di cui ai commi 2 e 6 è fissato in trentasei mesi",
+   "published_or_updated": "text in force from 19-2-2026"
+  }
+ ],
+ "dual_citizenship": {
+  "allowed": "yes",
+  "note": "Italy does not require renouncing US citizenship; the problem since 2025 is the reverse: holding another citizenship at birth is what blocks automatic transmission under art. 3-bis.",
+  "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91~art11",
+  "quote": "1. Il cittadino che possiede, acquista o riacquista una cittadinanza straniera conserva quella italiana, ma può ad essa rinunciare qualora risieda o stabilisca la residenza all'estero."
+ },
+ "other_requirements": [
+  {
+   "item": "No language test, residence or oath for recognition by descent; residence in the consular district is required (applications are filed where the applicant lives)",
+   "source_url": "https://consnewyork.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/cittadinanza/",
+   "quote": "L’Autorità competente ad effettuare gli accertamenti è determinata in base al luogo di residenza. Per i residenti all’estero è l’autorità diplomatica-consolare competente per territorio."
+  },
+  {
+   "item": "Court cases on citizenship: no oral witness evidence; claimant must prove there was no cause of non-acquisition or loss",
+   "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-03-28;36~art1",
+   "quote": "2-bis. Salvi i casi espressamente previsti dalla legge, nelle controversie in materia di accertamento della cittadinanza italiana non sono ammessi il giuramento e la prova testimoniale. 2-ter. Nelle controversie in materia di accertamento della cittadinanza italiana chi chiede l'accertamento della cittadinanza è tenuto ad allegare e provare l'insussistenza delle cause di mancato acquisto o di perdita della cittadinanza previste dalla legge."
+  }
+ ],
+ "recent_changes": [
+  {
+   "date": "2025-03-28 / 2025-05-24",
+   "what": "D.L. 36/2025, converted by Law 74/2025 (in force 24 May 2025): art. 3-bis ends unlimited transmission for persons born abroad with another citizenship; exceptions: application by 27 March 2025, exclusively-Italian parent/grandparent, parent with 2 years' residence in Italy before the birth; new minors' declaration route.",
+   "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91~art3bis"
+  },
+  {
+   "date": "2026-01-01",
+   "what": "2026 Budget Law (Legge 30 dicembre 2025, n. 199): minors' declaration deadline extended from 1 to 3 years from birth; declarations under art. 4 c.1-bis lett. b exempt from the EUR 250 contribution.",
+   "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91~art4"
+  },
+  {
+   "date": "2026-02-19",
+   "what": "Law 11/2026 (19 Jan 2026, GU 4 Feb 2026, in force 19 Feb 2026): adult applications from abroad move to a central MAECI office in Rome from 1 Jan 2029, postal filing only; until then consular intake is capped (min. 100/year per consulate); 36-month time limit. Sydney consulate suspended new adult appointments.",
+   "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2026-01-19;11"
+  },
+  {
+   "date": "2026-03-01",
+   "what": "Transitional declaration deadline for children who were minors on 24 May 2025 moved from 31 May 2026 to 31 May 2029 (consolidated text of D.L. 36/2025 art. 1 c.1-ter, in force 1-3-2026).",
+   "source_url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-03-28;36~art1"
+  },
+  {
+   "date": "2026-03-11 (decided) / 2026-04-30 (deposited)",
+   "what": "Constitutional Court judgment no. 63/2026: questions raised by the Tribunal of Turin against art. 3-bis declared partly unfounded and partly inadmissible (incl. EU-law ground arts. 9 TEU / 20 TFEU). The decree stands.",
+   "source_url": "https://www.cortecostituzionale.it/stampa-pdf-pronuncia/2026/63"
+  },
+  {
+   "date": "2026-07-23",
+   "what": "Constitutional Court order no. 147/2026 (Mantova and Campobasso cases): preliminary reference to the EU Court of Justice on whether arts. 9 TEU and 20 TFEU preclude art. 3-bis. Pending; outcome could change the rules.",
+   "source_url": "https://www.cortecostituzionale.it/uploads/release/6a61f20b04366.pdf"
+  },
+  {
+   "date": "2026-07-26",
+   "what": "Court of Cassation, United Sections, judgment no. 24045/2026: reverses the 'minor issue' line (Cass. 17161/2023, Interior circular 43347 of 3 Oct 2024); art. 3-bis does not apply to court cases filed before 27 March 2025.",
+   "source_url": "https://www.cortedicassazione.it/resources/cms/documents/24045072026_oscuramento.pdf"
+  },
+  {
+   "date": "2026-08-10",
+   "what": "Ministry of the Interior circular (prot. 65050, per SF consulate) applies SU 24045/2026; consulates (e.g. San Francisco) accept requests to re-examine refusals based on the minor issue.",
+   "source_url": "https://libertaciviliimmigrazione.dlci.interno.gov.it/sites/default/files/2026-08/Circolare%20SS.UU_.%20art.%207%20e%2012%2010.08.26-p357d.pdf"
+  }
+ ],
+ "open_questions": [
+  "Timing of 'exclusively Italian' under art. 3-bis c.1 lett. c: statute says the ascendant 'possiede, o possedeva al momento della morte'; the Sydney consulate says 'at the time of the applicant's birth — or at the time of their ancestor's death'. No circular found fixing the reference date.",
+  "Exact act that moved the minors' transitional deadline to 31 May 2029: Normattiva shows the amended text in force from 1-3-2026; secondary sources say it was the Milleproroghe conversion (D.L. 31 dicembre 2025, n. 200, converted by Law 26/2026). Not checked in the Gazzetta Ufficiale.",
+  "esteri.it (Ministry central pages) returned a Radware bot-block CAPTCHA to curl; consulate pages were used instead.",
+  "Whether the New York and San Francisco consulates have formally suspended new adult appointments under Law 11/2026 (as Sydney did): NY states the waiting list is closed to new registrations; SF prioritises appointments booked by 27 March 2025. No explicit Law 11/2026 suspension notice found on these two US consulate pages.",
+  "Cass. 13818/2026 (Prima Sezione, reportedly filed 12 May 2026, on access to courts for applicants blocked by the consular booking system) and Cass. 24184/2026, 24185/2026 are reported by secondary sources only; official texts not retrieved.",
+  "CJEU case number and timing for the reference made by Constitutional Court order 147/2026 not found.",
+  "Interior circular number 65050 is stated by the San Francisco consulate; the PDF on interno.gov.it is dated 10.08.26 but its protocol number was not visible in the extracted text."
+ ],
+ "sources": [
+  {
+   "key": "it-law-91-1992",
+   "title": "LEGGE 5 febbraio 1992, n. 91 - Nuove norme sulla cittadinanza (testo vigente)",
+   "publisher": "Normattiva (Istituto Poligrafico e Zecca dello Stato / Presidenza del Consiglio)",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "it-law-91-art3bis",
+   "title": "L. 91/1992 art. 3-bis",
+   "publisher": "Normattiva",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91~art3bis",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "it-law-91-art4",
+   "title": "L. 91/1992 art. 4 (in force 1-1-2026)",
+   "publisher": "Normattiva",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91~art4",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "it-law-91-art9bis",
+   "title": "L. 91/1992 art. 9-bis",
+   "publisher": "Normattiva",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91~art9bis",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "it-law-91-art11",
+   "title": "L. 91/1992 art. 11",
+   "publisher": "Normattiva",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91~art11",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "it-law-91-art17",
+   "title": "L. 91/1992 art. 17",
+   "publisher": "Normattiva",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:1992-02-05;91~art17",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "it-dl-36-2025",
+   "title": "DECRETO-LEGGE 28 marzo 2025, n. 36, art. 1 (testo vigente dal 1-3-2026)",
+   "publisher": "Normattiva",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legge:2025-03-28;36~art1",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "it-law-11-2026",
+   "title": "LEGGE 19 gennaio 2026, n. 11 (GU n.28 del 04-02-2026)",
+   "publisher": "Normattiva",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:legge:2026-01-19;11",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "it-dlgs-71-2011-art10",
+   "title": "D.Lgs. 3 febbraio 2011, n. 71, art. 10 (testo vigente dal 19-2-2026)",
+   "publisher": "Normattiva",
+   "url": "https://www.normattiva.it/uri-res/N2Ls?urn:nir:stato:decreto.legislativo:2011-02-03;71~art10",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "it-cons-ny",
+   "title": "Cittadinanza - Consolato Generale d'Italia a New York",
+   "publisher": "MAECI / Consolato Generale d'Italia a New York",
+   "url": "https://consnewyork.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/cittadinanza/",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "it-cons-ny-iure",
+   "title": "Cittadinanza per discendenza iure sanguinis - CG New York",
+   "publisher": "MAECI / CG New York",
+   "url": "https://consnewyork.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/cittadinanza/cittadinanza-per-discendenza-iure-sanguinis/",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "it-cons-ny-minori",
+   "title": "Acquisto della cittadinanza italiana da parte dei minori nati all'estero - CG New York",
+   "publisher": "MAECI / CG New York",
+   "url": "https://consnewyork.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/cittadinanza/acquisto-della-cittadinanza-italiana-da-parte-dei-minori-nati-allestero/",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "it-cons-ny-tariffe",
+   "title": "Tariffe consolari IV trimestre 2026 (PDF)",
+   "publisher": "MAECI / CG New York",
+   "url": "https://consnewyork.esteri.it/wp-content/uploads/2026/09/TAB.-DIR.-CONS.-IV-TRIM.-2026-DAL-01-10-26-AL-AL-31-12-26_CG.pdf",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "it-cons-ny-doclist",
+   "title": "List of documents (US naturalization / non-naturalization proof) (PDF)",
+   "publisher": "MAECI / CG New York",
+   "url": "https://consnewyork.esteri.it/wp-content/uploads/2025/08/List_of_documents.pdf",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "it-cons-sf",
+   "title": "Cittadinanza - Consolato Generale d'Italia a San Francisco",
+   "publisher": "MAECI / CG San Francisco",
+   "url": "https://conssanfrancisco.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/cittadinanza/",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "it-cons-sf-iure",
+   "title": "Cittadinanza per discendenza iure sanguinis - CG San Francisco",
+   "publisher": "MAECI / CG San Francisco",
+   "url": "https://conssanfrancisco.esteri.it/it/servizi-consolari-e-visti/servizi-per-il-cittadino-straniero/cittadinanza/cittadinanza-per-discendenza-iure-sanguinis/",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "it-cons-sydney",
+   "title": "Citizenship by descent - NEW REGULATION - CG Sydney",
+   "publisher": "MAECI / CG Sydney",
+   "url": "https://conssydney.esteri.it/en/?p=3911",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "it-cc-63-2026",
+   "title": "Corte costituzionale, sentenza n. 63/2026 (deposito 30/04/2026)",
+   "publisher": "Corte costituzionale",
+   "url": "https://www.cortecostituzionale.it/stampa-pdf-pronuncia/2026/63",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "it-cc-63-2026-press",
+   "title": "Comunicato del 12 marzo 2026",
+   "publisher": "Corte costituzionale - Ufficio comunicazione e stampa",
+   "url": "https://www.cortecostituzionale.it/uploads/release/69b2adc90cb9b.pdf",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "it-cc-147-2026-press",
+   "title": "Comunicato del 23 luglio 2026 - ordinanza n. 147",
+   "publisher": "Corte costituzionale - Ufficio comunicazione e stampa",
+   "url": "https://www.cortecostituzionale.it/uploads/release/6a61f20b04366.pdf",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "it-cc-147-2026-gu",
+   "title": "N. 147 ORDINANZA 9 giugno - 23 luglio 2026",
+   "publisher": "Gazzetta Ufficiale",
+   "url": "https://www.gazzettaufficiale.it/eli/id/2026/07/29/T-260147/s1",
+   "read_on": "2026-10-25",
+   "http": "not fetched (found via search; content taken from the Court press release)"
+  },
+  {
+   "key": "it-cass-su-24045-2026",
+   "title": "Corte di cassazione, Sezioni Unite civili, sentenza n. 24045/2026 (pubbl. 26/07/2026)",
+   "publisher": "Corte suprema di cassazione",
+   "url": "https://www.cortedicassazione.it/resources/cms/documents/24045072026_oscuramento.pdf",
+   "read_on": "2026-10-25",
+   "http": "200"
+  },
+  {
+   "key": "it-interno-circ-2026-08-10",
+   "title": "Circolare 10.08.2026 - Riconoscimento iure sanguinis, rapporto tra art. 7 e art. 12 L. 555/1912",
+   "publisher": "Ministero dell'Interno - DLCI",
+   "url": "https://libertaciviliimmigrazione.dlci.interno.gov.it/sites/default/files/2026-08/Circolare%20SS.UU_.%20art.%207%20e%2012%2010.08.26-p357d.pdf",
+   "read_on": "2026-10-25",
+   "http": "200"
+  }
+ ]
+}

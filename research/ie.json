@@ -1,0 +1,114 @@
+{
+  "country": "Ireland",
+  "code": "ie",
+  "retrieved_at": "2026-10-25",
+  "laws": [
+    {
+      "name": "Irish Nationality and Citizenship Act 1956 (No. 26 of 1956), as revised (Law Reform Commission revised act, updated to 12 June 2026)",
+      "articles": "s. 7 (citizenship by descent, as substituted by Irish Nationality and Citizenship Act 2001, s. 3(1)); s. 27 (registry of births abroad / Foreign Births Register)",
+      "url": "https://revisedacts.lawreform.ie/eli/1956/act/26/revised/en/html",
+      "quote": "7.—(1) A person is an Irish citizen from birth if at the time of his or her birth either parent was an Irish citizen or would if alive have been an Irish citizen. [...] (3) Subsection (1) shall not confer Irish citizenship on a person born outside the island of Ireland if the parent through whom he or she derives citizenship was also born outside the island of Ireland unless— (a) that person's birth is registered under section 27, or (b) the parent through whom that person derives citizenship was at the time of that person's birth abroad in the public service: Provided that the Irish citizenship of a person who, after 1 July, 1986, is registered under section 27 shall commence only as on and from the date of such registration."
+    },
+    {
+      "name": "Irish Nationality and Citizenship Act 1956, section 27 (Registry of births abroad)",
+      "articles": "s. 27(1A), 27(2)",
+      "url": "https://revisedacts.lawreform.ie/eli/1956/act/26/revised/en/html",
+      "quote": "(1A) A foreign births register shall be kept in the Department of Foreign Affairs in Dublin. (2) The birth outside the island of Ireland of a person deriving citizenship through a father or mother so born may be registered, in accordance with the foreign births regulations, either in any foreign births entry book or in the foreign births register, at the option of the person registering the birth."
+    }
+  ],
+  "rules": [
+    {
+      "id": "parent-born-in-ireland-automatic",
+      "rule": "If at least one parent was an Irish citizen at the time of your birth AND that parent was born on the island of Ireland (Republic or Northern Ireland), you are already an Irish citizen from birth. No registration needed: apply directly for an Irish passport.",
+      "source_url": "https://www.ireland.ie/en/dfa/citizenship/born-abroad/registering-a-foreign-birth/",
+      "quote": "You are automatically an Irish citizen if one of your parents was an Irish citizen at the time of your birth, and was born on the island of Ireland. You don't need to apply to become an Irish citizen in this case."
+    },
+    {
+      "id": "grandparent-born-in-ireland-fbr",
+      "rule": "If one grandparent was born on the island of Ireland (and your parent and you were born outside Ireland), you can become an Irish citizen by entry on the Foreign Births Register (FBR). Your parent does NOT need to hold an Irish passport or be registered themselves. Citizenship starts on the date of registration (not from birth) for registrations after 1 July 1986. There is no age limit or deadline to register.",
+      "source_url": "https://www.ireland.ie/en/dfa/citizenship/born-abroad/registering-a-foreign-birth/",
+      "quote": "If your grandparent was born on the island of Ireland, your parent was born outside Ireland, and you were born outside Ireland, you can apply for entry on to the Foreign Births Register. [...] My Grandfather was born in Ireland but neither of my parents have Irish Passports. Am I entitled to apply for Irish citizenship? Yes. An application for Irish citizenship through Foreign Births Registration can be submitted by any person with a grandparent born on the island of Ireland."
+    },
+    {
+      "id": "parent-irish-citizen-not-born-in-ireland",
+      "rule": "If one parent was an Irish citizen at the time of your birth but was not born in Ireland (parent registered on the FBR, naturalised, or post-nuptial declaration BEFORE your birth), you can register on the FBR.",
+      "source_url": "https://www.ireland.ie/en/dfa/citizenship/born-abroad/registering-a-foreign-birth/",
+      "quote": "If your parent became an Irish citizen through Foreign Birth Registration or Naturalisation prior to your birth and you were born outside Ireland, you can apply for Foreign Birth Registration."
+    },
+    {
+      "id": "great-grandparent-only-if-parent-registered-before-birth",
+      "rule": "Great-grandparent route: possible ONLY if your parent was entered on the FBR before you were born. If your parent registered after your birth, you are not eligible (and children born before a parent's registration can never use that parent).",
+      "source_url": "https://www.ireland.ie/en/dfa/citizenship/born-abroad/registering-a-foreign-birth/",
+      "quote": "If your children were born after your entry onto the Foreign Births Register then they too are eligible to apply for entry on the register. If your children were born before you were registered, they are not eligible to apply as you were not an Irish citizen at the time of their birth."
+    },
+    {
+      "id": "expectant-parents",
+      "rule": "An expectant parent who is not yet on the FBR when the child is born cannot pass citizenship to that child. Expectant parents should flag this on their application.",
+      "source_url": "https://www.ireland.ie/en/dfa/citizenship/born-abroad/registering-a-foreign-birth/",
+      "quote": "If an expectant parent is not on the Foreign Births Register when the child is born, the child will not be entitled to Irish citizenship."
+    },
+    {
+      "id": "no-older-ancestors",
+      "rule": "No right through ancestors beyond an Irish-born grandparent (or an Irish citizen parent) or through cousins/aunts/uncles. Only discretionary naturalisation on 'Irish associations' remains (Minister's discretion).",
+      "source_url": "https://www.citizensinformation.ie/en/moving-country/irish-citizenship/irish-citizenship-through-birth-or-descent/",
+      "quote": "Unless at least one parent or an Irish-born grandparent was an Irish citizen at the time of your birth, you have no automatic right to Irish citizenship on the basis of extended previous ancestry (that is, ancestors other than your parents or grandparents)."
+    },
+    {
+      "id": "citizenship-from-registration-date",
+      "rule": "For FBR registrations after 1 July 1986, Irish citizenship begins on the date of registration, not at birth.",
+      "source_url": "https://revisedacts.lawreform.ie/eli/1956/act/26/revised/en/html",
+      "quote": "Provided that the Irish citizenship of a person who, after 1 July, 1986, is registered under section 27 shall commence only as on and from the date of such registration."
+    }
+  ],
+  "procedure": {
+    "authority": "Department of Foreign Affairs (Ireland), Foreign Births Registration section, Dublin (no public office; no consulate decision). Naturalisation questions go to Immigration Service Delivery, Department of Justice.",
+    "how": "Gather documents, complete the online-only FBR application on the DFA website and pay online, print the form, have it and 2 photos witnessed by a non-relative professional, then post the printed form with ORIGINAL civil certificates by recorded post to the address printed on the form. Originals are returned by recorded mail. Once registered you receive a Foreign Birth Registration certificate and can then apply for an Irish passport (not before).",
+    "source_url": "https://www.ireland.ie/en/dfa/citizenship/born-abroad/registering-a-foreign-birth/"
+  },
+  "documents": [
+    {"item": "Completed, signed and witnessed application form (online form, printed)", "note": "Witness = non-relative professional who knows you (police, teacher, clergy, doctor, nurse, lawyer, notary, bank manager, accountant, elected representative, etc.) with official stamp or business card", "source_url": "https://www.ireland.ie/en/dfa/citizenship/born-abroad/registering-a-foreign-birth/"},
+    {"item": "Applicant: original civil birth certificate showing parental details (long form)", "note": "Originals required unless stated; returned at the end", "source_url": "https://www.ireland.ie/en/dfa/citizenship/born-abroad/registering-a-foreign-birth/"},
+    {"item": "Applicant: original civil marriage certificate or other change-of-name document (if applicable)", "note": "", "source_url": "https://www.ireland.ie/en/dfa/citizenship/born-abroad/registering-a-foreign-birth/"},
+    {"item": "Applicant: photocopy of current state-issued photo ID (passport, driver's licence) certified as true copy by the application witness", "note": "", "source_url": "https://www.ireland.ie/en/dfa/citizenship/born-abroad/registering-a-foreign-birth/"},
+    {"item": "Applicant: 2 separate original proofs of address", "note": "", "source_url": "https://www.ireland.ie/en/dfa/citizenship/born-abroad/registering-a-foreign-birth/"},
+    {"item": "4 colour passport photographs (2 signed/dated by the witness)", "note": "Do not attach to the form", "source_url": "https://www.ireland.ie/en/dfa/citizenship/born-abroad/registering-a-foreign-birth/"},
+    {"item": "Parent (the link): original civil birth certificate, original civil marriage certificate or change-of-name document (if applicable), certified photocopy of photo ID OR original civil death certificate", "note": "", "source_url": "https://www.ireland.ie/en/dfa/citizenship/born-abroad/registering-a-foreign-birth/"},
+    {"item": "Irish-born grandparent: original civil birth certificate (showing parental details), original civil marriage certificate or change-of-name document (if applicable), certified photocopy of photo ID OR original civil death certificate", "note": "If the grandparent was born before 1864 (start of Irish civil birth registration), a baptismal certificate is accepted", "source_url": "https://www.ireland.ie/en/dfa/citizenship/born-abroad/registering-a-foreign-birth/"},
+    {"item": "Minor applicant: additionally a letter from school/family doctor on headed paper with the minor's address; documents and photos of the declarant parent/guardian; proof of guardianship if declarant not on the birth certificate", "note": "", "source_url": "https://www.ireland.ie/en/dfa/citizenship/born-abroad/registering-a-foreign-birth/"},
+    {"item": "Certified copies / translations", "note": "A certified copy or translation must be marked 'Certified to be a true copy/translation of the original seen by me', signed, dated, with name, occupation, address, phone and stamp, by the issuing authority, solicitor/barrister, notary, commissioner of oaths or post office. The DFA page does not state any apostille requirement for US vital records.", "source_url": "https://www.ireland.ie/en/dfa/citizenship/born-abroad/registering-a-foreign-birth/"}
+  ],
+  "fees": [
+    {"label": "Foreign Birth Registration, applicant 18 and over (registration + certificate EUR 270 + non-refundable postage and handling EUR 8)", "amount": 278, "currency": "EUR", "source_url": "https://www.ireland.ie/en/dfa/citizenship/born-abroad/registering-a-foreign-birth/", "quote": "18 years of age and over Registration plus Certificate: €270 Non-refundable postage and handling fee: €8 Total: €278"},
+    {"label": "Foreign Birth Registration, applicant under 18 (registration + certificate EUR 145 + postage EUR 8)", "amount": 153, "currency": "EUR", "source_url": "https://www.ireland.ie/en/dfa/citizenship/born-abroad/registering-a-foreign-birth/", "quote": "Under 18 years of age Registration plus Certificate: €145 Non-refundable postage and handling fee: €8 Total: €153"}
+  ],
+  "processing_time": [
+    {"label": "Foreign Birth Registration (complete application), strict date order", "value": "approximately 12 months", "source_url": "https://www.ireland.ie/en/dfa/citizenship/born-abroad/registering-a-foreign-birth/", "quote": "Applications for Foreign Birth Registration are processed in strict date order. This process is currently taking approximately 12 months.", "published_or_updated": "no date shown on the DFA page (read 2026-10-25); Citizens Information page edited 30 March 2026 states the same 12 months"}
+  ],
+  "dual_citizenship": {
+    "allowed": "yes",
+    "note": "Ireland does not require renunciation of US (or any other) citizenship for FBR; the 1956 Act contains no renunciation condition for citizenship by descent.",
+    "source_url": "https://www.citizensinformation.ie/en/moving-country/irish-citizenship/your-right-to-irish-citizenship/",
+    "quote": "Ireland allows dual citizenship, which means that you can become an Irish citizens and remain a citizen of another country."
+  },
+  "other_requirements": [
+    {"item": "No language test, no residence, no oath, no military service and no age limit for FBR", "source_url": "https://www.ireland.ie/en/dfa/citizenship/born-abroad/registering-a-foreign-birth/", "quote": "Once a person is entered onto the Foreign Births Register they are an Irish citizen and entitled to apply for an Irish passport."},
+    {"item": "Irish passport only after registration", "source_url": "https://www.ireland.ie/en/dfa/citizenship/born-abroad/registering-a-foreign-birth/", "quote": "No, you cannot apply for an Irish passport until you are an Irish citizen."}
+  ],
+  "recent_changes": [
+    {"date": "2023 (Courts and Civil Law (Miscellaneous Provisions) Act 2023, s. 5)", "what": "New s. 7(3B)-(3C): a person born abroad to an Irish-born parent serving abroad in the public service is deemed born in Ireland, retroactively. Marginal for US applicants.", "source_url": "https://revisedacts.lawreform.ie/eli/1956/act/26/revised/en/html"},
+    {"date": "2026 (to 25 Oct)", "what": "No change found to FBR eligibility, fees (EUR 278 / 153) or published processing time (about 12 months). The Law Reform Commission revised act is stated up to date as of 13 October 2026.", "source_url": "https://revisedacts.lawreform.ie/eli/1956/act/26/revised/en/html"}
+  ],
+  "open_questions": [
+    "The DFA FBR page shows no 'last updated' date, so we cannot tell when the 12-month figure was last revised. The Citizens Information page (state body) edited 30 March 2026 also says 12 months.",
+    "Apostille: the DFA page lists original civil certificates but does not mention apostilles for foreign (US) documents. Treat as not required unless DFA asks. Not confirmed in writing.",
+    "Translation: only the definition of a 'certified ... translation' is given. US documents are in English, so this does not matter for US applicants."
+  ],
+  "sources": [
+    {"key": "ie-dfa-fbr", "title": "Registering a foreign birth (Foreign Births Register)", "publisher": "Department of Foreign Affairs, Ireland (ireland.ie)", "url": "https://www.ireland.ie/en/dfa/citizenship/born-abroad/registering-a-foreign-birth/", "read_on": "2026-10-25", "http": "200"},
+    {"key": "ie-act-1956-revised", "title": "Irish Nationality and Citizenship Act 1956, revised (updated to 12 June 2026)", "publisher": "Law Reform Commission (official revised acts)", "url": "https://revisedacts.lawreform.ie/eli/1956/act/26/revised/en/html", "read_on": "2026-10-25", "http": "200"},
+    {"key": "ie-isb-1956-s7", "title": "Irish Nationality and Citizenship Act 1956, s. 7 (as enacted)", "publisher": "Irish Statute Book (Office of the Attorney General)", "url": "https://www.irishstatutebook.ie/eli/1956/act/26/section/7/enacted/en/html", "read_on": "2026-10-25", "http": "200"},
+    {"key": "ie-ci-descent", "title": "Irish citizenship through birth or descent", "publisher": "Citizens Information (Citizens Information Board, Irish state body)", "url": "https://www.citizensinformation.ie/en/moving-country/irish-citizenship/irish-citizenship-through-birth-or-descent/", "read_on": "2026-10-25", "http": "200"},
+    {"key": "ie-ci-fbr", "title": "Foreign Births Register (page edited 30 March 2026)", "publisher": "Citizens Information (Citizens Information Board)", "url": "https://www.citizensinformation.ie/en/moving-country/irish-citizenship/foreign-births-register/", "read_on": "2026-10-25", "http": "200"},
+    {"key": "ie-ci-right", "title": "Your right to Irish citizenship (page edited 8 December 2025)", "publisher": "Citizens Information (Citizens Information Board)", "url": "https://www.citizensinformation.ie/en/moving-country/irish-citizenship/your-right-to-irish-citizenship/", "read_on": "2026-10-25", "http": "200"}
+  ]
+}

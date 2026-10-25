@@ -1,0 +1,121 @@
+{
+  "country": "Slovakia",
+  "code": "sk",
+  "retrieved_at": "2026-10-25",
+  "laws": [
+    {
+      "name": "Zákon Národnej rady Slovenskej republiky č. 40/1993 Z. z. o štátnom občianstve Slovenskej republiky (časová verzia účinná od 15.07.2026, last amended by 69/2026 Z. z. and 128/2026 Z. z.)",
+      "articles": "§ 5, § 7 ods. 1, 4, 7, 8, § 8, § 8a ods. 7, § 9 ods. 16-18",
+      "url": "https://static.slov-lex.sk/static/SK/ZZ/1993/40/20260715.html",
+      "quote": "§ 7 (8) Bez splnenia podmienky podľa odseku 1 písm. a) možno udeliť štátne občianstvo Slovenskej republiky žiadateľovi, ktorý nebol štátnym občanom Slovenskej republiky a aspoň jeden z jeho rodičov, prarodičov alebo praprarodičov bol československým štátnym občanom narodeným na území Slovenskej republiky. (Without meeting the residence condition, Slovak citizenship may be granted to an applicant who was not a Slovak citizen and at least one of whose parents, grandparents or great-grandparents was a Czechoslovak citizen born on the territory of the Slovak Republic.)"
+    },
+    {
+      "name": "Zákon č. 145/1995 Z. z. o správnych poplatkoch (verzia účinná od 01.09.2026), Sadzobník, Položka 20",
+      "articles": "Položka 20",
+      "url": "https://static.slov-lex.sk/static/SK/ZZ/1995/145/20260901.html",
+      "quote": "Položka 20 [...] e) Udelenie štátneho občianstva Slovenskej republiky osobe, ktorej aspoň jeden z rodičov, prarodičov alebo praprarodičov bol československým štátnym občanom 30 eur"
+    },
+    {
+      "name": "Zákon č. 474/2005 Z. z. o Slovákoch žijúcich v zahraničí (verzia účinná od 01.12.2022)",
+      "articles": "§ 2",
+      "url": "https://static.slov-lex.sk/static/SK/ZZ/2005/474/20221201.html",
+      "quote": "§ 2 [...] a) Slovákom žijúcim v zahraničí osoba, ktorá nemá trvalý pobyt na území Slovenskej republiky a 1. je štátnym občanom Slovenskej republiky, alebo 2. nie je štátnym občanom Slovenskej republiky, ale uchováva si národné povedomie, a on alebo jeho predok v priamom rade má slovenskú národnosť"
+    }
+  ],
+  "rules": [
+    {
+      "id": "sk-descent-grant",
+      "rule": "Slovakia has no automatic citizenship-by-descent claim for descendants of emigrants: it is a discretionary GRANT ('možno udeliť'). A person who was never a Slovak citizen may apply if at least one parent, grandparent or great-grandparent was a Czechoslovak citizen BORN ON THE TERRITORY OF TODAY'S SLOVAKIA (up to 3 generations back). No residence in Slovakia and no Slovak language test are required for this route (§ 7(1)(h) exempts applicants under § 7(4)-(8)); the other conditions (clean criminal record in every country of citizenship/residence of last 15 years, no pending criminal proceedings, no security threat) apply. In force since 1 April 2022 (Act 72/2022).",
+      "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1993/40/20260715.html",
+      "quote": "§ 7 (8) Bez splnenia podmienky podľa odseku 1 písm. a) možno udeliť štátne občianstvo Slovenskej republiky žiadateľovi, ktorý nebol štátnym občanom Slovenskej republiky a aspoň jeden z jeho rodičov, prarodičov alebo praprarodičov bol československým štátnym občanom narodeným na území Slovenskej republiky. [...] § 7 (1) h) preukázal ovládanie slovenského jazyka [...]; to neplatí pre žiadateľa podľa odseku 2 písm. b) a i), odsekov 4 až 8"
+    },
+    {
+      "id": "sk-ancestor-proof",
+      "rule": "The applicant must prove that the parent/grandparent/great-grandparent was a Czechoslovak citizen born on Slovak territory. Czechoslovakia existed from 28 October 1918, so an ancestor who emigrated (e.g. from Austria-Hungary) before 1918 and never held Czechoslovak citizenship does not qualify under § 7(8).",
+      "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1993/40/20260715.html",
+      "quote": "§ 8 (3) k) listinu alebo doklad, ktorým žiadateľ preukazuje, že jeho rodič, prarodič alebo praprarodič bol československým štátnym občanom narodeným na území Slovenskej republiky, ak žiadosť o udelenie štátneho občianstva Slovenskej republiky podáva podľa § 7 ods. 8."
+    },
+    {
+      "id": "sk-former-citizens",
+      "rule": "A former Czechoslovak citizen whose citizenship ended (incl. Hungarian-era loss by long absence under Act L of 1879, by marriage, under Act 194/1949 § 5, Act 206/1968 § 13(1) or international treaties) may also be granted citizenship without residence (discretionary).",
+      "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1993/40/20260715.html",
+      "quote": "§ 7 (4) Žiadateľovi, ktorému bývalé československé štátne občianstvo zaniklo alebo ktorý stratil československé štátne občianstvo v dôsledku dlhodobej neprítomnosti podľa § 31 a 32 zákonného článku L z roku 1879 [...] alebo podľa § 5 zákona č. 194/1949 Zb. [...] alebo podľa medzinárodných zmlúv, možno udeliť štátne občianstvo Slovenskej republiky bez splnenia podmienky podľa odseku 1 písm. a)."
+    },
+    {
+      "id": "sk-2010-2022-restoration",
+      "rule": "A person who lost Slovak citizenship by acquiring a foreign citizenship between 17 July 2010 and 31 March 2022 SHALL be granted it back (entitlement) if, when naturalizing, he or she had at least 5 years of permitted/registered residence in that foreign state, proven by paper documents.",
+      "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1993/40/20260715.html",
+      "quote": "§ 7 (7) Bez splnenia podmienky podľa odseku 1 písm. a) sa udelí štátne občianstvo Slovenskej republiky žiadateľovi, ktorý stratil štátne občianstvo Slovenskej republiky nadobudnutím cudzieho štátneho občianstva v období od 17. júla 2010 do 31. marca 2022, ak žiadateľ nadobudol cudzie štátne občianstvo štátu, v ktorom mal v čase nadobudnutia cudzieho štátneho občianstva povolený pobyt, registrovaný pobyt alebo inak evidovaný pobyt najmenej päť rokov a predložil doklady v listinnej podobe preukazujúce tieto skutočnosti"
+    },
+    {
+      "id": "sk-birth",
+      "rule": "A child is Slovak at birth if at least one parent is a Slovak citizen (wherever born). Children born after a parent obtains citizenship under § 7(8) are Slovak by birth.",
+      "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1993/40/20260715.html",
+      "quote": "§ 5 (1) Štátne občianstvo Slovenskej republiky narodením nadobúda dieťa, a) ktorého aspoň jeden z rodičov je štátnym občanom Slovenskej republiky"
+    },
+    {
+      "id": "sk-loss-voluntary-naturalization",
+      "rule": "A Slovak citizen who voluntarily acquires another citizenship by express act loses Slovak citizenship that day, UNLESS (a) acquired through marriage during the marriage, by birth, adoption or as a minor, or (b) he or she had at least 5 years of permitted/registered residence in that state at the time; in both cases the acquisition must be notified in writing to the district office within 90 days. Holding US citizenship from birth when Slovak citizenship is granted is not a loss case.",
+      "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1993/40/20260715.html",
+      "quote": "§ 9 (16) Štátny občan Slovenskej republiky stráca štátne občianstvo Slovenskej republiky dňom, ktorým na základe výslovného prejavu vôle, ktorým je žiadosť, vyhlásenie alebo iný úkon smerujúci k nadobudnutiu cudzieho štátneho občianstva, dobrovoľne nadobudne cudzie štátne občianstvo. [...] (18) K strate štátneho občianstva Slovenskej republiky podľa odseku 16 nedôjde ani vtedy, ak štátny občan Slovenskej republiky nadobudol cudzie štátne občianstvo štátu, v ktorom mal v čase nadobudnutia cudzieho štátneho občianstva povolený pobyt, registrovaný pobyt alebo inak evidovaný pobyt najmenej päť rokov [...] Štátny občan Slovenskej republiky je povinný písomne oznámiť nadobudnutie cudzieho štátneho občianstva podľa predchádzajúcej vety do 90 dní od jeho nadobudnutia okresnému úradu v sídle kraja"
+    },
+    {
+      "id": "sk-oath",
+      "rule": "Citizenship is acquired on taking the oath and receiving the certificate of grant (at a district office or a Slovak embassy/consulate); the certificate must be collected within 6 months of the invitation or the proceedings are discontinued.",
+      "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1993/40/20260715.html",
+      "quote": "§ 8a (11) Ak si žiadateľ bez vážneho dôvodu neprevezme listinu o udelení štátneho občianstva Slovenskej republiky do šiestich mesiacov po doručení písomnej výzvy, ministerstvo konanie zastaví."
+    },
+    {
+      "id": "sk-living-abroad-certificate",
+      "rule": "The 'Slovak living abroad' certificate (Act 474/2005) is a separate status, not citizenship: it is for persons without permanent residence in Slovakia who keep Slovak national awareness and whose direct-line ancestor had Slovak nationality. It does not by itself confer citizenship (a certificate-holder applying for citizenship under § 7(3) still needs 3 years' residence, and pays EUR 560).",
+      "source_url": "https://static.slov-lex.sk/static/SK/ZZ/2005/474/20221201.html",
+      "quote": "§ 2 [...] a) Slovákom žijúcim v zahraničí osoba, ktorá nemá trvalý pobyt na území Slovenskej republiky a [...] 2. nie je štátnym občanom Slovenskej republiky, ale uchováva si národné povedomie, a on alebo jeho predok v priamom rade má slovenskú národnosť"
+    }
+  ],
+  "procedure": {
+    "authority": "Ministry of the Interior of the Slovak Republic decides; application filed in person at a district office in a regional seat (okresný úrad v sídle kraja) or at a Slovak embassy/consulate.",
+    "how": "Written application in person with structured CV, ID, birth certificate, civil-status documents, criminal record extracts (max 6 months old) from every country of citizenship and every country of residence in the last 15 years, proof of the ancestor's Czechoslovak citizenship and birth in Slovakia, and the applicant questionnaire (Annex 1). On approval the applicant takes the oath and receives the certificate.",
+    "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1993/40/20260715.html"
+  },
+  "documents": [
+    {"item": "Detailed structured CV, signed and dated", "note": "", "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1993/40/20260715.html"},
+    {"item": "Valid ID with current photo; birth certificate; marriage/divorce/death-of-spouse document", "note": "Apostille/translation rules for US documents not stated in the law; not confirmed on an official embassy page (mzv.sk blocked).", "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1993/40/20260715.html"},
+    {"item": "Criminal record extracts not older than 6 months from every state of current/past citizenship and every state of permitted residence in the last 15 years (e.g. FBI Identity History Summary)", "note": "", "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1993/40/20260715.html"},
+    {"item": "Document proving that a parent, grandparent or great-grandparent was a Czechoslovak citizen born on the territory of Slovakia", "note": "", "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1993/40/20260715.html"},
+    {"item": "Applicant questionnaire (dotazník žiadateľa, Annex 1); for minors signed by both parents or with notarised consent of the other parent", "note": "", "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1993/40/20260715.html"}
+  ],
+  "fees": [
+    {"label": "Grant of Slovak citizenship to a person with a Czechoslovak parent, grandparent or great-grandparent (item 20 e)", "amount": 30, "currency": "EUR", "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1995/145/20260901.html", "quote": "e) Udelenie štátneho občianstva Slovenskej republiky osobe, ktorej aspoň jeden z rodičov, prarodičov alebo praprarodičov bol československým štátnym občanom 30 eur"},
+    {"label": "Grant to former Slovak or Czechoslovak citizens (item 20 c)", "amount": 30, "currency": "EUR", "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1995/145/20260901.html", "quote": "c) Udelenie štátneho občianstva Slovenskej republiky bývalým slovenským alebo československým štátnym občanom a reoptantom podľa medzinárodného práva 30 eur"},
+    {"label": "Grant to holder of a 'Slovak living abroad' certificate (item 20 f)", "amount": 560, "currency": "EUR", "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1995/145/20260901.html", "quote": "f) Udelenie štátneho občianstva Slovenskej republiky osobe, ktorá má vydané platné osvedčenie preukazujúce postavenie Slováka žijúceho v zahraničí 560 eur"}
+  ],
+  "processing_time": [
+    {"label": "Statutory maximum for the Ministry's decision", "value": "24 months from receipt by the Ministry (clock stops while opinions of other authorities are awaited)", "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1993/40/20260715.html", "quote": "§ 8a (7) Ministerstvo rozhodne o žiadosti o udelenie štátneho občianstva Slovenskej republiky najneskôr do 24 mesiacov od doručenia žiadosti o udelenie štátneho občianstva Slovenskej republiky ministerstvu.", "published_or_updated": "version in force from 2026-07-15"}
+  ],
+  "dual_citizenship": {
+    "allowed": "conditional",
+    "note": "Slovakia does not require a US citizen being granted Slovak citizenship to renounce US citizenship (no such document is listed in § 8(3)). But a Slovak citizen who later voluntarily naturalizes abroad loses Slovak citizenship unless one of the exceptions applies (marriage, birth, adoption, minor, or 5 years' residence in that state), with notification within 90 days.",
+    "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1993/40/20260715.html",
+    "quote": "§ 9 (1) Štátne občianstvo Slovenskej republiky možno stratiť a) prepustením zo štátneho zväzku Slovenskej republiky na vlastnú žiadosť, b) nadobudnutím cudzieho štátneho občianstva na základe výslovného prejavu vôle."
+  },
+  "other_requirements": [
+    {"item": "Clean record: not convicted of an intentional crime (5 years after expungement), no pending criminal, extradition or expulsion proceedings, not a threat to public order.", "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1993/40/20260715.html", "quote": "b) je bezúhonný; za bezúhonného sa na účely tohto zákona nepovažuje ten, 1. kto bol právoplatne odsúdený za úmyselný trestný čin a od zahladenia odsúdenia neuplynulo päť rokov"},
+    {"item": "If refused, a new application can be filed only after 2 years.", "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1993/40/20260715.html", "quote": "§ 8a (13) Ak ministerstvo štátne občianstvo Slovenskej republiky neudelilo, žiadateľ môže podať novú žiadosť o udelenie štátneho občianstva Slovenskej republiky najskôr po uplynutí dvoch rokov"}
+  ],
+  "recent_changes": [
+    {"date": "2022-04-01", "what": "Act 72/2022: new § 7(7) (restoration for those who lost citizenship 17 Jul 2010 - 31 Mar 2022 after 5 years' residence abroad), new § 7(8) (descendants up to great-grandchildren of Czechoslovak citizens born in Slovakia), and § 9(18) exception to loss after 5 years' residence abroad. (§ 7(8) is absent from the version in force 2022-01-01 and present in the current version.)", "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1993/40/20260715.html"},
+    {"date": "2026-06-12 / 2026-07-15", "what": "Act 40/1993 amended by 69/2026 Z. z. (international protection) and 128/2026 Z. z. (stay of foreigners); § 7(8) and fee item 20 e unchanged in the current text.", "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1993/40/20260715.html"},
+    {"date": "2026-09-01 / 2027-09-01", "what": "Act 145/1995 fee schedule: item 20 e is EUR 30 in the version in force from 2026-09-01; future versions (2026-12-01 onwards) are already published on slov-lex - recheck before 2027.", "source_url": "https://static.slov-lex.sk/static/SK/ZZ/1995/145/20260901.html"}
+  ],
+  "open_questions": [
+    "Apostille/translation requirements and embassy filing procedure in the USA: mzv.sk (Embassy in Washington) returned HTTP 403 to all fetches; not confirmed.",
+    "Real-world processing time (vs the 24-month statutory ceiling) not published on an official page found.",
+    "Definition of 'predok v priamom rade' (generations) in Act 474/2005 footnote not extracted."
+  ],
+  "sources": [
+    {"key": "sk-act-40-1993", "title": "Zákon NR SR č. 40/1993 Z. z. o štátnom občianstve SR, verzia od 15.07.2026", "publisher": "Slov-Lex (Ministry of Justice of the Slovak Republic)", "url": "https://static.slov-lex.sk/static/SK/ZZ/1993/40/20260715.html", "read_on": "2026-10-25", "http": "200"},
+    {"key": "sk-act-40-1993-2022", "title": "Zákon NR SR č. 40/1993 Z. z., verzia od 01.01.2022 (for comparison)", "publisher": "Slov-Lex", "url": "https://static.slov-lex.sk/static/SK/ZZ/1993/40/20220101.html", "read_on": "2026-10-25", "http": "200"},
+    {"key": "sk-act-145-1995", "title": "Zákon č. 145/1995 Z. z. o správnych poplatkoch, verzia od 01.09.2026", "publisher": "Slov-Lex", "url": "https://static.slov-lex.sk/static/SK/ZZ/1995/145/20260901.html", "read_on": "2026-10-25", "http": "200"},
+    {"key": "sk-act-474-2005", "title": "Zákon č. 474/2005 Z. z. o Slovákoch žijúcich v zahraničí, verzia od 01.12.2022", "publisher": "Slov-Lex", "url": "https://static.slov-lex.sk/static/SK/ZZ/2005/474/20221201.html", "read_on": "2026-10-25", "http": "200"}
+  ]
+}
